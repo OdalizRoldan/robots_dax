@@ -1,0 +1,9 @@
+{
+	"id": "qI62V7HIvpSCEps",
+	"json": "{\"id\":\"qI62V7HIvpSCEps\",\"url\":\"https://simple.ripley.cl/search/teka?marca=TEKA\",\"loadedUrl\":\"https://simple.ripley.cl/search/teka?marca=TEKA&sort=score&page=1\",\"uniqueKey\":\"https://simple.ripley.cl/search/teka?marca=TEKA\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"Manufacturer\":\"Teka\",\"Brand\":\"Teka\",\"Culture Code\":\"es-CL\",\"CTINRegex\":\"[A-z]+\\\\d+[A-z]?/?\\\\w{2,}\",\"ExcludedKeyWords\":\"comoda|toalla|closet\",\"ApifyResultType\":0,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-08-22T18:20:00.265Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://simple.ripley.cl/search/teka?marca=TEKA",
+	"url": "https://simple.ripley.cl/search/teka?marca=TEKA"
+}

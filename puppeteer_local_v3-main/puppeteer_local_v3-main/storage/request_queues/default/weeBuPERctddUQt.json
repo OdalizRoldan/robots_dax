@@ -1,0 +1,9 @@
+{
+	"id": "weeBuPERctddUQt",
+	"json": "{\"id\":\"weeBuPERctddUQt\",\"url\":\"https://simple.ripley.cl/infantil/marcas-infantil/avent?source=search&term=avent\",\"loadedUrl\":\"https://simple.ripley.cl/infantil/marcas-infantil/avent?source=search&term=avent&s=mdco\",\"uniqueKey\":\"https://simple.ripley.cl/infantil/marcas-infantil/avent?source=search&term=avent\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"Manufacturer\":\"Philips\",\"Brand\":\"Avent\",\"Culture Code\":\"es-CL\",\"CTINRegex\":\"[A-z]+\\\\d+[A-z]?/?\\\\w{2,}\",\"ApifyResultType\":0,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-08-22T18:19:44.601Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://simple.ripley.cl/infantil/marcas-infantil/avent?source=search&term=avent",
+	"url": "https://simple.ripley.cl/infantil/marcas-infantil/avent?source=search&term=avent"
+}
