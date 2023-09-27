@@ -1,29 +1,50 @@
 {
-  "requestsFinished": 3,
-  "requestsFailed": 0,
-  "requestsRetries": 0,
-  "requestsFailedPerMinute": 0,
-  "requestsFinishedPerMinute": 40,
-  "requestMinDurationMillis": 1454,
-  "requestMaxDurationMillis": 1895,
-  "requestTotalFailedDurationMillis": 0,
-  "requestTotalFinishedDurationMillis": 4824,
-  "crawlerStartedAt": "2023-09-27T16:11:30.001Z",
-  "crawlerFinishedAt": "2023-09-27T16:11:34.512Z",
-  "statsPersistedAt": "2023-09-27T16:11:34.512Z",
-  "crawlerRuntimeMillis": 4518,
-  "crawlerLastStartTimestamp": 1695831089994,
+  "requestsFinished": 0,
+  "requestsFailed": 3,
+  "requestsRetries": 3,
+  "requestsFailedPerMinute": 10,
+  "requestsFinishedPerMinute": 0,
+  "requestMinDurationMillis": null,
+  "requestMaxDurationMillis": 0,
+  "requestTotalFailedDurationMillis": 2751,
+  "requestTotalFinishedDurationMillis": 0,
+  "crawlerStartedAt": "2023-09-27T18:58:52.198Z",
+  "crawlerFinishedAt": "2023-09-27T18:59:09.184Z",
+  "statsPersistedAt": "2023-09-27T18:59:09.185Z",
+  "crawlerRuntimeMillis": 16993,
+  "crawlerLastStartTimestamp": 1695841132192,
   "requestRetryHistogram": [
+    null,
+    null,
+    null,
     3
   ],
   "statsId": 0,
-  "requestAvgFailedDurationMillis": null,
-  "requestAvgFinishedDurationMillis": 1608,
-  "requestTotalDurationMillis": 4824,
+  "requestAvgFailedDurationMillis": 917,
+  "requestAvgFinishedDurationMillis": null,
+  "requestTotalDurationMillis": 2751,
   "requestsTotal": 3,
-  "requestsWithStatusCode": {
-    "404": 3
+  "requestsWithStatusCode": {},
+  "errors": {
+    "C:\\Users\\orojas\\Documents\\V3\\Cheerio_Local_Dax-main\\Cheerio_Local_Dax-main\\src\\main.js:63:23": {
+      "missing error code": {
+        "TypeError": {
+          "enqueueRequest is not a function": {
+            "count": 3
+          }
+        }
+      }
+    }
   },
-  "errors": {},
-  "retryErrors": {}
+  "retryErrors": {
+    "C:\\Users\\orojas\\Documents\\V3\\Cheerio_Local_Dax-main\\Cheerio_Local_Dax-main\\src\\main.js:63:23": {
+      "missing error code": {
+        "TypeError": {
+          "enqueueRequest is not a function": {
+            "count": 9
+          }
+        }
+      }
+    }
+  }
 }

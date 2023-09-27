@@ -33,40 +33,41 @@ Actor.main(async () => {
         if (!Paginated) {
             // var items = $('.breadcrumb-item--active').text().match(/\d+/)[0];
             var totalNumberOfProducts;
-
             if ($('.vtex-search-result-3-x-searchNotFoundInfo').length != 0) {
                 totalNumberOfProducts = 0;
                 log.info(`No products found on ${request.url}`)
             } else {
-                totalNumberOfProducts = Number($('.vtex-search-result-3-x-totalProducts--layout').text().replace(/[^0-9]/g, ''));
+                totalNumberOfProducts = Number($(".col-sm-4 > div:nth-child(1) > div > div.font-1").text().replace(/[^0-9]/g, ''));
             }
 
             var productsPerPage = 12; //* Change 6 to 12
             var totalNumberOfPages = Math.ceil(totalNumberOfProducts / productsPerPage);
+
             log.info(`${Brand} TOTAL PRODUCTS: ${totalNumberOfProducts}`);
             log.info(`${Brand} TOTAL PRODUCTS PER PAGE: ${productsPerPage}`);
             log.info(`${Brand} TOTAL ITERATIONS: ${totalNumberOfPages}`);
 
             for (var i = 2; i <= totalNumberOfPages; i++) {
                 //var newPage = `_Desde_${(productsPerPage * (i - 1)) + 1}_NoIndex_True`;
-                var newPage = `?page=${i}`;
+                var newPage = `&page=${i}`; // &page=2
                 var listUrlToBeEnqueded = request.url + newPage;
-                var nextUrl = { //========== refactored for better lecture
+                
+                var nextUrl = {
                     url: listUrlToBeEnqueded,
                     userData: {
                         Paginated: true,
                         Manufacturer: Manufacturer,
-                        ExcludedKeyWords: ExcludedKeyWords,
                         CTINRegex: CTINRegex
                     }
-                };
+                }
                 await enqueueRequest(nextUrl);
             }
         }
 
         var products = [];
-        var productCards = $("a.vtex-product-summary-2-x-clearLink");
+        //var productCards = $("#app main .container.pt-6.width .col-md-10.col-12 .row");
         log.info(`Founded ${productCards.length} products in  ${request.url}`)
+
         productCards.each(async function (index, element) {
             var url = $(element).attr('href');
             var name = $(element).find('img.vtex-product-summary-2-x-image').attr('alt');

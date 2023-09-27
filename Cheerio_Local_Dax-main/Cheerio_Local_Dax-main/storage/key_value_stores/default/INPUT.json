@@ -8,8 +8,7 @@
                 "Culture Code": "es-AR",
                 "ApifyResultType": 0,
                 "CTINRegex": "[A-Z0-9]+/\\d+(?![A-Z])"
-            },
-            "method": "GET"
+            }
         },
         {
             "url": "https://www.garbarino.com/shop?search=Black%2BDecker",
@@ -19,8 +18,7 @@
                 "Culture Code": "es-AR",
                 "ApifyResultType": 0,
                 "CTINRegex": "([0-9,A-Z]+\\-)\\w+"
-            },
-            "method": "GET"
+            }
         },
         {
             "url": "https://www.garbarino.com/shop?search=Philips",
@@ -31,8 +29,7 @@
                 "ExcludedKeyWords": "HUE|LAMPARA|LÁMPARA",
                 "ApifyResultType": 0,
                 "CTINRegex": "([0-9,A-Z]+\\/)\\d+|\\w{4,}\\d+\\w+"
-            },
-            "method": "GET"
+            }
         }
     ],
     "keepUrlFragment": true
