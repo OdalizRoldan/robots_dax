@@ -17,143 +17,98 @@ Actor.main(async () => {
         return requestQueue.addRequest(request)
     };
 
-    const requestHandler = async ({ response, request, body, json, $ }) => {
-    const { Manufacturer, Brand, ExcludedKeyWords, Category, ProductPage, Paginated } = request.userData;
-    const domain = "https://www.expert.be";
-    const productsPerPage = 12;
+    const requestHandler = async ({ request, log, enqueueRequest, $, response, /*Apify, json*/ }) => {
+        const { Manufacturer, Paginated, CTINRegex, ExcludedKeyWords, Brand } = request.userData;
+        
 
-    if (!Category) {
-        const totalCategories = $('div[class=" --type-list-item-text"] > a')
-        log.info(`Processing: ${totalCategories.length} categories`);
-        totalCategories.each(async function (index, element) {
-            var categoryUrl = $(element).attr('href');
-            var categoryName = $(element).text();
-            var categoryRequest = {
-                url: domain + categoryUrl,
-                userData: {
-                    Category: categoryName,
-                    // Paginated: true,
-                    Brand, //copy the Brand to the next request                     
-                    ExcludedKeyWords, //copy the ExcludedKeyWords to the next request                     
-                    Manufacturer //copy the manufacturer to the next request 
-                }
+        if (response.status === 404) {
+            return {
+                Handled: true,
+                Message: '404 error',
+                Url: request.url
             };
-            await enqueueRequest(categoryRequest);
-        })
-    }
-    
-    if (Category) {
-        if (!ProductPage && !Paginated) {
-            // Handle pagination
-            // const totalProducts = $('b[class="result"]').text();
-            var numberOfProductsSelector = $('b[class="result"]').text().trim()
-            const totalProducts = numberOfProductsSelector !== "" ? numberOfProductsSelector.match(/\d+/g)[0] : 0;
-            const totalPages = Math.ceil(totalProducts / productsPerPage);
-            log.info(`${Category} TOTAL PRODUCTS: ${Math.ceil(totalProducts)}`);
-            log.info(`${Category} TOTAL PRODUCTS PER PAGE: ${productsPerPage}`);
-            log.info(`${Category} TOTAL ITERATIONS: ${totalPages}"`);
-            for (var index = 2; index <= totalPages; index++) {
-                //https://www.expert.be/nl/cat/tvs?2549=led&make=299&page=2
-                // var nextPage = request.url + '&page=' + index;
+        }
 
-                if (request.url.includes("?")) {
-                    var nextPage = request.url + '&page=' + index;
-                } else {
-                    nextPage = request.url + '?page=' + index;
-                }
+        const domain = 'https://www.garbarino.com';
 
-                var nextPageRequest = {
-                    url: nextPage,
+        if (!Paginated) {
+            // var items = $('.breadcrumb-item--active').text().match(/\d+/)[0];
+            var totalNumberOfProducts;
+
+            if ($('.vtex-search-result-3-x-searchNotFoundInfo').length != 0) {
+                totalNumberOfProducts = 0;
+                log.info(`No products found on ${request.url}`)
+            } else {
+                totalNumberOfProducts = Number($('.vtex-search-result-3-x-totalProducts--layout').text().replace(/[^0-9]/g, ''));
+            }
+
+            var productsPerPage = 9;
+            var totalNumberOfPages = Math.ceil(totalNumberOfProducts / productsPerPage);
+            log.info(`${Brand} TOTAL PRODUCTS: ${totalNumberOfProducts}`);
+            log.info(`${Brand} TOTAL PRODUCTS PER PAGE: ${productsPerPage}`);
+            log.info(`${Brand} TOTAL ITERATIONS: ${totalNumberOfPages}`);
+
+            for (var i = 2; i <= totalNumberOfPages; i++) {
+                //var newPage = `_Desde_${(productsPerPage * (i - 1)) + 1}_NoIndex_True`;
+                var newPage = `?page=${i}`;
+                var listUrlToBeEnqueded = request.url + newPage;
+                var nextUrl = { //========== refactored for better lecture
+                    url: listUrlToBeEnqueded,
                     userData: {
                         Paginated: true,
-                        Category,
-                        Brand, //copy the Brand to the next request                     
-                        ExcludedKeyWords, //copy the ExcludedKeyWords to the next request                     
-                        Manufacturer//copy the manufacturer to the next request 
+                        Manufacturer: Manufacturer,
+                        ExcludedKeyWords: ExcludedKeyWords,
+                        CTINRegex: CTINRegex
                     }
-                }
-                await enqueueRequest(nextPageRequest);
+                };
+                await enqueueRequest(nextUrl);
             }
-
         }
 
-        if (!ProductPage) {
-            log.info(`I'm on the page: ${request.url}`);
+        var products = [];
+        var productCards = $("a.vtex-product-summary-2-x-clearLink");
+        log.info(`Founded ${productCards.length} products in  ${request.url}`)
+        productCards.each(async function (index, element) {
+            var url = $(element).attr('href');
+            var name = $(element).find('img.vtex-product-summary-2-x-image').attr('alt');
 
-            const productCards = $('div[class="overview-item"]');
-            const productList = [];
-            log.debug(`${Category} - Products found in page: ${productCards.length}`);
-            var prohibitedMatch = ExcludedKeyWords ? ExcludedKeyWords || "" : null;
-
-            productCards.each(async function (index, element) {
-                var productName = $(element).find('a').first().attr('title').replace(/\s+/g, ' ');
-                var productUrl = domain + $(element).find('a').first().attr('href');
-
-                //Search for excluded words
-                var testKeyword = new RegExp(prohibitedMatch).test(productName.toUpperCase());
-                if (testKeyword && ExcludedKeyWords) {
-                    // There's at least one
-                    var excludedProduct = {
-                        Handled: true,
-                        Message: `Product excluded: ${productName}`,
-                        Url: productUrl
-                    }
-                    productList.push(excludedProduct);
-                } else {
-
-                    //Queue Product for EAN
-                    var pageRequest = {
-                        url: productUrl,
-                        userData: {
-                            Category,
-                            ProductPage: true, //flag as as a product page                            
-                            Manufacturer //copy the Manufacturer to the request
-                        }
-                    };
-                    await enqueueRequest(pageRequest);
+            var prohibitedMatch = ExcludedKeyWords ? ExcludedKeyWords : null;
+            var testKeyword = new RegExp(prohibitedMatch).test(name.toUpperCase());
+            if (testKeyword) {
+                log.info("/==Excluded Product : " + name);
+                var excludeProduct = {
+                    Handled: true,
+                    Message: `excluded ${name}`,
+                    Url: url
                 }
-            })
-            await Dataset.pushData(productList);
-        }
+                products.push(excludeProduct);
+            } else {
+                var priceText = $(element).find('.vtex-product-price-1-x-sellingPriceValue .vtex-product-price-1-x-currencyInteger').text();
+                var price = parseFloat(priceText);
+                var imageUrl = $(element).find('img.vtex-product-summary-2-x-image').attr('src');
+                imageUrl = imageUrl.split('?')[0];
+                imageUrl = imageUrl.replace(/\-\d+\-\d+/, '');
+                var id = url.match(/(?<=\-)\d+(?=\/)/)[0];
 
+                var ctinRegex = new RegExp(CTINRegex);
+                var ctinCode = ctinRegex.test(name.toUpperCase()) ? name.toUpperCase().match(ctinRegex)[0] : undefined;
 
-        if (ProductPage) {
-            //get the values from JSON
-            const productScript = $('[type="application/ld+json"]').toArray().filter(function (x) {
-                return(JSON.parse($(x).html().replace(/[\n\r]/g, '').trim())['@type'] == "Product");
-            });
-            const productJson = JSON.parse($(productScript).html().replace(/[\n\r]/g, '').trim());
-
-            var stock = productJson.offers.availability;
-            var productStock = (stock.includes('Op voorraad') || stock.includes('morgen in huis') ? "InStock" : "OutOfStock");
-            var productName = productJson.name.replace(/\s+/g, ' ');
-            var price = productJson.offers.price;
-            var productImage = productJson.image.replace(domain + "/", '');
-
-            const dataScript = $('div[class="flix-wrapper"]').find("script[type='text/javascript']").html();
-
-            var productId = $('div[class="title-options"]').text().trim().match(/[A-Z0-9]{3,}/g).pop();
-            // var productId =  $('div[class="title-options"]').find('span').first().text().trim();
-            var productCtin = dataScript.match(/(?<='pn', ')[^']+/) ? dataScript.match(/(?<='pn', ')[^']+/)[0] : undefined;
-            var productGtin = dataScript.match(/(?<='upcean', ')[^']+/) ? dataScript.match(/(?<='upcean', ')[^']+/)[0] : undefined;
-
-            //Valid brand                
-            var product = {
-                ProductId: productId,
-                Manufacturer,
-                ProductName: productName,
-                ProductUrl: request.url,
-                CTINCode: productCtin,
-                EANCode: productGtin,
-                Price: price ? Number(price) : null,
-                ImageUri: productImage,
-                Stock: productStock
+                var product = {
+                    ProductId: id,
+                    Manufacturer: Manufacturer,
+                    ProductName: name,
+                    ProductUrl: domain + url,
+                    CTINCode: ctinCode,
+                    Price: price,
+                    Stock: "InStock",
+                    ImageUri: imageUrl
+                }
+                await enqueueRequest(product);
             }
-
-            await Dataset.pushData(product);
-        }
+        });
+        await Dataset.pushData(products);
     }
-}
+
     // const failedRequestHandler
     const failedRequestHandler = async ({ request, errorHandler }) => {
 
@@ -176,18 +131,18 @@ Actor.main(async () => {
         },
     ]
 
-    const proxyConfiguration = await Actor.createProxyConfiguration({
-        groups: ['RESIDENTIAL'],
-        countryCode: 'BE',
-        // countryCode: 'MX',
-    })
+    // const proxyConfiguration = await Actor.createProxyConfiguration({
+    //     groups: ['RESIDENTIAL'],
+    //     countryCode: 'BE',
+    //     // countryCode: 'MX',
+    // })
 
     // Create the crawler and add the queue with our URL
     // and a request handler to process the page.
     const crawler = new CheerioCrawler({
         requestList,
         requestQueue,
-        proxyConfiguration,
+        //proxyConfiguration,
         requestHandler,
         // failedRequestHandler,
         preNavigationHooks,
@@ -213,4 +168,4 @@ Actor.main(async () => {
 
     log.info("Crawl complete");
 
-});
+})

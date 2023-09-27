@@ -1,14 +1,38 @@
 {
     "startUrls": [
         {
-            "url": "https://www.expert.be/nl/p/onze-merken/philips",
+            "url": "https://www.garbarino.com/remington",
+            "userData": {
+                "Manufacturer": "Spectrum",
+                "Brand": "Remington",
+                "Culture Code": "es-AR",
+                "ApifyResultType": 0,
+                "CTINRegex": "[A-Z0-9]+/\\d+(?![A-Z])"
+            },
+            "method": "GET"
+        },
+        {
+            "url": "https://www.garbarino.com/black-decker",
+            "userData": {
+                "Manufacturer": "Spectrum",
+                "Brand": "Black+Decker",
+                "Culture Code": "es-AR",
+                "ApifyResultType": 0,
+                "CTINRegex": "([0-9,A-Z]+\\-)\\w+"
+            },
+            "method": "GET"
+        },
+        {
+            "url": "https://www.garbarino.com/philips",
             "userData": {
                 "Manufacturer": "Philips",
                 "Brand": "Philips",
-                "Culture Code": "nl-BE",
-                "ExcludedKeyWords": "LIGHT|PROJEKTOR|LEUCHTEN|REFLEKTOR|LAMPE|BELEUCHTUNG|BELEUCHTUNG|FARBTON|WAKE UP LIGHT|HUE|E14|KRUPS",
-                "ApifyResultType": 0
-            }
+                "Culture Code": "es-AR",
+                "ExcludedKeyWords": "HUE|LAMPARA|LÁMPARA",
+                "ApifyResultType": 0,
+                "CTINRegex": "([0-9,A-Z]+\\/)\\d+|\\w{4,}\\d+\\w+"
+            },
+            "method": "GET"
         }
     ],
     "keepUrlFragment": true
