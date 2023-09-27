@@ -19,7 +19,6 @@ Actor.main(async () => {
 
     const requestHandler = async ({ request, log, enqueueRequest, $, response, /*Apify, json*/ }) => {
         const { Manufacturer, Paginated, CTINRegex, ExcludedKeyWords, Brand } = request.userData;
-        
 
         if (response.status === 404) {
             return {
@@ -42,7 +41,7 @@ Actor.main(async () => {
                 totalNumberOfProducts = Number($('.vtex-search-result-3-x-totalProducts--layout').text().replace(/[^0-9]/g, ''));
             }
 
-            var productsPerPage = 9;
+            var productsPerPage = 12; //* Change 6 to 12
             var totalNumberOfPages = Math.ceil(totalNumberOfProducts / productsPerPage);
             log.info(`${Brand} TOTAL PRODUCTS: ${totalNumberOfProducts}`);
             log.info(`${Brand} TOTAL PRODUCTS PER PAGE: ${productsPerPage}`);
