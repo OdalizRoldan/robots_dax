@@ -1,0 +1,9 @@
+{
+	"id": "KWaWx1CbSlwfUPM",
+	"json": "{\"id\":\"KWaWx1CbSlwfUPM\",\"url\":\"https://simple.ripley.cl/search/phlips?marca=PHILIPS&sort=score\",\"loadedUrl\":\"https://simple.ripley.cl/search/phlips?marca=PHILIPS&sort=score&page=1\",\"uniqueKey\":\"https://simple.ripley.cl/search/phlips?marca=PHILIPS&sort=score\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"Manufacturer\":\"Philips\",\"Brand\":\"Philips\",\"Culture Code\":\"es-CL\",\"ExcludedKeyWords\":\"p-\\\\d|bulb|hue|lamp|e27|Ampolleta(?!.*AUTO.*)|LUZ NEUTRA|LUZ CALIDA\",\"CTINRegex\":\"[A-z]+\\\\d+[A-z]?/?\\\\w{2,}\",\"ApifyResultType\":0,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-08-22T18:19:35.714Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://simple.ripley.cl/search/phlips?marca=PHILIPS&sort=score",
+	"url": "https://simple.ripley.cl/search/phlips?marca=PHILIPS&sort=score"
+}
