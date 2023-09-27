@@ -11,3 +11,8 @@ Robots de scraping web en dax-nuevatel
      * No meaningful IDs can be found inside or outside the product pages except for the ones occasionally on the product's name.
      * Detecting 0 products no longer throws an error.
          
+## Notas de las correcciones de QA - Crawler
+- El availability se saca del esquema directamente, no es necesario sacarlo de la API, esta en otro esquema de stock
+- Ya se eliminaron duplicados, aunque sigue habiendo uno mas
+- Ya se aumento ean code
+- Ya se arreglo el numero total de productos por pagina
