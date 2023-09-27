@@ -1,7 +1,7 @@
 {
     "startUrls": [
         {
-            "url": "https://www.garbarino.com/remington",
+            "url": "https://www.garbarino.com/shop?search=Remington",
             "userData": {
                 "Manufacturer": "Spectrum",
                 "Brand": "Remington",
@@ -12,7 +12,7 @@
             "method": "GET"
         },
         {
-            "url": "https://www.garbarino.com/black-decker",
+            "url": "https://www.garbarino.com/shop?search=Black%2BDecker",
             "userData": {
                 "Manufacturer": "Spectrum",
                 "Brand": "Black+Decker",
@@ -23,7 +23,7 @@
             "method": "GET"
         },
         {
-            "url": "https://www.garbarino.com/philips",
+            "url": "https://www.garbarino.com/shop?search=Philips",
             "userData": {
                 "Manufacturer": "Philips",
                 "Brand": "Philips",
