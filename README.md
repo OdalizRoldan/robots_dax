@@ -16,3 +16,13 @@ Robots de scraping web en dax-nuevatel
 - Ya se eliminaron duplicados, aunque sigue habiendo uno mas
 - Ya se aumento ean code
 - Ya se arreglo el numero total de productos por pagina
+
+
+### RUNs Apify - Correcciones
+* Corrida #68, correciones al primer robot de las tres marcas, ahora devuelve tres resultados.
+* https://www.rofu.de/l-o-l-surprise/?count=45&offset=0
+* En la paginacion, se probó con el producto L.O.L https://www.rofu.de/l-o-l-surprise/?count=45&offset=0, si funciona la paginación, sin embargo, falta arreglar que solo encola los productos de la primera pagina en el caso de esa marca.
+*  RUN 58 - Ultima version de Crawler de 3 productos
+*  Ya no se esta usando la API que antes se tenia en el pre navigation hooks
+*  Hay un error, no puede leer sku de los productos a partir del 45.
+*  

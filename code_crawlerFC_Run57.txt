@@ -1,0 +1,112 @@
+async function pageFunction(context) {
+    const { request, json, response, log, $, body, enqueueRequest } = context;
+    const { Manufacturer, Paginated, Brand } = request.userData;
+    if (response.status == 404) {
+        return {
+            Handled: true,
+            Message: "Eror 404",
+            Url: request.url
+        }
+    }
+    var domain = "https://www.rofu.de/";
+    const scriptTag = $('script[type="application/ld+json"]');
+    const jsonLdScript = scriptTag.html();
+    var schemaData = JSON.parse(jsonLdScript);
+
+    if (!Paginated) {
+        const productsPerPage = 45;
+        var totalNumberOfProducts = schemaData.numberOfItems;
+        var totalNumberOfPages = Math.ceil(Number(totalNumberOfProducts) / productsPerPage);
+
+        log.info(`${Brand} TOTAL PRODUCTS: ${totalNumberOfProducts}`);
+        log.info(`${Brand} TOTAL PRODUCTS PER PAGE: ${productsPerPage}`);
+        log.info(`${Brand} TOTAL ITERATIONS: ${totalNumberOfPages}`);
+
+        for (var i = 1; i < totalNumberOfPages; i++) {
+            var nextUrl;
+            var nextUrl = request.url + "?count=" + productsPerPage.toString() + "&offset=" + i * productsPerPage;
+            console.log(i+"paginación");
+            
+            var nextRequest = {
+                url: nextUrl,
+                userData: {
+                    Manufacturer: Manufacturer,
+                    Paginated: true,
+                    Brand: Brand,
+                }
+            }
+            await enqueueRequest(nextRequest); 
+        }
+    }
+
+    var results = [];
+    var type_chema = schemaData["@type"];
+    var products;
+    var list_unique_pid = [];
+
+    if (type_chema == "ItemList") {
+        products = schemaData.itemListElement;
+
+        for (var i = 0; i < (totalNumberOfProducts-1); i++) {
+            var productId = products[i].sku;
+            console.log(productId+"Iteracion N"+i);
+
+            if (!list_unique_pid.includes(productId)) {
+                list_unique_pid.push(productId);
+
+                var price = Number(products[i].offers.price);
+                var productName = products[i].name;
+                var imageUrl = products[i].image;
+                var productUrl = products[i].offers.url;
+                var gtinCode = products[i].gtin13;
+                var stock = (products[i].offers.availability === "https://schema.org/InStock") ? "InStock" : "OutOfStock";
+                var manufacturer = products[i].manufacturer;
+
+                if (manufacturer == Manufacturer) {
+                    var product = {
+                        ProductId: productId,
+                        Manufacturer: Manufacturer,
+                        ProductUrl: productUrl,
+                        ProductName: productName,
+                        Price: price,
+                        Stock: stock,
+                        ImageUri: imageUrl,
+                        GTINCode: gtinCode.toString()
+                    };
+                    results.push(product);
+                }
+            }
+        }
+
+    } else if (type_chema == "Product") {
+        products = schemaData;
+        var productId = products.sku;
+
+        if (!list_unique_pid.includes(productId)) {
+            list_unique_pid.push(productId);
+
+            var price = Number(products.offers.price);
+            var productName = products.name;
+            var imageUrl = products.image;
+            var productUrl = products.offers.url;
+            var gtinCode = products.gtin13;
+            var stock = (products.offers.availability === "https://schema.org/InStock") ? "InStock" : "OutOfStock";
+            var manufacturer = products.manufacturer;
+
+            if (manufacturer == Manufacturer) {
+                var product = {
+                    ProductId: productId,
+                    Manufacturer: Manufacturer,
+                    ProductUrl: productUrl,
+                    ProductName: productName,
+                    Price: price,
+                    Stock: stock,
+                    ImageUri: imageUrl,
+                    GTINCode: gtinCode.toString()
+                };
+                results.push(product);
+            }
+        }
+    }
+    return results;
+}
