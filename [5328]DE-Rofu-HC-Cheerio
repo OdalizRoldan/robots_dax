@@ -1,0 +1,124 @@
+{
+    "debugLog": false,
+    "forceResponseEncoding": false,
+    "ignoreSslErrors": false,
+    "keepUrlFragments": false,
+    "pageFunction": "async function pageFunction(context) {\n    const { request, json, response, log, $, body, enqueueRequest } = context;\n    const { Manufacturer, Paginated, Brand } = request.userData;\n    if (response.status == 404) {\n        return {\n            Handled: true,\n            Message: \"404 error\",\n            Url: request.url\n        }\n    }\n    const scriptTag = $('script[type=\"application/ld+json\"]');\n    const jsonLdScript = scriptTag.html();\n    var schemaData = JSON.parse(jsonLdScript);\n\n    if (!Paginated) {\n        var productsPerPage = 45;\n        var totalNumberOfProducts = schemaData.numberOfItems | 0; // It will be zero in case of a single product page instead of a search page.\n        var totalNumberOfPages = Math.ceil(Number(totalNumberOfProducts) / productsPerPage);\n\n        log.info(`${Brand} TOTAL PRODUCTS: ${totalNumberOfProducts}`);\n        log.info(`${Brand} TOTAL PRODUCTS PER PAGE: ${productsPerPage}`);\n        log.info(`${Brand} TOTAL ITERATIONS: ${totalNumberOfPages}`);\n\n        for (var i = 1; i < totalNumberOfPages; i++) {\n            var nextUrl = request.url + \"?count=\" + productsPerPage + \"&offset=\" + (i*productsPerPage);\n            var nextRequest = {\n                url: nextUrl,\n                userData: {\n                    Manufacturer: Manufacturer,\n                    Paginated: true,\n                    Brand: Brand,\n                }\n            }\n            await enqueueRequest(nextRequest); \n        }\n    }\n\n    var results = [];\n    var type_chema = schemaData[\"@type\"];\n    var products;\n    list_unique_pid = [];\n    list_unique_name = [];\n\n    if (type_chema == \"ItemList\") {\n        products = schemaData.itemListElement;\n\n        for (var i = 0; i < products.length; i++) {\n            var productId = products[i].sku;\n            var productName = products[i].name;\n\n            if (!list_unique_pid.includes(productId) && !list_unique_name.includes(productName)) {\n                list_unique_pid.push(productId);\n                list_unique_name.push(productName);\n                \n                var price = Number(products[i].offers.price);\n                var imageUrl = products[i].image;\n                var productUrl = products[i].offers.url;\n                var gtinCode = products[i].gtin13;\n                var stock = (products[i].offers.availability === \"https://schema.org/InStock\") ? \"InStock\" : \"OutOfStock\";\n                var manufacturer = products[i].manufacturer;\n\n                if (manufacturer == Manufacturer) {\n                    var product = {\n                        ProductId: productId,\n                        Manufacturer: Manufacturer,\n                        ProductUrl: productUrl,\n                        ProductName: productName,\n                        Price: price,\n                        Stock: stock,\n                        ImageUri: imageUrl,\n                        GTINCode: gtinCode.toString()\n                    }\n                    results.push(product);\n                }\n            }\n        }\n    log.info(\"Lista de nombres: \" + list_unique_name);\n    log.info(\"Lista de PIDs: \" + list_unique_pid);\n\n    } else if (type_chema == \"Product\") {\n        products = schemaData;\n        var productId = products.sku;\n        var productName = products.name;\n\n        if (!list_unique_pid.includes(productId) && !list_unique_name.includes(productName)) {\n            list_unique_pid.push(productId);\n            list_unique_name.push(productName);\n            \n            var price = Number(products.offers.price);\n            var imageUrl = products.image;\n            var productUrl = products.offers.url;\n            var gtinCode = products.gtin13;\n            var stock = (products.offers.availability === \"https://schema.org/InStock\") ? \"InStock\" : \"OutOfStock\";\n            var manufacturer = products.manufacturer;\n\n            if (manufacturer == Manufacturer) {\n                var product = {\n                    ProductId: productId,\n                    Manufacturer: Manufacturer,\n                    ProductUrl: productUrl,\n                    ProductName: productName,\n                    Price: price,\n                    Stock: stock,\n                    ImageUri: imageUrl,\n                    GTINCode: gtinCode.toString()\n                };\n                results.push(product);\n            }\n        }\n    }\n    return results;\n}",
+    "postNavigationHooks": "// We need to return array of (possibly async) functions here.\n// The functions accept a single argument: the \"crawlingContext\" object.\n[\n    async (crawlingContext) => {\n        // ...\n    },\n]",
+    "preNavigationHooks": "[\n    async (crawlingContext) => {\n        const { request } = crawlingContext;\n     }\n]",
+    "proxyConfiguration": {
+        "useApifyProxy": true
+    },
+    "startUrls": [
+        {
+            "url": "https://www.rofu.de/suche/?count=90&offset=0&searchPhrase=Beast%20Lab",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys",
+                "Brand": "Beast Lab",
+                "Culture Code": "de-DE",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.rofu.de/suche/?searchPhrase=Scruff%20a%20Luvs",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys",
+                "Brand": "Scruff a Luvs",
+                "Culture Code": "de-DE",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.rofu.de/suche/?searchPhrase=trolls",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys",
+                "Brand": "Trolls",
+                "Culture Code": "de-DE",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.rofu.de/trend-themen/magic-mixies/",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys",
+                "Brand": "Magix Mixies",
+                "Culture Code": "de-DE",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.rofu.de/suche/?searchPhrase=Real%20Littles",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys",
+                "Brand": "Real Littles",
+                "Culture Code": "de-DE",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.rofu.de/suche/?searchPhrase=Moose%20Games",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys",
+                "Brand": "Moose Games",
+                "Culture Code": "de-DE",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.rofu.de/suche/?searchPhrase=Little%20Live%20Pets",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys",
+                "Brand": "Little Live Pets",
+                "Culture Code": "de-DE",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.rofu.de/suche/?searchPhrase=Octonauts",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys",
+                "Brand": "Octonauts",
+                "Culture Code": "de-DE",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.rofu.de/suche/?searchPhrase=Akedo%20Warriors",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys",
+                "Brand": "Akedo Warriors",
+                "Culture Code": "de-DE",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.rofu.de/trend-themen/bluey/",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys",
+                "Brand": "Bluey",
+                "Culture Code": "de-DE",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.rofu.de/suche/?searchPhrase=Treasure%20X",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys",
+                "Brand": "Treasure X",
+                "Culture Code": "de-DE",
+                "ApifyResultType": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,315 @@
+{
+    "debugLog": false,
+    "forceResponseEncoding": false,
+    "ignoreSslErrors": false,
+    "keepUrlFragments": false,
+    "pageFunction": "async function pageFunction(context) {\n    const { request, json, response, log, $, body } = context;\n    const { Manufacturer } = request.userData;\n\n    if (response.status == 404) {\n        return {\n            Handled: true,\n            Message: \"404 error\",\n            Url: request.url\n        }\n    }\n\n    var results = [];\n    var scriptTag = $('script[type=\"application/ld+json\"]');\n    var jsonLdScript = scriptTag.html();\n    var schemaData = JSON.parse(jsonLdScript);\n\n    var list_unique = [];\n    var productId = schemaData.mpn;\n\n    if (!list_unique.includes(productId)) {\n        list_unique.push(productId);\n\n        const productName = schemaData.name;\n        const price = schemaData.offers.price;\n        const productUrl = schemaData.offers.url;\n        const gtinCode = schemaData.gtin13;\n        const stock = (schemaData.offers.availability === \"https://schema.org/InStock\") ? \"InStock\" : \"OutOfStock\";\n        var manufacturer = schemaData.manufacturer;\n\n\n        var reviewCount = $(\"section.sc-1cqncsm-0 > div.ratingInfo > a > span\").text().match(/\\d+/)[0]\n        // log.info(\"Numero de personas que votaron \" + reviewCount);\n\n        if (reviewCount > 0) {\n            var ratingSourceValue = 0;\n            var ratingType = \"5-Star\";\n            var reviewLink = request.url + \"#ratings\";\n\n            for (let i = 1; i < 6; i++) {\n                var selector_starsRating = `.sc-1q497y0-0 > span:nth-child(${i}) > svg > use`;\n                var value_starsRating = $(selector_starsRating).attr(\"xlink:href\");\n                log.info(\"Tipo de estrella\" + value_starsRating);\n\n                if (value_starsRating == \"#star-solid\") {\n                    ratingSourceValue = ratingSourceValue + 1;\n                }\n                log.info(\"valor total\" + ratingSourceValue);\n            }\n        }\n\n        if (manufacturer == Manufacturer) {\n            var product = {\n                ProductId: productId,\n                Manufacturer: Manufacturer,\n                ProductUrl: productUrl,\n                ProductName: productName,\n                Price: Number(price),\n                GTINCode: gtinCode,\n                Stock: stock,\n                RatingType: ratingType,\n                RatingSourceValue: ratingSourceValue,\n                ReviewCount: reviewCount,\n                ReviewLink: reviewLink\n            };\n            results.push(product);\n        }\n    }\n    return results;\n}",
+    "postNavigationHooks": "// We need to return array of (possibly async) functions here.\n// The functions accept a single argument: the \"crawlingContext\" object.\n[\n    async (crawlingContext) => {\n        // ...\n    },\n]",
+    "preNavigationHooks": "[\n    async (crawlingContext) => {\n        const { request } = crawlingContext;\n    }\n]",
+    "proxyConfiguration": {
+        "useApifyProxy": true
+    },
+    "startUrls": [
+        {
+            "url": "https://www.rofu.de/beast-lab-hai-1-stueck.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/beast-lab-nachfuellpack.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/trolls-little-live-pets-scruff-a-luvs.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/trolls-gemeinsam-stark-mineez-2-figuren-pack.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/real-littles-rucksack-disney-1-stueck.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/real-littles-mini-tagebuch-serie-7-1-stueck.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/real-littles-micro-craft-set-serie-7-1-stueck.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/real-littles-mini-tasche-mit-hund-1-stueck.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/magic-mixies-wassermagie-zauberkessel.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/magic-mixies-magischer-zauberkessel-lila.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/magic-mixies-feuermagie-zauberkessel.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/magic-mixies-wunderlampe-s3-blau.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/magic-mixies-wunderlampe-s3-pink.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/magic-mixies-pixlings-lila.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/magic-mixies-pixlings-pink.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/magic-mixies-pixlings-blau.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/magic-mixies-mixlings-magischer-kessel-mit-2-figuren.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/magic-mixies-magische-kristallkugel-nachfuellpack.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/magic-mixies-mixlings-single-pack-serie-3-crystal-forest-1-stueck.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/little-live-pets-schwein-piggly.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/little-live-pets-meerschweinchen-mama-surprise-spielset.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/little-live-pets-schaf-snowie.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/little-live-pets-surprise-chick-vogel-im-ei-rosa.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/little-live-pets-surprise-chick-vogel-im-ei-blau.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/little-live-pets-my-puppy-s-home-surprise-spielset.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/little-live-pets-lil-birds-interaktiver-vogel-pippy-hippy.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/little-live-pets-mama-surprise-mini-spielset-stueck.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/bluey-muellwagen.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/bluey-plueschfigur-ca-45-cm-1-stueck.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/bluey-figuren-4er-pack-freunde.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/bluey-spielset-fahrrad.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/bluey-figuren-doppelpack-1-stueck.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/bluey-figuren-4er-pack-familie.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/bluey-familienauto-der-heelers.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/bluey-spielhaus-set.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/treasure-x-dino-pterodactyl.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/treasure-x-dino-dissection-t-rex.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/minecraft-treasure-x-ender-dragon-spielset.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/treasure-x-ninja-gold-ninja-figur-1-stueck.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/treasure-x-ninja-gold-dragon-s-sword-1-stueck.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/treasure-x-dino-gold-mini-dino-ei-mit-figur-1-stueck.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/treasure-x-dino-gold-dino-ei-mit-figur-1-stueck.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        },
+        {
+            "url": "https://www.rofu.de/treasure-x-dino-gold-dino-figur-1-stueck.html",
+            "method": "GET",
+            "userData": {
+                "Manufacturer": "Moose Toys"
+            }
+        }
+    ]
+}

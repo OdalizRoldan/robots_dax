@@ -69,3 +69,79 @@ Cookeez%20Makery - 0
 
 Total> 27 the best case
 29 con 2 repetidos
+
+### Correcciones Lunes 02 de octubre
+* La logica de Rating esta bien, solo que en el caso del producto, no detecta correctamente los valores.
+* ¿Cómo debe estar el archivo .txt? -> UK-Rofu-HC-Cheerio
+
+#### En JIRA 
+QA fixes:
+
+It was verified that the robot does not lose products => failed = 0.
+
+In the case of the Crawler, the Scruff a Luvs brand has only one product from the manufacturer Moose Toys, but it is on its product page, so a condition was implemented to verify if it is a product type scheme or product list (in the case of the other brands).
+
+The handler message was changed to "404 Error" in both robots.
+
+Required data extraction: The data extraction logic was changed, now both Crawler and Updater extract data from schemas.
+
+Added GTIN Code and Stock of each product (in HC and Updater).
+
+Removed the Image URL in the Updater.
+
+The logic of ratings extraction in the Updater was corrected, in this case the logic was done with DOM data directly, although another way to extract it would be through the schema, but it was not implemented because it did not launch correct data.
+
+It was tested with a product that had a ReviewCount > 0.
+
+The logic for checking repeated products for each brand was corrected, this was simpler once it was changed to extraction by schema.
+
+Corrected the pagination logic in the case of HC and tested with a brand that had more than one page. 
+
+Added #rating to the URL of the existing rating.
+
+
+
+Last Run:
+
+Crawler:  
+
+Updater:  
+
+
+No results found for the brand ScopeEyecare.
+
+Main Ticket: https://salamancasolutions.atlassian.net/browse/CS11EXE-5239
+
+
+
+JSON Code:
+
+Crawler: 
+
+
+
+Updater:
+
+
+Marcas faltantes:
+- Beast Lab - 2 *
+- Scruff a Luvs - 1 *
+- Trolls - 2 * (Tambien se repite el Scruff a Luvs) *
+Mixies - 11 *
+Real%20Littles - 4 *
+Moose%20Games - 0
+Little%20Live%20Pets - 9 * (Tambien se repite el Scruff a Luvs)
+Octonauts - 0
+Akedo%20Warriors - 0
+
+- Bluey 8 *
+- TreasureX 8 *
+- MagnaTiles 0
+
+Total Aprox: 46
+
+
+No hay productos de MagnaTiles
+
+Para el Updater:
+- 27 salian antes, mas las marcas faltantes + 16
