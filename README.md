@@ -11,6 +11,7 @@ Robots de scraping web en dax-nuevatel
      * No meaningful IDs can be found inside or outside the product pages except for the ones occasionally on the product's name.
      * Detecting 0 products no longer throws an error.
          
+**Lunes 02/10**
 * CITIN Regex y Excluded Keeyboards cuando es necesario?
 * Se encontraron APIs que tienen la informacion de todos los productos, se llama shop, los parametos que cambian en postman son: Num de pagina y nombre de brand.
 * Se hicieron unas cuantas correcciones al código en Apify, se pondrá configuración de API
