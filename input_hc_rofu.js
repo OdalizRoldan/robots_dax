@@ -1,4 +1,4 @@
-{
+        {
             "url": "https://www.rofu.de/suche/?count=90&offset=0&searchPhrase=Beast%20Lab",
             "method": "GET",
             "userData": {
