@@ -1,29 +1,52 @@
 {
-  "requestsFinished": 3,
-  "requestsFailed": 0,
-  "requestsRetries": 0,
-  "requestsFailedPerMinute": 0,
-  "requestsFinishedPerMinute": 3,
-  "requestMinDurationMillis": 29962,
-  "requestMaxDurationMillis": 44348,
-  "requestTotalFailedDurationMillis": 0,
-  "requestTotalFinishedDurationMillis": 113142,
-  "crawlerStartedAt": "2023-08-22T18:19:05.541Z",
-  "crawlerFinishedAt": "2023-08-22T18:20:00.369Z",
-  "statsPersistedAt": "2023-08-22T18:20:00.369Z",
-  "crawlerRuntimeMillis": 54836,
-  "crawlerLastStartTimestamp": 1692728345533,
+  "requestsFinished": 0,
+  "requestsFailed": 1,
+  "requestsRetries": 1,
+  "requestsFailedPerMinute": 1,
+  "requestsFinishedPerMinute": 0,
+  "requestMinDurationMillis": null,
+  "requestMaxDurationMillis": 0,
+  "requestTotalFailedDurationMillis": 2398,
+  "requestTotalFinishedDurationMillis": 0,
+  "crawlerStartedAt": "2023-10-03T16:05:04.434Z",
+  "crawlerFinishedAt": "2023-10-03T16:05:40.851Z",
+  "statsPersistedAt": "2023-10-03T16:05:40.851Z",
+  "crawlerRuntimeMillis": 36437,
+  "crawlerLastStartTimestamp": 1696349104414,
   "requestRetryHistogram": [
-    3
+    null,
+    null,
+    null,
+    1
   ],
   "statsId": 0,
-  "requestAvgFailedDurationMillis": null,
-  "requestAvgFinishedDurationMillis": 37714,
-  "requestTotalDurationMillis": 113142,
-  "requestsTotal": 3,
+  "requestAvgFailedDurationMillis": 2398,
+  "requestAvgFinishedDurationMillis": null,
+  "requestTotalDurationMillis": 2398,
+  "requestsTotal": 1,
   "requestsWithStatusCode": {
-    "200": 3
+    "403": 4
   },
-  "errors": {},
-  "retryErrors": {}
+  "errors": {
+    "C:\\Users\\orojas\\Documents\\V3\\puppeteer_local_v3-main\\puppeteer_local_v3-main\\node_modules\\@crawlee\\basic\\internals\\basic-crawler.js:601:19": {
+      "missing error code": {
+        "Error": {
+          "Request blocked - received 403 status code.": {
+            "count": 1
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    "C:\\Users\\orojas\\Documents\\V3\\puppeteer_local_v3-main\\puppeteer_local_v3-main\\node_modules\\@crawlee\\basic\\internals\\basic-crawler.js:601:19": {
+      "missing error code": {
+        "Error": {
+          "Request blocked - received 403 status code.": {
+            "count": 3
+          }
+        }
+      }
+    }
+  }
 }

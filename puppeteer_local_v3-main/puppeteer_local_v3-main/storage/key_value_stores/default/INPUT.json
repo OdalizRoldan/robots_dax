@@ -1,34 +1,11 @@
 {
     "startUrls": [
         {
-            "url": "https://simple.ripley.cl/search/phlips?marca=PHILIPS&sort=score",
+            "url": "https://www.drogaraia.com.br/pampers-confort-sec-fralda-xxg-84-unidades.html",
             "userData": {
-                "Manufacturer": "Philips",
-                "Brand": "Philips",
-                "Culture Code": "es-CL",
-                "ExcludedKeyWords": "p-\\d|bulb|hue|lamp|e27|Ampolleta(?!.*AUTO.*)|LUZ NEUTRA|LUZ CALIDA",
-                "CTINRegex": "[A-z]+\\d+[A-z]?/?\\w{2,}",
-                "ApifyResultType": 0
-            }
-        },
-        {
-            "url": "https://simple.ripley.cl/infantil/marcas-infantil/avent?source=search&term=avent",
-            "userData": {
-                "Manufacturer": "Philips",
-                "Brand": "Avent",
-                "Culture Code": "es-CL",
-                "CTINRegex": "[A-z]+\\d+[A-z]?/?\\w{2,}",
-                "ApifyResultType": 0
-            }
-        },
-        {
-            "url": "https://simple.ripley.cl/search/teka?marca=TEKA",
-            "userData": {
-                "Manufacturer": "Teka",
-                "Brand": "Teka",
-                "Culture Code": "es-CL",
-                "CTINRegex": "[A-z]+\\d+[A-z]?/?\\w{2,}",
-                "ExcludedKeyWords": "comoda|toalla|closet",
+                "Manufacturer": "Pampers",
+                "Brand": "Pampers",
+                "Culture Code": "pt-BR",
                 "ApifyResultType": 0
             }
         }
