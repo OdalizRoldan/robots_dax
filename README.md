@@ -152,3 +152,9 @@ No hay productos de MagnaTiles
 
 Para el Updater:
 - 27 salian antes, mas las marcas faltantes + 16
+
+# Notas Retailer Dragaira
+- La pagina de busqueda tiene API
+- La pagina de producto tiene esquema con datos
+- Al parecer será Methamorph porque necesita tener acceso especial para entrar a la pagina.
+- Todos los archivos complementarios los mando Raquel por skype.
