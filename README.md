@@ -168,7 +168,7 @@ Para el Updater:
         const { page, request, Apify } = crawlingContext;
         const { OriginalUrl, Index, ProductPage, StockOnly } = request.userData;
         const { RatingPage } = request.userData;
-        
+
         if (!page && !StockOnly) {
             var cookies = await Apify.getValue("cookies");
 
@@ -187,3 +187,6 @@ Para el Updater:
 
     2023-10-04T18:00:45.687Z WARN  CheerioCrawler: Reclaiming failed request back to the list or queue. Detected a session error, rotating session...
     2023-10-04T18:00:45.693Z Proxy responded with 590 UPSTREAM503: 0 bytes
+
+    - Puede que esta sea la API que se esta usando: https://www.drogaraia.com.br/api/next/middlewareGraphql
+    - 
