@@ -158,3 +158,32 @@ Para el Updater:
 - La pagina de producto tiene esquema con datos
 - Al parecer será Methamorph porque necesita tener acceso especial para entrar a la pagina.
 - Todos los archivos complementarios los mando Raquel por skype.
+
+### Trabajo 04/10/2023
+    Errores a corregir: Reclaiming failed request back to the list or queue. TypeError: page.waitFor is not a function 6:20
+
+    [
+    async (crawlingContext) =>
+    {
+        const { page, request, Apify } = crawlingContext;
+        const { OriginalUrl, Index, ProductPage, StockOnly } = request.userData;
+        const { RatingPage } = request.userData;
+        
+        if (!page && !StockOnly) {
+            var cookies = await Apify.getValue("cookies");
+
+            request.headers = {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+            "cookie": `${cookies}`
+            }
+        }
+    }
+    ]
+
+
+    2023-10-04T16:22:42.076Z WARN  CheerioCrawler: Reclaiming failed request back to the list or queue. The HTTP/2 stream has been early terminated
+    2023-10-04T16:22:42.078Z  {"id":"dMJAmBeWm1H8uq5","url":"https://www.drogaraia.com.br/cetaphil-creme-hidratante-453g-813709.html","retryCount":1}
+
+
+    2023-10-04T18:00:45.687Z WARN  CheerioCrawler: Reclaiming failed request back to the list or queue. Detected a session error, rotating session...
+    2023-10-04T18:00:45.693Z Proxy responded with 590 UPSTREAM503: 0 bytes
