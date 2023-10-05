@@ -189,4 +189,30 @@ Para el Updater:
     2023-10-04T18:00:45.693Z Proxy responded with 590 UPSTREAM503: 0 bytes
 
     - Puede que esta sea la API que se esta usando: https://www.drogaraia.com.br/api/next/middlewareGraphql
-    - 
+
+
+### Trabajo 05/10/2023
+* Se cambio el selector de la palabra Drogaraia
+* Se cambio a una API especial
+* Se subieron ambos robots a JIRA.
+* Este es el ajaz que se encontró en el ultimo robot que se asigno:
+
+curl 'https://www.sensodays.ro/ajaxproducts/' \
+  -H 'authority: www.sensodays.ro' \
+  -H 'accept: */*' \
+  -H 'accept-language: es-ES,es;q=0.9,en;q=0.8' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'cookie: custom_form_key=tkfwkyqbpzarrrvu; _vwo_uuid_v2=D955069C67AEB62DF70C748AE9B31EAEE|4e18e88a216655585ceb6c0cd3b439be; frontend=1cd7d356f28e56064883893b4c4a3ffd; consent_cookie={"accept_all":1,"consent_duration":365,"button_id":"accept_all"}; _gid=GA1.2.1316605708.1696534522; _fbp=fb.1.1696534522331.1681956937; twk_idm_key=2jt5iyoqUK8bei3awz2qe; closedBanner=true; _gat_UA-41615440-3=1; __kla_id=eyJjaWQiOiJZVFV5TWpNellqZ3ROVEEzTnkwMFlURTFMV0kzTm1NdE9EWTFNakF4T0dNNFpEZGgiLCIkcmVmZXJyZXIiOnsidHMiOjE2OTY1MzQ1NDMsInZhbHVlIjoiaHR0cHM6Ly93d3cuc2Vuc29kYXlzLnJvLyIsImZpcnN0X3BhZ2UiOiJodHRwczovL3d3dy5zZW5zb2RheXMucm8vY2F0YWxvZ3NlYXJjaC9yZXN1bHQvP3E9VEVLQSJ9LCIkbGFzdF9yZWZlcnJlciI6eyJ0cyI6MTY5NjUzNTQ3MiwidmFsdWUiOiJodHRwczovL3d3dy5zZW5zb2RheXMucm8vIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vd3d3LnNlbnNvZGF5cy5yby9jYXRhbG9nc2VhcmNoL3Jlc3VsdC8/cT1URUtBIn19; page_views=6; TawkConnectionTime=0; twk_uuid_538dc74cc3122f590e000017=%7B%22uuid%22%3A%221.SwqOty6q7qxRVJlDijuEA1YtFetLshsGors2Hj3jV0NcrXujoGn359e20VFWMF0Jn2LcC2LAUgGPEcJt0z1lzZTI3JDT4aNlkXAbFmbPuTFKJTzzgKhlo%22%2C%22version%22%3A3%2C%22domain%22%3A%22sensodays.ro%22%2C%22ts%22%3A1696535481199%7D; _ga=GA1.1.1847132893.1696534522; _ga_DT511TP2S8=GS1.1.1696534521.1.1.1696535486.46.0.0' \
+  -H 'origin: https://www.sensodays.ro' \
+  -H 'referer: https://www.sensodays.ro/chiuveta-teka-centroval-45-inox-microtexturat.html' \
+  -H 'sec-ch-ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36' \
+  --data-raw 'is_ajax=true&is_list=true&product_ids=52728,67227,72756,79543,85415,90201,101680,111076,117261,117866,120078,121374,135540,123409,93293,85383,69831&curent_page=catalog&referer=aHR0cHM6Ly93d3cuc2Vuc29kYXlzLnJvL2NoaXV2ZXRhLXRla2EtY2VudHJvdmFsLTQ1LWlub3gtbWljcm90ZXh0dXJhdC5odG1s' \
+  --compressed
+
+* Al parecer necesita extraer cookies, su header necesita una cadena con todas las cookies, ¿Habra que cambiarlo a Puppeteer?
