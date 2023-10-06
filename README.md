@@ -216,3 +216,9 @@ curl 'https://www.sensodays.ro/ajaxproducts/' \
   --compressed
 
 * Al parecer necesita extraer cookies, su header necesita una cadena con todas las cookies, ¿Habra que cambiarlo a Puppeteer?
+
+### Trabajo 06/10/2023
+* Se quitaron varios headers y se verifico que devuelve el mismo output.
+* Este código quita doble espacio y espacio al principio y final: $('meta[itemprop="name"]').attr('content').trim().replace(/\s{2,}/g, ' ').trim();
+
+* Verificar duplicados
