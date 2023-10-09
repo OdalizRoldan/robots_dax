@@ -222,3 +222,15 @@ curl 'https://www.sensodays.ro/ajaxproducts/' \
 * Este código quita doble espacio y espacio al principio y final: $('meta[itemprop="name"]').attr('content').trim().replace(/\s{2,}/g, ' ').trim();
 
 * Verificar duplicados
+
+### Trabajo 09/10/23
+* Guinness - 9
+* Baileys - 2
+* Smirnoff - 12
+* Captain Morgan - 4
+* Hop House 13 - 5
+  
+  32
+  1ra - 30
+  2DA - 13
+  43
