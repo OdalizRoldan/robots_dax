@@ -230,7 +230,24 @@ curl 'https://www.sensodays.ro/ajaxproducts/' \
 * Captain Morgan - 4
 * Hop House 13 - 5
   
-  32
-  1ra - 30
-  2DA - 13
-  43
+    32
+    1ra - 30
+    2DA - 13
+    43
+
+    Crawler description
+    The proxy configuration was changed from automatic to residential by the country of the Retailer (Ireland), because without this change it was not possible to access the page.
+
+    The Prenavigation hooks API was modified, because it did not know correct data in all test cases with other brands.
+
+    Configurations
+    Proxy configuration: Shader proxy (Ireland)
+
+    Compilation version: versión-3
+
+    Last execution
+    Crawler: Apify Console 
+
+### Trabajo 10/10/23
+* Lo trasformaremos a FC porque ahora el detalle de cada producto no esta en la pagina de busqueda.
+De la caja 3 a la 7
