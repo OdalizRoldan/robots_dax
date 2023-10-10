@@ -251,3 +251,4 @@ curl 'https://www.sensodays.ro/ajaxproducts/' \
 ### Trabajo 10/10/23
 * Lo trasformaremos a FC porque ahora el detalle de cada producto no esta en la pagina de busqueda.
 De la caja 3 a la 7
+* Nos quedamos con algunos problemas la URL de categoria.
