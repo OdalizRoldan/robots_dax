@@ -252,3 +252,7 @@ curl 'https://www.sensodays.ro/ajaxproducts/' \
 * Lo trasformaremos a FC porque ahora el detalle de cada producto no esta en la pagina de busqueda.
 De la caja 3 a la 7
 * Nos quedamos con algunos problemas la URL de categoria.
+
+### Trabajo 11/10/23
+* Las APIs con este esquema "https://widget.trustpilot.com/trustbox-data/54d39695764ea907c0f34825?businessUnitId=487cd0e0000064000502f650&locale=en-GB&sku=PIE631BB5E" con numeros por delante, tienen los datos de tating
+* 

@@ -1,0 +1,59 @@
+{
+  "requestsFinished": 5,
+  "requestsFailed": 20,
+  "requestsRetries": 20,
+  "requestsFailedPerMinute": 68,
+  "requestsFinishedPerMinute": 17,
+  "requestMinDurationMillis": 403,
+  "requestMaxDurationMillis": 1613,
+  "requestTotalFailedDurationMillis": 10544,
+  "requestTotalFinishedDurationMillis": 6409,
+  "crawlerStartedAt": "2023-10-11T19:50:59.339Z",
+  "crawlerFinishedAt": "2023-10-11T19:51:16.811Z",
+  "statsPersistedAt": "2023-10-11T19:51:16.811Z",
+  "crawlerRuntimeMillis": 17479,
+  "crawlerLastStartTimestamp": 1697053859332,
+  "requestRetryHistogram": [
+    5,
+    null,
+    null,
+    20
+  ],
+  "statsId": 0,
+  "requestAvgFailedDurationMillis": 527,
+  "requestAvgFinishedDurationMillis": 1282,
+  "requestTotalDurationMillis": 16953,
+  "requestsTotal": 25,
+  "requestsWithStatusCode": {},
+  "errors": {
+    "<anonymous>": {
+      "missing error code": {
+        "ArgumentError": {
+          "Expected `data` to be of type `object` but received type `undefined`": {
+            "count": 20
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    "C:\\Users\\orojas\\Documents\\V3\\11. uk_applianceCity_crawler_fc\\src\\main.js:103:9": {
+      "missing error code": {
+        "ArgumentError": {
+          "Expected `data` to be of type `object` but received type `undefined`": {
+            "count": 1
+          }
+        }
+      }
+    },
+    "<anonymous>": {
+      "missing error code": {
+        "ArgumentError": {
+          "Expected `data` to be of type `object` but received type `undefined`": {
+            "count": 59
+          }
+        }
+      }
+    }
+  }
+}

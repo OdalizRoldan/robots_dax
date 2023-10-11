@@ -17,80 +17,95 @@ Actor.main(async () => {
         return requestQueue.addRequest(request)
     };
 
-    const requestHandler = async ({ response, request, body, json, $ }) => {
-        const { Manufacturer, Brand, Category, ProductPage, Paginated } = request.userData;
-
-        var domain = "https://www.appliancecity.co.uk";
-        var productsPerPage = 12;
+    const requestHandler = async ({ response, request, body, json, $, log }) => {
+        const { Manufacturer, Brand, Category, Paginated, CategoyName } = request.userData;
+        // https://www.appliancecity.co.uk/brand/bosch/
 
         if (!Category) {
-            const totalCategories = $('div[class="feature_boxes-wrapper"]')
+            const totalCategories = $(".section_padding_lower-quarter > div > div.quick_links > ul > li > a");
             log.info(`Processing: ${totalCategories.length} categories`);
             totalCategories.each(async function (index, element) {
-                categoryUrl = $(`${element} > div > div > p > a`).attr('href')
+                var categoryUrl = $(element).attr('href');
                 var categoryName = $(element).text();
+
                 log.info("Category name" + categoryName);
                 log.info("Category url" + categoryUrl);
 
                 var categoryRequest = {
-                    url: domain + categoryUrl,
+                    url: categoryUrl,
                     userData: {
-                        Category: categoryName,
-                        // Paginated: true,
-                        Brand, //copy the Brand to the next request                                        
-                        Manufacturer //copy the manufacturer to the next request 
+                        Category: true,
+                        CategoyName: categoryName,
+                        Brand,
+                        Manufacturer
                     }
                 };
                 await enqueueRequest(categoryRequest);
             })
         }
+        if (Category) {
+            if (!Paginated) {
+                var numberOfProductsSelector = $(".woocommerce-result-count").text();
+                var condicion = numberOfProductsSelector.includes("of");
+                var totalProducts = condicion == true ? numberOfProductsSelector.split("of")[2].match(/\d+/)[0] : 12;
+                var productsPerPage = 12;
+                const totalPages = Math.ceil(Number(totalProducts) / productsPerPage);
+                log.info(`${Category} TOTAL PRODUCTS: ${Math.ceil(totalProducts)}`);
+                log.info(`${Category} TOTAL PRODUCTS PER PAGE: ${productsPerPage}`);
+                log.info(`${Category} TOTAL ITERATIONS: ${totalPages}`);
 
-        // if (!request.userData.queued) {
-        //     var textMatch = $(".woocommerce-result-count").first().text().split("of");
-        //     var totalProductsCount = 0;
-        //     if (textMatch.length > 1) {
-        //         totalProductsCount = $(".woocommerce-result-count").first().text().split("of")[1].match(/\d+/)[0];
-        //     }
-        //     var totalPages = Math.ceil(totalProductsCount / context.customData.productsPerPage);
+                if (productsPerPage) {
 
-        //     for (var i = 2; i <= totalPages; i++) {
-        //         var paginationAttributes = request.url.substring(request.url.lastIndexOf("/"), request.url.length);
-        //         var pageLink = context.customData.paginationDomain + i + paginationAttributes;
-        //         await enqueueRequest({ url: pageLink, userData: { queued: true, Manufacturer: request.userData.Manufacturer, Brand: request.userData.Brand } });
-        //     }
-        // }
+                }
+                for (var index = 2; index <= totalPages; index++) {
+                    nextPage = request.url + "page/" + index + "/"
+                    log.info(nextPage);
 
-        // var products = [];
-        // $("ul.products").find("li.product").each(function (index, element) {
+                    var nextPageRequest = {
+                        url: nextPage,
+                        userData: {
+                            Paginated: true,
+                            Category,
+                            Brand,
+                            Manufacturer
+                        }
+                    }
+                    await enqueueRequest(nextPageRequest);
+                }
 
-        //     var productId = $(element).find(".acity-product-card-product-more-information").attr("data-product_id");
-        //     var productUrl = $(element).find(".acity-product-card-product-more-information").attr("href");
-        //     var title = $(element).find(".woocommerce-loop-product__title").text();
-        //     var price = $(element).find(".woocommerce-Price-amount").text().replace(",", "").replace(" ", "").replace("£", "");
-        //     var imageUri = $(element).find(".size-woocommerce_thumbnail").first().attr("data-lazy-src");
-        //     var stockText = $(element).find('.acity-product-availability').text();
-        //     var stock = stockText.indexOf("In stock") > -1 ? "InStock" : "OutOfStock";
-        //     var ctin = $(element).find(".acity-product-card-product-more-information").attr("data-product_sku");
+                var results = [];
+                $("ul.products").find("li.product").each(function (index, element) {
+                    if (element != null) {
+                        var productId = $(element).find(".acity-product-card-product-more-information").attr("data-product_id");
+                        var productUrl = $(element).find(".acity-product-card-product-more-information").attr("href");
+                        var title = $(element).find(".woocommerce-loop-product__title").text();
+                        var price = $(element).find(".woocommerce-Price-amount").text().replace(",", "").replace(" ", "").replace("£", "");
+                        var imageUri = $(element).find(".size-woocommerce_thumbnail").first().attr("src");
+                        var stockText = $(element).find('.acity-product-availability').text();
+                        var stock = stockText.indexOf("In stock") > -1 ? "InStock" : "OutOfStock";
+                        var ctin = $(element).find(".acity-product-card-product-more-information").attr("data-product_sku");
 
-        //     var product = {
-        //         ProductUrl: productUrl,
-        //         ProductName: title,
-        //         Price: price,
-        //         Manufacturer: request.userData.Manufacturer,
-        //         ImageUri: imageUri,
-        //         ProductId: productId,
-        //         Stock: stock,
-        //         CTINCode: ctin
-        //     }
+                        var product = {
+                            ProductUrl: productUrl,
+                            ProductName: title,
+                            Price: price,
+                            Manufacturer: Manufacturer,
+                            ImageUri: imageUri,
+                            ProductId: productId,
+                            Stock: stock,
+                            CTINCode: ctin,
+                            CategoryName: CategoyName
+                        }
+                        results.push(product);
+                    }
+                });
+            }
 
-        //     products.push(product);
+        }
 
-        // });
-
-        // return products;
-
-
+        await Dataset.pushData(results);
     }
+
     // const failedRequestHandler
     const failedRequestHandler = async ({ request, errorHandler }) => {
 
