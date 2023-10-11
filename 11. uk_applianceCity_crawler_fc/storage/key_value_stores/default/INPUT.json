@@ -1,0 +1,14 @@
+{
+    "startUrls": [
+        {
+            "url": "https://www.appliancecity.co.uk/brand/bosch/",
+            "userData": {
+                "Manufacturer": "BSH",
+                "Brand": "Bosch",
+                "Culture Code": "en-GB",
+                "ApifyResultType": 0
+            }
+        }
+    ],
+    "keepUrlFragment": true
+}

@@ -1,0 +1,1758 @@
+[
+    {
+        "ProductId": "15027",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Cyber-shot RX100 VII Digital Camera",
+        "ProductUrl": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-cyber-shot-rx100-vii-digital-camera",
+        "Price": 28999.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "aYhrJeg9paudYAe",
+            "url": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-cyber-shot-rx100-vii-digital-camera",
+            "loadedUrl": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-cyber-shot-rx100-vii-digital-camera",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15052",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Alpha a6600 Body",
+        "ProductUrl": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-alpha-a6600-mirrorless-digital-camera-body",
+        "Price": 28299.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "6pIk3T9Kid2xw1u",
+            "url": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-alpha-a6600-mirrorless-digital-camera-body",
+            "loadedUrl": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-alpha-a6600-mirrorless-digital-camera-body",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15057",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony E 16-55mm f/2.8 G Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-e-16-55mm-f-2-8-g-lens",
+        "Price": 25599.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "QDs3SNPygrRRHgu",
+            "url": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-e-16-55mm-f-2-8-g-lens",
+            "loadedUrl": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-e-16-55mm-f-2-8-g-lens",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15056",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony E 70-350mm f/4.5-6.3 G OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-e-70-350mm-f-4-5-6-3-g-oss-lens",
+        "Price": 19999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "DxKtfD4tHoI61DQ",
+            "url": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-e-70-350mm-f-4-5-6-3-g-oss-lens",
+            "loadedUrl": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-e-70-350mm-f-4-5-6-3-g-oss-lens",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14882",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 135mm f/1.8 GM",
+        "ProductUrl": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-fe-135mm-f-1-8-gm-lens",
+        "Price": 44999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "MM8aU6uw1RlZjVH",
+            "url": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-fe-135mm-f-1-8-gm-lens",
+            "loadedUrl": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-fe-135mm-f-1-8-gm-lens",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15020",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 35mm f/1.8 Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-fe-35mm-f-1-8-lens",
+        "Price": 15999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "R6y6voWYnQ1gNM7",
+            "url": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-fe-35mm-f-1-8-lens",
+            "loadedUrl": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-fe-35mm-f-1-8-lens",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14936",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony NP-FZ100 Rechargeable Lithium-Ion Battery",
+        "ProductUrl": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-np-fz100-rechargeable-lithium-ion-battery",
+        "Price": 2899.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "RIg3xMgeEjDMZJB",
+            "url": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-np-fz100-rechargeable-lithium-ion-battery",
+            "loadedUrl": "https://cameralandsandton.co.za/cameraland-2020/?product=sony-np-fz100-rechargeable-lithium-ion-battery",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14870",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Alpha a6400 Body",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-alpha-a6400-mirrorless-digital-camera-body/",
+        "Price": 19799.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "XKAJS69emD9S2yM",
+            "url": "https://cameralandsandton.co.za/product/sony-alpha-a6400-mirrorless-digital-camera-body/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-alpha-a6400-mirrorless-digital-camera-body/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15590",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Alpha a1 Mirrorless",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-alpha-a1-mirrorless/",
+        "Price": 144999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "xwWfU60pYxW4PmE",
+            "url": "https://cameralandsandton.co.za/product/sony-alpha-a1-mirrorless/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-alpha-a1-mirrorless/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14884",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Alpha a6400 with 18-135mm",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-alpha-a6400-mirrorless-digital-camera-with-18-135mm-lens/",
+        "Price": 28299.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "Y6CGGtoq56RUvfU",
+            "url": "https://cameralandsandton.co.za/product/sony-alpha-a6400-mirrorless-digital-camera-with-18-135mm-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-alpha-a6400-mirrorless-digital-camera-with-18-135mm-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15093",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Alpha a6600 Camera with 18-135mm Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-alpha-a6600-camera-with-18-135mm-lens/",
+        "Price": 34999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "aE27gQP1SGCM9Aq",
+            "url": "https://cameralandsandton.co.za/product/sony-alpha-a6600-camera-with-18-135mm-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-alpha-a6600-camera-with-18-135mm-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14883",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Alpha a6400 with 16-50mm",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-alpha-a6400-mirrorless-with-16-50mm-lens/",
+        "Price": 24999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "UCt1rSa2RqRK2pY",
+            "url": "https://cameralandsandton.co.za/product/sony-alpha-a6400-mirrorless-with-16-50mm-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-alpha-a6400-mirrorless-with-16-50mm-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15052",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Alpha a6600 Body",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-alpha-a6600-mirrorless-digital-camera-body/",
+        "Price": 28299.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "lrmqm5rk412m2AS",
+            "url": "https://cameralandsandton.co.za/product/sony-alpha-a6600-mirrorless-digital-camera-body/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-alpha-a6600-mirrorless-digital-camera-body/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "Handled": true,
+        "Message": "404 error",
+        "Url": "https://cameralandsandton.co.za/product/sony-alpha-a7c-28-60mm-f4-5-6-black/",
+        "#error": false,
+        "#debug": {
+            "requestId": "BRenxYeuF0VkxnQ",
+            "url": "https://cameralandsandton.co.za/product/sony-alpha-a7c-28-60mm-f4-5-6-black/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-alpha-a7c-28-60mm-f4-5-6-black/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 404
+        }
+    },
+    {
+        "Handled": true,
+        "Message": "404 error",
+        "Url": "https://cameralandsandton.co.za/product/sony-alpha-a7c-mirrorless/",
+        "#error": false,
+        "#debug": {
+            "requestId": "uAkBmkRxVsk0Tg5",
+            "url": "https://cameralandsandton.co.za/product/sony-alpha-a7c-mirrorless/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-alpha-a7c-mirrorless/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 404
+        }
+    },
+    {
+        "ProductId": "14498",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Alpha A7 III Mirrorless",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-alpha-a7-iii-mirrorless/",
+        "Price": 43999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "u2aDY2MhnoyJFNU",
+            "url": "https://cameralandsandton.co.za/product/sony-alpha-a7-iii-mirrorless/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-alpha-a7-iii-mirrorless/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15504",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Alpha a7C + 28-60mm F4-5.6 – Silver",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-alpha-a7c-28-60mm-f4-5-6-silver/",
+        "Price": 42999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "ZeY5kLkVb1L3CnU",
+            "url": "https://cameralandsandton.co.za/product/sony-alpha-a7c-28-60mm-f4-5-6-silver/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-alpha-a7c-28-60mm-f4-5-6-silver/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "55463",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Alpha a7 IV Mirrorless Digital Camera",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-alpha-a7-iv-mirrorless-digital-camera-body-only/",
+        "Price": 49999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "rf5EbEyW9riEaFA",
+            "url": "https://cameralandsandton.co.za/product/sony-alpha-a7-iv-mirrorless-digital-camera-body-only/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-alpha-a7-iv-mirrorless-digital-camera-body-only/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "55679",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Alpha a7 IV Mirrorless with 28-70mm",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-alpha-a7-iv-mirrorless-digital-camera-with-28-70mm-lens/",
+        "Price": 54999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "4Omg3YgTC9kDCTy",
+            "url": "https://cameralandsandton.co.za/product/sony-alpha-a7-iv-mirrorless-digital-camera-with-28-70mm-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-alpha-a7-iv-mirrorless-digital-camera-with-28-70mm-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15072",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Alpha a7 III Mirrorless with 28-70mm",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-alpha-a7-iii-mirrorless-with-28-70mm/",
+        "Price": 48999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "fKs3gBnHgqsrzTW",
+            "url": "https://cameralandsandton.co.za/product/sony-alpha-a7-iii-mirrorless-with-28-70mm/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-alpha-a7-iii-mirrorless-with-28-70mm/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15210",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Alpha a7S III Mirrorless + Free Sony Mic Worth R12999",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-alpha-a7s-iii-mirrorless/",
+        "Price": 69999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "HfZK9Q9CtAzKEd2",
+            "url": "https://cameralandsandton.co.za/product/sony-alpha-a7s-iii-mirrorless/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-alpha-a7s-iii-mirrorless/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15021",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Alpha a7R IV Mirrorless",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-alpha-a7r-iv-mirrorless/",
+        "Price": 66599.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "gdRtR08ii72R13f",
+            "url": "https://cameralandsandton.co.za/product/sony-alpha-a7r-iv-mirrorless/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-alpha-a7r-iv-mirrorless/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14478",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony BC-QZ1 Battery Charger",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-bc-qz1-battery-charger/",
+        "Price": 3399.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "v48DhizBdKKOHJW",
+            "url": "https://cameralandsandton.co.za/product/sony-bc-qz1-battery-charger/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-bc-qz1-battery-charger/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14479",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony BC-TRW W Series Battery Charger (Black)",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-bc-trw-w-series-battery-charger-black/",
+        "Price": 1799.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "SXvfKLMY149Uigj",
+            "url": "https://cameralandsandton.co.za/product/sony-bc-trw-w-series-battery-charger-black/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-bc-trw-w-series-battery-charger-black/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14480",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony BC-TRX Battery Charger",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-bc-trx-battery-charger/",
+        "Price": 1699.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "CNmx9KJdh483fOs",
+            "url": "https://cameralandsandton.co.za/product/sony-bc-trx-battery-charger/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-bc-trx-battery-charger/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14455",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Cyber-shot RX10 IV",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-cyber-shot-rx10-iv/",
+        "Price": 34999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "MDvPt9eBTuU6xR5",
+            "url": "https://cameralandsandton.co.za/product/sony-cyber-shot-rx10-iv/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-cyber-shot-rx10-iv/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15027",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Cyber-shot RX100 VII Digital Camera",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-cyber-shot-rx100-vi/",
+        "Price": 28999.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "Sexp10Wpibmq1QR",
+            "url": "https://cameralandsandton.co.za/product/sony-cyber-shot-rx100-vi/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-cyber-shot-rx100-vii-digital-camera/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15027",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Cyber-shot RX100 VII Digital Camera",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-cyber-shot-rx100-vii-digital-camera/",
+        "Price": 28999.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "wwrb3J8P3wnlWEq",
+            "url": "https://cameralandsandton.co.za/product/sony-cyber-shot-rx100-vii-digital-camera/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-cyber-shot-rx100-vii-digital-camera/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14717",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony E 10-18mm f/4 OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-e-10-18mm-f-4-oss-lens/",
+        "Price": 18899.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "yqtiDpYB402B2PK",
+            "url": "https://cameralandsandton.co.za/product/sony-e-10-18mm-f-4-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-e-10-18mm-f-4-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14713",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Distagon T* FE 35mm f/1.4 ZA Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-distagon-t-fe-35mm-f-1-4-za-lens/",
+        "Price": 33699.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "f17du4Sga2Zmt2Z",
+            "url": "https://cameralandsandton.co.za/product/sony-distagon-t-fe-35mm-f-1-4-za-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-distagon-t-fe-35mm-f-1-4-za-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14718",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony E 16mm f/2.8 Lens (Silver)",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-e-16mm-f-2-8-lens-silver/",
+        "Price": 5299.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "38JzdZverfT95Bu",
+            "url": "https://cameralandsandton.co.za/product/sony-e-16mm-f-2-8-lens-silver/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-e-16mm-f-2-8-lens-silver/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15057",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony E 16-55mm f/2.8 G Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-e-16-55mm-f-2-8-g-lens/",
+        "Price": 25599.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "hp17dQLzJwZXb5k",
+            "url": "https://cameralandsandton.co.za/product/sony-e-16-55mm-f-2-8-g-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-e-16-55mm-f-2-8-g-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14730",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony E 18-135mm f/3.5-5.6 OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-e-18-135mm-f-3-5-5-6-oss-lens/",
+        "Price": 12799.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "duk5FoFBWo0Gav1",
+            "url": "https://cameralandsandton.co.za/product/sony-e-18-135mm-f-3-5-5-6-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-e-18-135mm-f-3-5-5-6-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "67606",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony E 11mm f/1.8 Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-e-11mm-f-1-8-lens/",
+        "Price": 10499.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "jhR4IZLbOw5C6aF",
+            "url": "https://cameralandsandton.co.za/product/sony-e-11mm-f-1-8-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-e-11mm-f-1-8-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "67615",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony E 15mm f/1.4 G Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-e-15mm-f-1-4-g-lens/",
+        "Price": 14299.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "OJBWfwf4YDPW0tg",
+            "url": "https://cameralandsandton.co.za/product/sony-e-15mm-f-1-4-g-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-e-15mm-f-1-4-g-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14433",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony E 18-200mm F/3.5-6.3 OSS LE Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-e-18-200mm-f-3-5-6-3-oss-le-lens/",
+        "Price": 17999.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "Uku5zCoXcBXBP6A",
+            "url": "https://cameralandsandton.co.za/product/sony-e-18-200mm-f-3-5-6-3-oss-le-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-e-18-200mm-f-3-5-6-3-oss-le-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14435",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony E 30mm F/3.5 Macro Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-e-30mm-f-3-5-macro-lens/",
+        "Price": 6399.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "yxkQ9NcKliVsCkt",
+            "url": "https://cameralandsandton.co.za/product/sony-e-30mm-f-3-5-macro-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-e-30mm-f-3-5-macro-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14434",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony E 18-200mm F/3.5-6.3 OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-e-18-200mm-f-3-5-6-3-oss-lens/",
+        "Price": 18799.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "YgQPwpo0ld6WQCY",
+            "url": "https://cameralandsandton.co.za/product/sony-e-18-200mm-f-3-5-6-3-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-e-18-200mm-f-3-5-6-3-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14732",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony E 35mm f/1.8 OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-e-35mm-f-1-8-oss-lens/",
+        "Price": 16999.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "MnaaSbvZvSwPYC3",
+            "url": "https://cameralandsandton.co.za/product/sony-e-35mm-f-1-8-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-e-35mm-f-1-8-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14436",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony E 55-210mm F/4.5-6.3 OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-e-55-210mm-f-4-5-6-3-oss-lens/",
+        "Price": 7699.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "xtpHHVZXGR8hQaG",
+            "url": "https://cameralandsandton.co.za/product/sony-e-55-210mm-f-4-5-6-3-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-e-55-210mm-f-4-5-6-3-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15056",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony E 70-350mm f/4.5-6.3 G OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-e-70-350mm-f-4-5-6-3-g-oss-lens/",
+        "Price": 19999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "EGLWAX5JGYfbI5l",
+            "url": "https://cameralandsandton.co.za/product/sony-e-70-350mm-f-4-5-6-3-g-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-e-70-350mm-f-4-5-6-3-g-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14438",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony E PZ 18-105mm F/4 G OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-e-pz-18-105mm-f-4-g-oss-lens/",
+        "Price": 13999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "vJjTQg4FyNdsF8i",
+            "url": "https://cameralandsandton.co.za/product/sony-e-pz-18-105mm-f-4-g-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-e-pz-18-105mm-f-4-g-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14715",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FDR-AX53 4K Ultra HD Handycam",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fdr-ax53-4k-ultra-hd-handycam/",
+        "Price": 26999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "VgeyJgpzOgDHdiy",
+            "url": "https://cameralandsandton.co.za/product/sony-fdr-ax53-4k-ultra-hd-handycam/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fdr-ax53-4k-ultra-hd-handycam/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "68211",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FDR-AX43 UHD 4K Handycam Camcorder",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fdr-ax43-uhd-4k-handycam-camcorder/",
+        "Price": 18999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "5KGJ7aeZaDqjofu",
+            "url": "https://cameralandsandton.co.za/product/sony-fdr-ax43-uhd-4k-handycam-camcorder/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fdr-ax43-uhd-4k-handycam-camcorder/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14437",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony E PZ 16-50mm F/3.5-5.6 OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-e-pz-16-50mm-f-3-5-5-6-oss-lens/",
+        "Price": 8699.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "3hEgDs5j9gQaaQ8",
+            "url": "https://cameralandsandton.co.za/product/sony-e-pz-16-50mm-f-3-5-5-6-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-e-pz-16-50mm-f-3-5-5-6-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14716",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FDR-AX700 4K Camcorder",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fdr-ax700-4k-camcorder/",
+        "Price": 44299.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "gFEypGqeJGEAzJm",
+            "url": "https://cameralandsandton.co.za/product/sony-fdr-ax700-4k-camcorder/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fdr-ax700-4k-camcorder/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15212",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 12-24mm F2.8 GM Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-12-24mm-f2-8-gm-lens/",
+        "Price": 67999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "N2qxUAhOFAkHRFF",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-12-24mm-f2-8-gm-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-12-24mm-f2-8-gm-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14449",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 100-400mm F/4.5-5.6 GM OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-100-400mm-f-4-5-5-6-gm-oss-lens/",
+        "Price": 56999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "YQynMCWGpNQCuMj",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-100-400mm-f-4-5-5-6-gm-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-100-400mm-f-4-5-5-6-gm-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14450",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 100mm f/2.8 STF GM OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-100mm-f-2-8-stf-gm-oss-lens/",
+        "Price": 33999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "deLsJZgcZJh8xQs",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-100mm-f-2-8-stf-gm-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-100mm-f-2-8-stf-gm-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14440",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 12-24mm F/4 G Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-12-24mm-f-4-g-lens-get-r3500-cash-back/",
+        "Price": 35699.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "e8Sw15yot48Y5MN",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-12-24mm-f-4-g-lens-get-r3500-cash-back/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-12-24mm-f-4-g-lens-get-r3500-cash-back/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14882",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 135mm f/1.8 GM",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-135mm-f-1-8-gm-lens/",
+        "Price": 44999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "XGNQNm6UtGchYJj",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-135mm-f-1-8-gm-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-135mm-f-1-8-gm-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "66908",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 14mm f/1.8 GM Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-14mm-f-1-8-gm-lens/",
+        "Price": 29999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "xlJAZGMHQybsGTH",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-14mm-f-1-8-gm-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-14mm-f-1-8-gm-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14441",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 16-35mm F/2.8 GM Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-16-35mm-f-2-8-gm-lens/",
+        "Price": 42999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "0wLp9ltSVLWiFci",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-16-35mm-f-2-8-gm-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-16-35mm-f-2-8-gm-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14727",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 1.4x Teleconverter",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-1-4x-teleconverter/",
+        "Price": 11599.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "Dl7E0pQ3MNxJS4v",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-1-4x-teleconverter/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-1-4x-teleconverter/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "70325",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 20-70mm f/4 G Lens (Sony E)",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-20-70mm-f-4-g-lens-sony-e/",
+        "Price": 24499.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "puzkDQgxzThXSHu",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-20-70mm-f-4-g-lens-sony-e/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-20-70mm-f-4-g-lens-sony-e/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15127",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 20mm f/1.8 G Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-20mm-f-1-8-g-lens/",
+        "Price": 19999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "63ykMjoBoiba3Zu",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-20mm-f-1-8-g-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-20mm-f-1-8-g-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14728",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 2.0x Teleconverter",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-2-0x-teleconverter/",
+        "Price": 12999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "K2Q3eSbtSD4UUsy",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-2-0x-teleconverter/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-2-0x-teleconverter/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14452",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 24-105mm F/4 G OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-24-105mm-f-4-g-oss-lens/",
+        "Price": 24999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "eGAJCqtYUf5rjyo",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-24-105mm-f-4-g-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-24-105mm-f-4-g-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14443",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 24-240mm F/3.5-6.3 OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-24-240mm-f-3-5-6-3-oss-lens/",
+        "Price": 21999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "c0Yt2bbY3OBPPSh",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-24-240mm-f-3-5-6-3-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-24-240mm-f-3-5-6-3-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "66766",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 24-70mm f/2.8 GM II Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-24-70mm-f-2-8-gm-ii-lens/",
+        "Price": 44999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "uzTyZb7CVXAG3ad",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-24-70mm-f-2-8-gm-ii-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-24-70mm-f-2-8-gm-ii-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14444",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 28-70mm F/3.5-5.6 OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-28-70mm-f-3-5-5-6-oss-lens/",
+        "Price": 8999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "75K522m9PppmazY",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-28-70mm-f-3-5-5-6-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-28-70mm-f-3-5-5-6-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14442",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 24-70mm F/2.8 GM Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-24-70mm-f-2-8-gm-lens/",
+        "Price": 34999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "Kk5qLgO6aycdMQI",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-24-70mm-f-2-8-gm-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-24-70mm-f-2-8-gm-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14761",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 24mm f/1.4 GM Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-24mm-f-1-4-gm-lens/",
+        "Price": 29999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "CMM5kyqCfrKpW8w",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-24mm-f-1-4-gm-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-24mm-f-1-4-gm-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14445",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 28mm F/2 Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-28mm-f-2-lens/",
+        "Price": 9299.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "zAD2CJbIMWB13pf",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-28mm-f-2-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-28mm-f-2-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15589",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 35mm f/1.4 GM Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-35mm-f-1-4-gm-lens/",
+        "Price": 29999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "ZBSNmdpuLWV5GjW",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-35mm-f-1-4-gm-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-35mm-f-1-4-gm-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15020",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 35mm f/1.8 Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-35mm-f-1-8-lens/",
+        "Price": 15999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "Pkn2pSYzRvYvtP0",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-35mm-f-1-8-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-35mm-f-1-8-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "57582",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 40mm f/2.5 G Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-40mm-f-2-5-g-lens-get-r1100-cash-back/",
+        "Price": 11999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "tCI8Z2pZfqr1blH",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-40mm-f-2-5-g-lens-get-r1100-cash-back/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-40mm-f-2-5-g-lens-get-r1100-cash-back/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14690",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 400mm f/2.8 GM OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-400mm-f-2-8-gm-oss-lens/",
+        "Price": 269999.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "5BoYYayNZvpuoPb",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-400mm-f-2-8-gm-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-400mm-f-2-8-gm-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "66899",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 50mm f/1.2 GM Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-50mm-f-1-2-gm-lens/",
+        "Price": 37999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "yppai4KhI3rpG6i",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-50mm-f-1-2-gm-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-50mm-f-1-2-gm-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14446",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 50mm F/1.8 Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-50mm-f-1-8-lens/",
+        "Price": 5499.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "048r3IpPS9TOlSl",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-50mm-f-1-8-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-50mm-f-1-8-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "57564",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 50mm f/2.5 G Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-50mm-f-2-5-g-lens-get-r1100-cash-back/",
+        "Price": 11999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "4xlnzSgIFGfmfsD",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-50mm-f-2-5-g-lens-get-r1100-cash-back/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-50mm-f-2-5-g-lens-get-r1100-cash-back/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14447",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 70-200mm F/2.8 GM OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-70-200mm-f-2-8-gm-oss-lens/",
+        "Price": 56999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "bPQHPcstTct5Kkx",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-70-200mm-f-2-8-gm-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-70-200mm-f-2-8-gm-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14996",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 600mm f/4 GM OSS",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-600mm-f-4-gm-oss-lens/",
+        "Price": 289999.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "v5itvJnEkdveufM",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-600mm-f-4-gm-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-600mm-f-4-gm-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "55701",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 70-200mm f/2.8 GM OSS II Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-70-200mm-gm-oss-ii-lens/",
+        "Price": 56999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "8X9heV15vuj2v3G",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-70-200mm-gm-oss-ii-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-70-200mm-gm-oss-ii-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14724",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 70-200mm f/4 G OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-70-200mm-f-4-g-oss/",
+        "Price": 32999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "LhUI3jGMii4OomQ",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-70-200mm-f-4-g-oss/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-70-200mm-f-4-g-oss/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14725",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 70-300mm f/4.5-5.6 G OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-70-300mm-f-4-5-5-6-g-oss-lens/",
+        "Price": 27999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "74q1TXc8xkH2TGI",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-70-300mm-f-4-5-5-6-g-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-70-300mm-f-4-5-5-6-g-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14723",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 85mm f/1.8 Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-85mm-f-1-8-lens/",
+        "Price": 12999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "zdaBTdWbkJvObXk",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-85mm-f-1-8-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-85mm-f-1-8-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14448",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 85mm F/1.4 GM Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-85mm-f-1-4-gm-lens/",
+        "Price": 37499.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "ewyatifQFWx5L1N",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-85mm-f-1-4-gm-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-85mm-f-1-4-gm-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14726",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE 90mm f/2.8 Macro G OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-90mm-f-2-8-macro-g-oss-lens/",
+        "Price": 23999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "IVqWNeOmgOBA65T",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-90mm-f-2-8-macro-g-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-90mm-f-2-8-macro-g-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "66313",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE PZ 16-35mm f/4 G Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-pz-16-35mm-f-4-g-lens/",
+        "Price": 21999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "lJe0NjMJQ4zzgt5",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-pz-16-35mm-f-4-g-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-pz-16-35mm-f-4-g-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "72674",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FX30 Digital Cinema Camera with Top Handle",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fx30-digital-cinema-camera/",
+        "Price": 48999.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "tssV8coWrSuP7FS",
+            "url": "https://cameralandsandton.co.za/product/sony-fx30-digital-cinema-camera/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fx30-digital-cinema-camera/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14451",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony FE PZ 28-135mm F/4 G OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-fe-pz-28-135mm-f-4-g-oss-lens/",
+        "Price": 55499.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "5gxzXkAc8rjlFrI",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-pz-28-135mm-f-4-g-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-pz-28-135mm-f-4-g-oss-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14483",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony NP-BX1/M8 Rechargeable Lithium-Ion Battery Pack",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-np-bx1-m8-rechargeable-lithium-ion-battery-pack/",
+        "Price": 1699.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "vFe21z2LKyOu1NC",
+            "url": "https://cameralandsandton.co.za/product/sony-np-bx1-m8-rechargeable-lithium-ion-battery-pack/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-np-bx1-m8-rechargeable-lithium-ion-battery-pack/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15587",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony NP-BN1 Lithium-Ion Battery",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-np-bn1-lithium-ion-battery/",
+        "Price": 1799.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "G6SUa3LmkZhLZbB",
+            "url": "https://cameralandsandton.co.za/product/sony-np-bn1-lithium-ion-battery/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-np-bn1-lithium-ion-battery/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14453",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony HDR-CX405 HD Handycam",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-hdr-cx405-hd-handycam/",
+        "Price": 5999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "vdTEUkJa3ZQ1RVF",
+            "url": "https://cameralandsandton.co.za/product/sony-hdr-cx405-hd-handycam/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-hdr-cx405-hd-handycam/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14936",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony NP-FZ100 Rechargeable Lithium-Ion Battery",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-np-fz100-rechargeable-lithium-ion-battery/",
+        "Price": 2899.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "m1qhjqaqtJ2fpS3",
+            "url": "https://cameralandsandton.co.za/product/sony-np-fz100-rechargeable-lithium-ion-battery/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-np-fz100-rechargeable-lithium-ion-battery/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14721",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Planar T* FE 50mm f/1.4 ZA Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-planar-t-fe-50mm-f-1-4-za-lens/",
+        "Price": 31399.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "m35LnXfXkE6fuW9",
+            "url": "https://cameralandsandton.co.za/product/sony-planar-t-fe-50mm-f-1-4-za-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-planar-t-fe-50mm-f-1-4-za-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14484",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony NP-FW50 Lithium-Ion Rechargeable Battery",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-np-fw50-lithium-ion-rechargeable-battery/",
+        "Price": 1999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "J2yWoct2DiRotua",
+            "url": "https://cameralandsandton.co.za/product/sony-np-fw50-lithium-ion-rechargeable-battery/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-np-fw50-lithium-ion-rechargeable-battery/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14722",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Sonnar T* FE 55mm f/1.8 ZA Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-sonnar-t-fe-55mm-f-1-8-za-lens/",
+        "Price": 20899.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "aUtkbwBlFwZ3dKz",
+            "url": "https://cameralandsandton.co.za/product/sony-sonnar-t-fe-55mm-f-1-8-za-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-sonnar-t-fe-55mm-f-1-8-za-lens/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14439",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Vario-Tessar T* FE 16-35mm F/4",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-vario-tessar-t-fe-16-35mm-f-4/",
+        "Price": 26499.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "AUkT9BYfOgZroQX",
+            "url": "https://cameralandsandton.co.za/product/sony-vario-tessar-t-fe-16-35mm-f-4/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-vario-tessar-t-fe-16-35mm-f-4/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14432",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Vario-Tessar T* E 16-70mm F/4 ZA OSS Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-vario-tessar-t-e-16-70mm-f-4-za-oss/",
+        "Price": 19999.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "s8cQFRPMCklyfLj",
+            "url": "https://cameralandsandton.co.za/product/sony-vario-tessar-t-e-16-70mm-f-4-za-oss/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-vario-tessar-t-e-16-70mm-f-4-za-oss/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14481",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony Vertical Battery Grip for Alpha a7/a7R/a7S Digital Camera (Black)",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-vertical-battery-grip-for-alpha-a7-a7r-a7s-digital-camera-black/",
+        "Price": 9999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "xNcCJecT9vJg8Ct",
+            "url": "https://cameralandsandton.co.za/product/sony-vertical-battery-grip-for-alpha-a7-a7r-a7s-digital-camera-black/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-vertical-battery-grip-for-alpha-a7-a7r-a7s-digital-camera-black/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "70003",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony VG-C4EM Vertical Grip",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-vg-c4em-vertical-grip/",
+        "Price": 12199.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "gj48oTfTwjc0ONd",
+            "url": "https://cameralandsandton.co.za/product/sony-vg-c4em-vertical-grip/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-vg-c4em-vertical-grip/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "15144",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony ZV-1 Digital Camera",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-zv-1-digital-camera/",
+        "Price": 15999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "Pmo2nTODqgIRZco",
+            "url": "https://cameralandsandton.co.za/product/sony-zv-1-digital-camera/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-zv-1-digital-camera/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14482",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony VG-C3EM Vertical Grip (Sony a9 & a7R III)",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-vg-c3em-vertical-grip-sony-a9-a7r-iii/",
+        "Price": 9999.99,
+        "Stock": "InStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "NunRX2G854eJqwd",
+            "url": "https://cameralandsandton.co.za/product/sony-vg-c3em-vertical-grip-sony-a9-a7r-iii/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-vg-c3em-vertical-grip-sony-a9-a7r-iii/",
+            "method": "GET",
+            "retryCount": 0,
+            "errorMessages": [],
+            "statusCode": 200
+        }
+    },
+    {
+        "ProductId": "14731",
+        "Manufacturer": "Sony",
+        "ProductName": "Sony E 20mm f/2.8 Lens",
+        "ProductUrl": "https://cameralandsandton.co.za/product/sony-e-20mm-f-2-8-lens/",
+        "Price": 8099.99,
+        "Stock": "OutOfStock",
+        "#error": false,
+        "#debug": {
+            "requestId": "n7h4Hm2JvddnP0X",
+            "url": "https://cameralandsandton.co.za/product/sony-e-20mm-f-2-8-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-e-20mm-f-2-8-lens/",
+            "method": "GET",
+            "retryCount": 1,
+            "errorMessages": [
+                "Error: request timed out after 120 seconds.\n    at Timeout._onTimeout (/usr/src/app/node_modules/@apify/timeout/index.js:84:74)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)"
+            ],
+            "statusCode": 200
+        }
+    },
+    {
+        "#error": true,
+        "#debug": {
+            "requestId": "KyU22k80K8l5tT6",
+            "url": "https://cameralandsandton.co.za/product/sony-fe-200-600mm-f-5-6-6-3-g-oss-lens/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-fe-200-600mm-f-5-6-6-3-g-oss-lens/",
+            "method": "GET",
+            "retryCount": 3,
+            "errorMessages": [
+                "TypeError: Cannot read properties of undefined (reading 'availability')\n    at CrawlerSetup.pageFunction [as evaledPageFunction] (evalmachine.<anonymous>:21:69)\n    at CrawlerSetup._handlePageFunction (/usr/src/app/src/crawler_setup.js:310:47)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async wrap (/usr/src/app/node_modules/@apify/timeout/index.js:73:27)",
+                "TypeError: Cannot read properties of undefined (reading 'availability')\n    at CrawlerSetup.pageFunction [as evaledPageFunction] (evalmachine.<anonymous>:21:69)\n    at CrawlerSetup._handlePageFunction (/usr/src/app/src/crawler_setup.js:310:47)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async wrap (/usr/src/app/node_modules/@apify/timeout/index.js:73:27)",
+                "TypeError: Cannot read properties of undefined (reading 'availability')\n    at CrawlerSetup.pageFunction [as evaledPageFunction] (evalmachine.<anonymous>:21:69)\n    at CrawlerSetup._handlePageFunction (/usr/src/app/src/crawler_setup.js:310:47)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async wrap (/usr/src/app/node_modules/@apify/timeout/index.js:73:27)",
+                "TypeError: Cannot read properties of undefined (reading 'availability')\n    at CrawlerSetup.pageFunction [as evaledPageFunction] (evalmachine.<anonymous>:21:69)\n    at CrawlerSetup._handlePageFunction (/usr/src/app/src/crawler_setup.js:310:47)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async wrap (/usr/src/app/node_modules/@apify/timeout/index.js:73:27)"
+            ]
+        }
+    },
+    {
+        "#error": true,
+        "#debug": {
+            "requestId": "N5WyhB5gaw4Jj7r",
+            "url": "https://cameralandsandton.co.za/product/sony-zv-1-ii-digital-camera-black/",
+            "loadedUrl": "https://cameralandsandton.co.za/product/sony-zv-1-ii-digital-camera-black/",
+            "method": "GET",
+            "retryCount": 3,
+            "errorMessages": [
+                "TypeError: Cannot read properties of undefined (reading 'availability')\n    at CrawlerSetup.pageFunction [as evaledPageFunction] (evalmachine.<anonymous>:21:69)\n    at CrawlerSetup._handlePageFunction (/usr/src/app/src/crawler_setup.js:310:47)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async wrap (/usr/src/app/node_modules/@apify/timeout/index.js:73:27)",
+                "TypeError: Cannot read properties of undefined (reading 'availability')\n    at CrawlerSetup.pageFunction [as evaledPageFunction] (evalmachine.<anonymous>:21:69)\n    at CrawlerSetup._handlePageFunction (/usr/src/app/src/crawler_setup.js:310:47)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async wrap (/usr/src/app/node_modules/@apify/timeout/index.js:73:27)",
+                "TypeError: Cannot read properties of undefined (reading 'availability')\n    at CrawlerSetup.pageFunction [as evaledPageFunction] (evalmachine.<anonymous>:21:69)\n    at CrawlerSetup._handlePageFunction (/usr/src/app/src/crawler_setup.js:310:47)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async wrap (/usr/src/app/node_modules/@apify/timeout/index.js:73:27)",
+                "TypeError: Cannot read properties of undefined (reading 'availability')\n    at CrawlerSetup.pageFunction [as evaledPageFunction] (evalmachine.<anonymous>:21:69)\n    at CrawlerSetup._handlePageFunction (/usr/src/app/src/crawler_setup.js:310:47)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async wrap (/usr/src/app/node_modules/@apify/timeout/index.js:73:27)"
+            ]
+        }
+    }
+]

@@ -1,0 +1,2080 @@
+{
+    "startUrls": [
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-creme-hidratante-para-o-corpo-especifico-para-areas-extremamente-secas-com-453-gramas.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-advanced-moistuzier-locao-hidratante-226ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-advanced-moisturizer-pump-creme-hidratante-p-pele-seca-e-sensivel-p-o-corpo-e-rosto-473g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-creme-facial-noturno-48g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-creme-hidratante-pro-ureia-10-60g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-creme-hidratante-para-areas-extremamente-secas-como-cotovelos-joelhos-e-pes-com-250-g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-creme-noturno-facial-healthy-renew-50ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-creme-para-as-maos-healthy-hyginie-1-unidade.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-gel-creme-rapida-absorcao-226g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-healthy-hyginie-sabonete-liquido-antisseptico-300ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-gel-creme-rapida-absorcao-453g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-locao-hidratante-para-o-corpo-especifico-para-areas-extremamente-secas-473-ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-locao-hidratante-corporal-200ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-locao-hidratante-travel-size-59ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-locao-hidratante-corporal-optimal-hydration-237ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-locao-limpeza-de-pele-300-ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-locao-hidratante-pro-ureia-10-120ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-optimal-hydration-serum-hidratante-corporal-spray-207ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-locao-limpeza-travel-size-59ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-locao-hidratante-pro-ureia-10-300ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-pro-ac-control-espuma-de-limpeza-236ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-pro-ac-control-locao-hidratante-118ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-pro-ad-fast-control-espuma-hidratante-100ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-pro-ar-calm-control-espuma-de-limpeza-236ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-pro-ar-calm-creme-hidratante-facial-fps30-com-cor.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-restoraderm-hidratante-para-peles-sensiveis-inclusive-pacientes-atopicos-295ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-sabonete-limpeza-profunda-127g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-sabonete-liquido-para-pele-oleosa-300ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-sabonete-pele-sensivel-127g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-restoraderm-sabonete-liquido-para-peles-sensiveis-e-sensibilizadas-295ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-serum-facial-healthy-renew-30g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-pro-ar-calm-creme-hidratante-facial-noite-50g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-serum-olhos-healthy-renew-15g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-sun-ligth-fluid-fps-60-com-50ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-sun-protetor-solar-com-cor-fps-70-ultra-matte-oil-control-50ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-solucao-micelar-healthy-renew-160ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-sun-ligth-fluid-fps-60-com-cor-50ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-benzac-oil-control-hidratante-matificante-50ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-control-foam-espuma-higienizacao-refrescante-para-pele-muito-oleosa-130-ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-control-sabonete-liquido-300ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-control-sabonete-em-barra-para-peles-oleosas-90g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-control-sabonete-liquido-higienizacao-refrescante-para-pele-muito-oleosa-120-ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-foam-original-para-pele-mista-com-130ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-gel-tratamento-anti-acne-15g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-sabonete-antisep-tico-soft-para-pele-normal-ou-seca-90g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-sabonete-barra-original-para-pele-acneica-oleosa-ou-mista-90g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-liquido-embalagem-pump-original-para-pele-mista-com-300ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-gel-creme-benzac-oil-control-microbioma-equilibrado-50ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-sabonete-liquido-benzac-oil-control-cleanser-70ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-sabonete-liquido-facial-original-para-peles-normais-e-mistas-com-120ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-sabonete-liquido-salix-70ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-sabonete-liquido-control-70ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-sabonete-liquido-soft-70ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-salix-sabonete-liquido-120ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-sabonete-scrub-abrasivo-pele-com-acene-e-cravos-60g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-sabonete-liquido-original-70ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-salix-sabonete-para-pele-oleosa-e-acneica-130ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-salix-sabonete-liquido-300-ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-soft-higienizador-para-peles-normais-ou-secas-130ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-soft-sabonete-liquido-para-peles-normais-ou-secas-120ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-soft-sabonete-liquido-300ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/locao-hidratante-facial-cetaphil-rosto-e-corpo-com-acido-hialuronico.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/espuma-de-limpeza-facial-cetaphil-suave.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/soapex-sabonete-80-g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/soapex-1-sabonete-liquido-facial-corporal-com-acao-antisseptica-com-120ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/soapex-sabonete-liquido-cremoso-120-ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/dermotivin-sabonete-salix-higienizador-para-pele-oleosa-ou-com-acne-90g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-luminous-white-70g-leve-3-pague-2.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-dare-to-love-130g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-com-fluor-total-12-gengiva-saudavel-140g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/soapex-1-sabonete-80-g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-crem-dental-natural-extracts-carvao-ativado-e-menta-3-unidades-de-90g-cada.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-luminous-white-carvao-ativado-140g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-luminous-white-glow-70g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-antisseptico-bucal-orthogard-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-luminous-white-carvao-ativado-70g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-maxima-protecao-anticaries-neutracucar-70g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-naturals-defesa-reforcada-90g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-luminous-white-instant-70g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-my-first-sem-fluor-50g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-naturals-detox-oleo-de-coco-e-gengibre-90g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-sensitive-pro-alivio-50g-leve-3-pague-2.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-periogard-90g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-enxaguante-bucal-luminous-white-xd-250-ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-enxaguatorio-bucal-natural-extracts-citrus-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-classic-longa-media.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-bamboo.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-orthogard-com-1-unidade.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-classic-longa-macia.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-classic-clean-3-unidades.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-eletrica-refil-kids-2-unidades.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-philips-sonicare-kids-1unidade.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-extra-clean-media-leve-3-pague-2.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-pro-cuidado-macia-com-4-unidades.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-slimsoft-advanced-creme-dental-90g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-smiles-6-batman-mulher-mararavilha-com-2-unidades.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-slim-soft-cabeca-ultra-limpeza-profunda-e-delicada-leve-2-pague-1.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-ultra-soft.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-slim-soft-black-leve-2-pague-1.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-zig-zag-carvao-4-unidades.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-twister-cabo-ultra-compacta-leve-3-pague-2.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-periogard-extra-macia-1-unidade.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-ultra-soft-com-2-unidades.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-whitening-leve-2-pague-1.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-ultra-soft-com-3-unidades.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-fio-dental-sabor-menta-50-metros.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-gel-dental-kids-zero-3-a-24-meses-50g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-smiles-0-2-anos-extra-macia-1-unidade.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-gel-dental-teen-titans-60g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-gel-dental-kids-zero-morango-70g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-gel-dental-transparente-zero-hortel-90g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-kids-gel-dental-agnes-e-fluffy-60g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-gel-dental-smiles-justice-league-100g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-gel-dental-smiles-minions-100g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-gel-dental-transparente-zero-menta-90g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-kids-gel-dental-colgate-tandy-tutti-frutti-50g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-kids-gel-dental-tandy-leve-3-pague-2-com-50g-cada.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-kit-2-escova-dental-smiles-minions-6-ou-mais-anos.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-kit-2-escova-dental-smiles-agnes-e-fluffy-2-a-5-anos.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-kit-escova-dental-minions-gel-dental-minions-100g-preco-especial.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-kit-2-creme-dental-total-12-clean-mint-90g-com-50-desconto-na-segunda-unidade.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-kit-escova-dental-slim-soft-black-4-unidades.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-kit-escova-dental-360-graus-sensivite-pro-alivio-com-2-unidades.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-kids-gel-dental-colgate-tandy-morango-50g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-kit-escova-dental-slim-soft-advanced-3-pack.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-kit-luminous-white-enxaguante-bucal-com-500ml-gratis-creme-dental-luminous-white-70g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-philips-electric-tooth-brusch-s50-refil-deep-clean.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-kit-viagem-creme-dental-escova-dental-enxaguante-bucal-60ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-philips-electric-tooth-brusch-s50-refil-whitening.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-philips-electric-tooth-brusch-series-10-single.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-philips-electric-tooth-brusch-series-50-single.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-philips-electric-tooth-brusch-series-30-single.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-philips-electric-tooth-brusch-series-70-single.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-plax-ice-enxaguante-bucal-infinity-leve-500-pague-350ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-sensitive-enxaguante-bucal-pro-alivio-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-sensitive-creme-dental-pro-alivio-imediato-original-leve-3-pague-2-90g-cada.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-sensitive-pro-alivio-creme-dental-branqueador-50-g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-sensitive-pro-alivio-regular-creme-dental-110gr.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-total-12-enxaguante-bucal-clean-mint-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-sensitive-pro-alivio-creme-dental-branqueador-110-g-gratis-colgate-total-12-clean.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-total-12-enxaguante-bucal-clean-mint-500ml-gratis-creme-dental-total-12-90g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-plax-enxaguante-bucal-minions-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-total-12-enxaguante-bucal-clean-minte-com-1-litro.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-total-12-enxaguante-bucal-clean-mint-500ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-total-12-enxaguante-bucal-halito-saudavel-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-total-fita-dental-25-metros.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colg-plax-enxaguatorio-bucal-soft-mint-2000ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-tripla-acao-l180p1-40g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colg-plax-enxaguatorio-bucal-ice-fusion-2000ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colg-total-12-enxaguatorio-bucal-clean-mint-2000ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/elmex-creme-dental-anticaries-90g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/elmex-creme-dental-sensitive-110g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/elmex-creme-dental-sensitive-professional-75g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/elmex-enxaguante-bucal-anticaries-400ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/elmex-creme-dental-sensitive-whitening-110g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/elmex-enxaguante-bucal-sensitive-400ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/elmex-escova-dental-ultra-soft-2-unidades.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/elmex-escova-dental-ultra-soft-1-unidade.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/elmex-escova-dental-ultra-soft-macia-suave-com-3-unidades.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-kit-creme-dental-total-12-anti-tartaro-6-unidades-90g-cada.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/kit-colgate-tandy-volta-as-aulas-escova-dental-gel-dental.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/palmolive-condicionador-cabelo-cacheado-kids-350ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/escova-dental-colgate-luminous-white-advanced-360.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/palmolive-creme-de-pentear-naturals-kids-150ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/palmolive-condicionador-naturals-kids-350ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/palmolive-sabonete-barra-natureza-secreta-castanha-90g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/palmolive-nutri-milk-sabonete-liquido-250-ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/palmolive-sabonete-barra-natureza-secreta-ucuuba-90g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/palmolive-sabonete-liquido-kids-220ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/palmolive-sabonete-barra-sensacao-purificante-carvao-com-6-unidades-85g-cada.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/palmolive-sabonete-liquido-nutri-milk-200ml-refil.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/palmolive-sabonete-liquido-natureza-secreta-ucuuba-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/palmolive-sabonete-liquido-refil-kids-minions-200ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/palmolive-sabonete-liquido-refil-naturals-suavidade-delicada-jasmim-200ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/palmolive-shampoo-kids-cabelo-cacheado-350ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/palmolive-sabonete-barra-suave-kids-minions-85g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/palmolive-sabonete-liquido-refil-natureza-secreta-castanha-200ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/palmolive-sabonete-barra-sensacao-purificante-carvao-85g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/periogard-enxaguatorio-bucal-antisseptico-colgate-uso-diario-500ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/plax-colgate-total-antiseptico-bucal-fresh-mint-60ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/plax-anti-septico-fresh-mint-leve-1000-ml-pague-700-ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/plax-enxaguante-bucal-ice-fusion-clear-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/periogard-antiseptico-bucal-sem-alcool-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/plax-antiseptico-bucal-tutti-frutti-250-ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/plax-enxaguante-bucal-ice-fusion-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/plax-enxaguatorio-bucal-ice-leve-500-pague-350ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/plax-enxaguatorio-classic-leve-500-pague-350ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/plax-enxaguatorio-mint-leve-500-pague-350-ml-com-preco-promocional.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/plax-soft-mint-enxaguatorio-bucal-sem-alcool-250-ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/plax-ice-enxaguante-bucal-infinity-500-ml-1-99-leve-plax-ice-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/plax-soft-mint-enxaguatorio-bucal-sem-alcool-leve-500-pague-350ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-anti-cravos-sabonete-facial-150ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-agua-micelar-city-detox-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-anti-cravos-esfoliante-150ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-baby-lenco-umedecido-wipes-48-unidades.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-baby-refil-sabonete-liquido-infantil-glicerina-natural-180ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-baby-body-lotion-delicate-prot-200ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-baby-sabonete-barra-protecao-delicada-85g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-baby-sabonete-em-barra-infantil-glicerina-natural-85g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-baby-sabonete-liquido-infantil-glicerina-natural-200ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-baby-refil-sabonete-liquido-infantil-glicerina-natural-380ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-baby-sabonete-liquido-infantil-glicerina-natural-400ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-baby-sabonete-liquido-shower-gel-delicate-head-to-toe-200ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-daily-hidratante-facial-50ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-baby-sabonete-liquido-shower-gel-delicate-protec-refil-380ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-baby-sabonete-liquido-shower-gel-delicate-protec-refil-180ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-kit-sabonete-em-barra-limpeza-profunda-8-unidades-85g-cada.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-kit-sabonete-em-barra-antibacteriano-duo-protect-cartucho-510g-leve-6-unidades-pague-menos-cada-85g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-kit-sabonete-em-barra-vitamina-e-8-unidades-85g-cada.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-refil-sabonete-liquido-vitamina-e-900ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-antibacteriano-aveia-90g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-anti-cravos-facial-85g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-em-barra-carvao-detox-6x85g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-antibacteriano-aveia-90g-leve-6-pague-5.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-em-barra-antibacteriano-duo-protect-cartucho-85g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-pro-hidrata-argan-refil-200ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-cream-90-g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-em-barra-pro-defesa-80g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-em-barra-pro-hidrata-90g-leve-6-pague-5.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-em-barra-pro-hidrata-amendoa-85g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-em-barra-pro-hidrata-90g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-em-barra-pro-hidrata-argan-3-unidades-85g-cada.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-em-barra-pro-hidratacao-80g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-em-barra-pro-hidrata-oliva-85g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-em-barra-pro-regeneracao-4-unidades-de-80g-cada.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-erva-doce-85-g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-em-barra-pro-tatoo-80g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-em-barra-pro-regeneracao-80g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-intimo-em-barra-delicate-care-85g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-intimo-em-barra-fresh-equilibrium-85g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-em-barra-vitamina-e-90-g-leve-6-pague-5.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-intimo-fresh-leve-200-ml-pague-150-ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-limpeza-profunda-90-g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-facial-city-detox-85g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-limpeza-profunda-90-g-leve-6-pague-5.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-antibacteriano-para-as-maos-duo-protect-frasco-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-antibacteriano-para-as-maos-duo-protect-frasco-400ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-antibacteriano-para-as-maos-limpeza-profunda-220ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-antibacteriano-para-as-maos-vitamina-e-220ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-balanceador-250-ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-carvao-detox-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-cuidado-intimo-delicate-care-leve-200ml-pague-150ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-balance-refil-200ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-erva-doce-refil-200ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-erva-doce-250-ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-erva-doce-pump-400ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-cream-650ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-intimo-delicate-care-40ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-higienizador-spray-antibac-para-as-maos-duo-protect-frasco-300ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-intimo-delicate-care-refil-140ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-men-sport-650ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-men-triple-action-250-ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-facial-city-detox-150ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-pro-hidrata-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-pro-hidrata-amendoa-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-pro-hidratacao-230ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-pro-regeneracao-230ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-pro-hidrata-argan-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-pro-hidrata-refil-200ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-men-energy-90-g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-pro-tatoo-230ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-vitamina-e-200-ml-refil.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-men-triple-action-90-g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-vitamina-e-650ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-spray-aerosol-corporal-antibac-duo-protect-185ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-vitamina-e-250-ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-omega-3-leve-mais-pague-menos-com-6-unidades-85g-cada.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-vitamina-e-200g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/sabonete-em-barra-protex-erva-doce.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-oil-control-85g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/sabonete-protex-balance-saudvel-90g-leve-6-pague-5.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/sabonete-liquido-palmolive-luminous-oil-figo-e-orquidea-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/tandy-creme-dental-em-gel-uva-50g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-optimal-hydration-creme-facial-48g.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/sabonete-liquido-palmolive-luminous-oil-abacate-e-iris-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-locao-limpeza-de-pele-120-ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-optimal-hydration-serum-renovador-para-a-area-dos-olhos-15ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-orthogard-90g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-sun-protetor-solar-fps-50-pele-sensivel-150ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-optimal-hydration-serum-hidratante-facial-48h-30ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-luminous-white-advanced-70g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/cetaphil-sun-protetor-solar-fps-70-ultra-matte-oil-control-50ml.html",
+            "userData": {
+                "Manufacturer": "Galderma"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-mpa-maxima-protecao-anti-caries-menta-50-g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-luminous-white-brilhante-70g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-naturals-extracts-defesa-reforcada-140g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-naturals-extracts-purificante-140g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-sensitive-pro-alivio-imediato-gengiva-140g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-sensitive-pro-alivio-imediato-original-140g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-mpa-neutraucar-70-gr-leve-3-pague-2.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-sensitive-pro-alivio-repara-esmalte-110-g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-sensitive-repara-completa-110g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-sensitive-pro-relief-white-90g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-sensitive-pro-alivio-imediato-original-90g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-sensitive-repara-esmalte-50g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-sensitive-repara-completa-50g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-total-12-advanced-fresh-gel-90g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-total-12-clean-mint-90g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-total-12-gum-helth-com-70g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-total-12-professional-whitening-70-gr.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-total-12-clean-mint-140g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-total-12-reparacao-diaria-70g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-tripla-acao-90-g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-enxaguante-bucal-anti-tartaro-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-total-12-saude-visivel-70g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-total-12-clean-mint-90g-leve-4-pague-3.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-enxaguatorio-bucal-natural-extract-carvao-500ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-enxaguante-bucal-anti-tartaro-500ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-enxaguatorio-bucal-natural-extract-citrus-1000ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-enxaguatorio-bucal-natural-extract-citrus-500ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-enxaguatorio-bucal-total-12-gengiva-reforcada-500ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-enxaguante-bucal-periogard-extra-mint-sem-alcool-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-360-luminous-3-unidades.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-360-black-leve-2-pague-1.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-interdental-retpack-02-mm.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-slim-soft-black-com-3-unidades.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-infantil-extra-suave-e-macia-teen-titans-go-6-ou-mais-anos-1-unidade.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-pro-cuidado-macia-com-2-unidades.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-enxaguatorio-bucal-total-12-clean-mint-spray-60ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-escova-dental-360-luminous-white-leve-2-pague-1.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-luminous-white-creme-dental-3-com-90g-gratis-enxaguante-luminous-white-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-luminous-white-enxaguante-bucal-com-500-ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-sensitive-pro-alivio-creme-dental-branqueador-110-g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-kit-2-escova-dental-smiles-agnes-e-fluffy-6-ou-mais-anos.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-total-12-enxaguante-bucal-halito-saudavel-500ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-kit-creme-dental-total-12-anti-tartaro-6-unidades-90g-cada.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/elmex-fio-dental-30-metros.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/elmex-escova-dental-sensitive-1-unidade.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-kit-escova-dental-slim-soft-advanced-com-2-unidades.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-lenco-umedecido-city-detox-25-unidades.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/plax-enxaguatorio-mint-leve-500-pague-350-ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-esfoliante-facial-city-detox-150ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-baby-sabonete-liquido-shower-gel-dlicate-protection-400ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-oil-control-sabonete-facial-150ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-kit-sabonete-em-barra-omega-3-8-unidades-85g-cada.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-refil-sabonete-liquido-limpeza-profunda-900ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-kit-sabonete-liquido-intimo-delicate-care-2-unidades-de-200ml-cada.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-limpeza-profunda-anti-espinhas-85g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-em-barra-pro-hidrata-argan-85g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-intimo-soft-floral-leve-200ml-pague-150ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-limpeza-profunda-200g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-liquido-limpeza-profunda-250-ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-em-barra-carvao-detox-85g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-enxaguante-bucal-plax-ice-glacial-250ml.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-naturals-extracts-purificante-90g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/protex-sabonete-em-barra-vitamina-e-90-g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        },
+        {
+            "url": "https://www.drogaraia.com.br/colgate-creme-dental-total-12-anti-tartaro-140g.html",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive"
+            }
+        }
+    ]
+}
