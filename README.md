@@ -262,13 +262,11 @@ De la caja 3 a la 7
 ### Trabajo 12/10/23
 Observations:
 * The robot can be obtained through Cheerio.
-* 
 * Using cookies and having it as a Puppeteer-type bot is unnecessary.
-
 * A functional script was found that can retrieve specific product information.
-
 * Price and stock information should be obtained through the DOM.
-
 * An example was provided for the Dev to continue with the structure.
-
 Note: Some scripts do not read the first enqueue, but it eventually works.
+
+* Se arreglo SensoDays
+Se trabajó en robot de categorias un poco.

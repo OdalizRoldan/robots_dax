@@ -3,7 +3,7 @@
   "retiredSessionsCount": 0,
   "sessions": [
     {
-      "id": "session_JDmh1mnN3Y",
+      "id": "session_l5ftikns0t",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -16,14 +16,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:40:59.779Z",
-      "createdAt": "2023-10-11T19:50:59.779Z",
+      "expiresAt": "2023-10-12T20:48:51.946Z",
+      "createdAt": "2023-10-12T19:58:51.946Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_pyNgJPOcja",
+      "id": "session_G2iBdYRdJ1",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -31,59 +31,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Flaundry%2Fbosch%2F",
+            "expires": "2023-11-09T19:58:56.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:58:58.450Z",
+            "lastAccessed": "2023-10-12T19:58:58.450Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "630b78467a9c89e83cf1b2adc7e563dd%7C%7C1697313536%7C%7C1697309936%7C%7C21ed679817304e2e6a7094f43b970267",
+            "expires": "2023-10-14T19:58:56.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:58:58.451Z",
+            "lastAccessed": "2023-10-12T19:58:58.451Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:01.283Z",
-      "createdAt": "2023-10-11T19:51:01.283Z",
-      "usageCount": 1,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_Ao4h2EgtcQ",
-      "cookieJar": {
-        "version": "tough-cookie@4.1.3",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:01.292Z",
-      "createdAt": "2023-10-11T19:51:01.292Z",
-      "usageCount": 1,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_W0t2xxFkwY",
-      "cookieJar": {
-        "version": "tough-cookie@4.1.3",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:01.301Z",
-      "createdAt": "2023-10-11T19:51:01.301Z",
+      "expiresAt": "2023-10-12T20:48:55.793Z",
+      "createdAt": "2023-10-12T19:58:55.793Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_R3arcPtDQU",
+      "id": "session_yE9Zjvy14F",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -91,19 +78,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fdishwashers%2Fbosch%2F",
+            "expires": "2023-11-09T19:58:56.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:58:58.599Z",
+            "lastAccessed": "2023-10-12T19:58:58.599Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "b26e11a455dea0815f13f673566d8d2c%7C%7C1697313536%7C%7C1697309936%7C%7C40430440f3dafc4d97edc5fd8aecb286",
+            "expires": "2023-10-14T19:58:56.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:58:58.599Z",
+            "lastAccessed": "2023-10-12T19:58:58.599Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:01.307Z",
-      "createdAt": "2023-10-11T19:51:01.307Z",
+      "expiresAt": "2023-10-12T20:48:56.342Z",
+      "createdAt": "2023-10-12T19:58:56.342Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_UciYJABIRh",
+      "id": "session_ZZVHFIt9yV",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -111,19 +125,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2F",
+            "expires": "2023-11-09T19:58:57.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:58:59.128Z",
+            "lastAccessed": "2023-10-12T19:58:59.128Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "74f597110856fdbafdcf75217adaf98e%7C%7C1697313537%7C%7C1697309937%7C%7C4242c521cecff447005d40b5b8d232c3",
+            "expires": "2023-10-14T19:58:57.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:58:59.128Z",
+            "lastAccessed": "2023-10-12T19:58:59.128Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:01.320Z",
-      "createdAt": "2023-10-11T19:51:01.320Z",
+      "expiresAt": "2023-10-12T20:48:56.348Z",
+      "createdAt": "2023-10-12T19:58:56.348Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_VBMLKJDutk",
+      "id": "session_PwXehJS3IT",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -131,19 +172,140 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2F",
+            "expires": "2023-11-09T19:58:57.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:58:58.881Z",
+            "lastAccessed": "2023-10-12T19:58:58.881Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "dc0a9d62e8ab3b0d97453b00d0673253%7C%7C1697313537%7C%7C1697309937%7C%7C7bd89649b2bbb0259a58f33309a79cbe",
+            "expires": "2023-10-14T19:58:57.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:58:58.881Z",
+            "lastAccessed": "2023-10-12T19:58:58.881Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2023-10-12T20:48:56.353Z",
+      "createdAt": "2023-10-12T19:58:56.353Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_u9ImVlThXA",
+      "cookieJar": {
+        "version": "tough-cookie@4.1.3",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fsmall-appliances%2Fbosch%2F",
+            "expires": "2023-11-09T19:58:57.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:58:58.486Z",
+            "lastAccessed": "2023-10-12T19:58:58.486Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "022308b589746985b5e2f830ea7ec726%7C%7C1697313537%7C%7C1697309937%7C%7Cb66d85d5d212a5e96c27a7f87274350d",
+            "expires": "2023-10-14T19:58:57.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:58:58.486Z",
+            "lastAccessed": "2023-10-12T19:58:58.486Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2023-10-12T20:48:56.358Z",
+      "createdAt": "2023-10-12T19:58:56.358Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_HRIijozfpP",
+      "cookieJar": {
+        "version": "tough-cookie@4.1.3",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Flaundry%2Fbosch%2Fpage%2F2%2F",
+            "expires": "2023-11-09T19:58:58.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:00.729Z",
+            "lastAccessed": "2023-10-12T19:59:00.729Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "c2bb91b2ebd5abf76bb7234595402cdc%7C%7C1697313538%7C%7C1697309938%7C%7C808966835fc06835d9e1fccb4abbacbc",
+            "expires": "2023-10-14T19:58:58.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:00.729Z",
+            "lastAccessed": "2023-10-12T19:59:00.729Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:01.696Z",
-      "createdAt": "2023-10-11T19:51:01.696Z",
+      "expiresAt": "2023-10-12T20:48:58.557Z",
+      "createdAt": "2023-10-12T19:58:58.557Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_9PkKGQVwus",
+      "id": "session_HxYeOU2kID",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -151,19 +313,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Flaundry%2Fbosch%2Fpage%2F3%2F",
+            "expires": "2023-11-09T19:58:59.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:01.108Z",
+            "lastAccessed": "2023-10-12T19:59:01.108Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "700d05499281efa306221e70cd10843b%7C%7C1697313539%7C%7C1697309939%7C%7C913679840d3a1a509666e495f9c11f75",
+            "expires": "2023-10-14T19:58:59.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:01.108Z",
+            "lastAccessed": "2023-10-12T19:59:01.108Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:02.569Z",
-      "createdAt": "2023-10-11T19:51:02.569Z",
+      "expiresAt": "2023-10-12T20:48:58.663Z",
+      "createdAt": "2023-10-12T19:58:58.663Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_Aa9G2wBCvg",
+      "id": "session_BhI9y24p3Z",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -171,19 +360,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fdishwashers%2Fbosch%2Fpage%2F2%2F",
+            "expires": "2023-11-09T19:58:59.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:00.817Z",
+            "lastAccessed": "2023-10-12T19:59:00.817Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "128930216ef99c24516266a5bcd4c9f2%7C%7C1697313539%7C%7C1697309939%7C%7C76f40f69087c8087e50b7901b3ec4a36",
+            "expires": "2023-10-14T19:58:59.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:00.817Z",
+            "lastAccessed": "2023-10-12T19:59:00.817Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:02.864Z",
-      "createdAt": "2023-10-11T19:51:02.864Z",
+      "expiresAt": "2023-10-12T20:48:58.693Z",
+      "createdAt": "2023-10-12T19:58:58.693Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_JU1dhio69o",
+      "id": "session_3R2idyUBnd",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -191,19 +407,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fdishwashers%2Fbosch%2Fpage%2F3%2F",
+            "expires": "2023-11-09T19:59:00.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:01.632Z",
+            "lastAccessed": "2023-10-12T19:59:01.632Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "81f7fd5466936858ca0a4d7cb0ec2d5f%7C%7C1697313539%7C%7C1697309939%7C%7C20ae61ff7314e4c6e227c76d8a7a6334",
+            "expires": "2023-10-14T19:58:59.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:01.632Z",
+            "lastAccessed": "2023-10-12T19:59:01.632Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:02.877Z",
-      "createdAt": "2023-10-11T19:51:02.877Z",
+      "expiresAt": "2023-10-12T20:48:58.996Z",
+      "createdAt": "2023-10-12T19:58:58.996Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_bMSFf0zdhO",
+      "id": "session_bbPWU8i5BX",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -216,14 +459,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:02.899Z",
-      "createdAt": "2023-10-11T19:51:02.899Z",
+      "expiresAt": "2023-10-12T20:48:59.207Z",
+      "createdAt": "2023-10-12T19:58:59.207Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_8Z2pUZMxPL",
+      "id": "session_dSXe3aXuqh",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -231,19 +474,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F2%2F",
+            "expires": "2023-11-09T19:59:00.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:02.345Z",
+            "lastAccessed": "2023-10-12T19:59:02.345Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "d483ddbbc07bdf1c416101674cf1dc2e%7C%7C1697313540%7C%7C1697309940%7C%7C93a98f9d2cd1682311fefd00fe322642",
+            "expires": "2023-10-14T19:59:00.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:02.345Z",
+            "lastAccessed": "2023-10-12T19:59:02.345Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:02.916Z",
-      "createdAt": "2023-10-11T19:51:02.916Z",
+      "expiresAt": "2023-10-12T20:48:59.848Z",
+      "createdAt": "2023-10-12T19:58:59.848Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_d0RsrpKwPo",
+      "id": "session_koQLIvrcUz",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -251,19 +521,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F3%2F",
+            "expires": "2023-11-09T19:59:01.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:02.696Z",
+            "lastAccessed": "2023-10-12T19:59:02.696Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "2e4786b86103867e31c58fa17e875751%7C%7C1697313541%7C%7C1697309941%7C%7Cc451be5cf55c4ba90d6e2c5d1d32326f",
+            "expires": "2023-10-14T19:59:01.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:02.696Z",
+            "lastAccessed": "2023-10-12T19:59:02.696Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:03.065Z",
-      "createdAt": "2023-10-11T19:51:03.065Z",
+      "expiresAt": "2023-10-12T20:49:00.735Z",
+      "createdAt": "2023-10-12T19:59:00.735Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_5EtUfMjFRW",
+      "id": "session_Z65hgqWkwp",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -271,19 +568,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F4%2F",
+            "expires": "2023-11-09T19:59:01.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:03.587Z",
+            "lastAccessed": "2023-10-12T19:59:03.587Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "01ee5f7dc30f49c1e05426c2d3d4e43e%7C%7C1697313541%7C%7C1697309941%7C%7C1c6ec8c2692e42ecabba11077aca0be8",
+            "expires": "2023-10-14T19:59:01.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:03.587Z",
+            "lastAccessed": "2023-10-12T19:59:03.587Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:03.313Z",
-      "createdAt": "2023-10-11T19:51:03.313Z",
+      "expiresAt": "2023-10-12T20:49:00.827Z",
+      "createdAt": "2023-10-12T19:59:00.827Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_0NHpYHHHWX",
+      "id": "session_KJ1bFtJMAf",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -291,19 +615,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F5%2F",
+            "expires": "2023-11-09T19:59:01.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:03.204Z",
+            "lastAccessed": "2023-10-12T19:59:03.204Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "73d783046bb52598373559c837f37fa2%7C%7C1697313541%7C%7C1697309941%7C%7C3628831d8709a83d749ab7f625902ac4",
+            "expires": "2023-10-14T19:59:01.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:03.204Z",
+            "lastAccessed": "2023-10-12T19:59:03.204Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:03.340Z",
-      "createdAt": "2023-10-11T19:51:03.340Z",
+      "expiresAt": "2023-10-12T20:49:01.113Z",
+      "createdAt": "2023-10-12T19:59:01.113Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_4eIjeBzOyB",
+      "id": "session_wzdPj9O5Wg",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -311,19 +662,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F6%2F",
+            "expires": "2023-11-09T19:59:02.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:03.750Z",
+            "lastAccessed": "2023-10-12T19:59:03.750Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "fc1985a950baef60ad0cf2fd67108f3f%7C%7C1697313541%7C%7C1697309941%7C%7C4baf94226a3ceb834611718689421489",
+            "expires": "2023-10-14T19:59:01.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:03.750Z",
+            "lastAccessed": "2023-10-12T19:59:03.750Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:03.513Z",
-      "createdAt": "2023-10-11T19:51:03.513Z",
+      "expiresAt": "2023-10-12T20:49:01.647Z",
+      "createdAt": "2023-10-12T19:59:01.647Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_JbvnGC7Gz8",
+      "id": "session_AFDk3tglla",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -331,19 +709,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F7%2F",
+            "expires": "2023-11-09T19:59:02.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:04.675Z",
+            "lastAccessed": "2023-10-12T19:59:04.675Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "7acaedc076eb705b669e21daaf267662%7C%7C1697313542%7C%7C1697309942%7C%7C5301a21674c53e904a49f8d89dbf96cc",
+            "expires": "2023-10-14T19:59:02.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:04.675Z",
+            "lastAccessed": "2023-10-12T19:59:04.675Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:03.777Z",
-      "createdAt": "2023-10-11T19:51:03.777Z",
+      "expiresAt": "2023-10-12T20:49:02.351Z",
+      "createdAt": "2023-10-12T19:59:02.351Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_442Vksmt98",
+      "id": "session_EAbxluFfXa",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -351,19 +756,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F8%2F",
+            "expires": "2023-11-09T19:59:03.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:05.227Z",
+            "lastAccessed": "2023-10-12T19:59:05.227Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "425415883ea3605d0b6cb2cb6f9f6bba%7C%7C1697313543%7C%7C1697309943%7C%7C4c8b50c46684fbc6982d3b10da76765c",
+            "expires": "2023-10-14T19:59:03.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:05.227Z",
+            "lastAccessed": "2023-10-12T19:59:05.227Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:03.956Z",
-      "createdAt": "2023-10-11T19:51:03.956Z",
+      "expiresAt": "2023-10-12T20:49:02.701Z",
+      "createdAt": "2023-10-12T19:59:02.701Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_tuvW42cX6a",
+      "id": "session_RlKHuirfg7",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -371,19 +803,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F9%2F",
+            "expires": "2023-11-09T19:59:03.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:05.293Z",
+            "lastAccessed": "2023-10-12T19:59:05.293Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "9a2389b3d43e6e45b71e0cacfd47eaff%7C%7C1697313543%7C%7C1697309943%7C%7C7af408a0ef605fbc406138ae7ca46244",
+            "expires": "2023-10-14T19:59:03.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:05.293Z",
+            "lastAccessed": "2023-10-12T19:59:05.293Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:03.965Z",
-      "createdAt": "2023-10-11T19:51:03.965Z",
+      "expiresAt": "2023-10-12T20:49:03.220Z",
+      "createdAt": "2023-10-12T19:59:03.220Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_jtKqVJfMRd",
+      "id": "session_2TkCPVH1mw",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -391,19 +850,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F2%2F",
+            "expires": "2023-11-09T19:59:04.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:06.337Z",
+            "lastAccessed": "2023-10-12T19:59:06.337Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "f407fd5402c2588f3885060a977386cb%7C%7C1697313544%7C%7C1697309944%7C%7Ce1097b458a6b489cb77f4c3bc4960bb4",
+            "expires": "2023-10-14T19:59:04.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:06.337Z",
+            "lastAccessed": "2023-10-12T19:59:06.337Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:04.070Z",
-      "createdAt": "2023-10-11T19:51:04.070Z",
+      "expiresAt": "2023-10-12T20:49:03.593Z",
+      "createdAt": "2023-10-12T19:59:03.593Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_4ct45CG4ay",
+      "id": "session_fBHoivrHuc",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -411,19 +897,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F3%2F",
+            "expires": "2023-11-09T19:59:04.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:05.889Z",
+            "lastAccessed": "2023-10-12T19:59:05.889Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "4d34dd6055f95bfd021da20461c18fe9%7C%7C1697313544%7C%7C1697309944%7C%7C021ce1f611e92d24211b579ed0029807",
+            "expires": "2023-10-14T19:59:04.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:05.889Z",
+            "lastAccessed": "2023-10-12T19:59:05.889Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:04.168Z",
-      "createdAt": "2023-10-11T19:51:04.168Z",
+      "expiresAt": "2023-10-12T20:49:03.755Z",
+      "createdAt": "2023-10-12T19:59:03.755Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_M4Ev4BGJMP",
+      "id": "session_nTzcHKNcJY",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -431,19 +944,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F4%2F",
+            "expires": "2023-11-09T19:59:05.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:06.719Z",
+            "lastAccessed": "2023-10-12T19:59:06.719Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "11a8e5a0e0fdf6326b76fda29604cf8f%7C%7C1697313544%7C%7C1697309944%7C%7Cddf4c08157a7cca3f869b1926c16672b",
+            "expires": "2023-10-14T19:59:04.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:06.719Z",
+            "lastAccessed": "2023-10-12T19:59:06.719Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:04.234Z",
-      "createdAt": "2023-10-11T19:51:04.234Z",
+      "expiresAt": "2023-10-12T20:49:04.687Z",
+      "createdAt": "2023-10-12T19:59:04.687Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_rhMrZnvOTk",
+      "id": "session_t9kYwsmhIC",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -451,19 +991,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F5%2F",
+            "expires": "2023-11-09T19:59:05.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:07.888Z",
+            "lastAccessed": "2023-10-12T19:59:07.888Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "d0a7aecd677a059dce7ea19a5e6d877e%7C%7C1697313545%7C%7C1697309945%7C%7C0cc9db1c5ed1b4342d9486604bcfa135",
+            "expires": "2023-10-14T19:59:05.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:07.888Z",
+            "lastAccessed": "2023-10-12T19:59:07.888Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:04.324Z",
-      "createdAt": "2023-10-11T19:51:04.324Z",
+      "expiresAt": "2023-10-12T20:49:05.239Z",
+      "createdAt": "2023-10-12T19:59:05.239Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_b6D9omiaTQ",
+      "id": "session_Rke0j4XydN",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -471,19 +1038,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F6%2F",
+            "expires": "2023-11-09T19:59:05.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:08.093Z",
+            "lastAccessed": "2023-10-12T19:59:08.093Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "2804dc05bbf28c3b402ab6fd3a1419cb%7C%7C1697313545%7C%7C1697309945%7C%7C4e262194e110035c453d2620fd8887f3",
+            "expires": "2023-10-14T19:59:05.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:08.093Z",
+            "lastAccessed": "2023-10-12T19:59:08.093Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:04.413Z",
-      "createdAt": "2023-10-11T19:51:04.413Z",
+      "expiresAt": "2023-10-12T20:49:05.306Z",
+      "createdAt": "2023-10-12T19:59:05.306Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_uywIqiK5zc",
+      "id": "session_H5tsd8OPk8",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -491,19 +1085,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F7%2F",
+            "expires": "2023-11-09T19:59:06.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:08.719Z",
+            "lastAccessed": "2023-10-12T19:59:08.719Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "b085286a66f44d4eaebbddd037d91380%7C%7C1697313546%7C%7C1697309946%7C%7Cbe78161cb23b84521e3488050099b0a9",
+            "expires": "2023-10-14T19:59:06.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:08.719Z",
+            "lastAccessed": "2023-10-12T19:59:08.719Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:04.490Z",
-      "createdAt": "2023-10-11T19:51:04.490Z",
+      "expiresAt": "2023-10-12T20:49:05.894Z",
+      "createdAt": "2023-10-12T19:59:05.894Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_jHjFIrax56",
+      "id": "session_vXaivepxAN",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -511,19 +1132,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F8%2F",
+            "expires": "2023-11-09T19:59:07.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:08.901Z",
+            "lastAccessed": "2023-10-12T19:59:08.901Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "0be1ed56e128fab0111b3676a59c30bf%7C%7C1697313547%7C%7C1697309947%7C%7Cb35ffff5192fda06bf435ef7a8d2571e",
+            "expires": "2023-10-14T19:59:07.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:08.901Z",
+            "lastAccessed": "2023-10-12T19:59:08.901Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:04.601Z",
-      "createdAt": "2023-10-11T19:51:04.601Z",
+      "expiresAt": "2023-10-12T20:49:06.348Z",
+      "createdAt": "2023-10-12T19:59:06.348Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_XaPnz53ygJ",
+      "id": "session_7UvvNfj5vV",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -536,14 +1184,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:06.356Z",
-      "createdAt": "2023-10-11T19:51:06.356Z",
+      "expiresAt": "2023-10-12T20:49:06.730Z",
+      "createdAt": "2023-10-12T19:59:06.730Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_NAQicJSukP",
+      "id": "session_WMCwRWvXia",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -551,19 +1199,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Flaundry%2Fbosch%2Fpage%2F2%2F",
+            "expires": "2023-11-09T19:59:07.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:09.493Z",
+            "lastAccessed": "2023-10-12T19:59:09.493Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "f85d4c8fbdfe4d5d0967e3818f75b21d%7C%7C1697313547%7C%7C1697309947%7C%7C8fb01425b8053e1d0a91f84ce6da0368",
+            "expires": "2023-10-14T19:59:07.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:09.493Z",
+            "lastAccessed": "2023-10-12T19:59:09.493Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:06.364Z",
-      "createdAt": "2023-10-11T19:51:06.364Z",
+      "expiresAt": "2023-10-12T20:49:07.396Z",
+      "createdAt": "2023-10-12T19:59:07.396Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_MFIzvefKd0",
+      "id": "session_srJOFj0xHh",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -571,19 +1246,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fdishwashers%2Fbosch%2Fpage%2F2%2F",
+            "expires": "2023-11-09T19:59:08.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:10.155Z",
+            "lastAccessed": "2023-10-12T19:59:10.155Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "be45395b21ee82af4dd0af8dd60a1d27%7C%7C1697313548%7C%7C1697309948%7C%7C7ac9e1742c3c7d2a0001377bca6147c3",
+            "expires": "2023-10-14T19:59:08.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:10.155Z",
+            "lastAccessed": "2023-10-12T19:59:10.155Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:06.368Z",
-      "createdAt": "2023-10-11T19:51:06.368Z",
+      "expiresAt": "2023-10-12T20:49:07.892Z",
+      "createdAt": "2023-10-12T19:59:07.892Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_QddaphfG3X",
+      "id": "session_mYq6MnztYR",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -591,19 +1293,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Flaundry%2Fbosch%2Fpage%2F3%2F",
+            "expires": "2023-11-09T19:59:08.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:10.272Z",
+            "lastAccessed": "2023-10-12T19:59:10.272Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "d602fe266c5f111b064285081aa9f308%7C%7C1697313548%7C%7C1697309948%7C%7C50ab79980803b264da84f6654a6bf2a9",
+            "expires": "2023-10-14T19:59:08.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:10.272Z",
+            "lastAccessed": "2023-10-12T19:59:10.272Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:06.373Z",
-      "createdAt": "2023-10-11T19:51:06.373Z",
+      "expiresAt": "2023-10-12T20:49:08.103Z",
+      "createdAt": "2023-10-12T19:59:08.103Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_RkVKnEwguw",
+      "id": "session_gKoCndtVdG",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -611,19 +1340,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fdishwashers%2Fbosch%2Fpage%2F3%2F",
+            "expires": "2023-11-09T19:59:09.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:10.776Z",
+            "lastAccessed": "2023-10-12T19:59:10.776Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "d20131e5397732cc33aa5e10176ba5b9%7C%7C1697313549%7C%7C1697309949%7C%7Cf4b4c8ce8264d057ff5a55e462c40a60",
+            "expires": "2023-10-14T19:59:09.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:10.776Z",
+            "lastAccessed": "2023-10-12T19:59:10.776Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:06.868Z",
-      "createdAt": "2023-10-11T19:51:06.868Z",
+      "expiresAt": "2023-10-12T20:49:08.730Z",
+      "createdAt": "2023-10-12T19:59:08.730Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_ps7yJ6jM5j",
+      "id": "session_Z9bXGbHaUZ",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -631,19 +1387,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F2%2F",
+            "expires": "2023-11-09T19:59:09.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:10.886Z",
+            "lastAccessed": "2023-10-12T19:59:10.886Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "83c2f80c1b4d7d70ec705c89dbc71bf4%7C%7C1697313549%7C%7C1697309949%7C%7C5091546b835178994998e05760ddd545",
+            "expires": "2023-10-14T19:59:09.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:10.886Z",
+            "lastAccessed": "2023-10-12T19:59:10.886Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:06.994Z",
-      "createdAt": "2023-10-11T19:51:06.994Z",
+      "expiresAt": "2023-10-12T20:49:08.906Z",
+      "createdAt": "2023-10-12T19:59:08.906Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_1C3YrYdcfn",
+      "id": "session_onwvlpznOn",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -651,19 +1434,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F3%2F",
+            "expires": "2023-11-09T19:59:09.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:11.410Z",
+            "lastAccessed": "2023-10-12T19:59:11.410Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "14477eb9bfed6740ebf432de1361972c%7C%7C1697313549%7C%7C1697309949%7C%7C7d40e9a56ea1bc4f2b14ba8a823ac1d5",
+            "expires": "2023-10-14T19:59:09.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:11.410Z",
+            "lastAccessed": "2023-10-12T19:59:11.410Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:07.004Z",
-      "createdAt": "2023-10-11T19:51:07.004Z",
+      "expiresAt": "2023-10-12T20:49:09.499Z",
+      "createdAt": "2023-10-12T19:59:09.499Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_BzjrymvgKU",
+      "id": "session_aSuGp8o4My",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -671,19 +1481,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F5%2F",
+            "expires": "2023-11-09T19:59:10.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:12.102Z",
+            "lastAccessed": "2023-10-12T19:59:12.102Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "74cf459afbe199ae4323f20fabb7ce79%7C%7C1697313550%7C%7C1697309950%7C%7C443417ee0cfba86e80ea658827e8b718",
+            "expires": "2023-10-14T19:59:10.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:12.102Z",
+            "lastAccessed": "2023-10-12T19:59:12.102Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:07.011Z",
-      "createdAt": "2023-10-11T19:51:07.011Z",
+      "expiresAt": "2023-10-12T20:49:10.164Z",
+      "createdAt": "2023-10-12T19:59:10.164Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_W3QF1KKYKP",
+      "id": "session_v2JY1gDogj",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -691,19 +1528,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F4%2F",
+            "expires": "2023-11-09T19:59:10.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:12.260Z",
+            "lastAccessed": "2023-10-12T19:59:12.260Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "fc93b0df96da45387c619d7e3d508ead%7C%7C1697313550%7C%7C1697309950%7C%7Cd4b98ff4bd48ed067db722f724aaa889",
+            "expires": "2023-10-14T19:59:10.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:12.260Z",
+            "lastAccessed": "2023-10-12T19:59:12.260Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:07.245Z",
-      "createdAt": "2023-10-11T19:51:07.245Z",
+      "expiresAt": "2023-10-12T20:49:10.279Z",
+      "createdAt": "2023-10-12T19:59:10.279Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_9MPWVj8sew",
+      "id": "session_1ZruC4orIy",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -711,19 +1575,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F6%2F",
+            "expires": "2023-11-09T19:59:11.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:12.661Z",
+            "lastAccessed": "2023-10-12T19:59:12.661Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "e196567b88cece28dcb7da5f839c70af%7C%7C1697313551%7C%7C1697309951%7C%7Cfd4e4cbcfd9a6ccd9d65870f85888077",
+            "expires": "2023-10-14T19:59:11.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:12.661Z",
+            "lastAccessed": "2023-10-12T19:59:12.661Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:07.500Z",
-      "createdAt": "2023-10-11T19:51:07.500Z",
+      "expiresAt": "2023-10-12T20:49:10.781Z",
+      "createdAt": "2023-10-12T19:59:10.781Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_HunlwYS5pt",
+      "id": "session_LQneYLNwR7",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -731,19 +1622,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F7%2F",
+            "expires": "2023-11-09T19:59:11.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:12.779Z",
+            "lastAccessed": "2023-10-12T19:59:12.779Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "56bf8b3c53796e1ac842c4d567b91159%7C%7C1697313551%7C%7C1697309951%7C%7C941ba4d1bf33cdecba574af78058f3f4",
+            "expires": "2023-10-14T19:59:11.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:12.779Z",
+            "lastAccessed": "2023-10-12T19:59:12.779Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:07.654Z",
-      "createdAt": "2023-10-11T19:51:07.654Z",
+      "expiresAt": "2023-10-12T20:49:10.891Z",
+      "createdAt": "2023-10-12T19:59:10.891Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_HGtwfkmJOG",
+      "id": "session_XRSGwK1Jor",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -751,19 +1669,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F8%2F",
+            "expires": "2023-11-09T19:59:11.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:13.390Z",
+            "lastAccessed": "2023-10-12T19:59:13.390Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "3c30ec3c0efaf0d4f21e679f1d06688c%7C%7C1697313551%7C%7C1697309951%7C%7C64a3ef00aaaa40cd4a017f5fb7dc41dd",
+            "expires": "2023-10-14T19:59:11.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:13.390Z",
+            "lastAccessed": "2023-10-12T19:59:13.390Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:07.697Z",
-      "createdAt": "2023-10-11T19:51:07.697Z",
+      "expiresAt": "2023-10-12T20:49:11.420Z",
+      "createdAt": "2023-10-12T19:59:11.420Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_w4YSoKqLLx",
+      "id": "session_qfi4ThHamc",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -771,19 +1716,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F9%2F",
+            "expires": "2023-11-09T19:59:12.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:13.861Z",
+            "lastAccessed": "2023-10-12T19:59:13.861Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "77598f0e5b0d3666791e5586fc9a561f%7C%7C1697313552%7C%7C1697309952%7C%7C79495ead24e8d5ff9f8c8a8bcd7e7327",
+            "expires": "2023-10-14T19:59:12.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:13.861Z",
+            "lastAccessed": "2023-10-12T19:59:13.861Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:07.703Z",
-      "createdAt": "2023-10-11T19:51:07.703Z",
+      "expiresAt": "2023-10-12T20:49:12.113Z",
+      "createdAt": "2023-10-12T19:59:12.113Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_lvQKEuORmt",
+      "id": "session_QaMjBmdHPE",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -791,19 +1763,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F3%2F",
+            "expires": "2023-11-09T19:59:12.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:14.249Z",
+            "lastAccessed": "2023-10-12T19:59:14.249Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "9a0ca0c559333899ae090c2e494d445c%7C%7C1697313552%7C%7C1697309952%7C%7Cef7007d74a059e4e094d14dbad9eb01a",
+            "expires": "2023-10-14T19:59:12.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:14.249Z",
+            "lastAccessed": "2023-10-12T19:59:14.249Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:07.850Z",
-      "createdAt": "2023-10-11T19:51:07.850Z",
+      "expiresAt": "2023-10-12T20:49:12.269Z",
+      "createdAt": "2023-10-12T19:59:12.269Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_JYd4L0jGY4",
+      "id": "session_7u6Ftbp63d",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -811,19 +1810,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F2%2F",
+            "expires": "2023-11-09T19:59:13.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:14.842Z",
+            "lastAccessed": "2023-10-12T19:59:14.842Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "66b23f0cfe5f17917d9005e15fc4ad67%7C%7C1697313552%7C%7C1697309952%7C%7C16012245c30ac1cb9bfbacbfd02a590b",
+            "expires": "2023-10-14T19:59:12.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:14.842Z",
+            "lastAccessed": "2023-10-12T19:59:14.842Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:07.963Z",
-      "createdAt": "2023-10-11T19:51:07.963Z",
+      "expiresAt": "2023-10-12T20:49:12.666Z",
+      "createdAt": "2023-10-12T19:59:12.666Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_0EhAeVFetK",
+      "id": "session_0HG4A7wpaU",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -831,19 +1857,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F4%2F",
+            "expires": "2023-11-09T19:59:13.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:14.920Z",
+            "lastAccessed": "2023-10-12T19:59:14.920Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "1f6b3abcb284ae9d014fcfa0aabc9c0a%7C%7C1697313553%7C%7C1697309953%7C%7C390fae85a617adfb0aa9f3c1be48234b",
+            "expires": "2023-10-14T19:59:13.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:14.920Z",
+            "lastAccessed": "2023-10-12T19:59:14.920Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:08.143Z",
-      "createdAt": "2023-10-11T19:51:08.143Z",
+      "expiresAt": "2023-10-12T20:49:12.789Z",
+      "createdAt": "2023-10-12T19:59:12.789Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_mJTd4weMfE",
+      "id": "session_7Dkh7dzrhY",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -856,14 +1909,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:08.208Z",
-      "createdAt": "2023-10-11T19:51:08.208Z",
+      "expiresAt": "2023-10-12T20:49:13.402Z",
+      "createdAt": "2023-10-12T19:59:13.402Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_ouZz5m9d0P",
+      "id": "session_7jJj5oEL3H",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -871,19 +1924,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F5%2F",
+            "expires": "2023-11-09T19:59:14.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:16.363Z",
+            "lastAccessed": "2023-10-12T19:59:16.363Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "634f82f074ef31a9890c599aefe68c85%7C%7C1697313554%7C%7C1697309954%7C%7Cd36c53123ee526b18ff46124e438aa52",
+            "expires": "2023-10-14T19:59:14.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:16.363Z",
+            "lastAccessed": "2023-10-12T19:59:16.363Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:08.258Z",
-      "createdAt": "2023-10-11T19:51:08.258Z",
+      "expiresAt": "2023-10-12T20:49:13.867Z",
+      "createdAt": "2023-10-12T19:59:13.867Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_CdxTU7IRza",
+      "id": "session_FfXlggSEgd",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -891,19 +1971,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F6%2F",
+            "expires": "2023-11-09T19:59:15.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:16.813Z",
+            "lastAccessed": "2023-10-12T19:59:16.813Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "46e9fa7712845ef1d891ae3cbadf0d83%7C%7C1697313555%7C%7C1697309955%7C%7Cc4d03e1e5df78b98a0c255b8aa6cab14",
+            "expires": "2023-10-14T19:59:15.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:16.813Z",
+            "lastAccessed": "2023-10-12T19:59:16.813Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:08.309Z",
-      "createdAt": "2023-10-11T19:51:08.309Z",
+      "expiresAt": "2023-10-12T20:49:14.077Z",
+      "createdAt": "2023-10-12T19:59:14.077Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_7fYaIKcPdh",
+      "id": "session_kCAtQVOJDC",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -911,19 +2018,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F7%2F",
+            "expires": "2023-11-09T19:59:14.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:16.750Z",
+            "lastAccessed": "2023-10-12T19:59:16.750Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "ea6ae3a14182c1f9e870c568591357f8%7C%7C1697313554%7C%7C1697309954%7C%7C51abc4d352445c49695240561784021d",
+            "expires": "2023-10-14T19:59:14.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:16.751Z",
+            "lastAccessed": "2023-10-12T19:59:16.751Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:08.827Z",
-      "createdAt": "2023-10-11T19:51:08.827Z",
+      "expiresAt": "2023-10-12T20:49:14.260Z",
+      "createdAt": "2023-10-12T19:59:14.260Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_DYt2ayntvh",
+      "id": "session_eOifLjVEOs",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -931,19 +2065,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F8%2F",
+            "expires": "2023-11-09T19:59:15.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:16.731Z",
+            "lastAccessed": "2023-10-12T19:59:16.731Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "952439c99b5fdc1f97a9d18ffb9d9430%7C%7C1697313555%7C%7C1697309955%7C%7Ca5511a7826423f975a787eb7b2a4bab1",
+            "expires": "2023-10-14T19:59:15.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:16.731Z",
+            "lastAccessed": "2023-10-12T19:59:16.731Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:10.424Z",
-      "createdAt": "2023-10-11T19:51:10.424Z",
+      "expiresAt": "2023-10-12T20:49:14.854Z",
+      "createdAt": "2023-10-12T19:59:14.854Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_ULrWV1dpgQ",
+      "id": "session_kb7JR72H5N",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -951,19 +2112,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Flaundry%2Fbosch%2Fpage%2F2%2F",
+            "expires": "2023-11-09T19:59:15.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:17.068Z",
+            "lastAccessed": "2023-10-12T19:59:17.068Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "a4bced710280f7c2f05253fc56faf9a7%7C%7C1697313555%7C%7C1697309955%7C%7C10cc788c2f11d7d29ac462e869687ae3",
+            "expires": "2023-10-14T19:59:15.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:17.068Z",
+            "lastAccessed": "2023-10-12T19:59:17.068Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:10.428Z",
-      "createdAt": "2023-10-11T19:51:10.428Z",
+      "expiresAt": "2023-10-12T20:49:14.925Z",
+      "createdAt": "2023-10-12T19:59:14.925Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_ahWpaGWKbs",
+      "id": "session_BDQnh7V6ur",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -971,19 +2159,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fdishwashers%2Fbosch%2Fpage%2F2%2F",
+            "expires": "2023-11-09T19:59:16.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:18.319Z",
+            "lastAccessed": "2023-10-12T19:59:18.319Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "74d703e8870d23612bc46bd210cb6288%7C%7C1697313556%7C%7C1697309956%7C%7C169841c7b48352a30fafa4d7dfa45972",
+            "expires": "2023-10-14T19:59:16.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:18.319Z",
+            "lastAccessed": "2023-10-12T19:59:18.319Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:10.433Z",
-      "createdAt": "2023-10-11T19:51:10.433Z",
+      "expiresAt": "2023-10-12T20:49:16.371Z",
+      "createdAt": "2023-10-12T19:59:16.371Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_E1KfA5faUk",
+      "id": "session_bD5Ei4fnB1",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -991,19 +2206,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Flaundry%2Fbosch%2Fpage%2F3%2F",
+            "expires": "2023-11-09T19:59:17.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:18.545Z",
+            "lastAccessed": "2023-10-12T19:59:18.545Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "1765ea9faa4d5087037bced81b2f6a50%7C%7C1697313557%7C%7C1697309957%7C%7Cd238ab2fbaa9ef52678d0bf905c3f309",
+            "expires": "2023-10-14T19:59:17.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:18.545Z",
+            "lastAccessed": "2023-10-12T19:59:18.545Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:10.437Z",
-      "createdAt": "2023-10-11T19:51:10.437Z",
+      "expiresAt": "2023-10-12T20:49:16.743Z",
+      "createdAt": "2023-10-12T19:59:16.743Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_iwotoc3aX5",
+      "id": "session_ZR8pJ0RLKQ",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1011,19 +2253,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fdishwashers%2Fbosch%2Fpage%2F3%2F",
+            "expires": "2023-11-09T19:59:17.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:18.726Z",
+            "lastAccessed": "2023-10-12T19:59:18.726Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "bc547ca740e3a0151299bf523b2c590d%7C%7C1697313557%7C%7C1697309957%7C%7Ce9ed2283b05385e74c68ec8b61aff296",
+            "expires": "2023-10-14T19:59:17.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:18.726Z",
+            "lastAccessed": "2023-10-12T19:59:18.726Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:10.936Z",
-      "createdAt": "2023-10-11T19:51:10.936Z",
+      "expiresAt": "2023-10-12T20:49:16.762Z",
+      "createdAt": "2023-10-12T19:59:16.762Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_xpxkacE2uQ",
+      "id": "session_xSUclLPRvE",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1031,19 +2300,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F2%2F",
+            "expires": "2023-11-09T19:59:17.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:18.930Z",
+            "lastAccessed": "2023-10-12T19:59:18.930Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "db272e8b20cdecc9a1af5929903a9511%7C%7C1697313557%7C%7C1697309957%7C%7C400f4f95114bfecdc8007be1f210de70",
+            "expires": "2023-10-14T19:59:17.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:18.930Z",
+            "lastAccessed": "2023-10-12T19:59:18.930Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:11.033Z",
-      "createdAt": "2023-10-11T19:51:11.033Z",
+      "expiresAt": "2023-10-12T20:49:16.818Z",
+      "createdAt": "2023-10-12T19:59:16.818Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_MWagpmP2xb",
+      "id": "session_yVIq77TpSb",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1051,19 +2347,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F3%2F",
+            "expires": "2023-11-09T19:59:17.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:19.224Z",
+            "lastAccessed": "2023-10-12T19:59:19.224Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "177e73620191c33ea7728e743443c54d%7C%7C1697313557%7C%7C1697309957%7C%7C3793d5b5cbe5bc610cef8c2801a19e1f",
+            "expires": "2023-10-14T19:59:17.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:19.224Z",
+            "lastAccessed": "2023-10-12T19:59:19.224Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:11.064Z",
-      "createdAt": "2023-10-11T19:51:11.064Z",
+      "expiresAt": "2023-10-12T20:49:17.078Z",
+      "createdAt": "2023-10-12T19:59:17.078Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_1iifQmC9ZP",
+      "id": "session_W1ul8D9ElY",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1071,19 +2394,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F5%2F",
+            "expires": "2023-11-09T19:59:18.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:20.297Z",
+            "lastAccessed": "2023-10-12T19:59:20.297Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "d9ddc9e6ac704b7f956878e8cdb234b8%7C%7C1697313558%7C%7C1697309958%7C%7C51c958f722f1d2c0d93af7dc91f3fa90",
+            "expires": "2023-10-14T19:59:18.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:20.297Z",
+            "lastAccessed": "2023-10-12T19:59:20.297Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:11.102Z",
-      "createdAt": "2023-10-11T19:51:11.102Z",
+      "expiresAt": "2023-10-12T20:49:18.324Z",
+      "createdAt": "2023-10-12T19:59:18.324Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_gOd369LFHd",
+      "id": "session_WLU4nrpGkf",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1091,19 +2441,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F4%2F",
+            "expires": "2023-11-09T19:59:19.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:21.217Z",
+            "lastAccessed": "2023-10-12T19:59:21.217Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "492fc473316b4bc0dddc95ec3a07b7c2%7C%7C1697313559%7C%7C1697309959%7C%7Cbe41831550990eabe8dd4c7da94af223",
+            "expires": "2023-10-14T19:59:19.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:21.217Z",
+            "lastAccessed": "2023-10-12T19:59:21.217Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:11.108Z",
-      "createdAt": "2023-10-11T19:51:11.108Z",
+      "expiresAt": "2023-10-12T20:49:18.550Z",
+      "createdAt": "2023-10-12T19:59:18.550Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_relMTmOdPi",
+      "id": "session_hmzy2tLOmj",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1111,19 +2488,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F6%2F",
+            "expires": "2023-11-09T19:59:19.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:20.657Z",
+            "lastAccessed": "2023-10-12T19:59:20.657Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "99dbf8e387ece836100ee176174dadcd%7C%7C1697313559%7C%7C1697309959%7C%7C5c482aa42f46013d3f4f1e342d6d627b",
+            "expires": "2023-10-14T19:59:19.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:20.658Z",
+            "lastAccessed": "2023-10-12T19:59:20.658Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:11.292Z",
-      "createdAt": "2023-10-11T19:51:11.292Z",
+      "expiresAt": "2023-10-12T20:49:18.736Z",
+      "createdAt": "2023-10-12T19:59:18.736Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_GFNnUAxTeg",
+      "id": "session_bgYMldyjrx",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1131,19 +2535,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F7%2F",
+            "expires": "2023-11-09T19:59:19.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:20.939Z",
+            "lastAccessed": "2023-10-12T19:59:20.939Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "c471fda9eb428c313ff0b5c8fa011986%7C%7C1697313559%7C%7C1697309959%7C%7Cf992f777f0d0e2addf8ab0785412e784",
+            "expires": "2023-10-14T19:59:19.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:20.939Z",
+            "lastAccessed": "2023-10-12T19:59:20.939Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:11.377Z",
-      "createdAt": "2023-10-11T19:51:11.377Z",
+      "expiresAt": "2023-10-12T20:49:18.937Z",
+      "createdAt": "2023-10-12T19:59:18.937Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_dTF67lzmhe",
+      "id": "session_gGYBMbUDN7",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1151,19 +2582,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F8%2F",
+            "expires": "2023-11-09T19:59:19.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:21.534Z",
+            "lastAccessed": "2023-10-12T19:59:21.534Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "7d62441dc99b458303064fa0b31957fc%7C%7C1697313559%7C%7C1697309959%7C%7C7cbe80576c997e3b053beaab3232fd01",
+            "expires": "2023-10-14T19:59:19.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:21.534Z",
+            "lastAccessed": "2023-10-12T19:59:21.534Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:11.390Z",
-      "createdAt": "2023-10-11T19:51:11.390Z",
+      "expiresAt": "2023-10-12T20:49:19.230Z",
+      "createdAt": "2023-10-12T19:59:19.230Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_KrFBdFbCwH",
+      "id": "session_VMzro9W6HR",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1171,19 +2629,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F9%2F",
+            "expires": "2023-11-09T19:59:20.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:22.551Z",
+            "lastAccessed": "2023-10-12T19:59:22.551Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "93138785b1ca6fa559a5eeb2571899dc%7C%7C1697313560%7C%7C1697309960%7C%7C0655502b5d3a4aeda5b94e2dbdd7b8bb",
+            "expires": "2023-10-14T19:59:20.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:22.551Z",
+            "lastAccessed": "2023-10-12T19:59:22.551Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:11.575Z",
-      "createdAt": "2023-10-11T19:51:11.575Z",
+      "expiresAt": "2023-10-12T20:49:20.302Z",
+      "createdAt": "2023-10-12T19:59:20.302Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_m6cZdy7GzM",
+      "id": "session_cyKyXH2hUP",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1191,19 +2676,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F3%2F",
+            "expires": "2023-11-09T19:59:21.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:22.997Z",
+            "lastAccessed": "2023-10-12T19:59:22.997Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "235673e208970bcf54743618499fda28%7C%7C1697313561%7C%7C1697309961%7C%7C41d728830c54a217bf93800a1dad8c38",
+            "expires": "2023-10-14T19:59:21.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:22.997Z",
+            "lastAccessed": "2023-10-12T19:59:22.997Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:11.582Z",
-      "createdAt": "2023-10-11T19:51:11.582Z",
+      "expiresAt": "2023-10-12T20:49:20.662Z",
+      "createdAt": "2023-10-12T19:59:20.662Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_V3g7mY0MSN",
+      "id": "session_gbbhFrk6Be",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1211,19 +2723,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F2%2F",
+            "expires": "2023-11-09T19:59:21.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:23.066Z",
+            "lastAccessed": "2023-10-12T19:59:23.066Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "7842e152ba17d2ebac346367af03e936%7C%7C1697313561%7C%7C1697309961%7C%7C33299e04017dc95c07f972df09ad6e5c",
+            "expires": "2023-10-14T19:59:21.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:23.066Z",
+            "lastAccessed": "2023-10-12T19:59:23.066Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:11.636Z",
-      "createdAt": "2023-10-11T19:51:11.636Z",
+      "expiresAt": "2023-10-12T20:49:20.951Z",
+      "createdAt": "2023-10-12T19:59:20.951Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_98FRPjsMC6",
+      "id": "session_tkQsmvZyPq",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1231,19 +2770,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F4%2F",
+            "expires": "2023-11-09T19:59:21.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:23.212Z",
+            "lastAccessed": "2023-10-12T19:59:23.212Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "887b93cac7ec16f6e9709551f7ee5b42%7C%7C1697313561%7C%7C1697309961%7C%7C4be644d44642052fd3775673cf4a7f7b",
+            "expires": "2023-10-14T19:59:21.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:23.212Z",
+            "lastAccessed": "2023-10-12T19:59:23.212Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:11.676Z",
-      "createdAt": "2023-10-11T19:51:11.676Z",
+      "expiresAt": "2023-10-12T20:49:21.222Z",
+      "createdAt": "2023-10-12T19:59:21.222Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_2nseo94q3a",
+      "id": "session_Njbtpj0s4w",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1251,19 +2817,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F5%2F",
+            "expires": "2023-11-09T19:59:21.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:23.567Z",
+            "lastAccessed": "2023-10-12T19:59:23.567Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "c6e4ddfc1ebc751bc3c3bccad1b2618c%7C%7C1697313561%7C%7C1697309961%7C%7Cb0ac44b0480d54184b182b841db21f27",
+            "expires": "2023-10-14T19:59:21.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:23.567Z",
+            "lastAccessed": "2023-10-12T19:59:23.567Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:11.861Z",
-      "createdAt": "2023-10-11T19:51:11.861Z",
+      "expiresAt": "2023-10-12T20:49:21.538Z",
+      "createdAt": "2023-10-12T19:59:21.538Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_gHqzqnqIK5",
+      "id": "session_iwwrXZPDO2",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1271,19 +2864,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F8%2F",
+            "expires": "2023-11-09T19:59:22.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:24.368Z",
+            "lastAccessed": "2023-10-12T19:59:24.368Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "2e426d919a431c8827982d0d55728e69%7C%7C1697313562%7C%7C1697309962%7C%7C58a18001e06123834f3a4016aba5d283",
+            "expires": "2023-10-14T19:59:22.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:24.368Z",
+            "lastAccessed": "2023-10-12T19:59:24.368Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:11.865Z",
-      "createdAt": "2023-10-11T19:51:11.865Z",
+      "expiresAt": "2023-10-12T20:49:22.561Z",
+      "createdAt": "2023-10-12T19:59:22.561Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_di9vMpcIXh",
+      "id": "session_xgWV7GVvfh",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1291,19 +2911,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F7%2F",
+            "expires": "2023-11-09T19:59:23.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:24.992Z",
+            "lastAccessed": "2023-10-12T19:59:24.992Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "dc2451639226dd45504a24080fc331cd%7C%7C1697313563%7C%7C1697309963%7C%7C5660435f1de4581bf79fce8490ac597c",
+            "expires": "2023-10-14T19:59:23.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:24.992Z",
+            "lastAccessed": "2023-10-12T19:59:24.992Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:11.968Z",
-      "createdAt": "2023-10-11T19:51:11.968Z",
+      "expiresAt": "2023-10-12T20:49:23.008Z",
+      "createdAt": "2023-10-12T19:59:23.008Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_TaaTPxts7s",
+      "id": "session_nKdJG8bmkt",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1311,19 +2958,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F6%2F",
+            "expires": "2023-11-09T19:59:23.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:25.103Z",
+            "lastAccessed": "2023-10-12T19:59:25.103Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "f58f2e28b37a281e3dd7011123879739%7C%7C1697313563%7C%7C1697309963%7C%7C794cee22ff0a4c5946ebaf93a9fc4099",
+            "expires": "2023-10-14T19:59:23.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:25.103Z",
+            "lastAccessed": "2023-10-12T19:59:25.103Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:12.481Z",
-      "createdAt": "2023-10-11T19:51:12.481Z",
+      "expiresAt": "2023-10-12T20:49:23.072Z",
+      "createdAt": "2023-10-12T19:59:23.072Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_7sriXa2xRh",
+      "id": "session_0aTfS6R0j1",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1331,19 +3005,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Flaundry%2Fbosch%2Fpage%2F2%2F",
+            "expires": "2023-11-09T19:59:23.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:25.450Z",
+            "lastAccessed": "2023-10-12T19:59:25.450Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "0519793999daa4995bee8202e68242e6%7C%7C1697313563%7C%7C1697309963%7C%7Cd29995efd34bb6f1c09e42f7cc908d5d",
+            "expires": "2023-10-14T19:59:23.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:25.450Z",
+            "lastAccessed": "2023-10-12T19:59:25.450Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:14.515Z",
-      "createdAt": "2023-10-11T19:51:14.515Z",
+      "expiresAt": "2023-10-12T20:49:23.217Z",
+      "createdAt": "2023-10-12T19:59:23.217Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_SScJwHXqhQ",
+      "id": "session_xcTzogM7vg",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1351,19 +3052,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fdishwashers%2Fbosch%2Fpage%2F2%2F",
+            "expires": "2023-11-09T19:59:23.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:25.597Z",
+            "lastAccessed": "2023-10-12T19:59:25.597Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "097f9e702e93c05d939387498e2df10d%7C%7C1697313563%7C%7C1697309963%7C%7Cebd5bb5d0ccd17fbcd0f0bfc93090116",
+            "expires": "2023-10-14T19:59:23.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:25.597Z",
+            "lastAccessed": "2023-10-12T19:59:25.597Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:14.519Z",
-      "createdAt": "2023-10-11T19:51:14.519Z",
+      "expiresAt": "2023-10-12T20:49:23.576Z",
+      "createdAt": "2023-10-12T19:59:23.576Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_QFXE2Foqgi",
+      "id": "session_hgdFwXfW2M",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1371,19 +3099,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Flaundry%2Fbosch%2Fpage%2F3%2F",
+            "expires": "2023-11-09T19:59:24.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:26.241Z",
+            "lastAccessed": "2023-10-12T19:59:26.241Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "37e026ae79495350d62b7869459f4651%7C%7C1697313564%7C%7C1697309964%7C%7Ce757b0e66276aeb5da2487a3c6895136",
+            "expires": "2023-10-14T19:59:24.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:26.241Z",
+            "lastAccessed": "2023-10-12T19:59:26.241Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:14.524Z",
-      "createdAt": "2023-10-11T19:51:14.524Z",
+      "expiresAt": "2023-10-12T20:49:24.373Z",
+      "createdAt": "2023-10-12T19:59:24.373Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_wHUq6Clz72",
+      "id": "session_Okoz4B7KUa",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1391,19 +3146,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fdishwashers%2Fbosch%2Fpage%2F3%2F",
+            "expires": "2023-11-09T19:59:25.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:26.997Z",
+            "lastAccessed": "2023-10-12T19:59:26.997Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "c6c9ff5035c1d72cb4b7c83afd50af1f%7C%7C1697313565%7C%7C1697309965%7C%7C2f72eb138a75266f6e869f18a4a0e95d",
+            "expires": "2023-10-14T19:59:25.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:26.997Z",
+            "lastAccessed": "2023-10-12T19:59:26.997Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:14.528Z",
-      "createdAt": "2023-10-11T19:51:14.528Z",
+      "expiresAt": "2023-10-12T20:49:24.998Z",
+      "createdAt": "2023-10-12T19:59:24.998Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_Anet2UL6BC",
+      "id": "session_EqbfqVGOlT",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1411,19 +3193,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F2%2F",
+            "expires": "2023-11-09T19:59:26.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:28.037Z",
+            "lastAccessed": "2023-10-12T19:59:28.037Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "03c0ab9200f25cea6ee83db0d1ab4395%7C%7C1697313565%7C%7C1697309965%7C%7C3916853253dae620c0bd39ff21c60592",
+            "expires": "2023-10-14T19:59:25.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:28.037Z",
+            "lastAccessed": "2023-10-12T19:59:28.037Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:14.533Z",
-      "createdAt": "2023-10-11T19:51:14.533Z",
+      "expiresAt": "2023-10-12T20:49:25.108Z",
+      "createdAt": "2023-10-12T19:59:25.108Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_JwXnK2jJrv",
+      "id": "session_CSfHdWG7ha",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1431,19 +3240,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F3%2F",
+            "expires": "2023-11-09T19:59:25.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:27.523Z",
+            "lastAccessed": "2023-10-12T19:59:27.523Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "f528532acfc977f3bf1d2449a185143b%7C%7C1697313565%7C%7C1697309965%7C%7Ce8527c59ae8b86d49fba074c0e372fab",
+            "expires": "2023-10-14T19:59:25.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:27.523Z",
+            "lastAccessed": "2023-10-12T19:59:27.523Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:15.156Z",
-      "createdAt": "2023-10-11T19:51:15.156Z",
+      "expiresAt": "2023-10-12T20:49:25.455Z",
+      "createdAt": "2023-10-12T19:59:25.455Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_qcbQEjbVQN",
+      "id": "session_sOI2h97wMX",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1451,19 +3287,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F5%2F",
+            "expires": "2023-11-09T19:59:25.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:27.670Z",
+            "lastAccessed": "2023-10-12T19:59:27.670Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "d49658b21895bf8fcc374ff87b7746bd%7C%7C1697313565%7C%7C1697309965%7C%7Cd908b7a9ba663c0216a4300bd0004352",
+            "expires": "2023-10-14T19:59:25.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:27.670Z",
+            "lastAccessed": "2023-10-12T19:59:27.670Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:15.173Z",
-      "createdAt": "2023-10-11T19:51:15.173Z",
+      "expiresAt": "2023-10-12T20:49:25.610Z",
+      "createdAt": "2023-10-12T19:59:25.610Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_pLce28lLaJ",
+      "id": "session_dyLWoX8Wm2",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1471,19 +3334,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F6%2F",
+            "expires": "2023-11-09T19:59:26.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:28.378Z",
+            "lastAccessed": "2023-10-12T19:59:28.378Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "5209ba68d10a7446e6bd8aa1fd7a5b62%7C%7C1697313566%7C%7C1697309966%7C%7Cc5d3afcc6dc9c74f579d50fa4ba778fa",
+            "expires": "2023-10-14T19:59:26.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:28.378Z",
+            "lastAccessed": "2023-10-12T19:59:28.378Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:15.178Z",
-      "createdAt": "2023-10-11T19:51:15.178Z",
+      "expiresAt": "2023-10-12T20:49:26.247Z",
+      "createdAt": "2023-10-12T19:59:26.247Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_GmMEenxYic",
+      "id": "session_hlyVgddJuv",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1491,19 +3381,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F7%2F",
+            "expires": "2023-11-09T19:59:27.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:29.362Z",
+            "lastAccessed": "2023-10-12T19:59:29.362Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "a95b86214880f550ea028c231c740a01%7C%7C1697313567%7C%7C1697309967%7C%7Cc216a25fdcd8199aba4f8ad52168fdef",
+            "expires": "2023-10-14T19:59:27.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:29.362Z",
+            "lastAccessed": "2023-10-12T19:59:29.362Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:15.206Z",
-      "createdAt": "2023-10-11T19:51:15.206Z",
+      "expiresAt": "2023-10-12T20:49:27.003Z",
+      "createdAt": "2023-10-12T19:59:27.003Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_cewNLUcGwr",
+      "id": "session_FeclkZ7v37",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1511,19 +3428,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F4%2F",
+            "expires": "2023-11-09T19:59:28.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:29.891Z",
+            "lastAccessed": "2023-10-12T19:59:29.891Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "d574d6d7c0458d1374a12adfe210a05a%7C%7C1697313567%7C%7C1697309967%7C%7Cf96528b8bedbe564b788113a1035e1a9",
+            "expires": "2023-10-14T19:59:27.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:29.891Z",
+            "lastAccessed": "2023-10-12T19:59:29.891Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:15.218Z",
-      "createdAt": "2023-10-11T19:51:15.218Z",
+      "expiresAt": "2023-10-12T20:49:27.534Z",
+      "createdAt": "2023-10-12T19:59:27.534Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_FgAGeeWzBw",
+      "id": "session_wpdJgdK4Tf",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1531,19 +3475,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F8%2F",
+            "expires": "2023-11-09T19:59:28.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:29.795Z",
+            "lastAccessed": "2023-10-12T19:59:29.795Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "be9c780f3c8325fb48000732b6e1d2e7%7C%7C1697313568%7C%7C1697309968%7C%7C2374622d1c315e05db1f6ea1406d419d",
+            "expires": "2023-10-14T19:59:28.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:29.796Z",
+            "lastAccessed": "2023-10-12T19:59:29.796Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:15.416Z",
-      "createdAt": "2023-10-11T19:51:15.416Z",
+      "expiresAt": "2023-10-12T20:49:27.675Z",
+      "createdAt": "2023-10-12T19:59:27.675Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_FeR6NGrhC0",
+      "id": "session_1ehpLfW9Qp",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1551,19 +3522,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Fcooking%2Fbosch%2Fpage%2F9%2F",
+            "expires": "2023-11-09T19:59:28.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:29.858Z",
+            "lastAccessed": "2023-10-12T19:59:29.858Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "112def86162c391238e97d943162609d%7C%7C1697313568%7C%7C1697309968%7C%7C91f1864fa4652d73e70307318a9ade6c",
+            "expires": "2023-10-14T19:59:28.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:29.858Z",
+            "lastAccessed": "2023-10-12T19:59:29.858Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:15.452Z",
-      "createdAt": "2023-10-11T19:51:15.452Z",
+      "expiresAt": "2023-10-12T20:49:28.042Z",
+      "createdAt": "2023-10-12T19:59:28.042Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_utTi0eKxrl",
+      "id": "session_5zmnBewiX4",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1571,19 +3569,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F3%2F",
+            "expires": "2023-11-09T19:59:28.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:30.451Z",
+            "lastAccessed": "2023-10-12T19:59:30.451Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "e1aacd41af12a1ea49bf9bca5aeeeb5f%7C%7C1697313568%7C%7C1697309968%7C%7C85e0cf5f84d4d4e0ed56a25ba9dd39d3",
+            "expires": "2023-10-14T19:59:28.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:30.451Z",
+            "lastAccessed": "2023-10-12T19:59:30.451Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:15.456Z",
-      "createdAt": "2023-10-11T19:51:15.456Z",
+      "expiresAt": "2023-10-12T20:49:28.384Z",
+      "createdAt": "2023-10-12T19:59:28.384Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_7jieWdu4CZ",
+      "id": "session_B66N824UhW",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1591,19 +3616,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F2%2F",
+            "expires": "2023-11-09T19:59:29.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:31.535Z",
+            "lastAccessed": "2023-10-12T19:59:31.535Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "0998eba2c6126894f43bd7bc7ad14d23%7C%7C1697313569%7C%7C1697309969%7C%7C0c92f5032905b4e80c99320afa49ee25",
+            "expires": "2023-10-14T19:59:29.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:31.535Z",
+            "lastAccessed": "2023-10-12T19:59:31.535Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:15.477Z",
-      "createdAt": "2023-10-11T19:51:15.477Z",
+      "expiresAt": "2023-10-12T20:49:29.374Z",
+      "createdAt": "2023-10-12T19:59:29.374Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_Z5pYVfMpGG",
+      "id": "session_Xg8zkM4T2S",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1611,19 +3663,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F4%2F",
+            "expires": "2023-11-09T19:59:30.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:31.831Z",
+            "lastAccessed": "2023-10-12T19:59:31.831Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "9abef60e9c0cf39e70b5fe130f3ea0dc%7C%7C1697313570%7C%7C1697309970%7C%7C7cb246601b9c5a61c7c2aa6990436986",
+            "expires": "2023-10-14T19:59:30.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:31.831Z",
+            "lastAccessed": "2023-10-12T19:59:31.831Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:15.705Z",
-      "createdAt": "2023-10-11T19:51:15.705Z",
+      "expiresAt": "2023-10-12T20:49:29.807Z",
+      "createdAt": "2023-10-12T19:59:29.807Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_MUDPpylkib",
+      "id": "session_oxtSNALdtO",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1631,19 +3710,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F5%2F",
+            "expires": "2023-11-09T19:59:30.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:31.957Z",
+            "lastAccessed": "2023-10-12T19:59:31.957Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "ed9725c794ad2b4553d4cb2a1a0c36b2%7C%7C1697313570%7C%7C1697309970%7C%7Cfda9751e7144f1ce5fb6e1fa85266d26",
+            "expires": "2023-10-14T19:59:30.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:31.957Z",
+            "lastAccessed": "2023-10-12T19:59:31.957Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:15.897Z",
-      "createdAt": "2023-10-11T19:51:15.897Z",
+      "expiresAt": "2023-10-12T20:49:29.874Z",
+      "createdAt": "2023-10-12T19:59:29.874Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_9zfiJMzgph",
+      "id": "session_tySAo1N54a",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1651,19 +3757,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F8%2F",
+            "expires": "2023-11-09T19:59:30.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:31.610Z",
+            "lastAccessed": "2023-10-12T19:59:31.610Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "d3cbd21965682a002d138c5231aa2fd6%7C%7C1697313570%7C%7C1697309970%7C%7C045d28e855b118d2b0941f64e02ac611",
+            "expires": "2023-10-14T19:59:30.000Z",
+            "maxAge": 172800,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:31.610Z",
+            "lastAccessed": "2023-10-12T19:59:31.610Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:15.959Z",
-      "createdAt": "2023-10-11T19:51:15.959Z",
+      "expiresAt": "2023-10-12T20:49:29.896Z",
+      "createdAt": "2023-10-12T19:59:29.896Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_XeMSgfieYK",
+      "id": "session_LcLOXbqyie",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1671,19 +3804,46 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F7%2F",
+            "expires": "2023-11-09T19:59:30.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:32.819Z",
+            "lastAccessed": "2023-10-12T19:59:32.819Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "0af04948ea4a228e7067bd6d9a08b55b%7C%7C1697313570%7C%7C1697309970%7C%7Cb4580f1506ad8c476e3b9dbc5b07ea34",
+            "expires": "2023-10-14T19:59:30.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:32.819Z",
+            "lastAccessed": "2023-10-12T19:59:32.819Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:16.078Z",
-      "createdAt": "2023-10-11T19:51:16.078Z",
+      "expiresAt": "2023-10-12T20:49:30.456Z",
+      "createdAt": "2023-10-12T19:59:30.456Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
     },
     {
-      "id": "session_InigPyrDzk",
+      "id": "session_g2mOS0o4CT",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -1691,13 +3851,40 @@
         "enableLooseMode": false,
         "allowSpecialUseDomain": true,
         "prefixSecurity": "silent",
-        "cookies": []
+        "cookies": [
+          {
+            "key": "mailchimp_landing_site",
+            "value": "https%3A%2F%2Fwww.appliancecity.co.uk%2Frefrigeration%2Fbosch%2Fpage%2F6%2F",
+            "expires": "2023-11-09T19:59:32.000Z",
+            "maxAge": 2419200,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:34.110Z",
+            "lastAccessed": "2023-10-12T19:59:34.110Z",
+            "sameSite": "strict"
+          },
+          {
+            "key": "wp_woocommerce_session_ba20502e10778acb99486301c9c83670",
+            "value": "08a173a20d901770c57bfb80f947f0b4%7C%7C1697313571%7C%7C1697309971%7C%7C994c585f9b1ab2d15ff15f486cf7e370",
+            "expires": "2023-10-14T19:59:31.000Z",
+            "maxAge": 172799,
+            "domain": "www.appliancecity.co.uk",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-12T19:59:34.110Z",
+            "lastAccessed": "2023-10-12T19:59:34.110Z"
+          }
+        ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-10-11T20:41:16.144Z",
-      "createdAt": "2023-10-11T19:51:16.144Z",
+      "expiresAt": "2023-10-12T20:49:31.540Z",
+      "createdAt": "2023-10-12T19:59:31.540Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 1
