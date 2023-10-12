@@ -1,0 +1,33 @@
+{
+    "startUrls": [
+        {
+            "url": "https://www.sensodays.ro/aparat-de-vidat-incorporabil-teka-vs-1520-gs-cantar-bucatarie-suport-role-fara-panou-frontal.html",
+            "userData": {
+                "Manufacturer": "Teka",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aparat-de-vidat-incorporabil-teka-vs-152-gs-cantar-bucatarie-suport-role-cristal-negru-cu-rama-inox-anti-pata.html",
+            "userData": {
+                "Manufacturer": "Teka",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-bucatarie-teka-ark-938-q-dus-extractibil-granit-schwarzmetallic.html",
+            "userData": {
+                "Manufacturer": "Teka",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-bucatarie-teka-in-995-inca-teava-rotativa-inalta.html",
+            "userData": {
+                "Manufacturer": "Teka",
+                "ApifyResultType": 0
+            }
+        }
+    ],
+    "keepUrlFragment": true
+}

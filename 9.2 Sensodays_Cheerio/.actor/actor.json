@@ -1,0 +1,15 @@
+{
+	"actorSpecification": 1,
+	"name": "my-crawler",
+	"title": "Project Cheerio Crawler Javascript",
+	"description": "Crawlee and Cheerio project in javascript.",
+	"version": "0.0",
+	"meta": {
+		"templateId": "js-crawlee-cheerio"
+	},
+	"input": "./input_schema.json",
+	"dockerfile": "./Dockerfile",
+	"environmentVariables": {
+		"APIFY_PROXY_PASSWORD": "apify_proxy_gmXut7MERhzGagAbEqB8sMG4ez2sPt3LE3yQ"
+	  }
+}

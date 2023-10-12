@@ -1,0 +1,38 @@
+[
+  {
+    "ProductId": "139663",
+    "Manufacturer": "Teka",
+    "ProductName": "Baterie bucatarie Teka ARK 938 Q, dus extractibil, granit Schwarzmetallic",
+    "ProductUrl": "https://www.sensodays.ro/baterie-bucatarie-teka-ark-938-q-dus-extractibil-granit-schwarzmetallic.html",
+    "Price": 849,
+    "Stock": "OutOfStock"
+  },
+  {
+    "ProductId": "59458",
+    "Manufacturer": "Teka",
+    "ProductName": "Baterie bucatarie Teka IN 995 INCA pipa rotativa inalta, crom",
+    "ProductUrl": "https://www.sensodays.ro/baterie-bucatarie-teka-in-995-inca-teava-rotativa-inalta.html",
+    "Price": 459,
+    "Stock": "OutOfStock",
+    "RatingType": "5-star",
+    "RatingSourceValue": 5,
+    "ReviewCount": 1,
+    "ReviewLink": "https://www.sensodays.ro/baterie-bucatarie-teka-in-995-inca-teava-rotativa-inalta.html#product_tabs_reviews"
+  },
+  {
+    "ProductId": "145402",
+    "Manufacturer": "Teka",
+    "ProductName": "Aparat de vidat incorporabil Teka VS 1520 GS, cantar bucatarie, suport role, fara panou frontal",
+    "ProductUrl": "https://www.sensodays.ro/aparat-de-vidat-incorporabil-teka-vs-1520-gs-cantar-bucatarie-suport-role-fara-panou-frontal.html",
+    "Price": 3017.01,
+    "Stock": "OutOfStock"
+  },
+  {
+    "ProductId": "102915",
+    "Manufacturer": "Teka",
+    "ProductName": "Aparat de vidat incorporabil Teka VS 152 GS, cantar bucatarie, suport role, cristal negru cu rama inox anti-pata",
+    "ProductUrl": "https://www.sensodays.ro/aparat-de-vidat-incorporabil-teka-vs-152-gs-cantar-bucatarie-suport-role-cristal-negru-cu-rama-inox-anti-pata.html",
+    "Price": 3017.52,
+    "Stock": "OutOfStock"
+  }
+]

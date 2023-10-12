@@ -256,3 +256,19 @@ De la caja 3 a la 7
 ### Trabajo 11/10/23
 * Las APIs con este esquema "https://widget.trustpilot.com/trustbox-data/54d39695764ea907c0f34825?businessUnitId=487cd0e0000064000502f650&locale=en-GB&sku=PIE631BB5E" con numeros por delante, tienen los datos de tating
 * 
+
+<img width="324" height="324" src="https://mlvtgiqzoszz.i.optimole.com/Sb3K8mU-E6q8t09s/w:324/h:324/q:90/https://www.appliancecity.co.uk/wp-content/uploads/2023/06/Bosch-hbg7341b1b-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" data-opt-lazy-loaded="false">
+
+### Trabajo 12/10/23
+Observations:
+* The robot can be obtained through Cheerio.
+* 
+* Using cookies and having it as a Puppeteer-type bot is unnecessary.
+
+* A functional script was found that can retrieve specific product information.
+
+* Price and stock information should be obtained through the DOM.
+
+* An example was provided for the Dev to continue with the structure.
+
+Note: Some scripts do not read the first enqueue, but it eventually works.
