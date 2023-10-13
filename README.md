@@ -286,3 +286,8 @@ Se trabajó en robot de categorias un poco.
     * Aumento content*type
     * Accept-Encoding:
 * Se intentará acceder con Puppeteer
+ * La mejor opcion es probar si sacando cookies con methamorph funciona porque se intento con Puppeteer normalito y nel, tampoco puede acceder al JSON desde Postman, debe haber algun tipo de atenticacion.
+ * Inlcluso nos logueamos a la pagina y nel
+ * Lo unico que faltaria intentar seria entrar desde otra IP, es posible que nos hallan bloqueado por intentar entrar muchas veces.
+ **Retailer ApplianceCity**
+     * Resulta que la marca haier tiene una estructura de datos distinta, lo que significa que la logica actual no funcionara 
