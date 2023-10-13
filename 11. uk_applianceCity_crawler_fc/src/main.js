@@ -19,7 +19,6 @@ Actor.main(async () => {
 
     const requestHandler = async ({ response, request, body, json, $, log }) => {
         const { Manufacturer, Brand, Category, Paginated, CategoyName } = request.userData;
-        // https://www.appliancecity.co.uk/brand/bosch/
 
         if (!Category) {
             const totalCategories = $(".section_padding_lower-quarter > div > div.quick_links > ul > li > a");
@@ -54,9 +53,6 @@ Actor.main(async () => {
                 log.info(`${Category} TOTAL PRODUCTS PER PAGE: ${productsPerPage}`);
                 log.info(`${Category} TOTAL ITERATIONS: ${totalPages}`);
 
-                if (productsPerPage) {
-
-                }
                 for (var index = 2; index <= totalPages; index++) {
                     nextPage = request.url + "page/" + index + "/"
                     log.info(nextPage);
@@ -72,38 +68,32 @@ Actor.main(async () => {
                     }
                     await enqueueRequest(nextPageRequest);
                 }
-
-                var results = [];
-                $("ul.products").find("li.product").each(function (index, element) {
-                    if (element != null) {
-                        var productId = $(element).find(".acity-product-card-product-more-information").attr("data-product_id");
-                        var productUrl = $(element).find(".acity-product-card-product-more-information").attr("href");
-                        var title = $(element).find(".woocommerce-loop-product__title").text();
-                        var price = $(element).find(".woocommerce-Price-amount").text().replace(",", "").replace(" ", "").replace("£", "");
-                        var imageUri = $(element).find(".size-woocommerce_thumbnail").first().attr("src");
-                        var stockText = $(element).find('.acity-product-availability').text();
-                        var stock = stockText.indexOf("In stock") > -1 ? "InStock" : "OutOfStock";
-                        var ctin = $(element).find(".acity-product-card-product-more-information").attr("data-product_sku");
-
-                        var product = {
-                            ProductUrl: productUrl,
-                            ProductName: title,
-                            Price: price,
-                            Manufacturer: Manufacturer,
-                            ImageUri: imageUri,
-                            ProductId: productId,
-                            Stock: stock,
-                            CTINCode: ctin,
-                            CategoryName: CategoyName
-                        }
-                        results.push(product);
-                    }
-                });
             }
+            var results = [];
+            $("ul.products").find("li.product").each(function (index, element) {
+                var productId = $(element).find(".acity-product-card-product-more-information").attr("data-product_id");
+                var productUrl = $(element).find(".acity-product-card-product-more-information").attr("href");
+                var title = $(element).find(".woocommerce-loop-product__title").text().trim().replace(/\s{2,}/g, ' ');
+                var price = $(element).find(".woocommerce-Price-amount").text().replace(",", "").replace(" ", "").replace("£", "");
+                var imageUri = $(element).find(".size-woocommerce_thumbnail").first().attr("src");
+                var stockText = $(element).find('.acity-product-availability').text();
+                var stock = stockText.indexOf("In stock") > -1 ? "InStock" : "OutOfStock";
+                var ctin = $(element).find(".acity-product-card-product-more-information").attr("data-product_sku");
 
+                var product = {
+                    ProductUrl: productUrl,
+                    ProductName: title,
+                    Price: Number(price),
+                    Manufacturer: Manufacturer,
+                    ImageUri: imageUri,
+                    ProductId: productId,
+                    Stock: stock,
+                    CTINCode: ctin,
+                }
+                results.push(product);
+            });
+            await Dataset.pushData(results);
         }
-
-        await Dataset.pushData(results);
     }
 
     // const failedRequestHandler

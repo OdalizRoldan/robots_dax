@@ -1,59 +1,27 @@
 {
-  "requestsFinished": 5,
-  "requestsFailed": 20,
-  "requestsRetries": 20,
-  "requestsFailedPerMinute": 26,
-  "requestsFinishedPerMinute": 7,
-  "requestMinDurationMillis": 2194,
-  "requestMaxDurationMillis": 2869,
-  "requestTotalFailedDurationMillis": 41727,
-  "requestTotalFinishedDurationMillis": 12912,
-  "crawlerStartedAt": "2023-10-12T19:58:49.782Z",
-  "crawlerFinishedAt": "2023-10-12T19:59:34.261Z",
-  "statsPersistedAt": "2023-10-12T19:59:34.261Z",
-  "crawlerRuntimeMillis": 44486,
-  "crawlerLastStartTimestamp": 1697140729775,
+  "requestsFinished": 25,
+  "requestsFailed": 0,
+  "requestsRetries": 0,
+  "requestsFailedPerMinute": 0,
+  "requestsFinishedPerMinute": 65,
+  "requestMinDurationMillis": 1408,
+  "requestMaxDurationMillis": 6783,
+  "requestTotalFailedDurationMillis": 0,
+  "requestTotalFinishedDurationMillis": 93979,
+  "crawlerStartedAt": "2023-10-13T13:22:32.763Z",
+  "crawlerFinishedAt": "2023-10-13T13:22:55.924Z",
+  "statsPersistedAt": "2023-10-13T13:22:55.924Z",
+  "crawlerRuntimeMillis": 23167,
+  "crawlerLastStartTimestamp": 1697203352757,
   "requestRetryHistogram": [
-    5,
-    null,
-    null,
-    20
+    25
   ],
   "statsId": 0,
-  "requestAvgFailedDurationMillis": 2086,
-  "requestAvgFinishedDurationMillis": 2582,
-  "requestTotalDurationMillis": 54639,
+  "requestAvgFailedDurationMillis": null,
+  "requestAvgFinishedDurationMillis": 3759,
+  "requestTotalDurationMillis": 93979,
   "requestsTotal": 25,
   "requestsWithStatusCode": {},
-  "errors": {
-    "C:\\Users\\orojas\\Documents\\V3\\11. uk_applianceCity_crawler_fc\\src\\main.js:106:9": {
-      "missing error code": {
-        "ArgumentError": {
-          "Expected `data` to be of type `object` but received type `undefined`": {
-            "count": 14
-          }
-        }
-      }
-    },
-    "<anonymous>": {
-      "missing error code": {
-        "ArgumentError": {
-          "Expected `data` to be of type `object` but received type `undefined`": {
-            "count": 6
-          }
-        }
-      }
-    }
-  },
-  "retryErrors": {
-    "C:\\Users\\orojas\\Documents\\V3\\11. uk_applianceCity_crawler_fc\\src\\main.js:106:9": {
-      "missing error code": {
-        "ArgumentError": {
-          "Expected `data` to be of type `object` but received type `undefined`": {
-            "count": 60
-          }
-        }
-      }
-    }
-  }
+  "errors": {},
+  "retryErrors": {}
 }

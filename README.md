@@ -270,3 +270,19 @@ Note: Some scripts do not read the first enqueue, but it eventually works.
 
 * Se arreglo SensoDays
 Se trabajó en robot de categorias un poco.
+
+### Trabajo 13/10/23
+* #Products of
+    * Dishwashers: 36 -Check
+    * Cooking: 103 - Check
+    * laundry: 30 - Check
+    * Refrigeration: 86 - Check
+    * Small Appliances: 1 - Check
+
+    * #Total of products: 170 + 86 - 256
+
+* Pets Retailer
+    **Modificaciones al Postman**
+    * Aumento content*type
+    * Accept-Encoding:
+* Se intentará acceder con Puppeteer

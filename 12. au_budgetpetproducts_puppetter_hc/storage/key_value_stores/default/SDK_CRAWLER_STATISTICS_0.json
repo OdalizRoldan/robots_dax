@@ -1,0 +1,52 @@
+{
+  "requestsFinished": 0,
+  "requestsFailed": 1,
+  "requestsRetries": 1,
+  "requestsFailedPerMinute": 0,
+  "requestsFinishedPerMinute": 0,
+  "requestMinDurationMillis": null,
+  "requestMaxDurationMillis": 0,
+  "requestTotalFailedDurationMillis": 8987,
+  "requestTotalFinishedDurationMillis": 0,
+  "crawlerStartedAt": "2023-10-13T19:29:40.920Z",
+  "crawlerFinishedAt": "2023-10-13T19:30:41.131Z",
+  "statsPersistedAt": "2023-10-13T19:30:41.131Z",
+  "crawlerRuntimeMillis": 60219,
+  "crawlerLastStartTimestamp": 1697225380912,
+  "requestRetryHistogram": [
+    null,
+    null,
+    null,
+    1
+  ],
+  "statsId": 0,
+  "requestAvgFailedDurationMillis": 8987,
+  "requestAvgFinishedDurationMillis": null,
+  "requestTotalDurationMillis": 8987,
+  "requestsTotal": 1,
+  "requestsWithStatusCode": {
+    "403": 4
+  },
+  "errors": {
+    "C:\\Users\\orojas\\Documents\\V3\\12. au_budgetpetproducts_puppetter_hc\\node_modules\\@crawlee\\basic\\internals\\basic-crawler.js:653:19": {
+      "missing error code": {
+        "Error": {
+          "Request blocked - received 403 status code.": {
+            "count": 1
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    "C:\\Users\\orojas\\Documents\\V3\\12. au_budgetpetproducts_puppetter_hc\\node_modules\\@crawlee\\basic\\internals\\basic-crawler.js:653:19": {
+      "missing error code": {
+        "Error": {
+          "Request blocked - received 403 status code.": {
+            "count": 3
+          }
+        }
+      }
+    }
+  }
+}

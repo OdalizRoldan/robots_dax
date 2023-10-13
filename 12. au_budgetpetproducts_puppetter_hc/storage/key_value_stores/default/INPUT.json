@@ -1,0 +1,15 @@
+{
+    "startUrls": [
+        {
+            "url": "https://www.budgetpetproducts.com.au/brand/hills-science-diet?page=1&sort=best_match&ajax=1",
+            "userData": {
+                "Manufacturer": "HillsPet",
+                "Brand": "Science Diet",
+                "Culture Code": "en-AU",
+                "ProductPage": 1,
+                "ApifyResultType": 0
+            }
+        }
+    ],
+    "keepUrlFragment": true
+}

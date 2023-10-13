@@ -1,0 +1,2169 @@
+{
+    "debugLog": false,
+    "forceResponseEncoding": false,
+    "ignoreSslErrors": true,
+    "keepUrlFragments": false,
+    "maxConcurrency": 5,
+    "maxCrawlingDepth": 0,
+    "maxPagesPerCrawl": 0,
+    "maxRequestRetries": 6,
+    "maxResultsPerCrawl": 0,
+    "pageFunction": "async function pageFunction(context) {\n    const { $, request, response, body, enqueueRequest } = context;\n    const { Manufacturer, StockRequest, Product } = request.userData;\n\n    if (response.status == 404 || $('.category-products').length) {\n        return {\n            Handled: true,\n            Message: `404 error`,\n            Url: Product ? Product.ProductUrl : request.url\n        }\n    }\n\n    if (!StockRequest) {\n        const productId = $('[name=\"product\"]').attr('value');\n        const productName = $('meta[itemprop=\"name\"]').attr('content').trim().replace(/\\s{2,}/g, ' ');\n        const referer = (new Buffer.from(request.url)).toString(\"base64\");\n        const payload = `is_ajax=true&is_list=true&product_ids=${productId}&curent_page=amshopby&referer=${referer}`;\n\n        \n        const product = {\n            ProductId: productId,\n            Manufacturer,\n            ProductName: productName,\n            ProductUrl: request.url\n        }\n\n        if ($('[itemprop=\"aggregateRating\"]').length && $('[itemprop=\"aggregateRating\"] [itemprop=\"ratingCount\"]').attr('content') > 0) {\n            product.RatingSourceValue = Math.round($('[itemprop=\"aggregateRating\"] [itemprop=\"ratingValue\"]').attr('content') * 10) / 10;\n            product.RatingType = \"5-Star\";\n            product.ReviewCount = Number($('[itemprop=\"aggregateRating\"] [itemprop=\"ratingCount\"]').attr('content'));\n            product.ReviewLink = request.url + \"#product_tabs_reviews\";\n        }\n\n        const apiRequest = \"https://www.sensodays.ro/ajaxproducts/\";\n        await enqueueRequest({\n            url: apiRequest,\n            uniqueKey: product.ProductUrl,\n            method: 'POST',\n            payload: payload,\n            headers: {\n                \"Content-type\": \"application/x-www-form-urlencoded\",\n                \"referer\": request.url\n            },\n            userData: {\n                Product: product,\n                StockRequest: true\n            }\n        })\n    }\n    if (StockRequest) {\n        const productJson = JSON.parse(body.replace(/\\\\r/g, \" \").replace(/\\\\n/g, \"\").replace(/<\\/?[^>]+>/g, \"\"));\n        const priceTest = productJson[`price_contents_${Product.ProductId}`];\n        const priceMatch = priceTest ? priceTest.match(/(\\d+\\s+)?\\d+,\\d+/g) : null;\n        const price = priceMatch && priceMatch.length ? priceMatch.pop().replace(/\\D/g, '') : null;\n        const stock = productJson[`stock_contents_${Product.ProductId}`] && productJson[`stock_contents_${Product.ProductId}`].match(/In\\s+Stoc/i) ? 'InStock' : 'OutOfStock';\n        Product.Price = Number(price) ? Number(price) / 100 : null;\n        Product.Stock = stock;\n        return Product;\n    }\n}",
+    "pageFunctionTimeoutSecs": 240,
+    "pageLoadTimeoutSecs": 240,
+    "proxyConfiguration": {
+        "useApifyProxy": true,
+        "apifyProxyGroups": []
+    },
+    "proxyRotation": "RECOMMENDED",
+    "startUrls": [
+        {
+            "url": "https://www.sensodays.ro/aparat-de-vidat-incorporabil-teka-vs-1520-gs-cantar-bucatarie-suport-role-fara-panou-frontal.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aparat-de-vidat-incorporabil-teka-vs-152-gs-cantar-bucatarie-suport-role-cristal-negru-cu-rama-inox-anti-pata.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-bucatarie-teka-ark-938-q-dus-extractibil-granit-schwarzmetallic.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-bucatarie-teka-fot-939-cu-pipa-inalta-flexibila-crom.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-bucatarie-teka-fot-990-cu-pipa-inalta-crom.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-bucatarie-teka-auk-983-cu-pipa-extractibila-pentru-montare-sub-fereastra.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-bucatarie-teka-go-939-cu-pipa-inalta-flexibila-crom.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-bucatarie-teka-ico-915-5-aeratoare-anticalcar-crom.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-bucatarie-teka-inx-983-pipa-cu-articulatie-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-bucatarie-teka-in-995-inca-teava-rotativa-inalta.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-bucatarie-teka-mn-mf-2-clasic-cu-teava-joasa.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-bucatarie-teka-mtp-913-cu-teava-turnata-joasa.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-bucatarie-teka-mn-mf-2-cu-teava-rotativa.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-bucatarie-teka-mtp-913-granit-cu-teava-turnata-joasa--sandbeige.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-bucatarie-teka-mtp-993-cu-teava-turnata-joasa.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-bucatarie-teka-mtp-913-granit-cu-teava-turnata-joasa-schwarzmetallic.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-bucatarie-teka-vtk-938-teava-inalta-si-dus.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-de-bucatarie-teka-fo-939-crom-teava-flexibila-cu-functie-de-dus.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-de-bucatarie-teka-fo-985-crom-tip-baioneta.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-de-bucatarie-teka-ark-938-cu-dus-extractibil-crom.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-de-bucatarie-teka-fo-999-crom-teava-flexibila-cu-functie-de-dus.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-de-bucatarie-teka-mtp-913-granit-cu-teava-turnata-joasa-topasbeige.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-de-bucatarie-teka-mtp-978-cu-sistem-de-dus-cu-2-functii-crom.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-de-bucatarie-teka-mtp-978-cu-sistem-de-dus-cu-2-functii-granit-sandbeige.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-de-bucatarie-teka-mtp-978-cu-sistem-de-dus-cu-2-functii-granit-schwarzmetallic.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-de-bucatarie-teka-mtp-978-cu-sistem-de-dus-cu-2-functii-granit-topasbeige.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-de-bucatarie-teka-sp-995-sandbeige-teava-inalta-rotativa-finisaj-granit.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-de-bucatarie-teka-sp-995-schwarzmetallic-teava-inalta-rotativa-finisaj-granit.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-de-bucatarie-teka-sp-995-topasbeige-teava-inalta-rotativa-finisaj-granit.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-bucatarie-teka-60-m-xp-1b-american-professional-front-inox-masiv-595x468mm-adancime-cuva-20cm-silentsmart-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-bucatarie-teka-80-m-xp-1b-american-professional-front-inox-masiv-795x468mm-adancime-cuva-20cm-silentsmart-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/catalog/product/view/id/154775/s/chiuveta-teka-top-linea-r15-2b-580-cu-doua-cuve-580x440cm-inox/",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-bucatarie-teka-classic-1b-1d-86-860x500mm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-bucatarie-teka-classic-1b-650x500mm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-bucatarie-teka-flexlinea-rs15-50-40-1b-pureclean-540x440mm-silentsmart-inox-softexture-anti-pata.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-bucatarie-teka-flexlinea-rs15-50-40-540x440mm-silentsmart-inox-titanium.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-bucatarie-teka-flexlinea-rs15-50-40-540x440mm-silentsmart-inox-brass.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-bucatarie-teka-stone-50b-tg-1b-1d-sm-860x510mm-tegranit-schwarzmetallic.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-bucatarie-teka-stone-50b-tg-1b-1d-tb-860x510mm-tegranit-topasbeige.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-bucatarie-teka-stone-60-s-tg-1b-1d-sm-780x510mm-tegranit-schwarzmetallic.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-bucatarie-teka-stone-60-s-tg-1b-1d-tb-780x510mm-tegranit-topasbeige.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-bucatarie-teka-top-linea-r15-2b-580-cu-2-cuve-580x440cm-inox-expus.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-bucatarie-teka-universal-e-465-465-1b-465x465mm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-astral-60b-tg-1-1-2b-1d-tegranit-schwartzmetallic.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-be-40-40-ventil-pop-up-424x424mm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-astral-60b-tg-1-1-2b-1d-tegranit-topasbeige.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-be-linea-rs15-2b-580-cu-doua-cuve-montare-sub-blat-580x440cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-be-linea-rs15-2b-740-cu-doua-cuve-montare-sub-blat-740x440cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-be-linea-rs15-34-40-montare-sub-blat-380x440cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-be-linea-rs15-40-40-montare-sub-blat-440x440cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-centroval-45-inox-microtexturat.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-be-linea-rs15-50-40-montare-sub-blat-540x440cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-centroval-45-tg-pop-up-tegranit-schwarzmetallic.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-centroval-45-tg-pop-up--tegranit-topasbeige.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-classic-1-1-2-b-1d-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-classic-1b-1d-86-860x500mm-inox-microtexturat.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-classic-1-1-2-b-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-classic-1b-inox-microtexturat.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-flexlinea-rs15-2b-580-cu-doua-cuve-580x440cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-flexlinea-rs15-34-40-380x440cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-flexlinea-rs15-40-40-440x440cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-forlinea-r15-50-40-540x500cm-inox-expus.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-flexlinea-rs15-50-40-540x440cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-flexlinea-rs15-2b-740-cu-doua-cuve-740x440cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-forlinea-rs15-2b-580-cu-doua-cuve-580x500cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-forlinea-rs15-2b-740-cu-doua-cuve-740x500cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-menorca-60s-tg-1b-pop-up-tegranit-schwarzmetallic.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-forlinea-rs15-50-40-540x500cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-premium-rs15-1b-1d-86-860x510cm-inox-sticla-alba.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-menorca-60s-tg-1b-pop-up--tegranit-topasbeige.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-premium-zenit-rs15-1b-600x520cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-premium-zenit-rs15-1b-1d-l-86-picurator-stanga-860x520cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-premium-zenit-rs15-1b-1d-r-86-picurator-dreapta-860x520cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-premium-zenit-rs15-2b-86-cu-doua-cuve-860x520cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-stone-60b-tg-1-1-2b-1d-1000x510mm-schwartzmetallic.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-princess-1-1-2-b-1-2-d-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-princess-1-1-2-b-1-2-d-inox-microtexturat.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-stone-60b-tg-1-1-2b-1d-1000x510mm-topasbeige.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-stone-60l-tg-1b-1d-1000x510mm-sandbeige.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-stone-60l-tg-1b-1d-1000x510mm-topasbeige.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-stone-90b-tg-2b-cu-doua-cuve-860x510mm-topasbeige.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-stone-90b-tg-2b-cu-doua-cuve-860x510mm-schwartzmetallic.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-universal-e-280-405-1b-280x405mm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-universal-e-580-500-1b-1-2-d-inox-mat.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-universal-e-580-500-1b-1-2-d-inox-texturat.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-universal-e-465-465-1b-465x465mm-inox-microtexturat.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/coloana-de-dus-teka-formentera-cu-baterie-palarie-279x279mm-para-cu-1-functie-crom.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/coloana-de-dus-teka-formentera-cu-baterie-termostatata-palarie-279x279mm-para-cu-1-functie-crom.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/coloana-de-dus-teka-mt-plus-cu-baterie-termostatata-palarie-200mm-para-cu-1-functie-crom.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/combina-frigorifica-cu-4-usi-teka-maestro-rfd-77820-gbk-longlife-no-frost-compartiment-gourmet-fuzzy-logic-ionclean-500-litri-net-clasa-a-cristal-black.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/coloana-de-dus-teka-universe-pro-fara-baterie-palarie-250mm-para-cu-3-functii-crom.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/combina-frigorifica-cu-4-usi-teka-maestro-rfd-77820-s-longlife-no-frost-compartiment-gourmet-fuzzy-logic-ionclean-500-litri-net-clasa-a-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/combina-frigorifica-incorporabila-teka-ci3-350-nf-nofrost-275litri-clasa-a.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/combina-frigorifica-cu-4-usi-teka-maestro-rmf-77920-ss-longlife-no-frost-ionclean-637-litri-net-clasa-a-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/combina-frigorifica-incorporabila-teka-rbf-73340-fi-eu-283-litri-brut-clasa-e.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/combina-frigorifica-incorporabila-teka-rbf-73350-fi-eu-no-frost-243-litri-net-clasa-e.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/combina-frigorifica-teka-maestro-rbf-78720-gwh-longlife-no-frost-ionclean-461-litri-net-clasa-a-cristal-white.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/combina-frigorifica-teka-maestro-rbf-78720-gbk-longlife-no-frost-ionclean-461-litri-net-clasa-a-cristal-black.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/combina-frigorifica-teka-maestro-rlf-74925-ss-full-no-frost-490-litri-net-dozator-apa-si-gheata-clasa-a-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/combina-frigorifica-teka-nfl-345-c-full-no-frost-clasa-a-295-litri-net-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/combina-frigorifica-teka-nfl-430-e-inox-full-no-frost-360-litri-clasa-a-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/combina-frigorifica-teka-nfl-430-s-full-no-frost-340-litri-net-clasa-a-alb.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/combina-frigorifica-teka-rbf-74620-gbk-no-frost-330-litri-ionclean-clasa-e-cristal-black.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/combina-frigorifica-teka-rbf-78721-ss-eu-no-frost-461-litri-ionclean-clasa-e-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/conector-fixfit-teka-300mm.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/congelator-incorporabil-teka-rsf-41150-bu-eu-montare-sub-blat-96-litri-brut-clasa-f.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/congelator-incorporabil-teka-tgi2-120-d-96litri-a-.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-cu-microunde-incorporabil-teka-mb-620-bi-20-litri-700w-interior-inox-alb.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-cu-microunde-incorporabil-teka-infinity-g1-ml-82-g1-bis-l-22-litri-3-functii-interior-inox-balamale-stanga.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/congelator-incorporabil-teka-rsf-73350-fi-eu-no-frost-220-litri-clasa-f.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-cu-microunde-incorporabil-teka-ml-8200-bis-bk-18-litri-net-700w-interior-inox-grill-1000w-infinity-glass.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-cu-microunde-incorporabil-teka-ml-820-bis-18-litri-700w-interior-inox-grill-1000w-inox-antipata-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-cu-microunde-incorporabil-teka-ml-820-bis-18-litri-700w-interior-inox-grill-1000w-inox-antipata-cristal-alb.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-cu-microunde-incorporabil-teka-ml-8220-bis-l-lb-stanga-850w-9-retete-presetate-baza-ceramica-grill-rabatabil-1200w-cristal-cristal-steam-grey-infinity-glass.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-cu-microunde-incorporabil-teka-ml-8220-bis-l-lb-stanga-850w-9-retete-presetate-baza-ceramica-grill-rabatabil-1200w-cristal-cristal-stone-grey-infinity-glass.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-cu-microunde-incorporabil-teka-ml-822-bis-cu-22-litri-9-retete-presetate-850w-baza-ceramica-grill-1200w-rabatabil-balama-stanga-inox-anti-pata-cristal-alb.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-cu-microunde-incorporabil-teka-ml-822-bis-cu-22-litri-9-retete-presetate-850w-baza-ceramica-grill-1200w-rabatabil-balama-stanga-inox-anti-pata-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-cu-microunde-incorporabil-teka-mlc-8440-bk-cu-3-functii-1000w-grill-1400w-44-litri-infinity-glass.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-cu-microunde-incorporabil-teka-ml-8220-bis-l-lb-stanga-850w-9-retete-presetate-baza-ceramica-grill-rabatabil-1200w-cristal-london-brick-brown-infinity-glass.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-cu-microunde-incorporabil-teka-ms-620-bis-20-litri-700w-grill-timer-inox-anti-pata.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-cu-microunde-incorporabil-teka-mwr-22-vn-850w-22-litri-baza-ceramica-vanilla-rustic.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-cu-microunde-incorporabil-teka-mwr-22-bi-850w-22-litri-baza-ceramica-antracit.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-cu-microunde-teka-mwe-225-g-20-litri-5-nivele-de-putere-8-retete-presetate-timer-0-95-min-microunde-700w-grill-1000w-alb.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-cu-microunde-teka-mwe-225-g-20-litri-5-nivele-de-putere-8-retete-presetate-timer-0-95-min-microunde-700w-grill-1000w-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-hbb-605-71-litri-multifunctional-6-functii-hydroclean-eco-clasa-a-inox-anti-pata.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-hbb-735-70-litri-multifunctional-9-functii-autocuratare-hydroclean-pro-clasa-a.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-hcb-6435-65-litri-multifunctional-8-functii-preincalzire-mecanica-hydroclean-pro-clasa-a.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-hcb-6535-bk-71-litri-8-functii-curatare-hydroclean-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-hcb-6535-wh-71-litri-8-functii-curatare-hydroclean-cristal-alb.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-cu-microunde-incorporabil-teka-mlc-844-cu-3-functii-1000w-grill-1400w-44-litri-inox-antipata-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-hlb-840-71-litri-multifunctional-9-functii-hydroclean-pro-clasa-a-cristal-alb.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-hlb-840-71-litri-multifunctional-9-functii-hydroclean-pro-clasa-a-inox-anti-pata-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-hlc-844-c-combi-microunde-compact-41-litri-multifunctional-11-functii-hydroclean-eco-inox-anti-pata-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-hlc-847-sc-compact-combi-cu-aburi-44-litri-hydroclean-surroundtemp-15-functii-black-glass.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-hrb-6300-at-country-style-multifunctional-9-functii-70litri-hydroclean-clasa-a-negru-antracit.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-hlc-8440-c-bk-combi-microunde-compact-41-litri-multifunctional-11-functii-hydroclean-cristal-black-infinity-glass.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-hrb-6300-vn-70-litri-multifunctional-9-functii-hydroclean-clasa-a-vanilla-rustic.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-hsb-635-71-litri-multifunctional-8-functii-hydroclean-pro-clasa-a-inox-anti-pata.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-hsb-635-p-71-litri-multifunctional-8-functii-autocuratare-pirolitica-hydroclean-pro-clasa-a-inox-anti-pata-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-infinity-g1-hlb-85-g1-p-bm-maestro-pizza-70-litri-8-functii-60cm-clasa-a.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-ioven-p-cu-piroliza-surroundtemp-18-functii-70-litri-dualclean-maxi-grill-detasabil-clasa-a-inox-antipata-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-urban-colours-hlb-8600-lb-surroundtemp-12-functii-hydroclean-70-litri-clasa-a-cristal-london-brick-brown-infinity-glass.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-steak-master-grill-2x1200-w-gratar-fonta-63-litri-12-functii-dualclean-clasa-a-inox-antipata-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-urban-colours-hlb-8600-sm-surroundtemp-12-functii-hydroclean-70-litri-clasa-a-cristal-steam-grey-infinity-glass.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-gaz-incorporabil-teka-hsb-740-g-60-litri-grill-gaz-ventilator-hydroclean-timer-mecanic-inox-antipata.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-incorporabil-teka-maestropizza-hlb-8510-p-70-litri-8-functii-piroliza-hydrocleanr-pro-pizza-grill-extra-power-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-electric-incorporabil-teka-urban-colours-hlb-8600-st-surroundtemp-12-functii-hydroclean-70-litri-clasa-a-cristal-stone-grey-infinity-glass.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-incorporabil-teka-airfry-hlb-8416-70-litri-9-functii-hydroclean-pro-fry-master-box-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/dozator-detergent-teka-350ml-crom.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/dispozitiv-pentru-strangerea-si-tocarea-resturilor-teka-kit-pneumatic-inclus-tr-550.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/espressor-automat-incorporabil-teka-clc-855-gm-bk-pompa-15-bari-rasnita-cafea-auto-curatare-infinity-glass.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/espressor-cu-capsule-incorporabil-teka-clc-835-mc-wh-5-adaptoare-capsule-pad-uri-si-cafea-macinata-pompa-19-bari-inox-anti-pata-cristal-alb.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/espressor-cu-capsule-incorporabil-teka-clc-835-mc-5-adaptoare-capsule-pad-uri-si-cafea-macinata-pompa-19-bari-inox-anti-pata-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/espressor-incorporabil-teka-clc-855-gm-sm-pompa-15-bari-functie-de-auto-curatare-rasnita-cafea-cu-13-trepte-program-automat-de-decalcifiere-cristal-steam-grey-infinity-glass.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/espressor-incorporabil-teka-clc-855-gm-st-pompa-15-bari-functie-de-auto-curatare-rasnita-cafea-cu-13-trepte-program-automat-de-decalcifiere-cristal-stone-grey-infinity-glass.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/filtru-carbune-activ-teka-61801238-pentru-hota-c-6420-20cm.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/filtru-circular-de-carbune-activ-teka-61801262.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/frigider-incorporabil-teka-rsl-73350-fi-eu-309-litri-net-clasa-f.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/filtru-circular-de-carbune-activ-teka-diametru-178mm.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/frigider-incorporabil-teka-rsr-41150-bu-eu-125-litri-montare-sub-blat-clasa-f.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/frigider-incorporabil-teka-tfi3-130-d-125-litri-montare-sub-blat-clasa-a.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/frigider-incorporabil-teka-rsr-42250-fi-eu-210-litri-brut-clasa-f.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-decorativa-teka-dbb-60-turbina-dubla-60cm-475mc-h-free-outlet-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/gratar-flexibil-teka-rolling-profi-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-de-colt-semineu-teka-dq2-985-90-cm-3-trepte-turbo-free-outlet-920-m3-h-inox-sticla.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-decorativa-teka-dbb-90-turbina-dubla-90cm-475mc-h-free-outlet-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-decorativa-teka-dlh-686-t-ultraslim-60cm-3-trepte-intensiv-920-mc-h-free-outlet-clasa-a-inox-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-decorativa-teka-dlh-986-t-ultraslim-90cm-3-trepte-intensiv-920-mc-h-free-outlet-clasa-a-inox-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-decorativa-teka-dlh-1186-t-ultraslim-120cm-3-trepte-intensiv-920-m3-h-free-outlet-clasa-a-inox-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-decorativa-teka-dos-90-1-90cm-734mc-h-turbina-dubla-negru-antracit-rustic.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-incorporabila-teka-gfg-2-55cm-3-trepte-free-outlet-444-m3-h-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-decorativa-teka-dos-60-1-60cm-650mc-h-turbina-dubla-negru-antracit-rustic.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-incorporabila-teka-gfg-2-540-m3-h-3-viteze-55cm-turbina-dubla-sticla-alba.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-incorporabila-teka-gfg-2-540-m3-h-3-viteze-55cm-turbina-dubla-sticla-neagra.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-incorporabila-teka-gfh-55-turbina-dubla--55cm--756mc-h.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-incorporabila-teka-gfl-57650-eos-ix-3-trepte-turbo-max-559mc-h-50cm-inox-clasa-a.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-incorporabila-teka-gfh-73-turbina-dubla--73cm--756mc-h.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-incorporabila-teka-maestro-gfl-57651-eos-bk-extractie-perimetrala-50cm-3-trepte-free-outlet-735-mc-h-clasa-a-inox-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-incorporabila-teka-gfl-77650-eos-ix-3-trepte-turbo-max-559mc-h-70cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-insula-teka-dh2-985-island-90-cm-3-trepte-turbo-free-outlet-920-m3-h-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-incorporabila-teka-maestro-gfl-77651-eos-bk-extractie-perimetrala-70cm-3-trepte-free-outlet-735-mc-h-clasa-a-inox-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-insula-teka-dh2-1285-island-120-cm-3-trepte-turbo-free-outlet-920-m3-h-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-insula-teka-cc-485-40-cm-forma-cilindrica-3-trepte-turbo-free-outlet-920-m3-h-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-insula-teka-dht-97670-ros-wh-90-cm-4-trepte-2-intensiv-extractie-perimetrala-telecomanda-800-mc-h-free-outlet-clasa-a-alb.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-modulara-teka-fih-16760-tos-bk-downdraft-3-trepte-turbo-max-600-m3-h-sistem-de-extractie-perimetrala-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-insula-teka-dpl-1185-island-110-cm-3-trepte-turbo-sistem-de-extractie-perimetral-free-outlet-920-m3-h-inox-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-semineu-teka-dos-60-1-60cm-650mc-h-turbina-dubla-vanilla-rustic.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-semineu-teka-dsh-985-ultraslim-3-trepte-turbo-90cm-free-outlet-920-m3-h-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-semineu-teka-dsh-685-ultraslim-60-cm-3-trepte-turbo-filtre-inox-max-586-m3-h-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-semineu-teka-dvn-94030-bk-90-cm-design-vertical-460-m3-h-free-outlet-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-semineu-teka-dvn-94030-wh-90-cm-design-vertical-460-m3-h-free-outlet-cristal-alb.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-semineu-teka-dlv-99670-design-vertical-90cm-815m3-h-turbo-clasa-a-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-semineu-teka-tikal-dss-785-90-cm-forma-piramida-3-trepte-turbo-free-outlet-792-m3-h-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-semineu-ultraslim-teka-perfecta4-dlh-1185-t-110-cm-3-trepte-turbo-free-outlet-795-m3-h-inox-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-teka-dbp-90-pro-318m3-h-3-trepte-turbo-90-cm-turbina-dubla-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-teka-dbp-60-pro-318m3-h-3-trepte-turbo-60-cm-turbina-dubla-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-semineu-teka-tikal-dss-985-90-cm-forma-piramida-3-trepte-turbo-free-outlet-792-m3-h-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-teka-dlv-68660-lb-60cm-design-vertical-3-trepte-turbo-max-614m3-h-london-brick.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-teka-dlv-68660-sm-60cm-design-vertical-3-trepte-turbo-max-614m3-h-steam-grey.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-teka-dlv-68660-st-60cm-design-vertical-3-trepte-turbo-max-614m3-h-stone-grey.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-teka-dlv-98660-lb-90cm-design-vertical-3-trepte-turbo-max-614m3-h-london-brick.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-teka-dlv-98660-sm-90cm-design-vertical-3-trepte-turbo-max-614m3-h-steam-grey.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-teka-dvt-68660-tbs-3-trepte-turbo-698-m3-h-freshair-turbina-dubla-60-cm-timer-paravan-sticla-black.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-teka-dvt-68660-tbs-3-trepte-turbo-698-m3-h-freshair-turbina-dubla-60-cm-timer-paravan-sticla-white.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-teka-dvt-98660-tbs-3-trepte-turbo-698-m3-h-freshair-turbina-dubla-90-cm-timer-paravan-sticla-black.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-teka-easy-dvn-64030-design-vertical-2-trepte-turbo-460-m3-h-60cm-timer-sticla-alba.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-teka-easy-dvn-64030-design-vertical-2-trepte-turbo-460-m3-h-60cm-timer-sticla-neagra.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-teka-infinity-g1-dvi-88-g1-eos-bm-design-vertical-80cm-fresh-air-786-m3-h-free-outlet-sticla-neagra.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-telescopica-teka-cnl-6415-black-2-trepte-turbo-max-312-mc-h-60cm-clasa-a.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-telescopica-teka-cnl-6415-plus-white-60cm-5-trepte-turbo-free-outlet-393-m3-h-cristal-alb.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-telescopica-teka-cnl-6415-inox-2-trepte-turbo-max-312-mc-h-60cm-clasa-a.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-telescopica-teka-cnl-6610-60-cm-2-trepte-turbo-free-outlet-745-m3-h-inox-anti-pata.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-telescopica-teka-cnl-6415-plus-black-60cm-5-trepte-turbo-free-outlet-393-m3-h-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-telescopica-teka-cnl-6415-white-2-trepte-turbo-max-312-mc-h-60cm-clasa-a.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-telescopica-teka-cnl-9610-90-cm-2-trepte-turbo-free-outlet-745-m3-h-inox-anti-pata.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-telescopica-teka-tl-6310-60cm-2-trepte-free-outlet-366-m3-h-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-telescopica-teka-tl-9310-90-cm-2-trepte-free-outlet-366-m3-h-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/kit-tocator-si-sita-pentru-chiuvete-teka.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/masina-de-spalat-vase-incorporabila-teka-dfi-44700-10-seturi-7-programe-clasa-a-45-cm-motor-inverter.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/masina-de-spalat-vase-incorporabila-teka-dfi-46700-14-seturi-7-programe-motor-inverter-clasa-a-60cm.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/masina-de-spalat-vase-incorporabila-teka-dfi-46950-15-seturi-9-programe-clasa-a-60cm.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/masina-de-spalat-vase-incorporabila-teka-dfi-46900-14-seturi-9-programe-clasa-a-60cm.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/masina-de-spalat-vase-incorporabila-teka-dfi-74910-11-seturi-9-programe-clasa-e-45cm.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/masina-de-spalat-vase-partial-incorporabila-teka-dsi-46750-ss-60cm-13-seturi-7-programe-clasa-e.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/masina-de-spalat-vase-partial-incorporabila-teka-dsi-44700-ss-45cm-9-seturi-7-programe-clasa-e.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/panou-frontal-pentru-aparat-de-vidat-teka-kit-vs-1520-gs-sm-steam-grey-infinity-glass.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-gaz-incorporabila-teka-efx-60-1-4g-ai-al-dr-ci-cu-4-arzatoare-60-cm-butoane-frontale-metalice-gratare-fonta-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-gaz-incorporabila-teka-efx-70-1-5g-ai-al-dr-ci-cu-5-arzatoare-75-cm-butoane-frontale-metalice-gratare-fonta-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-gaz-incorporabila-teka-efx-60-1-4g-ai-al-ci-cu-4-arzatoare-60-cm-gratare-fonta-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-gaz-incorporabila-teka-gbc-64000-kbn-60-cm-4-arzatoare-gratare-fonta-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-gaz-incorporabila-teka-gsc-64320-rbc-at-cu-4-arzatoare-60cm-gratare-fonta-antracit.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-gaz-incorporabila-teka-gzc-64320-cu-4-arzatoare-60cm-gratare-fonta-cristal-london-brick-brown.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-gaz-incorporabila-teka-gsc-64320-rbc-vn-cu-4-arzatoare-60cm-gratare-fonta-vanilla.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-gaz-incorporabila-teka-gzc-64321-cu-4-arzatoare-60cm-gratare-fonta-cristal-alb.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-gaz-incorporabila-teka-gzc-64320-cu-4-arzatoare-60cm-gratare-fonta-cristal-stone-grey.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-gaz-incorporabila-teka-gzc-64320-cu-4-arzatoare-60cm-gratare-fonta-cristal-steam-grey.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-gaz-incorporabila-teka-infinity-g1-gbc-64-g1-gbc-bm-4-arzatoare-60-cm-gratare-fonta-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-incorporabila-gaz-teka-vr-90-4g-ai-al-tr-ci-cristal--4-arzatoare--gratare-fonta--90cm--forma-bumerang.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-incorporabila-gaz-teka-hlx-60-4g-ai-al-4-arzatoare--gratare-metal--60cm.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-inductie-incorporabila-teka-easy-ibc-32000-cu-2-zone-30cm-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-gaz-incorporabila-teka-maestro-gzc-75330-cu-5-arzatoare-70cm-gratare-fonta-exactflame-suprafata-vitroceramica-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-inductie-incorporabila-teka-izc-64010-4-zone-60cm-multislider-touch-control-sticla-neagra.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-inductie-incorporabila-teka-izc-32310-msp-bk-cu-2-zone-30cm-multislider-touch-control.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-inductie-incorporabila-teka-infinity-g1-ibf-64-g1-msp-bm-cu-4-zone-60cm-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-inductie-incorporabila-teka-izc-64630-cu-4-zone-60cm-multislider-touch-control-alb.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-inductie-incorporabila-teka-izc-64630-cu-4-zone-60cm-multislider-touch-control-steam-grey.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-inductie-incorporabila-teka-izf-64600-bk-msp-cu-4-zone-60-cm-multislider-touch-control-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-inductie-incorporabila-teka-izc-64630-cu-4-zone-60cm-multislider-touch-control-stone-grey.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-inductie-incorporabila-teka-izf-68700-60cm-7-zone-flex-directsense-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-inductie-incorporabila-teka-izs-66800-cu-4-zone-60cm-flex-slidecooking-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-inductie-incorporabila-teka-izs-96700-flex-90cm-4-zone-slide-cooking-7200w.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-mixta-incorporabila-teka-jzc-64322-cu-2-arzatoare-gaz-si-2-zone-inductie-60-cm-fara-rama-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-mixta-incorporabila-teka-jzc-95314-abn-bk-cu-1-arzator-gaz-coroana-dubla-si-4-zone-inductie-90cm-black-glass.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-vitroceramica-incorporabila-teka-iz-6415-cu-4-zone-62cm-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-vitroceramica-incorporabila-teka-tt-6420-cu-4-zone-60-cm-rama-metalica-slim-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/sertar-termic-telescopic-incorporabil-teka-cp-15-gs-6-farfurii-10-cm-30-80-grade-430-w-cristal-negru-cu-rama-inox-anti-pata.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/set-de-dus-teka-formentera-cu-para-1-jet-agatatoare-si-furtun-175cm.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/vitrina-de-vinuri-incorporabila-teka-rvi-20046-117-litri-net-44-sticle-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/vitrina-de-vinuri-incorporabila-teka-rvi-20041-100-litri-net-41-sticle-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-cu-sac-bosch-bgl3hyg-gl-30-prohygienic-600w-perie-pardoseli-tari.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/vitrina-de-vinuri-teka-rvu-20046-134-litri-net-46-sticle-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-cu-sac-bosch-bgbs2lb1-serie-2-600w-perie-multifunctionala-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-cu-sac-bosch-bgl6pow1-serie-6-propower-850w-powerprotect-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-cu-sac-bosch-prosilence-bgb8sil1-serie-8-800w-alb.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-cu-sac-bosch-bgl8x329-serie-8-890w-power-protect-system-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-cu-sac-bosch-bgl8pow2-serie-8-propower-650w-powerprotect-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-cu-sac-bosch-prosilence-bgl8sil5-serie-8-800w-powerprotect-alb.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-fara-sac-bosch-bgc21x200-serie-4-550w-recipient-praf-2-litri-perie-multifunctionala-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-fara-sac-bpsch-bgs7ms64-serie-8-prosilence-800w-smart-sensor-control-quattropower-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-multifunctional-bosch-bch3all21-2in1-serie-4-acumulator-liion-21-6v-autonomie-50min-cinnamon-brown-metallic.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-vertical-bosch-bbh87pow1-serie-8-athlet-propower-acumulator-liion-32-4v-autonomie-80-minute-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-vertical-bosch-bch3p210-serie-4-flexxo-21-6v-argintiu.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-vertical-bosch-bch86pet1-athlet-proanimal-serie-6-acumulator-li-ion-25-2v-autonomie-60-minute-tornado-red.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-vertical-bosch-bch86pet2-athlet-proanimal-serie-6-acumulator-li-ion-25-2v-autonomie-60-min-rosu.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-vertical-bosch-bch87pow1-serie-8-athlet-propower-acumulator-liion-32-4v-autonomie-80-minute-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-vertical-bosch-bcs611p4a-unlimited-serie-6-acumulator-power-for-all-18v-autonomie-30-minute-albastru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-vertical-bosch-bcs812ka2-unlimited-serie-8-2x-acumulatori-power-for-all-18v-autonomie-40-minute-argintiu.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-vertical-bosch-bcs82mat14-unlimited-gen-2-serie-8-acumulator-power-for-all-18v-autonomie-65-minute-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-vertical-bosch-unlimited-7-bcs711pet-proanimal-acumulator-power-for-all-3-0-ah-autonomie-40-min-red.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-vertical-bosch-unlimited-gen2-propower-bcs82pwr25-serie-8-2-acumulatori-power-for-all-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-vertical-bosch-unlimites-gen2-bss8224-serie-8-2-acumulatori-power-for-all-alb.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-wet-dry-bosch-bwd41720-3in1-serie-4-1700-w-aquawash-clean-turquoise-white-grey.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-wet-dry-bosch-bwd421pet-3in1-serie-4-2100w-aquawash-clean-tornado-red-black.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/blender-bosch-mmbh6p6b-vitaboost-1600w-2-litri-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/blender-cu-vacuum-bosch-maxomixx-ms8cm61v1-1000w-inox.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/blender-de-mana-bosch-ms61b6150-ergomixx-1000-w-black-antracit.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/blender-cu-vacuum-bosch-maxomixx-ms8cm61v5-1000w-inox.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/blender-de-mana-bosch-ms6ca41h50-ergomixx-800-w-alb-antracit.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/blender-de-mana-bosch-ms6cm6120-ergomixx-style-1000w-inox-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/blender-de-mana-bosch-ms6cb61v1-ergomixx-1000w-sistem-de-vidare-antracit.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/blender-vacuum-bosch-vitamaxx-mmbv625m-1000w-cana-tritan-1-5-litri-functie-auto-6-lame-otel-sticla-togo-0-5l-doua-vase-1-5l-si-0-75l-argintiu.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/espressor-automat-bosch-tis30129rw-verocup-100-15-bari-rasnita-ceramica-milkmagic-pro-argintiu.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/blender-vacuum-bosch-vitamaxx-mmbv622m-1000w-cana-tritan-1-5-litri-functie-auto-6-lame-otel-vas-0-7l-argintiu.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/espressor-automat-bosch-tis30321rw-verocup-300-15-bari-rasnita-ceramica-milkmagic-pro-argintiu.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/espressor-automat-bosch-tis30329rw-verocup-300-15-bari-rasnita-ceramica-milkmagic-pro-calc-nclean-negru-lacuit.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/espressor-automat-bosch-tis30521rw-verocup-500-15-bari-rasnita-ceramica-milkmagic-pro-calc-nclean-argintiu-lacuit.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/fierbator-bosch-twk3a014-2400w--1-7litri--rosu.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/fierbator-bosch-twk7203-1-7-litri-temperaturecontrol7-inox.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/fierbator-bosch-twk8611p-styline-1-5-litri-2400w-baza-detasabila-alb-antracit.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/fierbator-de-apa-bosch-twk8617p-styline-1-5-litri-slider-touchcontrol-cana-termoizolanta-filtru-detasabil-anti-calcar-bej.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/fierbator-de-apa-bosch-twk8613p-styline-1-5-litri-slider-touchcontrol-cana-termoizolanta-filtru-detasabil-anti-calcar-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/masina-de-tocat-bosch-mfw67450-propower-2000w-3-5kg-min-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/masina-de-tocat-bosch-mfw68640-propower-4-3kg-min-2200w-accesoriu-kebbe-razuit-maruntit-carnati-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/mixer-cu-bol-bosch-mfq2600w-clevermixx-375w-alb.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/mixer-de-mana-bosch-mfq4930b-850w-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/mixer-cu-bol-bosch-mfq2600g-clevermixx-375w-alb.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/masina-de-tocat-bosch-propower-mfw67440-3-5-kg-min-accesoriu-razuit-maruntit-carnati-negru-silver.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/multicooker-bosch-muc11w12-940-w-5-litri-48-programe-timer-alb-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/prajitor-de-paine-bosch-compactclass-tat3a013-suport-chifle-sertar-firimituri-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/prajitor-de-paine-bosch-tat7s25-styline-2-felii-grafit.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/prajitor-de-paine-bosch-tat7s45-4-felii-grafit.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/robot-de-bucatarie-bosch-mum-4655eu-550w.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/robot-de-bucatarie-bosch-mum58258-1000w-7-trepte-impuls-bol-inox-3-9-litri-alb-argintiu.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/robot-de-bucatarie-bosch-mum54a00-mum5-startline-900w-3-9-litri-control-electronic-brat-multifunctional-7-viteze-impuls.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/robot-de-bucatarie-bosch-mum58m59-1000w-7-trepte-impuls-bol-inox-3-9-litri-negru-argintiu.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/robot-de-bucatarie-bosch-mum9bx5s22-optimum-sensorcontrol-plus-1500w-7-viteze-impuls-bol-inox-xl-5-5-litri-3-5kg.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/robot-de-bucatarie-bosch-mum5xl72-1000w-cantar-integrat-7-trepte-impuls-bol-inox-3-9-litri-set-profesional-patiserie-gri.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/robot-de-bucatarie-bosch-optimum-mum9a66n00-1600w-bol-inox-5-5litri-7-viteze-puls-roz.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/robot-de-bucatarie-bosch-optimum-mum9a66r00-1600w-bol-inox-5-5litri-7-viteze-puls-rosu.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/robot-de-bucatarie-bosch-styline-mum52120-700w-4-trepte-2b-impuls-alb.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/set-16-saci-aspirator-bosch-bbz16gall-fleece-multi-strat.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/set-accesorii-aspirator-bosch-bbzwd4bag-cu-4-saci-fleece-microfiltru-motor.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/set-accesorii-bosch-bosch-bbz41fk-megafilt-supertex-contine-4-saci-1-micro-filtru-pentru-aspiratoare-bsg1-bsn1-vs01g-vs01e.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/set-detergenti-pentru-aspiratoare-aquawash-clean-boch-bbzwdset.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/storcator-de-fructe-si-legume-bosch-mes4000-1000w-tub-alimentare-xxl-cutit-ceramic-negru-silver.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/storcator-de-fructe-si-legume-bosch-mes4010-1200w-tub-alimentare-xxl-cutit-ceramic-negru-silver.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/storcator-la-rece-bosch-mesm500w-vita-extract-150w-55-rpm.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/storcator-la-rece-bosch-mesm731m-vita-extract-150w-55-rpm.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/toaster-bosch-tat-8611-860w-2-felii--alb.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/uscator-de-rufe-bosch-wtm85251by-serie-4-8kg-clasa-a-alb.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-stone-60l-tg-1b-1d-1000x510mm-schwartzmetallic.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-bucatarie-teka-stone-50b-tg-1b-1d-sb-860x510mm-tegranit-sandbeige.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-de-bucatarie-teka-mc-10-plus-9115-granit-topasbeige.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/baterie-de-bucatarie-teka-fo-915.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/combina-frigorifica-teka-maestro-rbf-78720-ss-longlife-no-frost-ionclean-461-litri-net-clasa-a-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-teka-dlv-98660-st-90cm-design-vertical-3-trepte-turbo-max-614m3-h-stone-grey.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-teka-dvt-98660-tbs-3-trepte-turbo-698-m3-h-freshair-turbina-dubla-90-cm-timer-paravan-sticla-white.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/masina-de-spalat-vase-incorporabila-teka-dfi-76950-cu-usa-glisanta-15-seturi-9-programe-clasa-a-60cm.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/espressor-automat-incorporabil-teka-clc-855-gm-pompa-15-bari-rasnita-cafea-auto-curatare-inox-anti-pata-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/filtru-carbune-activ-teka-61801346-pentru-hota-cnl-6415-plus.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-forlinea-rs15-40-40-440x500cm-inox.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/hota-semineu-teka-dos-90-1-90cm-650mc-h-turbina-dubla-vanilla-rustic.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/cuptor-cu-microunde-incorporabil-teka-ml-8220-bis-l-bk-stanga-850w-9-retete-presetate-baza-ceramica-grill-rabatabil-1200w-cristal-black-infinity-glass.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-gaz-incorporabila-teka-gzc-32300-domino-cu-2-arzatoare-30cm-gratare-fonta-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-gaz-incorporabila-teka-gzc-64320-cu-4-arzatoare-60cm-gratare-fonta-cristal-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-vertical-bosch-bbs611lag-unlimited-serie-6-acumulator-power-for-all-18v-autonomie-30-minute-albastru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/plita-vitroceramica-incorporabila-teka-tzc-32320-ttc-bk-domino-doua-zone-30cm-negru.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/solutie-curatare-teka-clean-200ml-pentru-chiuvete-granit-si-suprafete-vitroceramice.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-cu-sac-bosch-bgl6hyg1-serie-6-prohygiene-600w-filtru-ultraallergy-powerprotect-alb.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-wet-dry-bosch-bwd421pow-3in1-serie-4-2100w-aqua-wash-clean-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/mixer-de-mana-bosch-mfq4990b-850w-tocator-vas-gradat-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/masina-de-tocat-bosch-mfw3520w-compact-power-1-8-kg-min-1500w-accesoriu-kebbe-carnati-alb.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/robot-de-bucatarie-bosch-mum5xc66-1000w-cantar-integrat-7-trepte-impuls-bol-inox-3-9-litri-set-profesional-patiserie-negru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-fara-sac-bosch-bgs7pet-serie-8-proanimal-800w-recipient-praf-3-litri-smart-sensor-control-rosu.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/chiuveta-teka-stone-90b-tg-2b-cu-doua-cuve-860x510mm-sandbeige.html",
+            "userData": {
+                "Manufacturer": "Teka"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/aspirator-vertical-bosch-bbs611mat-unlimited-serie-6-acumulator-power-for-all-18v-autonomie-30-minute-albastru.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/robot-de-bucatarie-bosch-mum5xw40-7-trepte-impuls-1000w-bol-3-9-litri-alb.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        },
+        {
+            "url": "https://www.sensodays.ro/storcator-de-citrice-bosch-mcp3500n-vitapress-25w-alb.html",
+            "userData": {
+                "Manufacturer": "BSH"
+            }
+        }
+    ]
+}
