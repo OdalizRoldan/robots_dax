@@ -290,4 +290,4 @@ Se trabajó en robot de categorias un poco.
  * Inlcluso nos logueamos a la pagina y nel
  * Lo unico que faltaria intentar seria entrar desde otra IP, es posible que nos hallan bloqueado por intentar entrar muchas veces.
  **Retailer ApplianceCity**
-     * Resulta que la marca haier tiene una estructura de datos distinta, lo que significa que la logica actual no funcionara 
+     * Resulta que la marca haier tiene una estructura de datos distinta, lo que significa que la logica actual no funcionara en esa pagina.

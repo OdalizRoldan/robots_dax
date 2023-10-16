@@ -22,6 +22,7 @@ Actor.main(async () => {
 
         if (!Category) {
             const totalCategories = $(".section_padding_lower-quarter > div > div.quick_links > ul > li > a");
+
             log.info(`Processing: ${totalCategories.length} categories`);
             totalCategories.each(async function (index, element) {
                 var categoryUrl = $(element).attr('href');
