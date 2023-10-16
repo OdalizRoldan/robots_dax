@@ -21,27 +21,66 @@ Actor.main(async () => {
         const { Manufacturer, Brand, Category, Paginated, CategoyName } = request.userData;
 
         if (!Category) {
+            var domain = "https://www.appliancecity.co.uk"
             const totalCategories = $(".section_padding_lower-quarter > div > div.quick_links > ul > li > a");
+            if (totalCategories.text() == '') {
+                log.info("ESTRUCTURA TIPO 2");
+                const selector_level01 = $("div.row > div > div > div > div");
+                var url_subcategory, categoryUrl;
+                selector_level01.each(async function (index, element) {
+                    if ($(element).find("a").attr("href") != undefined) {
+                        url_subcategory = $(element).find("a").attr("href");
+                        log.info("Este es el link de la subcategoria: " + domain + url_subcategory);
+                        log.info("H3 de la subcategoria: " + $(element).find("h3").text());
 
-            log.info(`Processing: ${totalCategories.length} categories`);
-            totalCategories.each(async function (index, element) {
-                var categoryUrl = $(element).attr('href');
-                var categoryName = $(element).text();
+                        if (url_subcategory.includes(`haier`) && !url_subcategory.includes(`newsletter`) && !url_subcategory.includes(`about-us`)) {
+                            var categoryName = $(element).find("h3").text();
+                            if (categoryName.includes("I-Pro")) {
+                                categoryUrl = url_subcategory;
+                            } else {
+                                categoryUrl = domain + url_subcategory;
+                            }
 
-                log.info("Category name" + categoryName);
-                log.info("Category url" + categoryUrl);
+                            log.info("THIS IS OFFICIAL");
+                            log.info(categoryName);
 
-                var categoryRequest = {
-                    url: categoryUrl,
-                    userData: {
-                        Category: true,
-                        CategoyName: categoryName,
-                        Brand,
-                        Manufacturer
+                            var categoryRequest = {
+                                url: categoryUrl,
+                                CategoryName: categoryName,
+                                userData: {
+                                    Category: true,
+                                    Brand,
+                                    Manufacturer
+                                }
+                            };
+                            await enqueueRequest(categoryRequest);
+                        }
+                    } else {
+                        log.info("No se encontró atributo a");
                     }
-                };
-                await enqueueRequest(categoryRequest);
-            })
+                });
+
+            } else {
+                log.info(`Processing: ${totalCategories.length} categories`);
+                totalCategories.each(async function (index, element) {
+                    var categoryUrl = $(element).attr('href');
+                    var categoryName = $(element).text();
+
+                    log.info("Category name" + categoryName);
+                    log.info("Category url" + categoryUrl);
+
+                    var categoryRequest = {
+                        url: categoryUrl,
+                        userData: {
+                            Category: true,
+                            CategoyName: categoryName,
+                            Brand,
+                            Manufacturer
+                        }
+                    };
+                    await enqueueRequest(categoryRequest);
+                })
+            }
         }
         if (Category) {
             if (!Paginated) {
@@ -89,7 +128,7 @@ Actor.main(async () => {
                     ImageUri: imageUri,
                     ProductId: productId,
                     Stock: stock,
-                    CTINCode: ctin,
+                    CTINCode: ctin
                 }
                 results.push(product);
             });

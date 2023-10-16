@@ -291,3 +291,18 @@ Se trabajó en robot de categorias un poco.
  * Lo unico que faltaria intentar seria entrar desde otra IP, es posible que nos hallan bloqueado por intentar entrar muchas veces.
  **Retailer ApplianceCity**
      * Resulta que la marca haier tiene una estructura de datos distinta, lo que significa que la logica actual no funcionara en esa pagina.
+### Trabajo 16/10/23
+* Hay paginas de categorias que se dividen en:
+* Tienen el diseño por defecto que usamos inicialmente
+* Tienen un esquema de ficha con boton por categiria - Falta implementar
+* Se van directamente a la pagina donde estan todos los productos - Falta implementar
+
+### Verificacion de numero de productos con la nueva logica:
+    * Haier American Style Fridge Freezers: 9
+    * Fridge Freezers: 12
+    * Haier Wine Coolers: 1
+    * Washing Machines: 9
+    * Washer Dryers: 5
+    * Tumble Dryers: 7
+    * Search results: “979”: 14
+        * TOTAL: 57
