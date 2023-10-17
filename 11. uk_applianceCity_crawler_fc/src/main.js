@@ -18,16 +18,19 @@ Actor.main(async () => {
     };
 
     const requestHandler = async ({ response, request, body, json, $, log }) => {
-        const { Manufacturer, Brand, Category, Paginated, CategoyName } = request.userData;
+        const { Manufacturer, Brand, Category, Paginated, ExcludedKeyWords } = request.userData;
+        var domain = "https://www.appliancecity.co.uk";
 
         if (!Category) {
-            var domain = "https://www.appliancecity.co.uk"
-            const totalCategories = $(".section_padding_lower-quarter > div > div.quick_links > ul > li > a");
-            if (totalCategories.text() == '') {
+            var totalCategories = $(".section_padding_lower-quarter > div > div.quick_links > ul > li > a");
+            if (totalCategories.text() == '' && $("ul.products").find("li.product").text() == '') {
+
                 log.info("ESTRUCTURA TIPO 2");
                 const selector_level01 = $("div.row > div > div > div > div");
                 var url_subcategory, categoryUrl;
+
                 selector_level01.each(async function (index, element) {
+
                     if ($(element).find("a").attr("href") != undefined) {
                         url_subcategory = $(element).find("a").attr("href");
                         log.info("Este es el link de la subcategoria: " + domain + url_subcategory);
@@ -37,10 +40,10 @@ Actor.main(async () => {
                             var categoryName = $(element).find("h3").text();
                             if (categoryName.includes("I-Pro")) {
                                 categoryUrl = url_subcategory;
+                                type = 2;
                             } else {
                                 categoryUrl = domain + url_subcategory;
                             }
-
                             log.info("THIS IS OFFICIAL");
                             log.info(categoryName);
 
@@ -60,33 +63,85 @@ Actor.main(async () => {
                     }
                 });
 
+            } else if ($("ul.products").find("li.product").text() !== '') {
+
+                log.info("ESTA ES UNA PAGINA DE PRODUCTOS DIRECTA");
+                //var pageUrl = request.url + 'page/1/'; // https://www.appliancecity.co.uk/brand/creda/
+                var pageUrl = domain + '/brand/' + Brand + '/';
+                var categoryRequest = {
+                    url: pageUrl,
+                    userData: {
+                        Category: true,
+                        Brand,
+                        Manufacturer
+                    }
+                };
+                await enqueueRequest(categoryRequest);
             } else {
                 log.info(`Processing: ${totalCategories.length} categories`);
+                const categorytList = [];
                 totalCategories.each(async function (index, element) {
                     var categoryUrl = $(element).attr('href');
                     var categoryName = $(element).text();
-
                     log.info("Category name" + categoryName);
                     log.info("Category url" + categoryUrl);
 
-                    var categoryRequest = {
-                        url: categoryUrl,
-                        userData: {
-                            Category: true,
-                            CategoyName: categoryName,
-                            Brand,
-                            Manufacturer
+                    if (Brand == "Bosch") {
+                        log.debug(`${categoryName} - Subcategory of Brand: ${totalCategories.length}`);
+                        var prohibitedMatch = ExcludedKeyWords ? ExcludedKeyWords || "" : null;
+                        log.info(`prohibitedMatch value: ${prohibitedMatch}`);
+
+                        //Search for excluded words
+                        var testKeyword = new RegExp(prohibitedMatch).test(categoryName.toUpperCase());
+
+                        if (testKeyword && ExcludedKeyWords) {
+                            log.info(`Este es el valor de testKeyword: ${testKeyword}`);
+                            log.info(`Este es el category name: ${categoryName.toUpperCase()}`);
+                            log.info("Entro, tiene CATEGORIA EXCLUIDA")
+                            var excludedCategory = {
+                                Handled: true,
+                                Message: `Category excluded: ${categoryName}`,
+                                Url: categoryUrl
+                            }
+                            categorytList.push(excludedCategory);
+                            log.info(categorytList);
+
+                        } else {
+                            var categoryRequest = {
+                                url: categoryUrl,
+                                userData: {
+                                    Category: true,
+                                    Brand,
+                                    Manufacturer
+                                }
+                            };
+                            await enqueueRequest(categoryRequest);
                         }
-                    };
-                    await enqueueRequest(categoryRequest);
+                    } else {
+                        var categoryRequest = {
+                            url: categoryUrl,
+                            userData: {
+                                Category: true,
+                                Brand,
+                                Manufacturer
+                            }
+                        };
+                        await enqueueRequest(categoryRequest);
+                    }
                 })
             }
         }
         if (Category) {
             if (!Paginated) {
                 var numberOfProductsSelector = $(".woocommerce-result-count").text();
-                var condicion = numberOfProductsSelector.includes("of");
-                var totalProducts = condicion == true ? numberOfProductsSelector.split("of")[2].match(/\d+/)[0] : 12;
+                var totalProducts = 0;
+                if (numberOfProductsSelector.includes("of")) {
+                    totalProducts = numberOfProductsSelector.split("of")[2].match(/\d+/)[0];
+                } else if (numberOfProductsSelector.includes("all")) {
+                    totalProducts = numberOfProductsSelector.match(/\d+/)[0];
+                } else {
+                    totalProducts = 1;
+                }
                 var productsPerPage = 12;
                 const totalPages = Math.ceil(Number(totalProducts) / productsPerPage);
                 log.info(`${Category} TOTAL PRODUCTS: ${Math.ceil(totalProducts)}`);
@@ -94,8 +149,15 @@ Actor.main(async () => {
                 log.info(`${Category} TOTAL ITERATIONS: ${totalPages}`);
 
                 for (var index = 2; index <= totalPages; index++) {
-                    nextPage = request.url + "page/" + index + "/"
+                    if (request.url.includes(`haier`)) {
+                        const subDomain = request.url.replace(/https:\/\/www\.appliancecity\.co\.uk\//, '');
+                        nextPage = domain + "/page/" + index + "/" + subDomain;
+                        log.info(`The next page is ${nextPage}`);
+                    } else {
+                        nextPage = request.url + "page/" + index + "/";
+                    }
                     log.info(nextPage);
+                    //log.info(`The number of type is: ${type}`);
 
                     var nextPageRequest = {
                         url: nextPage,
@@ -120,17 +182,24 @@ Actor.main(async () => {
                 var stock = stockText.indexOf("In stock") > -1 ? "InStock" : "OutOfStock";
                 var ctin = $(element).find(".acity-product-card-product-more-information").attr("data-product_sku");
 
-                var product = {
-                    ProductUrl: productUrl,
-                    ProductName: title,
-                    Price: Number(price),
-                    Manufacturer: Manufacturer,
-                    ImageUri: imageUri,
-                    ProductId: productId,
-                    Stock: stock,
-                    CTINCode: ctin
+                var listDuplicates = [];
+                if (listDuplicates.includes(productId)) {
+                    log.info(`Duplicated Product ${title}`);
+                } else {
+                    listDuplicates.push(productId);
+                    var product = {
+                        ProductUrl: productUrl,
+                        ProductName: title,
+                        Price: Number(price),
+                        Manufacturer: Manufacturer,
+                        ImageUri: imageUri,
+                        ProductId: productId,
+                        Stock: stock,
+                        CTINCode: ctin
+                    }
+                    results.push(product);
+                    log.info(`This is a pushed product: ${productId}`);
                 }
-                results.push(product);
             });
             await Dataset.pushData(results);
         }

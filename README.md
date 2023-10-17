@@ -306,3 +306,39 @@ Se trabajó en robot de categorias un poco.
     * Tumble Dryers: 7
     * Search results: “979”: 14
         * TOTAL: 57
+
+
+**Bosch**>  Real: 255   
+**Brand Siems:** 163
+    * Siemens Cooking 81
+    * Siemens Refrigeration 44
+    * Siemens Laundry 16
+    * Siemens Dishwashers 15
+    * Siemens Coffee Machines 7
+    Real: 163
+
+**Brand Neff:** 222
+    * Neff Cooking Appliances 121*
+    * Neff Dishwashers 14*
+    * Neff Extraction 56*
+    * Neff Laundry 7
+    * Neff Refrigeration 37*
+     Real: 235
+
+**Brand Haier:** 55
+    * Haier American Style Fridge Freezers 9
+    * Fridge Freezers 12
+    * Haier Wine Coolers 1
+    * Washing Machines 9
+    * Washer Dryers 5
+    * Tumble Dryers 7
+    * Search results: “979” 14
+    Real: 57
+
+
+    Total de las 4 marcas: 695 - 254(Bosch)
+
+
+### Proximas mejoras: 
+* Que acepte las paginas que se van directo al listado de productos
+* 

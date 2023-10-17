@@ -1,12 +1,48 @@
 {
     "startUrls": [
         {
-            "url": "https://www.appliancecity.co.uk/brand/bosch/",
+            "url": "https://www.appliancecity.co.uk/?s=haier&post_type=product",
+            "userData": {
+                "Manufacturer": "Candy",
+                "Brand": "Haier",
+                "Culture Code": "en-GB",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.appliancecity.co.uk/?s=siemens&post_type=product",
+            "userData": {
+                "Manufacturer": "BSH",
+                "Brand": "Siemens",
+                "Culture Code": "en-GB",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.appliancecity.co.uk/?s=neff&post_type=product",
+            "userData": {
+                "Manufacturer": "BSH",
+                "Brand": "Neff",
+                "Culture Code": "en-GB",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.appliancecity.co.uk/brand/insinkerator/",
+            "userData": {
+                "Manufacturer": "BSH",
+                "Brand": "Insinkerator",
+                "Culture Code": "en-GB",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.appliancecity.co.uk/?s=bosch&post_type=product",
             "userData": {
                 "Manufacturer": "BSH",
                 "Brand": "Bosch",
                 "Culture Code": "en-GB",
-                "CategoyName": "",
+                "ExcludedKeyWords": "COOKING|REFRIGERATION|LAUNDRY|DISHWASHERS|APPLIANCES",
                 "ApifyResultType": 0
             }
         }

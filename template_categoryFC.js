@@ -100,7 +100,6 @@ Actor.main(async () => {
                         }
                         productList.push(excludedProduct);
                     } else {
-
                         //Queue Product for EAN
                         var pageRequest = {
                             url: productUrl,
