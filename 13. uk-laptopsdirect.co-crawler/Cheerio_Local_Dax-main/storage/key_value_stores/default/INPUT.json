@@ -1,0 +1,15 @@
+{
+    "startUrls": [
+        {
+            "url": "https://www.expert.be/nl/p/onze-merken/philips",
+            "userData": {
+                "Manufacturer": "Philips",
+                "Brand": "Philips",
+                "Culture Code": "nl-BE",
+                "ExcludedKeyWords": "LIGHT|PROJEKTOR|LEUCHTEN|REFLEKTOR|LAMPE|BELEUCHTUNG|BELEUCHTUNG|FARBTON|WAKE UP LIGHT|HUE|E14|KRUPS",
+                "ApifyResultType": 0
+            }
+        }
+    ],
+    "keepUrlFragment": true
+}

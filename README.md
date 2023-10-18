@@ -298,13 +298,13 @@ Se trabajó en robot de categorias un poco.
 * Se van directamente a la pagina donde estan todos los productos - Falta implementar
 
 ### Verificacion de numero de productos con la nueva logica:
-    * Haier American Style Fridge Freezers: 9
-    * Fridge Freezers: 12
-    * Haier Wine Coolers: 1
-    * Washing Machines: 9
-    * Washer Dryers: 5
-    * Tumble Dryers: 7
-    * Search results: “979”: 14
+    * Haier American Style Fridge Freezers: 9*
+    * Fridge Freezers: 12*
+    * Haier Wine Coolers: 1*
+    * Washing Machines: 9*
+    * Washer Dryers: 5*
+    * Tumble Dryers: 7*
+    * Search results: “979”: 14*
         * TOTAL: 57
 
 
@@ -318,14 +318,15 @@ Se trabajó en robot de categorias un poco.
     Real: 163
 
 **Brand Neff:** 222
-    * Neff Cooking Appliances 121*
-    * Neff Dishwashers 14*
-    * Neff Extraction 56*
-    * Neff Laundry 7
-    * Neff Refrigeration 37*
-     Real: 235
+    * Neff Cooking Appliances 121** 108
+    * Neff Dishwashers 14**
+    * Neff Extraction 56**
+    * Neff Laundry 7**
+    * Neff Refrigeration 37**
+     Real:222
+     Las ultimas dos paginas> 10 y 11 no tienen productos.
 
-**Brand Haier:** 55
+**Brand Haier:** 57
     * Haier American Style Fridge Freezers 9
     * Fridge Freezers 12
     * Haier Wine Coolers 1
@@ -336,9 +337,59 @@ Se trabajó en robot de categorias un poco.
     Real: 57
 
 
-    Total de las 4 marcas: 695 - 254(Bosch)
+    Total de las 4 marcas: 697 - 255(Bosch) 442 + 29 - 471 - 446
 
 
 ### Proximas mejoras: 
 * Que acepte las paginas que se van directo al listado de productos
 * 
+
+{
+            "url": "https://www.appliancecity.co.uk/?s=bosch&post_type=product",
+            "userData": {
+                "Manufacturer": "BSH",
+                "Brand": "Bosch",
+                "Culture Code": "en-GB",
+                "ExcludedKeyWords": "COOKING|REFRIGERATION|LAUNDRY|DISHWASHERS|APPLIANCES",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.appliancecity.co.uk/?s=haier&post_type=product",
+            "userData": {
+                "Manufacturer": "Candy",
+                "Brand": "Haier",
+                "Culture Code": "en-GB",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.appliancecity.co.uk/?s=siemens&post_type=product",
+            "userData": {
+                "Manufacturer": "BSH",
+                "Brand": "Siemens",
+                "Culture Code": "en-GB",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.appliancecity.co.uk/?s=neff&post_type=product",
+            "userData": {
+                "Manufacturer": "BSH",
+                "Brand": "Neff",
+                "Culture Code": "en-GB",
+                "ApifyResultType": 0
+            }
+        }
+
+
+Hemos sacado esto de Custom Data de Apify
+{
+    "productsPerPage": 12,
+    "paginationDomain": "https://www.appliancecity.co.uk/page/",
+    "domain": "https://www.appliancecity.co.uk/"
+}
+
+### Trabajo 18/10/23
+* Empezando con el nuevo robot, algo pasa con la deteccion de duplicados con el storage de apify, se esperar haber si son temas de la plataforma.
+* Despues todo esta funcionanado bastante bien, casi listo para subir a JIRA.

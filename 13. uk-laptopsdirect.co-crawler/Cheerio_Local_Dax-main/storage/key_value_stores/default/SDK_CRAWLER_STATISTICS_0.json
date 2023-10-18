@@ -1,0 +1,112 @@
+{
+  "requestsFinished": 274,
+  "requestsFailed": 1,
+  "requestsRetries": 90,
+  "requestsFailedPerMinute": 0,
+  "requestsFinishedPerMinute": 24,
+  "requestMinDurationMillis": 2921,
+  "requestMaxDurationMillis": 25236,
+  "requestTotalFailedDurationMillis": 30021,
+  "requestTotalFinishedDurationMillis": 1547557,
+  "crawlerStartedAt": "2023-08-11T20:57:52.726Z",
+  "crawlerFinishedAt": "2023-08-11T21:09:17.349Z",
+  "statsPersistedAt": "2023-08-11T21:09:17.349Z",
+  "crawlerRuntimeMillis": 684632,
+  "crawlerLastStartTimestamp": 1691787472717,
+  "requestRetryHistogram": [
+    185,
+    65,
+    18,
+    7
+  ],
+  "statsId": 0,
+  "requestAvgFailedDurationMillis": 30021,
+  "requestAvgFinishedDurationMillis": 5648,
+  "requestTotalDurationMillis": 1577578,
+  "requestsTotal": 275,
+  "requestsWithStatusCode": {
+    "404": 1
+  },
+  "errors": {
+    "C:\\Users\\dterrazas\\Documents\\v3\\Cheerio\\node_modules\\@apify\\timeout\\index.js:62:68": {
+      "missing error code": {
+        "Error": {
+          "request timed out after 30 seconds.": {
+            "count": 1
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    "C:\\Users\\dterrazas\\Documents\\v3\\Cheerio\\node_modules\\got-cjs\\dist\\source\\core\\index.js:802:126": {
+      "ERR_GOT_REQUEST_ERROR": {
+        "RequestError": {
+          "The proxy server rejected the request with status code 407 (Proxy Authentication Required)": {
+            "count": 14
+          },
+          "The HTTP/2 stream has been early terminated": {
+            "count": 1
+          }
+        }
+      },
+      "ETIMEDOUT": {
+        "RequestError": {
+          "connect ETIMEDOUT 35.171.134.41:8000": {
+            "count": 1
+          }
+        }
+      },
+      "ECONNRESET": {
+        "RequestError": {
+          "Client network socket disconnected before secure TLS connection was established": {
+            "count": 1
+          }
+        }
+      }
+    },
+    "C:\\Users\\dterrazas\\Documents\\v3\\Cheerio\\node_modules\\@crawlee\\http\\internals\\http-crawler.js:411:23": {
+      "missing error code": {
+        "Error": {
+          "Detected a session error, rotating session...": {
+            "count": 18
+          }
+        }
+      }
+    },
+    "C:\\Users\\dterrazas\\Documents\\v3\\Cheerio\\node_modules\\@apify\\timeout\\index.js:62:68": {
+      "missing error code": {
+        "Error": {
+          "request timed out after 30 seconds.": {
+            "count": 50
+          }
+        }
+      }
+    },
+    "C:\\Users\\dterrazas\\Documents\\v3\\Cheerio\\node_modules\\got-cjs\\dist\\source\\core\\index.js:324:21": {
+      "ETIMEDOUT": {
+        "RequestError": {
+          "connect ETIMEDOUT 35.171.134.41:8000": {
+            "count": 2
+          }
+        }
+      }
+    },
+    "<anonymous>": {
+      "ERR_GOT_REQUEST_ERROR": {
+        "RequestError": {
+          "The proxy server rejected the request with status code 407 (Proxy Authentication Required)": {
+            "count": 12
+          }
+        }
+      },
+      "missing error code": {
+        "Error": {
+          "Detected a session error, rotating session...": {
+            "count": 23
+          }
+        }
+      }
+    }
+  }
+}
