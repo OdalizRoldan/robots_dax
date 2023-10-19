@@ -393,3 +393,23 @@ Hemos sacado esto de Custom Data de Apify
 ### Trabajo 18/10/23
 * Empezando con el nuevo robot, algo pasa con la deteccion de duplicados con el storage de apify, se esperar haber si son temas de la plataforma.
 * Despues todo esta funcionanado bastante bien, casi listo para subir a JIRA.
+### Trabajo 19/10/23
+
+https://www.laptopsdirect.co.uk/-24e1n5300he-00/version.asp
+24E1N5300HE/00
+
+42M2N8900/00
+- Todas las letras a minusculas
+- guion adelante
+- Cambiar / por -
+{
+            "url": "https://www.laptopsdirect.co.uk/nav/fts/philips/fts/brd/philips?itemsPerPage=48",
+            "userData": {
+                "Manufacturer": "Philips",
+                "Brand": "Philips",
+                "Culture Code": "en-GB",
+                "ExcludedKeyWords": "REFURBISHED",
+                "ApifyResultType": 0
+            },
+            "method": "GET"
+        },
