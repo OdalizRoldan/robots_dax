@@ -1,0 +1,536 @@
+{
+    "startUrls": [
+        {
+            "url": "https://www.paodeacucar.com/produto/324217",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1078966"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/338523",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1101203"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/89099",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "3278789"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/547127",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1261466"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/307889",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1054215"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/70996",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1843118"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/14274",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1841121"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/451808",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1200705"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/41516",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1840988"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/33193",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1840377"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/585408",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1269320"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/15855",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1841381"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/11305",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1841602"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/70996",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1843118"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/14274",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1841121"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/1547049",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1366423"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/1547051",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1366424"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/440615",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1188104"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/440616",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1188102"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/1547050",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1366427"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/591933",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1269091"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/310036",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1059029"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/416599",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1149254"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/427067",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1172694"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/451771",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1206188"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/453535",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1213586"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/469662",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1216175"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/1477080",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1362546"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/715767",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1277450"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/381568",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1124898"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/28249",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "3936429"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/795724",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1318137"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/795727",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1318144"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/1559869",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1367450"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/289224",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1033983"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/306589",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1053025"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/343033",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1105357"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/402390",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1134600"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/478802",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1253851"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/1547050",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1366427"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/1547052",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1366425"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/58734",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "3854785"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/581597",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1269096"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/1477081",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1362547"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/148086",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "3594681"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/320688",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1070182"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/529773",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1261495"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/95647",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "7083266"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/21768",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "4608745"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/1477077",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1362524"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/458508",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1216347"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/381568",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1124898"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/795727",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1318144"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/402390",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1134600"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/1441547",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "9945455"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/1441549",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "9945457"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/1441551",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "9945459"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/1441552",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "9945460"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/458508",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1216347"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/462300",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1226035"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/467415",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1234860"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/478803",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1253858"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/529772",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1261494"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/69146",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "2131245"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/106757",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "2403434"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/152694",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "4013921"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/472881",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1242672"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/665354",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1277446"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/469919",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1239260"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/56627",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "0794855"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/477413",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1252560"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/416469",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1153013"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/416468",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1153014"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/665372",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "1269176"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/28405",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "3936443"
+            }
+        },
+        {
+            "url": "https://www.paodeacucar.com/produto/163672",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "ProductId": "8580993"
+            }
+        }
+    ]
+}
