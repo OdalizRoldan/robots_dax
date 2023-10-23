@@ -16,7 +16,7 @@
 		"cheerio": "1.0.0-rc.12",
 		"commander": "^7.2.0",
 		"core-js": "^3.32.0",
-		"crawlee": "^3.2.2",
+		"crawlee": "^3.5.8",
 		"csv-file-validator": "^2.0.0",
 		"csvtojson": "^2.0.10",
 		"detailed-xml-validator": "^0.0.7",

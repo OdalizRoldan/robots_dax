@@ -1,12 +1,11 @@
 {
     "startUrls": [
         {
-            "url": "https://www.expert.be/nl/p/onze-merken/philips",
+            "url": "https://www.madbackpacks.com/categories/victorinox?format=html&limit=24&offset=0&page=1",
             "userData": {
-                "Manufacturer": "Philips",
-                "Brand": "Philips",
-                "Culture Code": "nl-BE",
-                "ExcludedKeyWords": "LIGHT|PROJEKTOR|LEUCHTEN|REFLEKTOR|LAMPE|BELEUCHTUNG|BELEUCHTUNG|FARBTON|WAKE UP LIGHT|HUE|E14|KRUPS",
+                "Manufacturer": "Victorinox",
+                "Brand": "Victorinox",
+                "Culture Code": "zh-TW",
                 "ApifyResultType": 0
             }
         }
