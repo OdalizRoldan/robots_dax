@@ -21,17 +21,13 @@ Actor.main(async () => {
         const { Manufacturer, Brand, Paginated, ProductPage, LastPaginated, PageIndex } = request.userData;
         const domain = 'https://www.madbackpacks.com';
 
-        const paginator = $('ul[class="pagination text-primary-color dark-primary"]>li>a');
         if (!Paginated || LastPaginated) { // If this is either the first or last page to be paginated so far...
             let pageButtons = $('ul[class="pagination text-primary-color dark-primary"]>li>a');
 
             if (pageButtons.length > 0) {
                 for (let i = 0; i < pageButtons.length; i++) {
                     let a = pageButtons[i];
-                    log.info("Este es el valor de a: " + a);
-                    //let idx = Number($(a).text().trim());
                     let idx = pageButtons.index(a);
-                    log.info("Este es el valor de idx: " + idx);
                     if (idx > (PageIndex ? PageIndex : 1)) { // If the button corresponds to a page higher than this one, it is enqueued
                         var nextUrl = domain + $(a).attr('href');
                         log.info("Enqueuing " + nextUrl);
@@ -134,7 +130,7 @@ Actor.main(async () => {
                         Price: price,
                         Stock: stock,
                         ProductUrl: `${productUrl}#${variantId}`,
-                        ImageUri: imageUrl,
+                        ImageUri: imageUri,
                         OTHERCode: sku,
                         GTINCode: gtin
                     };
