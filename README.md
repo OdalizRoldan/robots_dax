@@ -417,3 +417,34 @@ https://www.laptopsdirect.co.uk/-24e1n5300he-00/version.asp
 ### Trabajo 24/10/23
 - Se terminó el robot 14
 
+https://www.planeo.sk/vyhledavani$a1013-search?query=Whirlpool
+
+https://www.planeo.sk/vyhledavani$a1013-search?df_fp_price_MIN=9&df_fp_price_MAX=1639&fp_price_MIN=9&fp_price_MAX=1639&query=Whirlpool&limit=24&sorting=RELEVANCE&offset=24
+
+https://www.planeo.sk/vyhledavani$a1013-search?query=Whirlpool&limit=24&sorting=RELEVANCE&offset=24
+
+
+
+https://www.planeo.sk/vyhledavani$a1013-search?df_fp_price_MIN=9&df_fp_price_MAX=1639&fp_price_MIN=9&fp_price_MAX=1639&query=Whirlpool&limit=24&sorting=RELEVANCE&offset=48
+
+https://www.planeo.sk/vyhledavani$a1013-search?query=Whirlpool&limit=24&sorting=RELEVANCE&offset=48
+
+### Paginas clave de LuigisBox
+- https://scripts.luigisbox.com/LBX-199881.js
+- https://cdn.luigisbox.com/planeo-sk.js
+- https://live.luigisbox.com/search?tracker_id=175437-199881&f[]=brand:Philips&f[]=type:item&q=philips&size=24
+- **Panel Central** https://app.luigisbox.com/sites/411937-493820/recommenders/analytics
+
+https://mc-static.fast.eu/pics/41/41009006/41009006-threetwenty.webp?2444651719
+
+https://mc-static.fast.eu/pics/41/41009006/41009006-min.jpg?2444651719
+
+https://mc-static.fast.eu/pics/40/40018771/40018771-lim.jpg?1324817955
+
+https://mc-static.fast.eu/pics/40/40018771/40018771-lim.jpg?
+
+"https://mc-static.fast.eu/pics/40/" + productId + "/" + productId + "-lim.jpg"
+
+https://mc-static.fast.eu/pics/40/40046712/40046712-threetwenty.webp?2213592313
+
+- Se encontro una API que devuelve un html que tiene los datos, este script esta en el mismo DOM, tiene datos mas completos que el esquema, ya que este ultimo tiene identificadores que no son los IDs, ver de sacar datos del script del DOM directamente y armar la url de imagen con el product ID
