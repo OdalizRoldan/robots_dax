@@ -448,3 +448,62 @@ https://mc-static.fast.eu/pics/40/40018771/40018771-lim.jpg?
 https://mc-static.fast.eu/pics/40/40046712/40046712-threetwenty.webp?2213592313
 
 - Se encontro una API que devuelve un html que tiene los datos, este script esta en el mismo DOM, tiene datos mas completos que el esquema, ya que este ultimo tiene identificadores que no son los IDs, ver de sacar datos del script del DOM directamente y armar la url de imagen con el product ID
+
+head > script:nth-child(54)
+
+
+    head > script:nth-child(54)
+
+    <script>
+dataLayer.push({
+event: &apos;view_item_list&apos;,
+items: [
+
+{
+item_name: &quot;Whirlpool AKR 62F LT K&quot;,
+item_id: &quot;40044763&quot;,
+item_category:&apos;Ve&#x13e;k&#xe9; dom&#xe1;ce spotrebi&#x10d;e&apos;,
+price: &quot;190.83&quot;,
+vat: &quot;39&quot;,
+item_brand: &quot;Whirlpool&quot;,
+discount: 0.00,
+2variant: undefined,
+ availability: &apos;Na centr&#xe1;lnom sklade a v predajni&apos;,
+item_list_name: &apos;Search&apos;,
+item_list_id: undefined,
+index: &quot;1&quot;,
+}
+</script>
+
+
+https://www.planeo.sk/wpro-chf28-1-filter
+Wpro CHF28/1 filter
+
+https://mc-static.fast.eu/pics/43/43002818/43002818-threetwenty.webp?3632458344
+https://mc-static.fast.eu/pics/40/43002818/43002818-lim.jpg
+
+43001974 https://mc-static.fast.eu/pics/40/43001974/43001974-lim.jpg
+43001988 https://mc-static.fast.eu/pics/40/43001988/43001988-lim.jpg
+43001207 https://mc-static.fast.eu/pics/40/43001207/43001207-lim.jpg
+43002818 https://mc-static.fast.eu/pics/40/43002818/43002818-lim.jpg
+43001907 https://mc-static.fast.eu/pics/40/43001907/43001907-lim.jpg
+98034751 https://mc-static.fast.eu/pics/40/98034751/98034751-lim.jpg
+
+https://mc-static.fast.eu/pics/98/98034751/98034751-lim.jpg
+
+item_name: "Whirlpool AKR 749 IX",
+                        item_id: "43001207",
+                        item_category:'Veľké domáce spotrebiče',
+                        price: "99.17",
+                        vat: "20",
+                        item_brand: "Whirlpool",
+                        discount: 0.00,
+                        variant: undefined,
+                        availability: 'Iba v predajni',
+                        item_list_name: 'Search',
+                        item_list_id: undefined,
+                        index: "2",
+                    },
+
+
+- Ya pusimos todas las URLs modificadas, solo falta implementar logica de palabras excluidas y ver poque no funciona cambiar 43 por 40 en las imagenes, provar que saque todos los productos y si en algun lado hay un eancode o citincode
