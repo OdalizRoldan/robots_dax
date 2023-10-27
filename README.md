@@ -507,3 +507,90 @@ item_name: "Whirlpool AKR 749 IX",
 
 
 - Ya pusimos todas las URLs modificadas, solo falta implementar logica de palabras excluidas y ver poque no funciona cambiar 43 por 40 en las imagenes, provar que saque todos los productos y si en algun lado hay un eancode o citincode
+
+
+'https://mc-static.fast.eu/pics/40/40042621/40042621-onesixty.jpg?1956415824'
+
+'https://mc-static.fast.eu/pics/40/40042621/40042621-onesixty.jpg?1956415824, https://mc-static.fast.eu/pics/40/40042621/40042621-threetwenty.jpg?1956415824 2x'
+
+'https://mc-static.fast.eu/pics/40/40045375/40045375-onesixty.jpg?216488214'
+
+{
+            "url": "https://www.planeo.sk/vyhledavani$a1013-search?query=Whirlpool&limit=24&sorting=RELEVANCE&offset=0",
+            "userData": {
+                "Manufacturer": "Whirlpool",
+                "Brand": "Whirlpool",
+                "Culture Code": "sk-SK",
+                "ApifyResultType": 0,
+                "offsetPage": 0
+            },
+            "method": "GET"
+        },
+
+- Brand: Whirlpool
+    NumerProducts - Expected: 24+24+24+24+22+1=119
+    NumerProducts - Real: 119
+    - Los precios de los productos sonmenores que los que estan en la pagina del retailer
+- Brand: Philips
+    NumerProducts - Expected: 555
+    NumerProducts - Real: 546
+- Brand: Candy
+    NumerProducts - Expected: 57
+    NumerProducts - Real: 57
+- Brand: Hoover
+    NumerProducts - Expected: 24+22+1
+    NumerProducts - Real: 46
+
+- Brand: Hoover
+    NumerProducts - Expected: 21
+    NumerProducts - Real: 21
+A;adir control que verifique que en el nombre del producto dice la marca tmabien
+789
+ {
+            "url": "https://www.planeo.sk/vyhledavani$a1013-search?query=Philips&limit=24&sorting=RELEVANCE&offset=0",
+            "userData": {
+                "Manufacturer": "Philips",
+                "Brand": "Philips",
+                "Culture Code": "sk-SK",
+                "ExcludedKeyWords": "ŽIAROVKA|HUE|LED PÁSIK|STMIEVACÍ SET|SVIETIDLO|ŽIARIVKA|LED CLASSIC|LAMPA|CHYTRÁ ZÁSTRČKA|OVLÁDAČ STMIEVANIA|REFLEKTOR",
+                "ApifyResultType": 0,
+                "offsetPage": 0
+            }
+        },
+        {
+            "url": "https://www.planeo.sk/vyhledavani$a1013-search?query=Candy&limit=24&sorting=RELEVANCE&offset=0",
+            "userData": {
+                "Manufacturer": "Candy",
+                "Brand": "Candy",
+                "Culture Code": "sk-SK",
+                "ApifyResultType": 0,
+                "offsetPage": 0
+            }
+        },
+        {
+            "url": "https://www.planeo.sk/vyhledavani$a1013-search?query=Hoover&limit=24&sorting=RELEVANCE&offset=0",
+            "userData": {
+                "Manufacturer": "Candy",
+                "Brand": "Hoover",
+                "Culture Code": "sk-SK",
+                "ApifyResultType": 0,
+                "offsetPage": 0
+            }
+        },
+        {
+            "url": "https://www.planeo.sk/vyhledavani$a1013-search?query=Haier&limit=24&sorting=RELEVANCE&offset=0",
+            "userData": {
+                "Manufacturer": "Candy",
+                "Brand": "Haier",
+                "Culture Code": "sk-SK",
+                "ApifyResultType": 0,
+                "offsetPage": 0
+            }
+        }
+
+- The robot's data extraction logic was changed almost 100%, since initially data was extracted from an external API (app.luigisbox.com), which allows the retailer's search engine to recommend AI products to the user, once the user uses the search engine.
+- Not finding the original call to luigisbox within the code of the robot, we changed both the input data (URLs) and the logic of data extraction by an external API that returns a script that contains 4/6 required data, the other 2/6 data are built from the others that we have.
+- Since the number of products per brand is extracted from the DOM, a control is implemented that verifies that the required data is first extracted from the DOM and when DataEnable == True it calls the API that has the data in the script mentioned above.}
+- In the case of the API, it does not require any payload or header.
+- The function const $$ = cheerio.load(body) is used to access the data inside the script, since it is inside an XML type file.
+- Excluded word detection logic is implemented (which works in the case of the Philips brand).
