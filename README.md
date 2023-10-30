@@ -594,3 +594,184 @@ A;adir control que verifique que en el nombre del producto dice la marca tmabien
 - In the case of the API, it does not require any payload or header.
 - The function const $$ = cheerio.load(body) is used to access the data inside the script, since it is inside an XML type file.
 - Excluded word detection logic is implemented (which works in the case of the Philips brand).
+
+## Avances 30/10
+,
+        {
+            "url": "https://www.planeo.sk/vyhledavani$a1013-search?query=Philips&limit=24&sorting=RELEVANCE&offset=0",
+            "userData": {
+                "Manufacturer": "Philips",
+                "Brand": "Philips",
+                "Culture Code": "sk-SK",
+                "ExcludedKeyWords": "ŽIAROVKA|HUE|LED PÁSIK|LED|STMIEVACÍ SET|SVIETIDLO|ŽIARIVKA|LED CLASSIC|LAMPA|CHYTRÁ ZÁSTRČKA|OVLÁDAČ STMIEVANIA|REFLEKTOR",
+                "ApifyResultType": 0,
+                "offsetPage": 0
+            },
+            "method": "GET"
+        },
+        {
+            "url": "https://www.planeo.sk/vyhledavani$a1013-search?query=Candy&limit=24&sorting=RELEVANCE&offset=0",
+            "userData": {
+                "Manufacturer": "Candy",
+                "Brand": "Candy",
+                "Culture Code": "sk-SK",
+                "ApifyResultType": 0,
+                "offsetPage": 0
+            },
+            "method": "GET"
+        },
+        {
+            "url": "https://www.planeo.sk/vyhledavani$a1013-search?query=Hoover&limit=24&sorting=RELEVANCE&offset=0",
+            "userData": {
+                "Manufacturer": "Candy",
+                "Brand": "Hoover",
+                "Culture Code": "sk-SK",
+                "ApifyResultType": 0,
+                "offsetPage": 0
+            },
+            "method": "GET"
+        },
+        {
+            "url": "https://www.planeo.sk/vyhledavani$a1013-search?query=Haier&limit=24&sorting=RELEVANCE&offset=0",
+            "userData": {
+                "Manufacturer": "Candy",
+                "Brand": "Haier",
+                "Culture Code": "sk-SK",
+                "ApifyResultType": 0,
+                "offsetPage": 0
+            },
+            "method": "GET"
+        }
+
+
+
+https://www.planeo.sk/katalog/40048030-whirlpool-w7f-hs31.html
+https://www.planeo.sk/katalog/1040665-philips-hr2744-40-lis-na-citrusy.html
+
+https://www.planeo.sk/katalog/43001988-whirlpool-akp-745-wh-vstavana-rura.html
+
+QA Fixes
+
+About productURLs:
+
+Cannot get the production URL directly, either by DOM, schema, or API script.
+
+An attempt was made to assemble the production productURL with the required parameters, but one of them (the number in the middle) is not the productID, nor can it be obtained from the script, schema or DOM, so the alternative was taken to keep the shortened product URL.
+
+Production URL: https://www.planeo.sk/katalog/1024057-philips-sdv5120-12-antena.html
+
+Short URL: https://www.planeo.sk/philips-sdv5120-12
+
+Added manufacturer.
+
+Changed the price format to int.
+
+
+
+Last execution
+
+Crawler:
+
+
+## Codigo anterior a modificaciones
+async function pageFunction(context) {
+    const { $, request, log, json, enqueueRequest, body, cheerio, axios } = context;
+    const { Manufacturer, Brand, Paginated, offsetPage, DataEnable, ExcludedKeyWords } = request.userData;
+    var domain = 'https://www.planeo.sk/';
+    if (!DataEnable) {
+        if (!Paginated) {
+            var productsPerPage = 24;
+            var totalProducts = $("#accordion-panel-producer > div > div > div:nth-child(2) > label > span > span").text().replace(/^\s*\(|\)\s*$/g, "");
+            const totalPages = Math.ceil(Number(totalProducts) / productsPerPage);
+            log.info(`${Brand} TOTAL PRODUCTS: ${Math.ceil(totalProducts)}`);
+            log.info(`${Brand} TOTAL PRODUCTS PER PAGE: ${productsPerPage}`);
+            log.info(`${Brand} TOTAL ITERATIONS: ${totalPages}`);
+
+            for (var index = 1; index < totalPages; index++) {
+                var nextPage = "https://www.planeo.sk/vyhledavani" + encodeURIComponent("$") + `a1013-search?query=${Brand}&limit=24&sorting=RELEVANCE&offset=` + (index * productsPerPage);
+                log.info(`This is the next page ${nextPage}`);
+
+                var nextPageRequest = {
+                    url: nextPage,
+                    userData: {
+                        Paginated: true,
+                        Brand,
+                        ExcludedKeyWords,
+                        offsetPage: Number(index * productsPerPage)
+                    }
+                }
+                await enqueueRequest(nextPageRequest);
+            }
+        }
+
+        const apiRequest = `https://www.planeo.sk/vyhledavani` + encodeURIComponent("$") + `a1013-search.xml?query=${Brand}&limit=24&sorting=RELEVANCE&offset=${offsetPage}`;
+        await enqueueRequest({
+            url: apiRequest,
+            method: 'GET',
+            userData: {
+                DataEnable: true,
+                ExcludedKeyWords
+            }
+        })
+
+    }
+    if (DataEnable) {
+        var results = [];
+        var match = null;
+
+        const $$ = cheerio.load(body);
+        var scriptTag = $$("script").first();
+        var jsonLdScript = scriptTag.html();
+        cleanScript = jsonLdScript.replace(/&apos;/g, "'").replace(/&quot;/g, '"');
+
+        let dataLayer = {
+            push: function (obj) {
+                for (let item of obj.items) {
+                    var productId = item.item_id;
+                    var productName = item.item_name;
+                    var stock = item.availability == "Iba v predajni" ? "InStock" : "OutOfStock";
+
+                    productDecode = productName.replace(/&#(x[0-9a-fA-F]+);/g, function (match, grp) {
+                        return String.fromCharCode(parseInt(grp.substr(1), 16));
+                    });
+                    var productNameDecode = productDecode.replace(/&amp;/g, "'").replace(/&apos;/g, "'").replace(/&quot;/g, '"').replace(/\s+/g, ' ').trim();
+
+                    var price = item.price;
+                    var productUrl = domain + productDecode.toLowerCase().replace(/\s+/g, '-').replace(/\//g, '-').replace('.', '-').normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+                    var imageUri = "https://mc-static.fast.eu/pics/" + productId.match(/^(\d{2})/)[0] + "/" + productId + "/" + productId + "-lim.jpg";
+
+                    if (ExcludedKeyWords) {
+                        match = ExcludedKeyWords;
+                    }
+
+                    var testKeyword = new RegExp(match).test(productNameDecode.toUpperCase());
+                    if (testKeyword && ExcludedKeyWords) {
+                        log.info('Refurbished product ' + productNameDecode);
+                        var excluded = {
+                            Handled: true,
+                            Message: `Product excluded`,
+                            Url: productUrl
+                        }
+                        results.push(excluded);
+                    }
+
+                    else {
+                        var product = {
+                            ProductId: productId,
+                            ProductName: productNameDecode,
+                            ProductUrl: productUrl,
+                            Price: Number(price),
+                            Manufacturer,
+                            ImageUri: imageUri,
+                            Stock: stock
+                        }
+                        results.push(product);
+                    }
+                }
+            }
+        };
+        eval(cleanScript);
+    }
+    return results;
+}
+
