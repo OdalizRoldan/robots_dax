@@ -541,7 +541,7 @@ item_name: "Whirlpool AKR 749 IX",
     NumerProducts - Expected: 24+22+1
     NumerProducts - Real: 46
 
-- Brand: Hoover
+- Brand: Haier
     NumerProducts - Expected: 21
     NumerProducts - Real: 21
 A;adir control que verifique que en el nombre del producto dice la marca tmabien
@@ -775,3 +775,125 @@ async function pageFunction(context) {
     return results;
 }
 
+"""""""""""""""""""""" Segunda version del codigo °°°°°°°°°°°°°°°°
+
+async function pageFunction(context) {
+    const { $, request, log, json, enqueueRequest, body, cheerio } = context;
+    const { Manufacturer, Brand, Paginated, offsetPage, DataEnable, ExcludedKeyWords, Product } = request.userData;
+    var domain = 'https://www.planeo.sk/';
+
+    if (!DataEnable) {
+        if (!Paginated) {
+            var productsPerPage = 24;
+            var totalProducts = $("#accordion-panel-producer > div > div > div:nth-child(2) > label > span > span").text().replace(/^\s*\(|\)\s*$/g, "");
+            const totalPages = Math.ceil(Number(totalProducts) / productsPerPage);
+            log.info(`${Brand} TOTAL PRODUCTS: ${Math.ceil(totalProducts)}`);
+            log.info(`${Brand} TOTAL PRODUCTS PER PAGE: ${productsPerPage}`);
+            log.info(`${Brand} TOTAL ITERATIONS: ${totalPages}`);
+
+            for (var index = 1; index < totalPages; index++) {
+                var nextPage = "https://www.planeo.sk/vyhledavani" + encodeURIComponent("$") + `a1013-search?query=${Brand}&limit=24&sorting=RELEVANCE&offset=` + (index * productsPerPage);
+                log.info(`This is the next page ${nextPage}`);
+                var nextPageRequest = {
+                    url: nextPage,
+                    userData: {
+                        Manufacturer,
+                        Brand,
+                        ExcludedKeyWords,
+                        Paginated: true,
+                        offsetPage: Number(index * productsPerPage)
+                    },
+                }
+                await enqueueRequest(nextPageRequest);
+            }
+        }
+        var productsGrid = $("#product-filter-product-tiles > div").toArray();
+        for (let element of productsGrid){
+            let price = $(element).find(".c-product__price-action-box > div > div > strong").text().replace(/€/g, '').trim();
+            log.info("This is the correct price: " + price);
+            let product = {
+                Price: price
+            }
+            var apiRequest = `https://www.planeo.sk/vyhledavani` + encodeURIComponent("$") + `a1013-search.xml?query=${Brand}&limit=24&sorting=RELEVANCE&offset=${offsetPage}`;
+            await enqueueRequest({
+                url: apiRequest,
+                method: 'GET',
+                userData: {
+                    DataEnable: true,
+                    ExcludedKeyWords,
+                    Product: product
+                }
+            })
+        }
+    }
+    var match = null;
+    results = [];
+    if (DataEnable) {
+        const $$ = cheerio.load(body);
+        var scriptTag = $$("script").first();
+        var jsonLdScript = scriptTag.html();
+        cleanScript = jsonLdScript.replace(/&apos;/g, "'").replace(/&quot;/g, '"');
+        let dataLayer = {
+            push: function (obj) {
+                for (let item of obj.items) {
+                    var productId = item.item_id;
+                    Product.ProductId = productId;
+                    var productName = item.item_name;
+                    var stock = item.availability == "Iba v predajni" ? "InStock" : "OutOfStock";
+                    Product.Stock = stock;
+
+                    var productDecode = productName.replace(/&#(x[0-9a-fA-F]+);/g, function (match, grp) {
+                        return String.fromCharCode(parseInt(grp.substr(1), 16));
+                    });
+                    var productNameDecode = productDecode.replace(/&amp;/g, "'").replace(/&apos;/g, "'").replace(/&quot;/g, '"').replace(/\s+/g, ' ').trim();
+                    Product.ProductName = productNameDecode;
+
+                    var productUrl = domain + productDecode.toLowerCase().replace(/\s+/g, '-').replace(/\//g, '-').replace('.', '-').normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+                    Product.ProductUrl = productUrl;
+                    var imageUri = "https://mc-static.fast.eu/pics/" + productId.match(/^(\d{2})/)[0] + "/" + productId + "/" + productId + "-lim.jpg";
+                    Product.ImageUri = imageUri;
+
+                    let product = {
+                        ProductId: productId,
+                        ProductName: productNameDecode,
+                        ProductUrl: productUrl,
+                        Price: price,
+                        Manufacturer,
+                        ImageUri: imageUri,
+                        Stock: stock
+                    }
+                    results.push(product);
+                }
+            }
+        };
+        eval(cleanScript);
+    }
+    return results;
+}
+
+
+https://www.planeo.sk/vyhledavani$a1013-search?fp_producer=644bb8677ff932078206b4f8&df_fp_price_MIN=9&df_fp_price_MAX=1689&fp_price_MIN=9&fp_price_MAX=1689&query=Whirlpool&limit=72&sorting=RELEVANCE
+
+
+
+https://www.planeo.sk/vyhledavani$a1013-search?query=Whirlpool&limit=24&sorting=RELEVANCE&offset=0
+
+https://www.planeo.sk/vyhledavani$a1013-search?fp_producer=644bb8677ff932078206b4f8&query=Whirlpool&limit=24&sorting=RELEVANCE&offset=96
+
+
+
+https://www.planeo.sk/vyhledavani$a1013-search?query=Philips&limit=24&sorting=RELEVANCE&offset=0"
+
+https://www.planeo.sk/vyhledavani$a1013-search?fp_producer=644bb83d7ff9320782067c64&query=Philips&limit=24&sorting=RELEVANCE
+
+
+https://www.planeo.sk/vyhledavani$a1013-search?query=Candy&limit=24&sorting=RELEVANCE&offset=0
+
+https://www.planeo.sk/vyhledavani$a1013-search?fp_producer=644bb7f57ff932078206194d&query=Candy&limit=24&sorting=RELEVANCE
+
+
+
+https://www.planeo.sk/vyhledavani$a1013-search?fp_producer=644bb8157ff932078206463e&query=Hoover&limit=24&sorting=RELEVANCE
+
+
+https://www.planeo.sk/vyhledavani$a1013-search?fp_producer=644bb8127ff932078206412b&query=Haier&limit=24&sorting=RELEVANCE
