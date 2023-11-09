@@ -897,3 +897,136 @@ https://www.planeo.sk/vyhledavani$a1013-search?fp_producer=644bb8157ff9320782064
 
 
 https://www.planeo.sk/vyhledavani$a1013-search?fp_producer=644bb8127ff932078206412b&query=Haier&limit=24&sorting=RELEVANCE
+
+
+## 01 de Noviembre
+*Correcciones de Valu Crawler and Updater*
+- Palabras compuestas:
+  - Nieves de temporada (pag1- Si)
+  - Carnita asada (Pag(1-17) Si)
+  - Frutas y verduras  (1-4 Si) - (8-11 Si) 
+- Palabras normales:
+  -  Vinos (1pag Si)
+  -  Mascotas (1-4 Si) - (8-11 Si)
+  -  Electronicos (1-4 Si) - (8-11 Si)
+
+
+  [
+    async ({ request }, requestAsBrowserOptions) => {
+        const { OriginalUrl, Brand, Paginated} = request.userData;
+        if (!OriginalUrl) {
+            request.userData.OriginalUrl = request.url;
+            request.url = `https://storefrontgateway.supervalu.ie/api/stores/5550/search?q=${Brand}&take=30&skip=${NumerOfProducts}&page=${NumberOfPage}`;
+            request.method = "GET";
+            request.headers = {
+                "authority": "storefrontgateway.supervalu.ie",
+                "accept": "application/json",
+                "accept-language": "en-US,en;q=0.9,es;q=0.8"
+            }
+        }
+    }
+]
+Valu
+Se tenia que aumentar un parametro en el header de la api, nada mas
+
+request.url = `https://storefrontgateway.supervalu.ie/api/stores/5550/search?q=${Brand}&take=0&skip=30`;
+
+<span>102 <span class="vtex-search-result-3-x-totalProductsMessage c-muted-2"> Productos</span></span>
+
+https://www.heb.com.mx/hcf-carbon-de-mezquite-6-8-kg-184207/p
+
+https://hebmx.vtexassets.com/arquivos/ids/768183-1600-1600
+
+### Activities implemented
+* Se corrigió el error de direccionamiento erroneo de nextURL a traves de la API.
+* Se hicieron las siguientes modificaciones en el Pre navigation hooks:
+  * Dentro de page:
+    * Se añadieron filtros para formatos de las imagenes.
+    * Se añadio lógica para extraer el numero de productos por pagina (dato de la API que esta como RemoteFilteredProducts)
+    * Se setea el valor de sha256, que luego se usa en la creción del prametro extensions de la API
+  * Fuera de page:
+    * Se obtiene el valor sha256 y con otras variables mas se define variables, dependiendo la existencia inicial de Searching (que guarda el redireccionamiento de la pagina)
+    * Se realiza la llamada a la API con los parametros creados anteriormente.
+* En ultimo cambio que se hizo fue incluir las variables Searching y SearchKeyword, necesarios para el funcionamiento del SP, sin embargo aparecieron bugs que indican que no se logra obtener el codigo sha256 satisfactoriamente.
+
+
+* Fixed the nextURL misdirection error through the API.
+* The following modifications were made in the Pre navigation hooks:
+  * Inside page:
+    * Added filters for image formats.
+    * Added logic to extract the number of products per page (API data as RemoteFilteredProducts).
+    * Set the value of sha256, which is then used in the creation of the API extensions parameter.
+  * Out of page:
+    * The sha256 value is obtained and other variables are defined, depending on the initial existence of Searching (which stores the redirection of the page).
+    * The call to the API is made with the parameters created previously.
+* The last change that was made was to include the variables Searching and SearchKeyword, necessary for the operation of the SP, however bugs appeared that indicate that the code sha256 is not obtained satisfactorily.
+
+**reponse en page, antes de hacer metamorph**
+{"status":200,"headers":{"age":"466","cache-control":"public, max-age=323, s-maxage=60, stale-while-revalidate=600, stale-if-error=3600","content-encoding":"gzip","content-type":"text/html; charset=utf-8","date":"Tue, 07 Nov 2023 18:02:57 GMT","etag":"\"84BD42598A58357B04CAE551AAEEFAAE\"","link":"<https://hebmx.vtexassets.com>; rel=\"dns-prefetch\",<https://hebmx.vtexassets.com>; rel=\"preconnect\"; crossorigin,<https://www.google-analytics.com>; rel=\"dns-prefetch\",<https://www.googletagmanager.com>; rel=\"dns-prefetch\",<https://connect.facebook.net>; rel=\"dns-prefetch\"","set-cookie":"janus_sid=257892bf-c412-4fb7-b931-93eddc09e9a3; expires=Fri, 10 Nov 2023 18:01:25 GMT; domain=www.heb.com.mx; path=/; samesite=lax","vary":"accept-encoding","via":"1.1 74fa88947236efdd15ba1f4510868e00.cloudfront.net (CloudFront)","x-amz-cf-id":"T_XUuKdq4n18pfcmrkgr7Yhqd8tGaEoKxUSNd_ZySHuO3p0pAlQ_4A==","x-amz-cf-pop":"CMH68-P2","x-cache":"RefreshHit from cloudfr... [line-too-long]
+
+**Contenido de extensions**
+%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%2240b843ca1f7934d20d05d334916220a0c2cae3833d9f17bcb79cdd2185adceac%22%2C%22sender%22%3A%22vtex.store-resources%400.x%22%2C%22provider%22%3A%22vtex.search-graphql%400.x%22%7D%2C%22variables%22%3A%22eyJoaWRlVW5hdmFpbGFibGVJdGVtcyI6ZmFsc2UsInNrdXNGaWx0ZXIiOiJBTEwiLCJzaW11bGF0aW9uQmVoYXZpb3IiOiJkZWZhdWx0IiwiaW5zdGFsbG1lbnRDcml0ZXJpYSI6Ik1BWF9XSVRIT1VUX0lOVEVSRVNUIiwicHJvZHVjdE9yaWdpblZ0ZXgiOmZhbHNlLCJtYXAiOiJjLGMiLCJxdWVyeSI6InZpbm9zLWxpY29yZXMteS1jZXJ2ZXphcy92aW5vcyIsIm9yZGVyQnkiOiJPcmRlckJ5U2NvcmVERVNDIiwiZnJvbSI6MCwidG8iOjE1LCJzZWxlY3RlZEZhY2V0cyI6W3sia2V5IjoiYyIsInZhbHVlIjoidmlub3MtbGljb3Jlcy15LWNlcnZlemFzIn0seyJrZXkiOiJjIiwidmFsdWUiOiJ2aW5vcyJ9XSwiZmFjZXRzQmVoYXZpb3IiOiJTdGF0aWMiLCJjYXRlZ29yeVRyZWVCZWhhdmlvciI6ImRlZmF1bHQiLCJ3aXRoRmFjZXRzIjpmYWxzZSwidmFyaWFudCI6IiJ9%22%7D
+
+
+[
+    async (crawlingContext) => {
+        const { request, log } = crawlingContext;
+        const { SearchKeyword, SearchUrl } = request.userData;
+        if (!SearchUrl) {
+            if (!SearchKeyword) {
+                log.error("SearchKeyword was not found in userData");
+                return;
+            }
+            const query = SearchKeyword.toLowerCase().replace(/\s/g, '-');
+            const requestUrl = `${request.url}busca/${query}`;
+            request.userData.SearchUrl = requestUrl;
+            request.url = requestUrl;
+        }
+    }
+]
+
+
+{"data":{"productSearch":{"products":[{"cacheId":"sp-202132","productId":"202132","description":"<table class='table table-hover'> <tbody> <tr> <th>Tipo de producto</th> <td>Corazones de apio</td> </tr> <tr> <th>Marca</th> <td>HEB</td> </tr> <tr> <th>Denominación/Variedad</th> <td>Orgánico</td> </tr> <tr> <th>Presentación</th> <td>Bolsa</td> </tr> <tr> <th>Certificaciones</th> <td>USDA Organic</td> </tr> <tr> <th>Advertencias de almacenamiento</th> <td>Introducir el producto a un recipiente y mantener refrigerado</td> </tr> <tr> <th>Ingredientes</th> <td>Apio orgánico</td> </tr> <tr> <th>Denominación dietética</th> <td>Bajo índice glicémico. Bajo en calorías. Vitamina C</td> </tr> <tr> <th>Beneficios nutricionales</th> <td>(Vitamina C) Una buena dosis de Vitamina C produce una mejora en el sistema inmunitario por lo que reduce riesgo de infecciones. Una función es en el mantenimiento de la resistencia a las enfermedades bacteriana... [line-too-long]
+
+
+## 09/11/23
+### Activities implemented
+* Se corrigió el ultimo bug que existia por los parametros Serching y SerchKeyword que se incluyeron como parte del SP, cambiando el lugar donde se definia u asiganaba un valor a Searching dentro del Pre-navigation hooks.
+* Se testearon varias palabras, entre ellas:
+  * Mascotas: Si se obtenienen resultados de los productos, sin embargo si bien estan ordenados dentro de cada pagina, la paginación esta desordenada, es decir, se muestran en este orden: Pag 1, Pag2. Pag5, Pag3. Se probó resolver este problema cambiando los parametros de FromTo y "" de variables dentro de la caonfiguración de la API, ademas de la logica de paginación en el pageFunction, sin embargo niguna de las opciones solucionó el problema
+  * Farmacia: Al igual que en el caso anterior, salen todos los productos, pero en orden de paginación desordenada
+  * Vinos: En este caso en especifico, no se retorna ningun resultado, se revisaron e incluyeron headers para la API, pero aun asi, no se encontró la razón por la que el JSON que devuelve la API para este producto esta vacio.
+
+https://search.rakuten.co.jp/search/mall/+Hill%E2%80%99s+Pet/
+
+{
+            "url": "https://search.rakuten.co.jp/search/mall/?p=1&sid=350661",
+            "userData": {
+                "Manufacturer": "Victorinox",
+                "Brand": "Victorinox",
+                "Culture Code": "ja-JP",
+                "ApifyResultType": 0
+            },
+            "method": "GET"
+        },
+        {
+            "url": "https://search.rakuten.co.jp/search/mall/?p=1&sid=371224",
+            "userData": {
+                "Manufacturer": "Philips",
+                "Brand": "Philips",
+                "Culture Code": "ja-JP",
+                "CTINRegex": "([A-Z0-9]{6}/[/0-9]+)",
+                "ApifyResultType": 0
+            },
+            "method": "GET"
+        },
+        {
+            "url": "https://search.rakuten.co.jp/search/mall/Science+Diet/",
+            "userData": {
+                "Manufacturer": "HillsPet",
+                "Brand": "Science Diet",
+                "Culture Code": "ja-JP",
+                "ApifyResultType": 0
+            },
+            "method": "GET"
+        }

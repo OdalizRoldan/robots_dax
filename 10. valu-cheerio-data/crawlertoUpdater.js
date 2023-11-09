@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-let rawData = fs.readFileSync('./data-crawler-valu.json');
+let rawData = fs.readFileSync('./data.json');
 let crawler = JSON.parse(rawData);
 
 const updaterList = []
@@ -16,4 +16,4 @@ for (let x of crawler) {
 }
 const updater = { "startUrls": updaterList }
 console.log(`Total products exported ${updaterList.length}`)
-fs.writeFileSync('./inputPPUR_valu_apify.json', JSON.stringify(updater))
+fs.writeFileSync('./inputPPUR.json', JSON.stringify(updater))

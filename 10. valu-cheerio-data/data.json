@@ -1,0 +1,425 @@
+[
+    {
+        "ProductId": "1396023001",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1396023001",
+        "ProductName": "Colgate Cavity Protection Toothpaste (75 ml)",
+        "Price": 2.25,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1396023001_1"
+    },
+    {
+        "ProductId": "1256462000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1256462000",
+        "ProductName": "Colgate Total Original Toothpaste (125 ml)",
+        "Price": 3.75,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1256462000_1"
+    },
+    {
+        "ProductId": "1009334001",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1009334001",
+        "ProductName": "Colgate Cavity Protection Toothpaste Pump (100 ml)",
+        "Price": 4,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1009334001_1"
+    },
+    {
+        "ProductId": "1256462003",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1256462003",
+        "ProductName": "Colgate Total Whitening Toothpaste (125 ml)",
+        "Price": 3.75,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1256462003_1"
+    },
+    {
+        "ProductId": "1576326002",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1576326002",
+        "ProductName": "Colgate Deep Clean Whitening Toothpaste (75 ml)",
+        "Price": 5,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1576326002_1"
+    },
+    {
+        "ProductId": "1183205000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1183205000",
+        "ProductName": "Colgate Max White Toothpaste (75 ml)",
+        "Price": 7.29,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1183205000_1"
+    },
+    {
+        "ProductId": "1009334000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1009334000",
+        "ProductName": "Colgate Cool Stripe Toothpaste Pump (100 ml)",
+        "Price": 4,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1009334000_1"
+    },
+    {
+        "ProductId": "1790759000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1790759000",
+        "ProductName": "Colgate Toothpaste Max Whitening (125 ml)",
+        "Price": 6.55,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1790759000_1"
+    },
+    {
+        "ProductId": "1767028001",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1767028001",
+        "ProductName": "Colgate Sensitive Relief Toothpaste (75 ml)",
+        "Price": 5.99,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1767028001_1"
+    },
+    {
+        "ProductId": "1735133000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1735133000",
+        "ProductName": "Colgate Total Original Toothpaste (75 ml)",
+        "Price": 5.15,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1735133000_1"
+    },
+    {
+        "ProductId": "1601791000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1601791000",
+        "ProductName": "Colgate Max White Mouthwash (500 ml)",
+        "Price": 6.5,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1601791000_1"
+    },
+    {
+        "ProductId": "1018288000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1018288000",
+        "ProductName": "Colgate Total Whitening Toothpaste Pump (100 ml)",
+        "Price": 3.75,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1018288000_1"
+    },
+    {
+        "ProductId": "1680374000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1680374000",
+        "ProductName": "Colgate Battery Toothbrush Batman (1 Piece)",
+        "Price": 10.99,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1680374000_1"
+    },
+    {
+        "ProductId": "1492544000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1492544000",
+        "ProductName": "Colgate Minions Battery Toothbrush (1 Piece)",
+        "Price": 11,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1492544000_1"
+    },
+    {
+        "ProductId": "1576326003",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1576326003",
+        "ProductName": "Colgate Advanced White Toothpaste (75 ml)",
+        "Price": 2.5,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1576326003_1"
+    },
+    {
+        "ProductId": "1183205006",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1183205006",
+        "ProductName": "Colgate Toothpaste Triple Action (75 ml)",
+        "Price": 1.65,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1183205006_1"
+    },
+    {
+        "ProductId": "1660152000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1660152000",
+        "ProductName": "Colgate Total Original Toothpaste Pump (100 ml)",
+        "Price": 3.75,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1660152000_1"
+    },
+    {
+        "ProductId": "1576326001",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1576326001",
+        "ProductName": "Colgate Max White White Crystals Toothpaste (75 ml)",
+        "Price": 2.5,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1576326001_1"
+    },
+    {
+        "ProductId": "1047546000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1047546000",
+        "ProductName": "Colgate Max White Medium Toothbrush (1 Piece)",
+        "Price": 3.99,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1047546000_1"
+    },
+    {
+        "ProductId": "1461652000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1461652000",
+        "ProductName": "Colgate Sensitive with Sensifoam Whitening Toothpaste (75 ml)",
+        "Price": 3.01,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1461652000_1"
+    },
+    {
+        "ProductId": "1018292000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1018292000",
+        "ProductName": "Colgate Advanced White Toothpaste Pump (100 ml)",
+        "Price": 4.99,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1018292000_1"
+    },
+    {
+        "ProductId": "1790766000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1790766000",
+        "ProductName": "Colgate Toothpaste Max Fresh Blue (125 ml)",
+        "Price": 6.55,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1790766000_1"
+    },
+    {
+        "ProductId": "1248394000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1248394000",
+        "ProductName": "Colgate Plax Soft Mint Mouthwash (250 ml)",
+        "Price": 1.75,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1248394000_1"
+    },
+    {
+        "ProductId": "1660137002",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1660137002",
+        "ProductName": "Colgate Total Active Fresh Toothpaste (125 ml)",
+        "Price": 3.75,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1660137002_1"
+    },
+    {
+        "ProductId": "1576326000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1576326000",
+        "ProductName": "Colgate Max Fresh Cooling Crystals Toothpaste (75 ml)",
+        "Price": 2.5,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1576326000_1"
+    },
+    {
+        "ProductId": "1680337000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1680337000",
+        "ProductName": "Colgate Bamboo Charcoal Soft Toothbrush (1 Piece)",
+        "Price": 4,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1680337000_1"
+    },
+    {
+        "ProductId": "1680313000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1680313000",
+        "ProductName": "Colgate Max White Charcoal Toothpaste (75 ml)",
+        "Price": 6.5,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1680313000_1"
+    },
+    {
+        "ProductId": "1790632000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1790632000",
+        "ProductName": "Colgate Toothbrush Zig Zag Charcoal (3 Piece)",
+        "Price": 5.99,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1790632000_1"
+    },
+    {
+        "ProductId": "1570755001",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1570755001",
+        "ProductName": "Colgate Toothbrush Slim Soft Advanced (31.57 g)",
+        "Price": 6,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1570755001_1"
+    },
+    {
+        "ProductId": "1256375002",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1256375002",
+        "ProductName": "Colgate Plax Soft Mint Mouthwash (500 ml)",
+        "Price": 6,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1256375002_1"
+    },
+    {
+        "ProductId": "1767028000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1767028000",
+        "ProductName": "Colgate Sensitive Relief Whitening Toothpaste (75 ml)",
+        "Price": 5.99,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1767028000_1"
+    },
+    {
+        "ProductId": "1734793000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1734793000",
+        "ProductName": "Colgate Advanced White Charcoal Toothpaste (75 ml)",
+        "Price": 6,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1734793000_1"
+    },
+    {
+        "ProductId": "1741493000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1741493000",
+        "ProductName": "Colgate Plax White Mouth Rinse (500 ml)",
+        "Price": 5.99,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1741493000_1"
+    },
+    {
+        "ProductId": "1841646000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1841646000",
+        "ProductName": "Colgate Total Peppermint Blast Mouthwash (500 ml)",
+        "Price": 3.25,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1841646000_1"
+    },
+    {
+        "ProductId": "1841646001",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1841646001",
+        "ProductName": "Colgate Total Spearmint Burst Mouthwash (500 ml)",
+        "Price": 3.25,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1841646001_1"
+    },
+    {
+        "ProductId": "1790640000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1790640000",
+        "ProductName": "Colgate Mouth Rinse Plax White Charcoal (500 ml)",
+        "Price": 6,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1790640000_1"
+    },
+    {
+        "ProductId": "1817766000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1817766000",
+        "ProductName": "Colgate Toothpaste Total Kids Mild Mint (50 ml)",
+        "Price": 2.49,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1817766000_1"
+    },
+    {
+        "ProductId": "1660137001",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1660137001",
+        "ProductName": "Colgate Total Advanced Enamel Health Toothpaste (75 ml)",
+        "Price": 6.5,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1660137001_1"
+    },
+    {
+        "ProductId": "1660137003",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1660137003",
+        "ProductName": "Colgate Toothpaste Total Advantage Deep Clean (75 ml)",
+        "Price": 6.5,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1660137003_1"
+    },
+    {
+        "ProductId": "1028061000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1028061000",
+        "ProductName": "Colgate Battery Toothbrush Floss Tip Microsonic (1 Piece)",
+        "Price": 4.75,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1028061000_1"
+    },
+    {
+        "ProductId": "1256542000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1256542000",
+        "ProductName": "Colgate Max White Medium Toothbrush Triple Pack (1 Piece)",
+        "Price": 7.8,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1256542000_1"
+    },
+    {
+        "ProductId": "1690910000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1690910000",
+        "ProductName": "Colgate Max White Expert Anti-Stain Toothpaste (75 ml)",
+        "Price": 14.99,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1690910000_1"
+    },
+    {
+        "ProductId": "1028072000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1028072000",
+        "ProductName": "Colgate 360° Sensitive PRO-Relief Extra Soft Toothbrush (1 Piece)",
+        "Price": 6.15,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1028072000_1"
+    },
+    {
+        "ProductId": "1037906000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1037906000",
+        "ProductName": "Colgate Zig Zag Flexible Medium Toothbrush 3 Pack (1 Piece)",
+        "Price": 3,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1037906000_1"
+    },
+    {
+        "ProductId": "1841628000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1841628000",
+        "ProductName": "Colgate Max White Ultra Active Foam Whitening Toothpaste (75 ml)",
+        "Price": 8.5,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1841628000_1"
+    },
+    {
+        "ProductId": "1841628001",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1841628001",
+        "ProductName": "Colgate Max White Ultra Fresh Pearls Whitening Toothpaste (75 ml)",
+        "Price": 8.5,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1841628001_1"
+    },
+    {
+        "ProductId": "1016786000",
+        "Manufacturer": "Colgate",
+        "ProductUrl": "https://shop.supervalu.ie/product/1016786000",
+        "ProductName": "Colgate Kids Extra Soft Minions Toothbrush for 4-6 Years (1 Piece)",
+        "Price": 2.95,
+        "Stock": "InStock",
+        "ImageUri": "https://storage.googleapis.com/images-mus-prd-7e2fdbe.mus.prd.v8.commerce.mi9cloud.com/product-images/detail/1016786000_1"
+    }
+]
