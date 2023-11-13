@@ -1,0 +1,122 @@
+{
+    "CheckDuplicates": {
+        "ProductUrl": true,
+        "ProductName": true,
+        "ProductId": true
+    },
+    "CheckMappingCodes": true,
+    "CultureCode": "en-US",
+    "Environment": "QA",
+    "Regex": {
+        "Manufacturer": [
+            {
+                "Code": "Kroil",
+                "Match": true
+            }
+        ],
+        "ProductName": [
+            {
+                "Code": "&amp|&#xE9|&#xE2|&#xEE|&#xE0|&#x2019|&#xB0",
+                "Match": false
+            }
+        ],
+        "ProductUrl": [
+            {
+                "Code": "https://www.mscdirect.com/product/",
+                "Match": true
+            }
+        ],
+        "ProductId": [
+            {
+                "Code": "#|&|;|:|,",
+                "Match": false
+            }
+        ],
+        "Price": [
+            {
+                "Code": "^[0-9]*$|(\\d+\\.\\d+(.\\d+(.\\d+)?)?)|\\d+",
+                "Match": true
+            }
+        ],
+        "Stock": [
+            {
+                "Code": "InStock|OutOfStock",
+                "Match": true
+            }
+        ],
+        "ImageUri": [
+            {
+                "Code": "https://cdn.mscdirect.com/global/images/ProductImages/",
+                "Match": true
+            }
+        ]
+    },
+    "RobotTypes": {
+        "Name": "Crawler",
+        "TaskID": "joEpnUkXj3HmRPu3K",
+        "ExcludeFields": []
+    },
+    "debugLog": false
+}
+
+
+{
+    "CheckDuplicates": {
+        "ProductUrl": true,
+        "ProductName": true,
+        "ProductId": true
+    },
+    "CheckMappingCodes": true,
+    "CultureCode": "gr-GR",
+    "Environment": "QA",
+    "Regex": {
+        "Manufacturer": [
+            {
+                "Code": "Ordesa",
+                "Match": true
+            }
+        ],
+        "ProductName": [
+            {
+                "Code": "&amp|&#xE9|&#xE2|&#xEE|&#xE0|&#x2019|&#xB0",
+                "Match": false
+            }
+        ],
+        "ProductUrl": [
+            {
+                "Code": "https://www.dosfarma.com/",
+                "Match": true
+            }
+        ],
+        "ProductId": [
+            {
+                "Code": "#|&|;|:|,",
+                "Match": false
+            }
+        ],
+        "Price": [
+            {
+                "Code": "^[0-9]*$|(\\d+\\.\\d+(.\\d+(.\\d+)?)?)|\\d+",
+                "Match": true
+            }
+        ],
+        "Stock": [
+            {
+                "Code": "InStock|OutOfStock",
+                "Match": true
+            }
+        ],
+        "ImageUri": [
+            {
+                "Code": "https://assets.dosfarma.com/transform/",
+                "Match": true
+            }
+        ]
+    },
+    "RobotTypes": {
+        "Name": "Crawler",
+        "TaskID": "qaeT2B0rPhIN13CzD",
+        "ExcludeFields": []
+    },
+    "debugLog": false
+}

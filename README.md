@@ -1030,3 +1030,106 @@ https://search.rakuten.co.jp/search/mall/+Hill%E2%80%99s+Pet/
             },
             "method": "GET"
         }
+
+
+## 13/11/23
+cs_production/jp-rakuten-fc
+**In Apify Console CS**
+* 18$
+
+
+* Se modificaron los selectores de la pagina de busqueda para conseguir el numero total de productos y calcular numero de paginas, a partir de ello se cambio la logica de paginacion.
+* Se cambio el selector de layout de todos los productos por pagina de busqueda.
+* Se modifico la logica de productos duplicados, tomando el ProductURL como key para reconocerlos.
+* Dentro de cada pagina de producto, los datos se sacan de un script que contiene los datos de ese producto y de sus variantes.
+* Se hizo un control de la existencia de variantes de los productos, ya que los selectores varian en agunos casos dependiendo si tiene o no variantes.
+* Solo se saca CTINCode para la marca Philips.
+* No todos los productos(ni todas las variantes) tienen GTINCode, sin embargo en caso no se tengan no se colocan.
+* En caso el script mencionado no contenga los datos del producto se lanza un handled.
+
+* The selectors of the search page were modified to get the total number of products and calculate the number of pages, from this the logic of pagination was changed.
+* The layout selector of all products per search page was changed.
+* The logic of duplicated products was modified, taking the ProductURL as key to recognize them.
+* Within each product page, the data is taken from a script that contains the data of that product and its variants.
+* A control of the existence of variants of the products was made, since the selectors vary in some cases depending on whether or not it has variants.
+* CTINCode is only taken out for the Philips brand.
+* Not all the products (nor all the variants) have GTINCode, however in case they do not have GTINCode they are not placed.
+* In case the mentioned script does not contain the product data, a handled is launched.
+
+### Input de Walmart
+"startUrls": [
+        {
+            "url": "https://www.walmart.com.mx/api/v2/page/search?Ntt=teka&size=48&page=0&qf=brandName%3Ateka&sortKey=skuPrice&sortDir=desc",
+            "userData": {
+                "Manufacturer": "Teka",
+                "Brand": "Teka",
+                "Culture Code": "es-MX",
+                "CTINRegex": "(?<=TEKA)[^*]+",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.walmart.com.mx/api/v2/page/search?Ntt=Remington&size=48&page=0&qf=brandName%3Aremington&sortKey=skuPrice&sortDir=desc",
+            "userData": {
+                "Manufacturer": "Spectrum",
+                "Brand": "Remington",
+                "Culture Code": "es-MX",
+                "CTINRegex": "(\\w+-)?[A-Z0-9]+\\d+[A-Z0-9]+(-\\w+)?",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.walmart.com.mx/api/v2/page/search?Ntt=Black%2BDecker&size=48&page=0&sortKey=skuPrice&sortDir=desc",
+            "userData": {
+                "Manufacturer": "Spectrum",
+                "Brand": "Black+Decker",
+                "Culture Code": "es-MX",
+                "CTINRegex": "(\\w+-)?[A-Z0-9]+\\d+[A-Z0-9]+(-\\w+)?",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.walmart.com.mx/api/v2/page/search?Ntt=suavitel&size=48&page=0&sortKey=skuPrice&sortDir=desc",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "Brand": "Suavitel",
+                "Culture Code": "es-MX",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.walmart.com.mx/api/v2/page/search?Ntt=axion&size=48&page=0&qf=brandName%3Aaxion&sortKey=skuPrice&sortDir=desc",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "Brand": "Axion",
+                "Culture Code": "es-MX",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.walmart.com.mx/api/v2/page/search?Ntt=Colgate&size=48&page=0&sortKey=skuPrice&sortDir=desc",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "Brand": "Colgate",
+                "Culture Code": "es-MX",
+                "ApifyResultType": 0
+            }
+        },
+        {
+            "url": "https://www.walmart.com.mx/api/v2/page/search?Ntt=caprice&size=48&page=0&qf=brandName%3Acaprice&sortKey=skuPrice&sortDir=des",
+            "userData": {
+                "Manufacturer": "Colgate-Palmolive",
+                "Brand": "Caprice",
+                "Culture Code": "es-MX",
+                "ApifyResultType": 0
+            }
+        }
+    ]
+
+- Activities implemented
+    - En el PNH se cambio SearchKey por Brand
+    - Se comento la condicional que definia el valor de SearchURL. 
+    - Se comento SearchURL de la paginacion
+    - Se comento SearchURL de product()
+    - En la linea 78, 79, se cambio SearchURL por requestURL
+    - Se comento la linea 14, que restringia solo a 5 paginas
