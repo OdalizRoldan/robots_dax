@@ -1133,3 +1133,92 @@ cs_production/jp-rakuten-fc
     - Se comento SearchURL de product()
     - En la linea 78, 79, se cambio SearchURL por requestURL
     - Se comento la linea 14, que restringia solo a 5 paginas
+
+#### Martes 14/11
+**Activities implemented** 4.29$ - 
+- En ninguna parte estaba SearchType en el codigo, entonces se excluyo del UserData
+- En la linea 44, en el handled, se cambio SerachURL por requestUrl
+- Quitamos IsPaid=False de product()
+- Agregamos imageURL con selector en el JSON y en product()
+- Se comento en product()  // BrandName: Brand,
+                        // PageNumber: PageNumber || 1,
+                        // PositionInPage: Number(index) + 1
+- Comentamos codigo de ofset de la linea 72
+- Aumentmos control de productos sponsoreados en la 63
+- Falta agregar logica de CITINRegex para marcas requeridas
+
+Teka - 265(UI) - 265(Crawler)
+Remington - 54(UI) - 59(Crawler) - No detecta duplicado
+Black & Decker - (732)(UI) - 686(Crawler) + 46 duplicados = 732
+Suavitel 968(UI) - 839(Crawler) + 129 duplicados = 968
+Axion 5(UI) - 5(Crawler)  No detecta duplicado
+Colgate 87(UI) - 16(Crawler)  No detecta duplicado
+Caprice 19 - UI - 701 Crawler
+
+**Input para Crawler**
+{
+      "url": "https://www.walmart.com.mx/search?q=Teka"
+      "userData": {
+        "Manufacturer": "Teka",
+        "Brand": "Teka",
+        "Culture Code": "es-MX",
+        "CTINRegex": "(?<=TEKA)[^*]+",
+        "ApifyResultType": 0
+      }
+    },
+    {
+      "url": "https://www.walmart.com.mx/search?q=Remington&facet=brand%3ARemington",
+      "userData": {
+        "Manufacturer": "Spectrum",
+        "Brand": "Remington",
+        "Culture Code": "es-MX",
+        "CTINRegex": "(\\w+-)?[A-Z0-9]+\\d+[A-Z0-9]+(-\\w+)?",
+        "ApifyResultType": 0
+      }
+    },
+    {
+      "url": "https://www.walmart.com.mx/search?q=Black+%26+Decker",
+      "userData": {
+        "Manufacturer": "Spectrum",
+        "Brand": "Black & Decker",
+        "Culture Code": "es-MX",
+        "CTINRegex": "(\\w+-)?[A-Z0-9]+\\d+[A-Z0-9]+(-\\w+)?",
+        "ApifyResultType": 0
+      }
+    },
+    {
+      "url": "https://www.walmart.com.mx/search?q=Suavitel",
+      "userData": {
+        "Manufacturer": "Colgate-Palmolive",
+        "Brand": "Suavitel",
+        "Culture Code": "es-MX",
+        "ApifyResultType": 0
+      }
+    },
+    {
+      "url": "https://www.walmart.com.mx/search?q=axion",
+      "userData": {
+        "Manufacturer": "Colgate-Palmolive",
+        "Brand": "Axion",
+        "Culture Code": "es-MX",
+        "ApifyResultType": 0
+      }
+    },
+    {
+      "url": "https://super.walmart.com.mx/search?q=Colgate",
+      "userData": {
+        "Manufacturer": "Colgate-Palmolive",
+        "Brand": "Colgate",
+        "Culture Code": "es-MX",
+        "ApifyResultType": 0
+      }
+    },
+    {
+      "url": "https://super.walmart.com.mx/search?q=Caprice",
+      "userData": {
+        "Manufacturer": "Colgate-Palmolive",
+        "Brand": "Caprice",
+        "Culture Code": "es-MX",
+        "ApifyResultType": 0
+      }
+    }
