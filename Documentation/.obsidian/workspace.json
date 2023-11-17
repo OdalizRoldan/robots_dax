@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "2bc8cc0410f5bf0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "42212a43d973bb6b",
+        "type": "tabs",
+        "dimension": 76.41221374045801,
+        "children": [
+          {
+            "id": "4617322ac21e8ae6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "yesterday-2023-11-16.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0afb90678bee8a3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "robots-dax/mx-heb-cheerio.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3763620f512de9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "robots-dax/virgin-crawler.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d964fdff6a4be4c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "robots-dax/mx-walper-crawler.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0faaee3bb0a1a588",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "today-2023-11-17.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "b2954f0d7f4eb2ea",
+        "type": "tabs",
+        "dimension": 23.587786259541986,
+        "children": [
+          {
+            "id": "736f6340404f25a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "today-2023-11-17.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4bdf1c7a725863f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "bac7e9b36511521f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da8061ae96aacce0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1437d1465df4d9e3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a919cf81918fc46b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "8ccf60d68225962c",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1507dca16b74ebb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ba9ef4be20a7d79",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "robots-dax/mx-walper-crawler.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7b38a591571bb2ab",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "robots-dax/mx-walper-crawler.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3fddc8b362cf859b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8a22e1a23c0c6bcd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "robots-dax/mx-walper-crawler.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo canvas": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "d964fdff6a4be4c4",
+  "lastOpenFiles": [
+    "Pasted image 20231117114256.png",
+    "Pasted image 20231117113959.png",
+    "Pasted image 20231117112231.png",
+    "Pasted image 20231117111918.png",
+    "today-2023-11-17.md",
+    "robots-dax/mx-walper-crawler.md",
+    "Pasted image 20231117093023.png",
+    "yesterday-2023-11-16.md",
+    "robots-dax/mx-heb-cheerio.md",
+    "robots-dax/virgin-crawler.md",
+    "2023-11-15.md",
+    "robots-dax/template-robot.md",
+    "robots-dax"
+  ]
+}
