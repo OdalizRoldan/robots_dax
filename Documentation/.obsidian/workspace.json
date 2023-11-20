@@ -9,18 +9,6 @@
         "dimension": 76.41221374045801,
         "children": [
           {
-            "id": "4617322ac21e8ae6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "yesterday-2023-11-16.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0afb90678bee8a3e",
             "type": "leaf",
             "state": {
@@ -43,33 +31,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d964fdff6a4be4c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "robots-dax/mx-walper-crawler.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0faaee3bb0a1a588",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "today-2023-11-17.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "b2954f0d7f4eb2ea",
@@ -77,12 +41,12 @@
         "dimension": 23.587786259541986,
         "children": [
           {
-            "id": "736f6340404f25a1",
+            "id": "459fa5583616f2b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "today-2023-11-17.md",
+                "file": "Hoy 2023-11-20.md",
                 "mode": "source",
                 "source": false
               }
@@ -155,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "robots-dax/mx-walper-crawler.md",
+                "file": "robots-dax/virgin-crawler.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "robots-dax/mx-walper-crawler.md",
+                "file": "robots-dax/virgin-crawler.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "robots-dax/mx-walper-crawler.md"
+                "file": "robots-dax/virgin-crawler.md"
               }
             }
           }
@@ -216,18 +180,19 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "d964fdff6a4be4c4",
+  "active": "d3763620f512de9d",
   "lastOpenFiles": [
+    "Hoy 2023-11-20.md",
+    "robots-dax/virgin-crawler.md",
+    "2023-11-17.md",
+    "robots-dax/mx-walper-crawler.md",
+    "robots-dax/mx-heb-cheerio.md",
+    "2023-11-16.md",
     "Pasted image 20231117114256.png",
     "Pasted image 20231117113959.png",
     "Pasted image 20231117112231.png",
     "Pasted image 20231117111918.png",
-    "today-2023-11-17.md",
-    "robots-dax/mx-walper-crawler.md",
     "Pasted image 20231117093023.png",
-    "yesterday-2023-11-16.md",
-    "robots-dax/mx-heb-cheerio.md",
-    "robots-dax/virgin-crawler.md",
     "2023-11-15.md",
     "robots-dax/template-robot.md",
     "robots-dax"
