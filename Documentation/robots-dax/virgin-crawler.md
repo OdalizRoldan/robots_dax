@@ -99,6 +99,31 @@ CS 27$
 Excluded: 24
 Total ->190
 
+### Correciones de QA
+- The format of the URLs has been changed, from shortened URLs, to the format of the URLs in the production robot.
+~~~
+"https://www.virginmegastore.ae/en/p/816800"
+~~~
 
-24 excluidos 
-166 priductos
+~~~
+"https://www.virginmegastore.ae/en/electronics-accessories/headphones-audio/headphones-earbuds/on-ear-over-ear-headphones/sony-wh-1000xm5-wireless-noise-cancelling-headphones---black/p/816800"
+~~~
+- The CTINRegex was included in the INPUT of Philips and Sony brands, as some products included CTINCodes in their names.
+- Changed the previous logic of CITINRegex.
+
+
+
+
+
+
+- Inlcuir CITINCode para casi todas las marcas
+	- Se incluyo CITINRegex en el INPUT de Sony y Philips
+- Incluir excluded keywords para Philips
+- Memoria a 512 MB
+- Se encontro CTINCode tambien para Sony, pero no esta tomando en cuenta las letras de adelante
+
+- Tested with production updater inputs: 
+- Tested with new crawler results
+
+
+- Se extrajeron los productURLs en el formato del robot de produccion
