@@ -9,43 +9,18 @@
         "dimension": 69.45488721804512,
         "children": [
           {
-            "id": "0afb90678bee8a3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "robots-dax/mx-mercadoLibre-sp.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d3763620f512de9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "robots-dax/virgin-crawler.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "52cb3416a6e085ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "robots-dax/virgin-updater.md",
+                "file": "robots-dax/it-trony-sp.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "b2954f0d7f4eb2ea",
@@ -53,12 +28,12 @@
         "dimension": 30.545112781954884,
         "children": [
           {
-            "id": "e431b56cb2984df0",
+            "id": "c7617787d7040bb9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-11-23.md",
+                "file": "2023-11-24.md",
                 "mode": "source",
                 "source": false
               }
@@ -131,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "robots-dax/virgin-crawler.md",
+                "file": "2023-11-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "robots-dax/virgin-crawler.md",
+                "file": "2023-11-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "robots-dax/virgin-crawler.md"
+                "file": "2023-11-24.md"
               }
             }
           }
@@ -192,14 +167,17 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "d3763620f512de9d",
+  "active": "c7617787d7040bb9",
   "lastOpenFiles": [
-    "2023-11-23.md",
-    "robots-dax/virgin-crawler.md",
-    "robots-dax/virgin-updater.md",
-    "2023-11-22.md",
+    "robots-dax/it-trony-sp.md",
+    "2023-11-24.md",
     "robots-dax/mx-mercadoLibre-sp.md",
+    "robots-dax/virgin-crawler.md",
     "robots-dax/template-robot.md",
+    "robots-dax/Sin título.md",
+    "robots-dax/virgin-updater.md",
+    "2023-11-23.md",
+    "2023-11-22.md",
     "robots-dax/mx-heb-cheerio.md",
     "Ayer 2023-11-20.md",
     "2023-11-17.md",
