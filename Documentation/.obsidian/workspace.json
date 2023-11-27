@@ -6,7 +6,7 @@
       {
         "id": "42212a43d973bb6b",
         "type": "tabs",
-        "dimension": 69.45488721804512,
+        "dimension": 67.83088235294117,
         "children": [
           {
             "id": "52cb3416a6e085ba",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "robots-dax/it-trony-sp.md",
+                "file": "robots-dax/fr-laCompagnie-updater.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,17 +23,17 @@
         ]
       },
       {
-        "id": "b2954f0d7f4eb2ea",
+        "id": "1c30d54e31ad3680",
         "type": "tabs",
-        "dimension": 30.545112781954884,
+        "dimension": 32.169117647058826,
         "children": [
           {
-            "id": "c7617787d7040bb9",
+            "id": "97cf2d0a5193c473",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-11-24.md",
+                "file": "2023-11-27.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-11-24.md",
+                "file": "robots-dax/fr-laCompagnie-updater.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-11-24.md",
+                "file": "robots-dax/fr-laCompagnie-updater.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-11-24.md"
+                "file": "robots-dax/fr-laCompagnie-updater.md"
               }
             }
           }
@@ -167,13 +167,15 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "c7617787d7040bb9",
+  "active": "52cb3416a6e085ba",
   "lastOpenFiles": [
+    "2023-11-27.md",
+    "robots-dax/fr-laCompagnie-updater.md",
+    "robots-dax/template-robot.md",
     "robots-dax/it-trony-sp.md",
     "2023-11-24.md",
     "robots-dax/mx-mercadoLibre-sp.md",
     "robots-dax/virgin-crawler.md",
-    "robots-dax/template-robot.md",
     "robots-dax/Sin título.md",
     "robots-dax/virgin-updater.md",
     "2023-11-23.md",

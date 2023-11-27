@@ -1,0 +1,1266 @@
+[
+    {
+        "ProductId": "HIL1840180",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Healthy Weight Treats friandises pour chien sachet 220 g",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-canine-treats-no-grain-soft-baked-poulet-carottes-227-g.html",
+        "Price": "5.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "1603",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Specific Chien Hypoallergenic Treats CT-HY 300 g",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-canine-treats-no-grain-crunchy-poulet-pommes-227-g.html",
+        "Price": "5.39",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "VIR1829220",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Veggiedent FRESH M Lamelles Dentaires Chien",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-dental-care-chews-lamelles-a-macher-pour-chien-sachet-170-g.html",
+        "Price": "12.85",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840180",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Healthy Weight Treats friandises pour chien sachet 220 g",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-healthy-mobility-treats-friandises-pour-chien-sachet-220-g.html",
+        "Price": "5.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840180",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Healthy Weight Treats friandises pour chien sachet 220 g",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-healthy-weight-treats-friandises-pour-chien-sachet-220-g.html",
+        "Price": "5.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840190",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Hypoallergenic Treats friandises pour chien sachet 220 g",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-hypoallergenic-treats-friandises-pour-chien-sachet-220-g.html",
+        "Price": "6.19",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "11150",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Boeuf 12 x 370 grs",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-boeuf-12-x-370-grs.html",
+        "Price": "34.49",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1866660",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Healthy Cuisine Adulte 12 x 90 g",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-healthy-cuisine-mijotes-poulet-boeuf-8-x-80-g.html",
+        "Price": "18.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "11152",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Poulet 12 x 370 grs",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-dinde-12-x-370-grs.html",
+        "Price": "34.49",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843080",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Healthy Mobility Large Breed Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-healthy-mobility-large-breed-poulet-14-kg.html",
+        "Price": "60.49",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843030",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Healthy Mobility Medium Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-healthy-mobility-medium-poulet-14-kg.html",
+        "Price": "60.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "1672",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Large Breed Poulet 18 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-large-advanced-fitness-au-poulet-18kg.html",
+        "Price": "67.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843070",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Large Breed Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-large-breed-poulet-14-kg.html",
+        "Price": "56.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI8122381",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Light Large au poulet 18 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-large-light-au-poulet-18-kg.html",
+        "Price": "69.45",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI1000171",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Large Perfect Weight Poulet 12 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-large-perfect-weight-poulet-12-kg.html",
+        "Price": "57.95",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843140",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Light Large Breed Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-light-large-breed-poulet-14-kg.html",
+        "Price": "57.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843130",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Light Medium Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-light-medium-poulet-14-kg.html",
+        "Price": "60.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "11152",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Poulet 12 x 370 grs",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-light-poulet-12-x-370-grs.html",
+        "Price": "34.49",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843260",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Light Small & Mini Poulet 6 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-light-small-mini-poulet-1-5-kg.html",
+        "Price": "39.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843260",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Light Small & Mini Poulet 6 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-light-small-mini-poulet-6-kg.html",
+        "Price": "39.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI2326603",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Medium Poulet 2.5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-medium-advanced-fitness-poulet-2-5-kg.html",
+        "Price": "18.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843050",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Medium Agneau & Riz 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-medium-agneau-riz-14-kg.html",
+        "Price": "59.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843050",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Medium Agneau & Riz 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-medium-agneau-riz-2-5-kg.html",
+        "Price": "59.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1863020",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Medium Agneau & Riz 18 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-medium-agneau-riz-18-kg.html",
+        "Price": "76.49",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843020",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Medium Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-medium-poulet-14-kg.html",
+        "Price": "54.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI1851410",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult No Grain Large Breed Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-no-grain-large-breed-poulet-14-kg.html",
+        "Price": "71.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI1851420",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult No Grain Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-no-grain-poulet-14-kg.html",
+        "Price": "70.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI1851420",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult No Grain Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-no-grain-thon-14-kg.html",
+        "Price": "70.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI1851420",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult No Grain Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-no-grain-thon-14-kg-dluo-30-11-2022.html",
+        "Price": "70.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1858930",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Perfect Digestion 12 x 363 g",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-perfect-digestion-12-x-363-g.html",
+        "Price": "36.15",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1858870",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Perfect Digestion Medium 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-perfect-digestion-medium-14-kg.html",
+        "Price": "75.75",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1858880",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Perfect Digestion Large 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-perfect-digestion-large-14-kg.html",
+        "Price": "72.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1858880",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Perfect Digestion Large 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-perfect-digestion-large-14-kg-dluo-31-01-2023.html",
+        "Price": "72.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1858910",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Perfect Digestion Medium 2.5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-perfect-digestion-medium-2-5-kg.html",
+        "Price": "22.49",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL605963",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Perfect Digestion Small & Mini 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-perfect-digestion-small-mini-3-kg.html",
+        "Price": "27.49",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL605964",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Perfect Digestion Small & Mini 6 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-perfect-digestion-small-mini-6-kg.html",
+        "Price": "43.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL605963",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Perfect Digestion Small & Mini 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-perfect-digestion-small-mini-3-kg-dluo-31-12-2022.html",
+        "Price": "27.49",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL605964",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Perfect Digestion Small & Mini 6 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-perfect-digestion-small-mini-6-kg-dluo-31-12-2022.html",
+        "Price": "43.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843250",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Perfect Weight Medium Poulet 12 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-perfect-weight-medium-poulet-12-kg.html",
+        "Price": "58.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "11152",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Poulet 12 x 370 grs",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-poulet-12-x-370-grs.html",
+        "Price": "34.49",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843160",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Performance Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-performance-poulet-14-kg.html",
+        "Price": "64.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843240",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Perfect Weight Small & Mini Poulet 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-perfect-weight-small-mini-poulet-1-5-kg.html",
+        "Price": "16.75",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843170",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Sensitive Stomach & Skin Medium Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-sensitive-stomach-skin-medium-poulet-14-kg.html",
+        "Price": "61.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1838480",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Small & Mini Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-small-mini-poulet-1-5-kg.html",
+        "Price": "24.8",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1838480",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Small & Mini Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-small-mini-poulet-3-kg.html",
+        "Price": "24.8",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843260",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Light Small & Mini Poulet 6 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-small-mini-poulet-1-5-kg-dluo-31-12-2022.html",
+        "Price": "39.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843010",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Small & Mini Poulet 6 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-adult-small-mini-poulet-6-kg.html",
+        "Price": "37.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843300",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Mature Adult 7+ Youthful Vitality Small&Mini Poulet 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-mature-7-small-mini-poulet-1-5-kg.html",
+        "Price": "15.75",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1838520",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Mature 7+ Small & Mini Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-mature-7-small-mini-poulet-3-kg.html",
+        "Price": "25.75",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843180",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Mature 7+ Small & Mini Poulet 6 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-mature-7-small-mini-poulet-6-kg.html",
+        "Price": "37.69",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "3001",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Mature Adult 6+ 18 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-mature-adult-5-active-longevity-large-breed-18-kg.html",
+        "Price": "69.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843220",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Mature Adult 5+ Large Breed Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-mature-adult-5-large-breed-poulet-14-kg.html",
+        "Price": "59.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843320",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Mature Adult 6+ Senior Vitality Large Breed Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-mature-adult-5-youthful-vitality-large-breed-poulet-14-kg.html",
+        "Price": "62.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843320",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Mature Adult 6+ Senior Vitality Large Breed Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-mature-adult-6-senior-vitality-large-breed-poulet-14-kg.html",
+        "Price": "62.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843230",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Mature Adult 7+ Light Medium Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-mature-adult-7-light-medium-poulet-14-kg.html",
+        "Price": "60.4",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843200",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Mature Adult 7+ Medium Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-mature-adult-7-medium-poulet-14-kg.html",
+        "Price": "55.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843200",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Mature Adult 7+ Medium Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-mature-adult-7-medium-poulet-14-kg-dluo-31-10-2022.html",
+        "Price": "55.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1863030",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Mature Adult 7+ Medium Poulet 18 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-mature-adult-7-medium-poulet-18-kg.html",
+        "Price": "76.8",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843200",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Mature Adult 7+ Medium Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-mature-adult-7-medium-poulet-2-5-kg.html",
+        "Price": "55.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI8918513",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Mature Adult 7+ Small & Mini Light 2.5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-mature-adult-7-mini-light-2-5-kg.html",
+        "Price": "20.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI4528488",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Mature Adult Poulet 12 x 370 grs",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-mature-adult-7-poulet-12-x-370-grs.html",
+        "Price": "34.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843310",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Mature Adult 7+ Senior Vitality Medium Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-mature-adult-7-youthful-vitality-medium-poulet-14-kg.html",
+        "Price": "65.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843300",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Mature Adult 7+ Youthful Vitality Small&Mini Poulet 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-mature-adult-7-youthful-vitality-small-mini-poulet-1-5-kg.html",
+        "Price": "15.75",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI4528488",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Mature Adult Poulet 12 x 370 grs",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-mature-adult-poulet-12-x-370-grs.html",
+        "Price": "34.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "OWN031602",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Ownat Grain Free Prime Senior Poulet Dinde Chien 12 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-mature-no-grain-poulet-14-kg.html",
+        "Price": "69.95",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "1930",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Puppy Poulet 12 x 370 g",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-puppy-au-poulet-en-boites-de-12-x-370-g.html",
+        "Price": "35.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1842930",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Puppy Medium Agneau & Riz 18 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-puppy-medium-agneau-riz-14-kg.html",
+        "Price": "73.79",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1842930",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Puppy Medium Agneau & Riz 18 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-puppy-medium-agneau-riz-18-kg.html",
+        "Price": "73.79",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1842990",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Puppy Medium Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-puppy-medium-poulet-14-kg.html",
+        "Price": "57.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1842980",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Puppy Medium Poulet 2,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-puppy-medium-poulet-2-5-kg.html",
+        "Price": "18.49",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI1851460",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Puppy No Grain Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-puppy-no-grain-poulet-14-kg.html",
+        "Price": "71.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "1930",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Puppy Poulet 12 x 370 g",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-puppy-poulet-boites-de-12-x-370-g.html",
+        "Price": "35.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1841100",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Chat Adult Sterilisé Thon 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-chat-young-adult-sterilise-thon-3-kg-dluo-31-12-2022.html",
+        "Price": "29.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1842970",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Puppy Small & Mini Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-puppy-small-mini-poulet-3-kg.html",
+        "Price": "25.29",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1842970",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Puppy Small & Mini Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-canine-puppy-small-mini-poulet-1-5-kg.html",
+        "Price": "25.29",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1841170",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Senior Vitality Poulet 7 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-7-youthful-vitality-poulet-7-kg.html",
+        "Price": "55.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840910",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Hairball Indoor Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-hairball-indoor-poulet-10-kg.html",
+        "Price": "33.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840910",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Hairball Indoor Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-hairball-indoor-poulet-1-5-kg.html",
+        "Price": "33.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840910",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Hairball Indoor Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-hairball-indoor-poulet-3-kg.html",
+        "Price": "33.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI1000146",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Light Pack Mixte sachets 12 x 85 grs",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-light-pack-mixte-sachets-12-x-85-grs.html",
+        "Price": "13.69",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "1891",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Light Poulet 10 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-light-poulet-10-kg-31-10-2022.html",
+        "Price": "66.45",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "1891",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Light Poulet 10 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-light-poulet-10-kg.html",
+        "Price": "66.45",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1841020",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Light Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-light-poulet-1-5-kg.html",
+        "Price": "29.49",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1841020",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Light Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-light-poulet-3-kg.html",
+        "Price": "29.49",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1866640",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Healthy Cuisine Stérilisé 12 x 80 g",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-light-poulet-sachets-12-x-85-grs.html",
+        "Price": "17.95",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "1894",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Light Thon 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-light-thon-1-5-kg.html",
+        "Price": "18.95",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "1891",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Light Poulet 10 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-light-thon-7-kg.html",
+        "Price": "66.45",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "1902",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Poulet 15 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-no-grain-poulet-1-5-kg.html",
+        "Price": "79.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI1000145",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Pack Mixte sachets 12 x 85 g",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-optimal-care-pack-mixte-sachets-12-x-85-grs.html",
+        "Price": "13.3",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "1902",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Poulet 15 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-optimal-care-poulet-15-kg.html",
+        "Price": "79.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI8114016",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Chat Young Adult Sterilisé Poulet 12 x 85 g",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-optimal-care-poulet-sachets-12-x-85-grs.html",
+        "Price": "14.45",
+        "Stock": "OutOfStock"
+    },
+    {
+        "ProductId": "9143",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Specific Chat FIW Digestive Support 7 x 100 grs",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-perfect-digestion-12-x-85-g.html",
+        "Price": "10.8",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840910",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Hairball Indoor Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-perfect-digestion-3-kg.html",
+        "Price": "33.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840910",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Hairball Indoor Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-perfect-digestion-3-kg-dluo-31-12-2022.html",
+        "Price": "33.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL605958",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Perfect Digestion 7 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-perfect-digestion-7-kg.html",
+        "Price": "63.89",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL605958",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Perfect Digestion 7 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-perfect-digestion-7-kg-dluo-31-12-2022.html",
+        "Price": "63.89",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI1000172",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Perfect Weight Poulet 1.5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-perfect-weight-poulet-1-5-kg.html",
+        "Price": "22.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL605958",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Perfect Digestion 7 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-perfect-weight-poulet-7-kg.html",
+        "Price": "63.89",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843900",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Poulet 10 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-poulet-10-kg.html",
+        "Price": "59.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840980",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Poulet 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-poulet-1-5-kg.html",
+        "Price": "16.75",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "1902",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Poulet 15 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-poulet-15-kg.html",
+        "Price": "79.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840990",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-poulet-3-kg.html",
+        "Price": "26.59",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840910",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Hairball Indoor Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-sensitive-stomach-skin-poulet-1-5-kg.html",
+        "Price": "33.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1866640",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Healthy Cuisine Stérilisé 12 x 80 g",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-sterilised-cat-healthy-cuisine-mijotes-poulet-saumon-8-x-80-g.html",
+        "Price": "17.95",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843920",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Thon 10 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-thon-10-kg.html",
+        "Price": "59.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843920",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Thon 10 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-thon-10-kg-dluo-30-11-2022.html",
+        "Price": "59.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840980",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Poulet 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-thon-1-5-kg.html",
+        "Price": "16.75",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840990",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-adult-thon-3-kg.html",
+        "Price": "26.59",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1866630",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Healthy Cuisine Adulte 12 x 80 g",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-kitten-healthy-cuisine-mijotes-poulet-poisson-8-x-80-g.html",
+        "Price": "16.95",
+        "Stock": "OutOfStock"
+    },
+    {
+        "ProductId": "HIL1840960",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Kitten Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-kitten-no-grain-poulet-1-5-kg.html",
+        "Price": "29.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1862980",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Kitten Poulet 7 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-kitten-poulet-7-kg.html",
+        "Price": "69.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840820",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Mature Adult 7+ Light Poulet 7 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-mature-adult-7-light-poulet-7-kg.html",
+        "Price": "52.45",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI1000147",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Mature Adult 7+ Pack Mixte sachets 12 x 85 grs",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-mature-adult-7-pack-mixte-sachets-12-x-85-grs.html",
+        "Price": "13.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1841040",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Mature Adult 7+ Poulet 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-mature-adult-7-poulet-1-5-kg.html",
+        "Price": "18.35",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1841050",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Mature Adult 7+ Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-mature-adult-7-poulet-3-kg.html",
+        "Price": "29.8",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI1000147",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Mature Adult 7+ Pack Mixte sachets 12 x 85 grs",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-mature-adult-7-poulet-sachets-12-x-85-grs.html",
+        "Price": "13.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "1919",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Mature Adult 7+ Hairball Indoor Poulet 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-mature-adult-7-sterilised-cat-poulet-1-5-kg.html",
+        "Price": "20.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1841110",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Mature Adult 7+ Sterilised Cat Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-mature-adult-7-sterilised-cat-poulet-3-kg.html",
+        "Price": "31.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1841040",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Mature Adult 7+ Poulet 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-mature-adult-7-thon-1-5-kg.html",
+        "Price": "18.35",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "1919",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Mature Adult 7+ Hairball Indoor Poulet 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-mature-adult-hairball-control-poulet-1-5-kg.html",
+        "Price": "20.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1841040",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Mature Adult 7+ Poulet 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-mature-no-grain-poulet-1-5-kg.html",
+        "Price": "18.35",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1862990",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Mature Poulet 10 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-mature-poulet-10-kg.html",
+        "Price": "67.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1841190",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Senior 11+ Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-senior-11-poulet-3-kg.html",
+        "Price": "29.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1849640",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Chat Adult Sterilisé Canard 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-young-adult-sterilised-cat-canard-3-kg.html",
+        "Price": "27.89",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "AL8132853",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Chat Adult Sterilisé Poulet 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-young-adult-sterilised-cat-poulet-1-5-kg.html",
+        "Price": "20.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840840",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Chat Adult Sterilisé Poulet 15 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-young-adult-sterilised-cat-poulet-15-kg.html",
+        "Price": "95.95",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1841070",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Chat Adult Sterilisé Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-young-adult-sterilised-cat-poulet-3-kg.html",
+        "Price": "29.45",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840830",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Chat Adult Sterilisé Thon 10 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-young-adult-sterilised-cat-thon-10-kg.html",
+        "Price": "68.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "AL8132853",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Chat Adult Sterilisé Poulet 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-young-adult-sterilised-cat-thon-1-5-kg.html",
+        "Price": "20.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1841100",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Chat Adult Sterilisé Thon 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-young-adult-sterilised-cat-thon-3-kg.html",
+        "Price": "29.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "AL1841080",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Chat Adult Sterilisé Poulet 10 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-young-adult-sterilised-poulet-10-kg.html",
+        "Price": "66.95",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "AL8132853",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Chat Adult Sterilisé Poulet 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-young-adult-sterilised-poulet-1-5-kg.html",
+        "Price": "20.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "AL1814860",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Chat Young Adult Sterilisé 12 x 85 g",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-feline-young-adult-sterilised-tendres-bouchees-en-sauce-12-x-85-g.html",
+        "Price": "14.4",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI8128840",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Kitten Healthy Development Pack Mixte sachets 12 x 85 grs",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-kitten-healthy-development-pack-mixte-sachets-12-x-85-grs.html",
+        "Price": "13.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840940",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Kitten Poulet 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-kitten-poulet-1-5-kg.html",
+        "Price": "18.75",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840940",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Kitten Poulet 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-kitten-poulet-300-g.html",
+        "Price": "18.75",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840960",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Kitten Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-kitten-poulet-3-kg.html",
+        "Price": "29.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI8128840",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Kitten Healthy Development Pack Mixte sachets 12 x 85 grs",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-kitten-poulet-sachets-12-x-85-grs.html",
+        "Price": "13.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840970",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Kitten Thon 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-kitten-thon-1-5-kg.html",
+        "Price": "17.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL607071",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan perfect weight mobility grand chien 12 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-perfect-weight-mobility-grand-chien-12-kg.html",
+        "Price": "70.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL607070",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Perfect Weight Mobility Medium Chien 12 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-perfect-weight-mobility-medium-chien-12-kg.html",
+        "Price": "72.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL607068",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan perfect weight mobility petit chien 6 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-perfect-weight-mobility-petit-chien-6-kg.html",
+        "Price": "44.49",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "11084",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Puppy Large Healthy Development Poulet 16 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-puppy-large-healthy-development-poulet-16-kg.html",
+        "Price": "63.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL604138",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Urinary Health Chat Stérilisé 7 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-urinary-health-chat-sterilise-7-kg.html",
+        "Price": "60.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI8114016",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Chat Young Adult Sterilisé Poulet 12 x 85 g",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-vetessentials-feline-young-adult-sterilised-poulet-12-x-85-grs.html",
+        "Price": "14.45",
+        "Stock": "OutOfStock"
+    },
+    {
+        "ProductId": "HIL1841040",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Mature Adult 7+ Poulet 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-youthful-vitality-chat-adult-7-poulet-1-5-kg.html",
+        "Price": "18.35",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843300",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Mature Adult 7+ Youthful Vitality Small&Mini Poulet 1,5 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-science-plan-youthful-vitality-chien-mini-adult-7-poulet-6-kg.html",
+        "Price": "15.75",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "AL1853050",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Specific Bio Treats pour chien 100 g",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/hill-s-soft-baked-biscuits-pour-chien-sachet-220-g.html",
+        "Price": "3.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1840910",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Hairball Indoor Poulet 3 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/offre-bonus-bag-1-sac-hill-s-science-plan-feline-adult-hairball-indoor-poulet-10-kg-1-5-kg-offerts.html",
+        "Price": "33.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843900",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Poulet 10 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/offre-bonus-bag-1-sac-hill-s-science-plan-feline-adult-poulet-10-kg-1-5-kg-offert.html",
+        "Price": "59.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "1891",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Feline Adult Light Poulet 10 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/offre-bonus-bag-1-sac-hill-s-science-plan-feline-adult-light-poulet-10-kg-1-5-kg-offerts.html",
+        "Price": "66.45",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "AL1841080",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Chat Adult Sterilisé Poulet 10 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/offre-bonus-bag-1-sac-hill-s-science-plan-feline-young-adult-sterilised-cat-poulet-10-kg-1-5-kg-offerts.html",
+        "Price": "66.95",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843080",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Healthy Mobility Large Breed Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/offre-hill-s-1-sac-science-plan-canine-adult-healthy-mobility-large-breed-poulet-14-kg-achete-1-sachet-de-friandises-dental-care-offert.html",
+        "Price": "60.49",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843030",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Healthy Mobility Medium Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/offre-hill-s-1-sac-science-plan-canine-adult-healthy-mobility-medium-poulet-14-kg-achete-1-sachet-de-friandises-dental-care-offert.html",
+        "Price": "60.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "1672",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Large Breed Poulet 18 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/offre-hill-s-1-sac-science-plan-canine-adult-large-advanced-fitness-au-poulet-18-kg-achete-1-sachet-de-friandises-dental-care-offert.html",
+        "Price": "67.99",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HI8122381",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Light Large au poulet 18 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/offre-hill-s-1-sac-science-plan-canine-adult-large-light-au-poulet-18-kg-achete-1-sachet-de-friandises-dental-care-offert.html",
+        "Price": "69.45",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843130",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Light Medium Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/offre-hill-s-1-sac-science-plan-canine-adult-light-medium-poulet-14-kg-achete-1-sachet-de-friandises-dental-care-offert.html",
+        "Price": "60.9",
+        "Stock": "InStock"
+    },
+    {
+        "ProductId": "HIL1843020",
+        "Manufacturer": "HillsPet",
+        "ProductName": "Hill's Science Plan Canine Adult Medium Poulet 14 kg",
+        "ProductUrl": "https://www.lacompagniedesanimaux.com/offre-hill-s-1-sac-science-plan-canine-adult-medium-poulet-14-kg-achete-1-sachet-de-friandises-dental-care-offert.html",
+        "Price": "54.9",
+        "Stock": "InStock"
+    }
+]
