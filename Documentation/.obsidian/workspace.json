@@ -19,8 +19,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9456d64c23449f8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "robots-dax/mx-walmart-crawler.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8b238c0cbce865c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "robots-dax/it-trony-sp.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "1c30d54e31ad3680",
@@ -89,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8ccf60d68225962c",
@@ -106,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "robots-dax/fr-laCompagnie-updater.md",
+                "file": "robots-dax/it-trony-sp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "robots-dax/fr-laCompagnie-updater.md",
+                "file": "robots-dax/it-trony-sp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "robots-dax/fr-laCompagnie-updater.md"
+                "file": "robots-dax/it-trony-sp.md"
               }
             }
           }
@@ -167,8 +191,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "52cb3416a6e085ba",
+  "active": "8b238c0cbce865c6",
   "lastOpenFiles": [
+    "robots-dax/mx-walmart-crawler.md",
     "2023-11-27.md",
     "robots-dax/fr-laCompagnie-updater.md",
     "robots-dax/template-robot.md",
@@ -183,7 +208,6 @@
     "robots-dax/mx-heb-cheerio.md",
     "Ayer 2023-11-20.md",
     "2023-11-17.md",
-    "robots-dax/mx-walper-crawler.md",
     "2023-11-16.md",
     "Pasted image 20231117114256.png",
     "Pasted image 20231117113959.png",

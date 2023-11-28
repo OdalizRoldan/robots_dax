@@ -1,0 +1,101 @@
+2023-11-28T15:48:41.466Z ACTOR: Pulling Docker image of build 9rfDAVggNmTKDLtMD from repository.
+2023-11-28T15:48:41.586Z ACTOR: Creating Docker container.
+2023-11-28T15:48:41.997Z ACTOR: Starting Docker container.
+2023-11-28T15:48:45.750Z INFO  System info {"apifyVersion":"3.1.13","apifyClientVersion":"2.8.2","crawleeVersion":"3.6.1","osType":"Linux","nodeVersion":"v18.18.2"}
+2023-11-28T15:48:45.898Z INFO  Configuring Cheerio Scraper.
+2023-11-28T15:48:47.303Z INFO  Configuration completed. Starting the scrape.
+2023-11-28T15:48:47.399Z INFO  CheerioCrawler: Starting the crawler.
+2023-11-28T15:48:50.596Z INFO  CheerioCrawler: Teka TOTAL PRODUCTS: 145
+2023-11-28T15:48:50.598Z INFO  CheerioCrawler: Teka TOTAL PRODUCTS PER PAGE: 44
+2023-11-28T15:48:50.600Z INFO  CheerioCrawler: Teka TOTAL ITERATIONS: 4
+2023-11-28T15:48:50.791Z INFO  CheerioCrawler: Teka 44 products found in: https://www.walmart.com.mx/search?q=Teka&facet=brand%3ATeka
+2023-11-28T15:49:00.971Z WARN  CheerioCrawler: Reclaiming failed request back to the list or queue. 502 - Internal Server Error:
+2023-11-28T15:49:00.974Z  {"id":"pVltoTwxtPVnLzu","url":"https://www.walmart.com.mx/search?q=Remington&facet=brand%3ARemington","retryCount":1}
+2023-11-28T15:49:05.206Z INFO  CheerioCrawler: Black+decker TOTAL PRODUCTS: 249
+2023-11-28T15:49:05.230Z INFO  CheerioCrawler: Black+decker TOTAL PRODUCTS PER PAGE: 44
+2023-11-28T15:49:05.241Z INFO  CheerioCrawler: Black+decker TOTAL ITERATIONS: 6
+2023-11-28T15:49:06.939Z INFO  CheerioCrawler: Black+decker 44 products found in: https://www.walmart.com.mx/search?q=Black+Decker&facet=brand%3ABlack+%26+Decker%7C%7Cbrand%3ABlack%2Bdecker%7C%7Cbrand%3ABlack+%2B+Decker%7C%7Cbrand%3ABlack+Decker%7C%7Cbrand%3ABlack%26decker%7C%7Cbrand%3ABlackdecker+Herramientas
+2023-11-28T15:49:20.222Z INFO  CheerioCrawler: Suavitel TOTAL PRODUCTS: 0
+2023-11-28T15:49:20.318Z INFO  CheerioCrawler: Suavitel TOTAL PRODUCTS PER PAGE: 44
+2023-11-28T15:49:20.321Z INFO  CheerioCrawler: Suavitel TOTAL ITERATIONS: 0
+2023-11-28T15:49:20.415Z INFO  CheerioCrawler: Suavitel 0 products found in: https://www.walmart.com.mx/search?q=Suavitel&facet=brand%3ASuavitel
+2023-11-28T15:49:26.626Z WARN  CheerioCrawler: Reclaiming failed request back to the list or queue. TypeError: Cannot read properties of null (reading 'props')
+2023-11-28T15:49:26.696Z     at CrawlerSetup.pageFunction [as evaledPageFunction] (evalmachine.<anonymous>:6:58)
+2023-11-28T15:49:26.706Z     at CrawlerSetup._requestHandler (file:///usr/src/app/dist/internals/crawler_setup.js:358:47)
+2023-11-28T15:49:26.710Z     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {"id":"d1OC4uWot2EVKgC","url":"https://www.walmart.com.mx/search?q=Axion&facet=brand%3AAxion","retryCount":1}
+2023-11-28T15:49:29.014Z WARN  CheerioCrawler: Reclaiming failed request back to the list or queue. TypeError: Cannot read properties of null (reading 'props')
+2023-11-28T15:49:29.017Z     at CrawlerSetup.pageFunction [as evaledPageFunction] (evalmachine.<anonymous>:6:58)
+2023-11-28T15:49:29.019Z     at CrawlerSetup._requestHandler (file:///usr/src/app/dist/internals/crawler_setup.js:358:47)
+2023-11-28T15:49:29.021Z     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {"id":"BkqUuTAmsM6aiqp","url":"https://www.walmart.com.mx/search?q=Colgate&facet=brand%3AColgate","retryCount":1}
+2023-11-28T15:49:31.768Z WARN  CheerioCrawler: Reclaiming failed request back to the list or queue. TypeError: Cannot read properties of null (reading 'props')
+2023-11-28T15:49:31.773Z     at CrawlerSetup.pageFunction [as evaledPageFunction] (evalmachine.<anonymous>:6:58)
+2023-11-28T15:49:31.779Z     at CrawlerSetup._requestHandler (file:///usr/src/app/dist/internals/crawler_setup.js:358:47)
+2023-11-28T15:49:31.789Z     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {"id":"8WhsT2CkD1tmDDn","url":"https://www.walmart.com.mx/search?q=Caprice&facet=brand%3ACaprice","retryCount":1}
+2023-11-28T15:49:37.846Z INFO  CheerioCrawler: Teka 44 products found in: https://www.walmart.com.mx/search?q=Teka&facet=brand%3ATeka&page=2
+2023-11-28T15:49:47.276Z WARN  CheerioCrawler: Reclaiming failed request back to the list or queue. 502 - Internal Server Error:
+2023-11-28T15:49:47.278Z  {"id":"VHi7kCCRIape0gw","url":"https://www.walmart.com.mx/search?q=Teka&facet=brand%3ATeka&page=3","retryCount":1}
+2023-11-28T15:49:48.321Z INFO  Statistics: CheerioCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":10680,"requestsFinishedPerMinute":4,"requestsFailedPerMinute":0,"requestTotalDurationMillis":42720,"requestsTotal":4,"crawlerRuntimeMillis":61017,"retryHistogram":[4]}
+2023-11-28T15:49:48.325Z INFO  CheerioCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.9,"actualRatio":0.454},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2023-11-28T15:49:50.662Z WARN  CheerioCrawler: Reclaiming failed request back to the list or queue. 502 - Internal Server Error:
+2023-11-28T15:49:50.664Z  {"id":"nwuYG6H5w0QK0cf","url":"https://www.walmart.com.mx/search?q=Teka&facet=brand%3ATeka&page=4","retryCount":1}
+2023-11-28T15:49:56.830Z INFO  CheerioCrawler: Remington TOTAL PRODUCTS: 60
+2023-11-28T15:49:56.837Z INFO  CheerioCrawler: Remington TOTAL PRODUCTS PER PAGE: 44
+2023-11-28T15:49:56.839Z INFO  CheerioCrawler: Remington TOTAL ITERATIONS: 2
+2023-11-28T15:49:57.082Z INFO  CheerioCrawler: Remington 44 products found in: https://www.walmart.com.mx/search?q=Remington&facet=brand%3ARemington
+2023-11-28T15:50:09.516Z WARN  CheerioCrawler: Setting status message timed out after 1s
+2023-11-28T15:50:09.639Z INFO  CheerioCrawler: Black+decker 44 products found in: https://www.walmart.com.mx/search?q=Black+Decker&facet=brand%3ABlack+%26+Decker%7C%7Cbrand%3ABlack%2Bdecker%7C%7Cbrand%3ABlack+%2B+Decker%7C%7Cbrand%3ABlack+Decker%7C%7Cbrand%3ABlack%26decker%7C%7Cbrand%3ABlackdecker+Herramientas&page=2
+2023-11-28T15:50:21.951Z INFO  CheerioCrawler: Black+decker 44 products found in: https://www.walmart.com.mx/search?q=Black+Decker&facet=brand%3ABlack+%26+Decker%7C%7Cbrand%3ABlack%2Bdecker%7C%7Cbrand%3ABlack+%2B+Decker%7C%7Cbrand%3ABlack+Decker%7C%7Cbrand%3ABlack%26decker%7C%7Cbrand%3ABlackdecker+Herramientas&page=3
+2023-11-28T15:50:34.584Z INFO  CheerioCrawler: Black+decker 44 products found in: https://www.walmart.com.mx/search?q=Black+Decker&facet=brand%3ABlack+%26+Decker%7C%7Cbrand%3ABlack%2Bdecker%7C%7Cbrand%3ABlack+%2B+Decker%7C%7Cbrand%3ABlack+Decker%7C%7Cbrand%3ABlack%26decker%7C%7Cbrand%3ABlackdecker+Herramientas&page=4
+2023-11-28T15:50:46.615Z INFO  CheerioCrawler: Black+decker 44 products found in: https://www.walmart.com.mx/search?q=Black+Decker&facet=brand%3ABlack+%26+Decker%7C%7Cbrand%3ABlack%2Bdecker%7C%7Cbrand%3ABlack+%2B+Decker%7C%7Cbrand%3ABlack+Decker%7C%7Cbrand%3ABlack%26decker%7C%7Cbrand%3ABlackdecker+Herramientas&page=5
+2023-11-28T15:50:46.618Z INFO  CheerioCrawler: This is a duplicate Product: 00005087582332
+2023-11-28T15:50:46.620Z INFO  CheerioCrawler: This is a duplicate Product: 00088591144814
+2023-11-28T15:50:46.622Z INFO  CheerioCrawler: This is a duplicate Product: 00005087582453
+2023-11-28T15:50:46.624Z INFO  CheerioCrawler: This is a duplicate Product: 00088591122805
+2023-11-28T15:50:46.627Z INFO  CheerioCrawler: This is a duplicate Product: 00076012279930
+2023-11-28T15:50:46.629Z INFO  CheerioCrawler: This is a duplicate Product: 00070034333206
+2023-11-28T15:50:46.631Z INFO  CheerioCrawler: This is a duplicate Product: 00076012279706
+2023-11-28T15:50:46.633Z INFO  CheerioCrawler: This is a duplicate Product: 00088591155954
+2023-11-28T15:50:46.635Z INFO  CheerioCrawler: This is a duplicate Product: 00088591131512
+2023-11-28T15:50:48.322Z INFO  Statistics: CheerioCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":11625,"requestsFinishedPerMinute":4,"requestsFailedPerMinute":0,"requestTotalDurationMillis":92998,"requestsTotal":8,"crawlerRuntimeMillis":121018,"retryHistogram":[7,1]}
+2023-11-28T15:50:49.532Z INFO  CheerioCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.9,"actualRatio":0.213},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.144},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2023-11-28T15:50:57.834Z INFO  CheerioCrawler: Black+decker 29 products found in: https://www.walmart.com.mx/search?q=Black+Decker&facet=brand%3ABlack+%26+Decker%7C%7Cbrand%3ABlack%2Bdecker%7C%7Cbrand%3ABlack+%2B+Decker%7C%7Cbrand%3ABlack+Decker%7C%7Cbrand%3ABlack%26decker%7C%7Cbrand%3ABlackdecker+Herramientas&page=6
+2023-11-28T15:51:05.708Z WARN  CheerioCrawler: Reclaiming failed request back to the list or queue. 502 - Internal Server Error:
+2023-11-28T15:51:05.710Z  {"id":"d1OC4uWot2EVKgC","url":"https://www.walmart.com.mx/search?q=Axion&facet=brand%3AAxion","retryCount":2}
+2023-11-28T15:51:10.216Z INFO  CheerioCrawler: Colgate TOTAL PRODUCTS: 10
+2023-11-28T15:51:10.219Z INFO  CheerioCrawler: Colgate TOTAL PRODUCTS PER PAGE: 44
+2023-11-28T15:51:10.221Z INFO  CheerioCrawler: Colgate TOTAL ITERATIONS: 1
+2023-11-28T15:51:10.349Z INFO  CheerioCrawler: Colgate 10 products found in: https://www.walmart.com.mx/search?q=Colgate&facet=brand%3AColgate
+2023-11-28T15:51:16.016Z INFO  CheerioCrawler: Caprice TOTAL PRODUCTS: 0
+2023-11-28T15:51:16.019Z INFO  CheerioCrawler: Caprice TOTAL PRODUCTS PER PAGE: 44
+2023-11-28T15:51:16.021Z INFO  CheerioCrawler: Caprice TOTAL ITERATIONS: 0
+2023-11-28T15:51:16.128Z INFO  CheerioCrawler: Caprice 0 products found in: https://www.walmart.com.mx/search?q=Caprice&facet=brand%3ACaprice
+2023-11-28T15:51:19.946Z INFO  CheerioCrawler: Teka 44 products found in: https://www.walmart.com.mx/search?q=Teka&facet=brand%3ATeka&page=3
+2023-11-28T15:51:33.614Z INFO  CheerioCrawler: Teka 13 products found in: https://www.walmart.com.mx/search?q=Teka&facet=brand%3ATeka&page=4
+2023-11-28T15:51:39.560Z INFO  CheerioCrawler: Remington 16 products found in: https://www.walmart.com.mx/search?q=Remington&facet=brand%3ARemington&page=2
+2023-11-28T15:51:48.324Z INFO  Statistics: CheerioCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":10072,"requestsFinishedPerMinute":5,"requestsFailedPerMinute":0,"requestTotalDurationMillis":151075,"requestsTotal":15,"crawlerRuntimeMillis":181021,"retryHistogram":[10,5]}
+2023-11-28T15:51:50.524Z INFO  CheerioCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.9,"actualRatio":0.202},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2023-11-28T15:51:52.219Z INFO  CheerioCrawler: Axion TOTAL PRODUCTS: 26
+2023-11-28T15:51:52.222Z INFO  CheerioCrawler: Axion TOTAL PRODUCTS PER PAGE: 44
+2023-11-28T15:51:52.228Z INFO  CheerioCrawler: Axion TOTAL ITERATIONS: 1
+2023-11-28T15:51:52.352Z INFO  CheerioCrawler: Axion 26 products found in: https://www.walmart.com.mx/search?q=Axion&facet=brand%3AAxion
+2023-11-28T15:51:52.354Z ERROR CheerioCrawler: Invalid brand: Salvo - Lavatrastes líquido Salvo Limón 1.2 l
+2023-11-28T15:51:52.514Z ERROR CheerioCrawler: Invalid brand: Salvo - Lavatrastes líquido Salvo Limón 750 ml
+2023-11-28T15:51:52.517Z ERROR CheerioCrawler: Invalid brand: Salvo - Lavatrastes líquido Salvo Power Clean 750 ml
+2023-11-28T15:51:52.822Z ERROR CheerioCrawler: Invalid brand: Salvo - Lavatrastes líquido Salvo Pure & Lemon 1.2 l
+2023-11-28T15:51:52.825Z ERROR CheerioCrawler: Invalid brand: Salvo - Detergente en polvo Salvo Multiusos Limón-Bicarbonato para toda tu casa 1 kg
+2023-11-28T15:51:52.827Z ERROR CheerioCrawler: Invalid brand: Ajax - Limpiador Ajax bicloro 582 g
+2023-11-28T15:51:52.830Z ERROR CheerioCrawler: Invalid brand: Great Value - Lavatrastes líquido Great Value aroma limón 1.5 l
+2023-11-28T15:51:52.832Z ERROR CheerioCrawler: Invalid brand: Dawn - Lavatrastes líquido Dawn Gentle Clean suave con las manos 1.2 l
+2023-11-28T15:51:52.834Z ERROR CheerioCrawler: Invalid brand: Ajax - Limpiador líquido Ajax aceite de citronela 2 l
+2023-11-28T15:51:52.836Z ERROR CheerioCrawler: Invalid brand: Finish - Detergente en polvo Finish power powder para máquina lavavajillas 1 kg
+2023-11-28T15:51:52.838Z ERROR CheerioCrawler: Invalid brand: Salvo - Detergente en polvo Salvo Multiusos Limón-Bicarbonato para toda tu casa 2 kg
+2023-11-28T15:51:52.840Z ERROR CheerioCrawler: Invalid brand: Salvo - Lavatrastes líquido Salvo Power Clean 1.2 l
+2023-11-28T15:51:52.842Z ERROR CheerioCrawler: Invalid brand: Finish - Líquido abrillantador Finish para lavavajillas rinse aide 400 ml
+2023-11-28T15:51:52.844Z ERROR CheerioCrawler: Invalid brand: Great Value - Lavatrastes líquido Great Value aroma limón 750 ml
+2023-11-28T15:51:52.913Z ERROR CheerioCrawler: Invalid brand: Somat - Lavatrastes en tabletas Somat oro 403 g
+2023-11-28T15:51:53.157Z ERROR CheerioCrawler: Invalid brand: Dawn - Lavatrastes refill Dawn Platinum powerwash 473 ml
+2023-11-28T15:51:53.159Z ERROR CheerioCrawler: Invalid brand: Dawn - Lavatrastes en spray Dawn Platinum powerwash fresh scent 473 ml
+2023-11-28T15:51:53.302Z INFO  CheerioCrawler: All requests from the queue have been processed, the crawler will shut down.
+2023-11-28T15:51:53.609Z INFO  CheerioCrawler: Final request statistics: {"requestsFinished":16,"requestsFailed":0,"retryHistogram":[10,5,1],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":10120,"requestsFinishedPerMinute":5,"requestsFailedPerMinute":0,"requestTotalDurationMillis":161919,"requestsTotal":16,"crawlerRuntimeMillis":186305}
+2023-11-28T15:51:53.611Z INFO  CheerioCrawler: Finished! Total 16 requests: 16 succeeded, 0 failed. {"terminal":true}
+2023-11-28T15:51:53.619Z INFO  Cheerio Scraper finished.

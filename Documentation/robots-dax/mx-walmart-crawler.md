@@ -219,4 +219,26 @@ The option of extracting the data through API was taken, since it has the totali
 	- El unico error a corregir es que no esta funcionando el control por si se dirige a otro retailer
 
 
+### After Deploy
+
+
+Teka> 145
+Black+Decker 249
+Remington 60 -> Se a;adio otro filtro mas
+Colgate 10
+Suavitel 0
+Caprice 0
+Axion 9
+
+Total -> 473
+9 deplicados
+464 productos oficiales
+
+Black+Decker - 62
+Black & Decker 159
+Black + Decker 15
+Black Decker 1
+Blackdecker Herramientas 2
+Black&decker
+
 
