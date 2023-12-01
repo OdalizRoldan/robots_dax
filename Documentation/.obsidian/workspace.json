@@ -6,6 +6,7 @@
       {
         "id": "42212a43d973bb6b",
         "type": "tabs",
+        "dimension": 81.91681735985533,
         "children": [
           {
             "id": "52cb3416a6e085ba",
@@ -42,21 +43,34 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "1c697947184ac97c",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "d6b25aad6d276079",
+            "id": "c983e2d74bec3279",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-11-29.md",
+                "file": "robots-dax/QA/ro-dedeman-crawler.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "1c697947184ac97c",
+        "type": "tabs",
+        "dimension": 18.083182640144667,
+        "children": [
+          {
+            "id": "3ad42ebebd5fab08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-12-01.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "robots-dax/it-trony-sp.md",
+                "file": "robots-dax/QA/ro-dedeman-crawler.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "robots-dax/it-trony-sp.md",
+                "file": "robots-dax/QA/ro-dedeman-crawler.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "robots-dax/it-trony-sp.md"
+                "file": "robots-dax/QA/ro-dedeman-crawler.md"
               }
             }
           }
@@ -190,10 +204,13 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "8b238c0cbce865c6",
+  "active": "c983e2d74bec3279",
   "lastOpenFiles": [
-    "2023-11-29.md",
+    "2023-12-01.md",
+    "robots-dax/QA/ro-dedeman-crawler.md",
+    "robots-dax/QA",
     "robots-dax/it-trony-sp.md",
+    "2023-11-29.md",
     "robots-dax/mx-walmart-crawler.md",
     "2023-11-27.md",
     "robots-dax/fr-laCompagnie-updater.md",
