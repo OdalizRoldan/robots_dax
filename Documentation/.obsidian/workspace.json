@@ -4,74 +4,62 @@
     "type": "split",
     "children": [
       {
-        "id": "42212a43d973bb6b",
+        "id": "cc2cd07c0bace320",
         "type": "tabs",
-        "dimension": 81.91681735985533,
+        "dimension": 51.75572519083969,
         "children": [
           {
-            "id": "52cb3416a6e085ba",
+            "id": "d20d08d13242c56f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "robots-dax/fr-laCompagnie-updater.md",
+                "file": "robots-dax/QA/hu-euronics-ppu.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9456d64c23449f8b",
+            "id": "8c3791d83d22c1c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "robots-dax/mx-walmart-crawler.md",
+                "file": "robots-dax/QA/us-peterThomas-crawler.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8b238c0cbce865c6",
+            "id": "b7c433c92e7f9782",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "robots-dax/it-trony-sp.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c983e2d74bec3279",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "robots-dax/QA/ro-dedeman-crawler.md",
+                "file": "robots-dax/gr-electronet-crawler.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
-        "id": "1c697947184ac97c",
+        "id": "6794e0e8050d9682",
         "type": "tabs",
-        "dimension": 18.083182640144667,
+        "dimension": 48.24427480916031,
         "children": [
           {
-            "id": "3ad42ebebd5fab08",
+            "id": "9810c03da9424269",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-12-01.md",
-                "mode": "source",
+                "file": "robots-dax/template-comments.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -126,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8ccf60d68225962c",
@@ -143,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "robots-dax/QA/ro-dedeman-crawler.md",
+                "file": "robots-dax/template-comments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "robots-dax/QA/ro-dedeman-crawler.md",
+                "file": "robots-dax/template-comments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "robots-dax/QA/ro-dedeman-crawler.md"
+                "file": "robots-dax/template-comments.md"
               }
             }
           }
@@ -204,34 +191,40 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "c983e2d74bec3279",
+  "active": "9810c03da9424269",
   "lastOpenFiles": [
-    "2023-12-01.md",
-    "robots-dax/QA/ro-dedeman-crawler.md",
-    "robots-dax/QA",
-    "robots-dax/it-trony-sp.md",
-    "2023-11-29.md",
-    "robots-dax/mx-walmart-crawler.md",
-    "2023-11-27.md",
-    "robots-dax/fr-laCompagnie-updater.md",
     "robots-dax/template-robot.md",
+    "robots-dax/template-comments.md",
+    "robots-dax/QA/qa-table.md",
+    "robots-dax/gr-electronet-crawler.md",
+    "robots-dax/QA/us-peterThomas-crawler.md",
+    "robots-dax/QA/hu-euronics-ppu.md",
+    "robots-dax/it-trony-sp.md",
+    "robots-dax/se-cervera-crawler.md",
+    "robots-dax/QA/hu-euronis-crawler.md",
+    "robots-dax/ar-megatone-crawler.md",
+    "robots-dax/QA/mx-laika-crawler.md",
+    "robots-dax/fr-laCompagnie-updater.md",
+    "robots-dax/mx-walmart-crawler.md",
+    "robots-dax/QA/mx-laika-updater.md",
+    "2023-12-08.md",
+    "robots-dax/QA/ro-dedeman-crawler.md",
+    "2023-12-01.md",
+    "robots-dax/QA",
+    "2023-11-29.md",
+    "2023-11-27.md",
     "2023-11-24.md",
     "robots-dax/mx-mercadoLibre-sp.md",
     "robots-dax/virgin-crawler.md",
-    "robots-dax/Sin título.md",
     "robots-dax/virgin-updater.md",
     "2023-11-23.md",
     "2023-11-22.md",
     "robots-dax/mx-heb-cheerio.md",
-    "Ayer 2023-11-20.md",
-    "2023-11-17.md",
-    "2023-11-16.md",
     "Pasted image 20231117114256.png",
     "Pasted image 20231117113959.png",
     "Pasted image 20231117112231.png",
     "Pasted image 20231117111918.png",
     "Pasted image 20231117093023.png",
-    "2023-11-15.md",
     "robots-dax"
   ]
 }

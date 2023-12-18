@@ -1,0 +1,1366 @@
+{
+    "startUrls": [
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-lumanare-b38-e14-7w-806lm-lumina-neutra-4000-k/p/1047218",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-lumanare-b38-e14-7w-806lm-lumina-rece-6500-k/p/1047219",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-lumanare-b38-e14-7w-806lm-lumina-calda-2700-k/p/1047597",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-clasic-a60-e27-7w-806lm-lumina-calda-2700-k/p/1041589",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-e27-12-5w-1521lm-lumina-neutra-4000-k/p/1042102",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a60m-e27-13w-1521lm-lumina-calda-2700-k/p/1039504",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-mini-p48-e14-7w-806lm-lumina-calda-2700-k/p/1047598",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-clasic-a60-e27-8-5w-1055lm-lumina-neutra-4000-k/p/1051178",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a60m-e27-8w-806lm-lumina-neutra-4000-k-3-buc/p/1053379",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a60m-e27-8w-806lm-lumina-calda-2700-k-3-buc/p/1046713",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a60m-e27-11w-1055lm-lumina-calda-2700-k-2-buc/p/1046716",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-clasic-a60-e27-10-5w-1521lm-lumina-calda-2700-k/p/1053342",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-clasic-a60-e27-10-5w-1521lm-lumina-neutra-4000-k/p/1054044",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a67-e27-13w-2000lm-lumina-rece-6500-k/p/1047630",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a67-e27-13w-1521lm-lumina-rece-6500-k-set-3-bucati/p/1070391",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a67-e27-13w-1521lm-lumina-calda-2700-k-3-buc/p/1053380",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-clasic-a67-e27-17w-2452lm-lumina-calda-2700-k/p/1053709",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-spot-gu10-6-2w-575lm-lumina-calda-2700-k-dimabil/p/1049385",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a60-e27-10-5w-1521lm-lumina-calda-2200-2700-k-dimabil/p/1051172",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-infrarosu-philips-incalzire-ir250rh-br125-e27-250w/p/1013831",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a95-e27-23w-3452lm-lumina-rece-6500-k/p/1056323",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-lumanare-b35-e14-4-3w-470lm-lumina-calda-2700-k/p/1051183",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-mini-p45-e27-4-9w-470lm-lumina-calda-2700-k/p/1043946",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-mini-p45-e14-4-3w-470lm-lumina-calda-2700-k/p/1051185",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-lumanare-fantezie-ba35-e14-2w-250lm-lumina-calda-2700-k/p/1041621",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-mini-p45-e14-2w-250lm-lumina-calda-2700-k/p/1041874",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-lumanare-st35-e14-2w-250lm-lumina-calda-2700-k/p/1041875",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a60m-e27-12-5w-1521lm-lumina-rece-6500-k/p/1044450",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-mini-p48-e27-7w-806lm-lumina-calda-2700-k/p/1047600",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-mini-p48-e14-7w-806lm-lumina-neutra-4000-k/p/1047599",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-clasic-st64-e27-7w-806lm-lumina-calda-2700-k/p/1041878",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-clasic-st64-e27-5-5w-600lm-lumina-calda-2500-k-auriu/p/1053713",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a60m-e27-10w-1055lm-lumina-neutra-4000-k-2-buc/p/1049961",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-glob-g93-e27-4w-400lm-lumina-calda-2500-k-auriu/p/1053715",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-lumanare-b38-e14-7w-806lm-lumina-neutra-4000-k-2-buc/p/1065944",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-infrarosu-philips-incalzire-ir150rh-br125-e27-150w/p/1026778",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a67-e27-17-5w-2452lm-lumina-rece-6500-k/p/1051012",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a67-e27-17-5w-2452lm-lumina-neutra-4000-k/p/1050864",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a60-e27-6-5w-806lm-lumina-neutra-4000-k-cu-senzor-de-lumina/p/1051170",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a67-e27-13w-1521lm-lumina-neutra-4000-k-3-buc/p/1053391",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a60m-e27-8w-806lm-lumina-calda-2700-k/p/1050431",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a60-e27-8w-806lm-lumina-neutra-4000-k-mat/p/1055849",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-spot-gu10-4-7w-380lm-lumina-calda-2700-k/p/1050596",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-mini-p45-e27-4-3w-470lm-lumina-calda-2700-k/p/1051187",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a60m-e27-10w-1055lm-lumina-rece-6500-k/p/1044039",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-corepro-spot-mv-mr16-gu10-4-6w-390lm-lumina-neutra-4000-k/p/1045003",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-lumanare-b39-e14-5w-470lm-lumina-calda-2700-k-2-buc/p/1039503",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-mini-g9-2w-220lm-lumina-calda-2700-k/p/1047626",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/banda-led-rgb-inteligenta-philips-hue-adeziva-lumina-calda/-rece/-multicolora-2-m-ip20-adaptor/p/1045399",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/extensie-banda-led-rgb-inteligenta-philips-hue-adeziva-lumina-calda/-rece/-multicolora-1-m-ip20/p/1045400",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bara-luminoasa-led-rgb-inteligenta-philips-hue-play-7820331p7-6-6w-530lm-lumina-calda/-rece/-multicolora-alba/p/1056937",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bara-luminoasa-led-rgb-inteligenta-philips-hue-play-7820330p7-6-6w-530lm-lumina-calda/-rece/-multicolora-neagra/p/1056936",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/proiector-led-rgb-inteligent-philips-hue-lily-1741530p7-8w-600lm-lumina-calda/-rece/-multicolora-dimabil-ip65-negru/p/1056811",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/banda-led-rgb-inteligenta-exterior-philips-hue-19w-lumina-calda/-rece/-multicolora-dimabila-ip67-2-metri/p/1050269",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/stalp-led-inteligent-philips-hue-lucca-1740293p0-9-5w-806lm-lumina-calda-dimabil-h-40-cm-ip44-antracit/p/1056813",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/aplica-led-rgb-inteligenta-exterior-philips-hue-impress-1742930p7-2-x-8w-1200lm-lumina-calda/-rece/-multicolora-dimabila-ip44-neagra/p/1056801",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/veioza-led-rgb-inteligenta-philips-hue-flourish-9-5w-800lm-lumina-calda/-rece/-multicolora-dimabila-alba/p/1055253",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/aplica-led-rgb-inteligenta-philips-hue-appear-1746330p7-2-x-8w-1200lm-lumina-calda/-rece/-multicolora-dimabila-ip44-neagra/p/1056890",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/proiector-led-inteligent-philips-hue-lily-1746230p7-15w-1050lm-lumina-calda/-rece/-multicolora-alb-negru/p/1056934",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/aplica-led-rgb-inteligenta-exterior-philips-hue-resonate-1746430p7-2-x-8w-1200lm-lumina-calda/-rece/-multicolora-neagra/p/1056943",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/aplica-led-rgb-inteligenta-philips-hue-econic-1743830p7-15w-1150lm-lumina-calda/-rece/-multicolora-dimabila-ip44-neagra/p/1056891",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/stalp-led-rgb-inteligent-philips-hue-impress-1743130p7-2-x-8w-1200lm-lumina-calda/-rece/-multicolora-dimabil-h-40-cm-ip44-negru/p/1056802",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-inteligenta-philips-hue-struana-3418931p6-27w-2400lm-lumina-calda/-rece-alba-dimmer/p/1056944",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-inteligenta-philips-hue-being-22-5w-2350lm-lumina-calda/-rece-dimabila-neagra-dimmer/p/1056773",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-inteligenta-philips-hue-still-3261330p6-22-5w-2500lm-lumina-calda/-rece-dimabila-kit-cu-intrerupator-neagra/p/1056888",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-inteligenta-philips-hue-still-22-5w-2500lm-lumina-calda/-rece-dimabila-kit-cu-intrerupator-alba/p/1056889",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-inteligenta-philips-hue-being-22-5w-2350lm-lumina-calda/-rece-dimabila-alba-dimmer/p/1056774",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/proiector-led-rgb-inteligent-philips-hue-discover-1743530p7-15w-2300lm-lumina-calda/-rece/-multicolora-dimabil-ip44-negru/p/1056793",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/aplica-led-rgb-inteligenta-philips-hue-liane-4090230p9-12w-900lm-lumina-calda/-rece/-multicolora-neagra/p/1056945",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/aplica-led-rgb-inteligenta-philips-hue-liane-4090231p9-12w-850lm-lumina-calda/-rece/-multicolora-alba/p/1056946",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-inteligenta-philips-hue-adore-25w-2900lm-lumina-calda/-rece-dimabila-ip44-cromata/p/1056770",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/banda-led-rgb-inteligenta-exterior-philips-hue-lightstrips-37-5w-lumina-calda/-rece/-multicolora-cu-adaptor-5-m-ip67/p/1056935",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/banda-led-rgb-inteligenta-philips-hue-play-lightstrips-20w-1100lm-lumina-calda/-rece/-multicolora-75-inch/p/1056942",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-inteligenta-philips-hue-cher-24w-2900lm-lumina-calda/-rece-cu-intrerupator-alb-negru/p/1056927",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-rgb-inteligenta-philips-hue-flourish-32-5w-2250lm-lumina-calda/-rece/-multicolora-dimabila-alba/p/1056800",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-rgb-inteligenta-philips-hue-centris-5061030p7-2-x-5-7w-11w-1540lm-lumina-calda/-rece/-multicolora-dimabila-neagra/p/1056777",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-rgb-inteligenta-philips-hue-centris-5061031p7-2-x-5-7w-11w-1540lm-lumina-calda/-rece/-multicolora-dimabila-alba/p/1056778",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/proiector-led-rgb-inteligent-philips-hue-lily-1741430p7-8w-600lm-lumina-calda/-rece/-multicolora-dimabil-ip65-negru-kit-3-buc/p/1056804",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/pendul-led-rgb-inteligent-philips-hue-flourish-39-5w-2750lm-lumina-calda/-rece/-multicolora-dimabil-alb/p/1055251",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-rgb-inteligenta-philips-hue-centris-5060931p7-3-x-5-7w-36w-3650lm-lumina-calda/-rece/-multicolora-alba/p/1056896",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-rgb-inteligenta-philips-hue-centris-5060930p7-3-x-5-7w-36w-3650lm-lumina-calda/-rece/-multicolora-neagra/p/1056895",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-rgb-inteligenta-philips-hue-centris-5060830p7-3-x-5-7w-11w-1540lm-lumina-calda/-rece/-multicolora-dimabila-neagra/p/1056779",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-rgb-inteligenta-philips-hue-centris-5060831p7-3-x-5-7w-11w-1540lm-lumina-calda/-rece/-multicolora-dimabila-alba/p/1056781",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-rgb-inteligenta-philips-hue-centris-5060730p7-4-x-5-7w-40w-4200lm-lumina-calda/-rece/-multicolora-neagra/p/1056897",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-rgb-inteligenta-philips-hue-centris-5060731p7-4-x-5-7w-40w-4200lm-lumina-calda/-rece/-multicolora-alba/p/1056898",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/aplica-led-inteligenta-hue-adore-25w-2900-lm-24v-lumina-calda/-rece-2200-6500-k-ip44-cromata-intrerupator/p/1050899",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/kit-inteligent-hue-play-7820131e7-bara-luminoasa-alba-adaptor-rgb/p/1056817",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/kit-inteligent-hue-play-7820130e7-bara-luminoasa-neagra-adaptor-rgb/p/1056816",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/lampa-led-rgb-inteligenta-portabila-hue-go-7146060ph-6w-530lm-lumina-calda/-rece/-multicolora-alba/p/1045398",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/veioza-led-inteligenta-hue-wellness-6w-800lm-lumina-calda/-rece-alb-negru-variator/p/1045389",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-inteligenta-hue-aurelle-19w-1940lm-lumina-calda/-rece-alba-dimmer/p/1056892",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-inteligenta-hue-aurelle-21w-2450lm-lumina-calda/-rece-alba/p/1056894",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-inteligenta-hue-aurelle-39w-3750lm-lumina-calda/-rece-alba-dimmer/p/1056893",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/pendul-led-inteligent-hue-amaze-4023331p6-33-5w-3000lm-lumina-calda/-rece-alb-variator/p/1045387",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/pendul-led-inteligent-hue-amaze-25w-lumina-calda/-rece-alb-variator/p/1050897",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/aplica-led-inteligenta-hue-runner-gu10-5w-350lm-lumina-calda/-rece-neagra-variator/p/1045394",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-lumanare-b38-e14-7w-806lm-lumina-calda-2700-k-2-buc/p/1049860",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a67-e27-13w-2000lm-lumina-calda-2700-k/p/1047628",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a67-e27-13w-2000lm-lumina-neutra-4000-k/p/1047629",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-lumanare-b35-e14-5w-470lm-lumina-calda-2700-k-3-buc/p/1046719",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-glob-g120-e27-10-5w-1521lm-lumina-calda-2700-k-mat/p/1053708",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-spot-r50-e14-4-3w-320lm-lumina-calda-2700-k-dimabil/p/1050481",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a67-e27-17-5w-2452lm-lumina-calda-2700-k/p/1047641",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-mini-p45-e14-5w-470lm-lumina-calda-2700-k/p/1040812",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-color-philips-mini-p45-e27-3-1w-lumina-galbena/p/1047850",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-color-philips-mini-p45-e27-3-1w-lumina-albastra/p/1047851",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-color-philips-mini-p45-e27-3-1w-lumina-verde/p/1047852",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a60m-e27-11w-1055lm-lumina-calda-2700-k/p/1040755",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a60m-e27-10w-1055lm-lumina-neutra-4000-k/p/1041306",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-smoky-philips-clasic-st64-e27-2-3w-100lm-lumina-calda-1800-k/p/1058968",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-glob-g120-e27-7-3w-640lm-lumina-calda-2200-k/p/1053716",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-glob-g120-e27-13w-2000lm-lumina-calda-2700-k/p/1049294",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-lumanare-b35-e14-5w-470lm-lumina-calda-2700-k/p/1057075",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-lumanare-b35-e14-5w-470lm-lumina-neutra-4000-k/p/1045838",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-clasic-st64-e27-4-3w-470lm-lumina-calda-2700-k/p/1041877",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-mini-p48-e14-7w-806lm-lumina-rece-6500-k/p/1047215",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-mini-p48-e27-7w-830lm-lumina-neutra-4000-k/p/1047601",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-clasic-st64-e27-4w-400lm-lumina-calda-2500-k-auriu/p/1053712",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-glob-g120-e27-7w-806lm-lumina-calda-2700-k-mat/p/1053707",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-glob-g93-e27-7w-806lm-lumina-calda-2700-k/p/1051169",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-spot-gu10-4-5w-460lm-lumina-calda-3000-k/p/1049291",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-spot-b39-gu5-3/-gx5-3-3w-220lm-lumina-calda-2700-k-12v/p/1040208",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-tubular-e14-1-7w-150lm-lumina-calda-2700-k-pentru-frigider/p/1056691",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a60-e27-5-9w-806lm-lumina-calda-2200-2700-k-dimabil/p/1051174",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-smoky-philips-tubular-t32-e27-2-3w-100lm-lumina-calda-1800-k/p/1058969",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-glob-g93-e27-2w-100lm-lumina-calda-1800-k-fumuriu/p/1056982",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-clasic-a60-e27-5-9w-806lm-lumina-calda-2200-2700-k-dimabil/p/1051175",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a60-e27-7-2w-1055lm-lumina-calda-2200-2700-k-dimabil/p/1051173",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-glob-g200-e27-4-5w-300lm-lumina-calda-2000-k-auriu/p/1053729",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-clasic-a160-e27-6-5w-200lm-lumina-calda-1800-k-fumuriu-dimabil/p/1061793",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-tubular-t65-e27-6-5w-200lm-lumina-calda-1800-k-fumuriu-dimabil/p/1061794",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-glob-g200-e27-6-5w-200lm-lumina-calda-1800-k-fumuriu-dimabil/p/1061792",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-clasic-a160-e27-6-5w-470lm-lumina-calda-2000-k-auriu-dimabil/p/1053736",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-filament-philips-glob-g200-e27-7w-470lm-lumina-calda-1800-k-auriu-dimabil/p/1053730",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-inteligent-led-philips-hue-clasic-a60-e27-7w-550lm-lumina-calda-2100-k-wi-fi-dimabil-cu-filament/p/1056798",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-inteligent-led-philips-mini-p45-e14-5-7w-470lm-lumina-calda-2700k-dimabil-wi-fi-bluetooth/p/1056932",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-inteligent-led-philips-hue-clasic-st64-e27-7w-580lm-lumina-calda-2100k-wi-fi-dimabil-cu-filament/p/1056799",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-inteligent-led-philips-clasic-a67-e27-15-5w-1600lm-lumina-calda-2700k-dimabil-wi-fi-bluetooth/p/1056929",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-hue-ambiance-spot-gu10-4-3w-lumina-calda/-rece-bluetooth-dimabil/p/1045426",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-inteligent-led-philips-hue-glob-g93-e27-7w-550lm-lumina-calda-2100-k-wi-fi-dimabil-cu-filament/p/1056797",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-inteligent-led-philips-lumanare-b39-e14-4w-470lm-lumina-calda-rece-2200-6500k-dimabil-wi-fi/p/1056928",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-inteligent-led-philips-mini-p45-e14-5-7w-470lm-lumina-calda-2700k-dimabil-wi-fi-bluetooth-2-buc/p/1056933",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-inteligent-led-philips-clasic-st72-e27-7w-550lm-lumina-calda-2100k-dimabil-wi-fi-bluetooth/p/1056931",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-inteligent-led-philips-glob-g125-e27-7w-550lm-lumina-calda-2100k-dimabil-wi-fi-bluetooth/p/1056930",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-inteligent-led-rgb-philips-hue-lumanare-b39-e14-4w-470lm-lumina-calda/-rece-2200-6500-k-wi-fi-dimabil/p/1056794",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-inteligent-led-philips-hue-spot-gu10-4-3w-lumina-calda/-rece/-rgb-bluetooth-dimabil-wi-fi/p/1045425",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-inteligent-led-philips-hue-clasic-a19-e27-9w-1100lm-lumina-calda/-rece/-rgb-wi-fi-dimabil/p/1065889",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-halogen-philips-ecohalo-mv-click-mini-g9-44w-590lm-lumina-calda/p/1063220",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-halogen-philips-liniar-r7s-55w-836lm-lumina-calda/p/1064136",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-halogen-philips-ecohalo-mv-mini-t13-g9-29w-350lm-lumina-calda/p/1062763",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-auto-pentru-far-philips-whitevision-ultra-h4-60/55-w-12-v/p/1059202",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-auto-pentru-far-philips-h7-30-vision-55-w-12-v/p/1059201",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-auto-pentru-far-philips-whitevision-ultra-h7-55-w-12-v/p/1059203",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-auto-pentru-far-philips-x-tremevision-pro150-h7-55-w-12-v/p/1059206",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-auto-pentru-semnalizare-philips-vision-wy5w-5-w-12-v-set-2-bucati/p/1059195",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-auto-pentru-semnalizare-philips-vision-p21w-21-w-12-v-set-2-bucati/p/1059196",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-auto-pentru-semnalizare-philips-vision-r5w-5-w-12-v-set-2-bucati/p/1059198",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-auto-pentru-iluminat-interior-philips-vision-c5w-5-w-12-v-set-2-bucati/p/1059091",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-auto-pentru-far-philips-h4-30-vision-60/55-w-12-v/p/1059199",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-auto-pentru-far-philips-x-tremevision-pro150-h4-60/55-w-12-v/p/1059205",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-halogenura-metalica-philips-cdm-tc-g8-5-70w-6300lm-lumina-calda/p/1010402",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-halogenura-metalica-philips-cdm-t-g12-70w-6200lm-lumina-neutra/p/1017831",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-halogenura-metalica-philips-master-color-cdm-t-g12-35w-3000lm-lumina-rece/p/1043936",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-halogenura-metalica-philips-master-color-cdm-t-g8-5-35w-3100lm-lumina-calda/p/1035206",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-halogenura-metalica-philips-cdm-t-g12-70w-6200lm-lumina-calda/p/1018656",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-halogenura-metalica-philips-cdm-t-g12-35w-3100lm-lumina-calda/p/1010485",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-halogenura-metalica-philips-cdm-t-g12-150w-13000lm-lumina-calda/p/1001179",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-halogenura-metalica-philips-cdm-t-g12-150w-12100lm-lumina-neutra/p/1004736",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-halogenura-metalica-philips-city-cdo-tt-e40-150w-16500lm-lumina-calda/p/1015956",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-halogenura-metalica-philips-mhn-td-pro-fc2-250w-20000lm-lumina-neutra/p/1010838",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-halogenura-metalica-philips-master-color-cdm-t-g12-250w-23400lm-lumina-rece/p/1047689",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-halogenura-metalica-philips-hpi-t-e40-1000w-73890lm-lumina-rece/p/1024700",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-master-pl-c-2p-tubular-g24d-2-18w-1200lm-lumina-calda-3000-k/p/1007190",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-master-pl-l-4p-tubular-2g11-40w-3500lm-lumina-calda-3000-k-compatibil-cu-droser-dimabil/p/1020091",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-vapori-de-sodiu-e40-philips-150w-master-son-t-pia-plus/p/1003594",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-vapori-de-sodiu-e27-philips-70w-master-son-t-pia-plus/p/1000507",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-corepro-spot-mv-mr16-gu10-3-5w-250lm-lumina-calda-3000-k/p/1042911",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-glob-g93-e27-7w-806lm-lumina-calda-2700-k/p/1041588",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-infrarosu-philips-incalzire-ir150ch-br125-e27-150w/p/1013923",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-liniar-s14s-2-2w-250lm-lumina-calda-2700-k/p/1045647",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-liniar-s14s-3-5w-375lm-lumina-calda-2700-k/p/1036453",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-liniar-s14d-3-5w-375lm-lumina-calda-2700-k/p/1046501",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-inteligent-led-color-philips-hue-clasic-a19-e27-6-5w-800lm-lumina-rgb-wi-fi-bluetooth-dimabil-set-2-buc/p/1050880",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-inteligent-led-philips-hue-clasic-a60-e27-9w-806lm-lumina-calda-2700-k-wi-fi-bluetooth-dimabil-set-2-buc/p/1050893",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-inteligent-led-philips-hue-ambiance-lumanare-b39-e14-4w-470lm-lumina-calda/-rece-2200-6500-k-wi-fi-dimabil-set-2-buc/p/1050896",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-inteligent-led-philips-hue-ambiance-clasic-a19-e27-6w-570lm-lumina-calda/-rece-2200-6500-k-wi-fi-bluetooth-dimabil-set-2-buc/p/1050895",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-master-pl-c-2p-tubular-g24d-1-13w-900lm-lumina-neutra-4000-k/p/1024112",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-halogen-philips-special-lighting-6423fo-spot-gz6-35-150w-840lm-lumina-calda-15v-pentru-echipamente-cu-fibra-optica/p/1004522",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-master-pl-c-4p-tubular-g24q-1-10w-600lm-lumina-neutra-4000-k-compatibil-cu-droser-dimabil/p/1023688",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-master-pl-c-4p-tubular-g24q-2-18w-1200lm-lumina-neutra-4000-k-compatibil-cu-droser-dimabil/p/1021626",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-halogenura-metalica-philips-hpit-e40-450w-32000lm-lumina-neutra/p/1000442",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-halogenura-metalica-philips-cdm-td-rx7s-70w-5450lm-lumina-neutra/p/1002949",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-halogenura-metalica-philips-city-cdo-tt-e40-250w-28300ln-lumina-calda/p/1017996",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-inteligent-led-philips-hue-ambiance-clasic-a19-e27-8-5w-806lm-lumina-calda/-rece-2200-6500-k-wi-fi-dimabil/p/1056796",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-master-pl-l-4p-tubular-2g11-36w-2900lm-lumina-calda-3000-k-compatibil-cu-droser-dimabil/p/1010912",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-master-pl-c-4p-tubular-g24q-2-18w-1200lm-lumina-calda-3000-k-compatibil-cu-droser-dimabil/p/1017594",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-master-pl-c-2p-tubular-g24d-1-13w-900lm-lumina-calda-3000-k/p/1016016",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-master-pl-c-4p-tubular-g24d-2-18w-1200lm-lumina-calda-2700-k/p/1017758",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-master-pl-s-4p-tubular-2g7-11w-900lm-lumina-neutra-4000-k-compatibil-cu-droser-dimabil/p/1024428",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-master-pl-l-4p-tubular-2g11-18w-1200lm-lumina-calda-3000-k-compatibil-cu-droser-dimabil/p/1012990",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-master-pl-l-4p-tubular-g11-24w-1800lm-lumina-calda-3000-k-compatibil-cu-droser-dimabil/p/1028726",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-softone-esaver-lumanare-b45-e27-12w-610lm-lumina-calda-2700-k/p/1016998",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-master-pl-l-4p-tubular-2g11-55w-4800lm-lumina-neutra-4000-k-compatibil-cu-droser-dimabil/p/1023586",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-master-pl-l-4p-tubular-2g11-24w-1800lm-lumina-rece-6500-k-compatibil-cu-droser-dimabil/p/1025292",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-master-pl-l-4p-tubular-2g11-40w-3500lm-lumina-neutra-4000-k-compatibil-cu-droser-dimabil/p/1023514",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-actinic-philips-bl-pl-s-tubular-g23-9w/-10/-2p-pentru-fototerapie/p/1028436",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-master-pl-t-4p-tubular-gx24q-4-42w-3200lm-lumina-calda-3000-k-compatibil-cu-droser-dimabil/p/1025163",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-tuv-pl-s-1ct/6x10box-2p-tubular-g23-9w/p/1021898",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-vapori-de-sodiu-e40-philips-100w-master-son-t-pia-plus/p/1000290",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-vapori-de-sodiu-e40-philips-250w-master-son-t-pia-plus/p/1001869",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-cu-vapori-de-sodiu-e40-philips-400w-master-son-t-pia-plus/p/1007189",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-tornado-ehl-spiralat-e27-60w-4300lm-lumina-rece-6500-k/p/1016223",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-tornado-ehl-spiralat-e27-60w-4300lm-lumina-calda-2700-k/p/1016837",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-tornado-ehl-spiralat-e40-75w-5550lm-lumina-rece-6500-k/p/1016224",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-tornado-ehl-spiralat-e40-75w-5550lm-lumina-calda-2700-k/p/1016838",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-color-philips-mini-p45-e27-3-1w-lumina-rosie/p/1047849",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-spot-r63-e27-4-5w-345lm-lumina-calda-2700-k-dimabil/p/1050928",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-led-philips-clasic-a60m-e27-13w-1521lm-lumina-calda-2700-k-2-buc/p/1046717",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-auto-pentru-semnalizare-philips-vision-w5w-5-w-12-v-set-2-bucati/p/1059194",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-master-pl-s-2p-tubularg23-9w-600lm-lumina-neutra-4000-k/p/1018355",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/bec-economic-philips-master-pl-c-2p-tubular-g24d-3-26w-1800lm-lumina-calda-3000-k/p/1000931",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/spot-led-inteligent-hue-pillar-5633031p7-1-x-gu10-5w-lumina-calda/-rece-orientabil-alb-variator/p/1045392",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/spot-led-inteligent-hue-pillar-5633030p7-1-x-gu10-5-5w-lumina-calda/-rece-orientabil-negru-variator/p/1045390",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/spot-led-inteligent-hue-pillar-5633231p7-2-x-gu10-2-x-5-5w-lumina-calda/-rece-orientabil-alb-variator/p/1045393",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-inteligenta-hue-runner-5309230p7-gu10-2-x-5w-700-lm-lumina-calda/-rece-neagra-variator/p/1045395",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/spot-led-inteligent-hue-pillar-5633230p7-2-x-gu10-2-x-5-5w-lumina-calda/-rece-orientabil-negru-variator/p/1045391",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        },
+        {
+            "url": "https://www.dedeman.ro/ro/plafoniera-led-inteligenta-hue-runner-5309330p7-gu10-3-x-5w-1050-lm-lumina-calda/-rece-neagra-variator/p/1045396",
+            "userData": {
+                "Manufacturer": "Signify"
+            }
+        }
+    ]
+}

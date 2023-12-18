@@ -34,5 +34,10 @@ https://www.dedeman.ro/ro/bec-led-philips-lumanare-b38-e14-7w-806lm-lumina-neutr
 - Handler de error
 - Dobles espacios al empezar y terminar el nombre del producto
 - Segun documentacion: RatingSourceValue
+- Los precios del updater no coinciden con los precios de la UI
+- 
 Number
 The actual value depending on the rating type
+
+
+269 productos de input
